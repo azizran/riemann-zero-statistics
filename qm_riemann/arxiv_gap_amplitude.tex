@@ -1,0 +1,335 @@
+\documentclass[12pt]{amsart}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\newtheorem{observation}{Observation}
+\newtheorem{remark}[observation]{Remark}
+
+\title{The joint law of zero gaps and local maxima of Hardy's
+$Z$-function:\\ a numerical study and a CUE effective-dimension anomaly}
+
+\author{U\u{g}ur Sezen}
+\address{Independent researcher, Istanbul, Turkey}
+\email{ugursezen@gmail.com}
+
+\date{\today}
+
+\begin{document}
+
+\begin{abstract}
+For consecutive ordinates $\gamma_n < \gamma_{n+1}$ of nontrivial zeros of
+the Riemann zeta function, let $\delta_n = \gamma_{n+1}-\gamma_n$ and let
+$M_n = \max_{\gamma_n \le t \le \gamma_{n+1}} |Z(t)|$, where $Z$ is Hardy's
+function. The mean of $M_n^2$ is known: Conrey and Ghosh determined its
+leading order, and Hughes, Lugmayer and Pearce-Crump recently obtained the
+lower-order terms. The \emph{joint} law of $(\delta_n, M_n)$ appears not to
+have been studied numerically. Using $3.4\times 10^5$ gaps up to height
+$t = 1.6\times 10^6$, we find that (i) the sample mean of $M_n^2$ matches
+the proven asymptotics to $0.05\%$ (slope) and $1\%$ (constant term),
+validating the dataset; (ii) the Pearson correlation of (unfolded) gap and
+maximum is $r \approx 0.75$--$0.89$ per window, far above the value
+$0.505\pm0.048$ attained by phase-randomized Gaussian surrogates with the
+same power spectrum ($+6.7\sigma$); (iii) compared with characteristic
+polynomials of Haar-random unitary matrices (CUE), the zeta correlation at
+height $t$ matches CUE of \emph{effective dimension}
+$N_{\mathrm{eff}} = L + c$, $L=\log\frac{t}{2\pi}$, with
+$c_{\mathrm{Pearson}} = 0.93 \pm 0.15$ and
+$c_{\mathrm{Spearman}} = 1.86 \pm 0.15$, each constant over
+$5.6 \le L \le 12.45$; and (iv) since no single effective dimension fits
+both statistics, the joint gap--maximum law of $\zeta$ is not that of any
+finite-dimensional CUE. We propose the arithmetic (prime-driven) origin of
+the two shift constants as an open problem.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+Let $Z(t)$ denote Hardy's function, so that $|Z(t)| = |\zeta(\tfrac12+it)|$
+and the real zeros of $Z$ are the ordinates of the critical-line zeros of
+$\zeta$. Write $\gamma_n$ for the $n$-th positive ordinate,
+$\delta_n = \gamma_{n+1} - \gamma_n$ for the $n$-th gap, and
+\[
+M_n \;=\; \max_{\gamma_n \le t \le \gamma_{n+1}} |Z(t)|
+\]
+for the height of the wave between two consecutive zeros.
+
+The \emph{marginal} statistics of both quantities are classical objects.
+The gaps, after unfolding, follow GUE spacing statistics to remarkable
+accuracy (Montgomery~\cite{Mont73}, Odlyzko~\cite{Odl87}); the maxima
+satisfy, under the Riemann Hypothesis,
+\begin{equation}\label{eq:CG}
+\frac{1}{N(T)} \sum_{0 < \gamma_n \le T} M_n^2 \;\sim\; \frac{e^2-5}{2}\,
+\log T ,
+\end{equation}
+by Conrey and Ghosh~\cite{CG85}, with the full descending chain of
+lower-order terms obtained recently by Hughes, Lugmayer and
+Pearce-Crump~\cite{HLPC24}; see also \cite{PC24} for the first moment with
+derivatives, and Milinovich~\cite{Mil11} for bounds on higher moments.
+
+The \emph{joint} law of the pair $(\delta_n, M_n)$ is qualitatively
+constrained by folklore: Lehmer pairs~\cite{Leh56} (very close zeros) force
+a very low intermediate maximum, and the large-gaps methods of
+Conrey--Ghosh--Gonek implicitly exploit the converse. Quantitatively,
+however, we have not found in the literature: a measured correlation
+coefficient for $(\delta_n, M_n)$; a comparison of that correlation against
+spectrum-matched Gaussian surrogates; or a comparison against the CUE
+characteristic-polynomial model of Keating and Snaith~\cite{KS00}. This
+note supplies these three measurements and records a structural surprise in
+the third one.
+
+Our effective-dimension framing follows Bogomolny, Bohigas, Leboeuf and
+Monastra~\cite{BBLM06}, who showed that finite-height deviations of the
+\emph{spacing distribution} of zeta zeros are captured by CUE of a
+well-chosen finite effective dimension. The observable studied here --- the
+gap--maximum coupling --- turns out to select its own effective dimension,
+and different projections of the joint law select \emph{different} ones.
+
+\section{Data and validation}\label{sec:data}
+
+Two independent numerical engines were used.
+
+\emph{Engine A (to $t \le 7.5\times 10^4$).} Zeros from a standard table;
+$M_n$ computed by bounded scalar minimization of $-|Z|$ per gap using
+arbitrary-precision evaluation of $Z$ (mpmath), $10^5$ gaps in total.
+
+\emph{Engine B (windows up to $t = 1.6\times 10^6$).} A vectorized
+Riemann--Siegel implementation (main sum plus the $C_0$ correction), with
+zeros located by dense sign-change bracketing plus bisection, close pairs
+recovered by a targeted fine re-scan, and $M_n$ from a 24-point interior
+grid with parabolic refinement. Against arbitrary-precision values the
+pointwise error is at most $7.6\times10^{-6}$ over
+$10^5 \le t \le 1.6\times 10^6$. Six windows of $4\times 10^4$ gaps each
+were computed, centered at $t = 1.2, 2.0, 3.5, 6.0, 10, 16 \times 10^5$.
+In the overlap region the two engines agree to $10^{-4}$ in the gaps and to
+$0.1\%$ (median: exact) in the maxima.
+
+Both engines were validated against proven results. Writing
+$L = \log\frac{t}{2\pi}$ and fitting the windowed means of $M_n^2$ linearly
+in $L$,
+\[
+\widehat{\mathrm{mean}}(M_n^2 \,|\, t) \;=\; a\,L + b,
+\]
+we find $a = 1.1939$ (after correcting a measured $0.1\%$ optimizer bias)
+against the Conrey--Ghosh constant $\tfrac12(e^2-5) = 1.19453$, a deviation
+of $-0.05\%$. For the constant term, differentiating the summatory
+asymptotic of \cite{HLPC24} gives the local prediction
+\[
+\mathrm{mean}(M_n^2 \,|\, t) \;=\; A L + (\alpha_{-1} + 2A) +
+\frac{\alpha_0+\alpha_{-1}}{L} + O(L^{-2}),
+\qquad A = \tfrac{e^2-5}{2},
+\]
+with $\alpha_{-1} = 5 - e^2 - 10\gamma_0 + 2e^2\gamma_0 = 0.368945$ and
+$\alpha_0 = -0.423285$ (Stieltjes constants $\gamma_0,\gamma_1$). This
+zero-free-parameter curve passes through all $26$ of our windowed means
+within $2\sigma$; the fitted $b = 2.776$ deviates from the predicted
+effective value $2.749$ by $+0.97\%$. We regard the dataset as anchored to
+two proven/published results.
+
+\section{The correlation and two null models}\label{sec:corr}
+
+Within each window we unfold both variables using known scales:
+$\tilde{\delta}_n = \delta_n \cdot L/2\pi$ and
+$\tilde{M}_n = M_n / \sqrt{AL + 2.758 - 0.054/L}$, so that
+$\mathrm{mean}(\tilde\delta) = 1$ and $\mathrm{mean}(\tilde M^2) = 1$
+to within $10^{-3}$. Table~\ref{tab:zeta} reports the windowed Pearson
+correlation $r$ of $(\tilde\delta_n, \tilde M_n)$.
+
+\begin{table}[ht]
+\centering
+\caption{Windowed correlation of unfolded gap and maximum, and the
+effective CUE dimension shift (Section~\ref{sec:neff}).}
+\label{tab:zeta}
+\begin{tabular}{rrrrr}
+\toprule
+$L$ & $n$ (gaps) & $r$ (Pearson) & $N_{\mathrm{eff}}^{P} - L$ &
+$N_{\mathrm{eff}}^{S} - L$ \\
+\midrule
+ 5.60 &  1\,029 & 0.8917 & $+0.93$ & $+1.83$ \\
+ 6.30 &  2\,322 & 0.8735 & $+0.93$ & $+1.88$ \\
+ 6.99 &  5\,174 & 0.8566 & $+0.90$ & $+1.82$ \\
+ 7.69 & 11\,418 & 0.8394 & $+0.92$ & $+1.88$ \\
+ 8.39 & 24\,988 & 0.8238 & $+0.92$ & $+1.87$ \\
+ 9.08 & 54\,299 & 0.8096 & $+0.90$ & $+1.86$ \\
+ 9.86 & 39\,992 & 0.7947 & $+0.90$ & $+1.83$ \\
+10.37 & 39\,997 & 0.7849 & $+0.94$ & $+1.83$ \\
+10.93 & 39\,998 & 0.7754 & $+0.95$ & $+1.82$ \\
+11.47 & 39\,998 & 0.7663 & $+1.00$ & $+1.94$ \\
+11.98 & 39\,999 & 0.7589 & $+0.99$ & $+1.88$ \\
+12.45 & 40\,000 & 0.7521 & $+1.01$ & $+1.93$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{Null 1: spectrum-matched Gaussian surrogates}
+Following the surrogate-data method of Theiler et
+al.~\cite{Theiler92}, one generates Gaussian processes with the same power
+spectrum as $Z(t)$ (random Fourier phases), extracts their zeros and
+between-zero maxima, and computes the same correlation. In an earlier
+session of this project (over $t \in [14, 1000]$) this null gave
+$r_{\mathrm{null}} = 0.505 \pm 0.048$ over $30$ trials against the zeta
+value $r = 0.825$ on the same range: a $+6.7\sigma$ excess. The
+gap--maximum coupling of $\zeta$ is therefore far stronger than that of
+\emph{any} Gaussian process with its spectrum; it depends on structure
+beyond second-order statistics.
+
+\subsection*{Null 2: CUE characteristic polynomials}
+For an $N\times N$ Haar-random unitary $U$ with eigenphases $\phi_j$, put
+$|\Lambda(\theta)| = \prod_j 2\,|\sin\frac{\theta-\phi_j}{2}|$, and for
+each of the $N$ cyclic eigenphase gaps record the pair (gap, interior
+maximum of $|\Lambda|$). The density matching $N \leftrightarrow L$ is the
+standard one of \cite{KS00}. Table~\ref{tab:cue} reports the correlation
+for $N = 5,\dots,19$ ($2\times10^5$ gaps per $N$); we are not aware of a
+published computation of this quantity.
+
+\begin{table}[ht]
+\centering
+\caption{Gap--maximum correlation for CUE characteristic polynomials.}
+\label{tab:cue}
+\begin{tabular}{rcc@{\qquad}rcc}
+\toprule
+$N$ & Pearson & Spearman & $N$ & Pearson & Spearman \\
+\midrule
+ 5 & 0.9293 & 0.9684 & 13 & 0.7628 & 0.8862 \\
+ 6 & 0.9004 & 0.9541 & 14 & 0.7494 & 0.8795 \\
+ 7 & 0.8758 & 0.9423 & 15 & 0.7347 & 0.8741 \\
+ 8 & 0.8508 & 0.9303 & 16 & 0.7228 & 0.8672 \\
+ 9 & 0.8303 & 0.9198 & 17 & 0.7120 & 0.8609 \\
+10 & 0.8107 & 0.9102 & 18 & 0.6961 & 0.8562 \\
+11 & 0.7929 & 0.9010 & 19 & 0.6910 & 0.8512 \\
+12 & 0.7773 & 0.8934 &    &        &        \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+At the conventional matching $N = L$ the zeta values sit consistently
+\emph{below} CUE: $r_\zeta - r_{\mathrm{CUE}}(N{=}L) = -0.019$, essentially
+flat across all windows. Thus $\zeta$ is bracketed by the two nulls,
+\[
+\underbrace{0.505}_{\text{Gaussian, same spectrum}} \;\ll\;
+\underbrace{r_\zeta \approx 0.82}_{\text{(at } L \approx 8.4)} \;<\;
+\underbrace{0.841}_{\text{CUE, } N = L},
+\]
+strongly coupled like a random-matrix model, but measurably less than one.
+
+\section{An effective-dimension anomaly}\label{sec:neff}
+
+To express the deficit structurally, define $N_{\mathrm{eff}}(L)$ by
+$r_{\mathrm{CUE}}(N_{\mathrm{eff}}) = r_\zeta(L)$, inverting a smooth fit
+$r_{\mathrm{CUE}}(N) = r_\infty + c_1/N + c_2/N^2$ of
+Table~\ref{tab:cue} (fit RMS $0.004$ Pearson, $0.002$ Spearman; the fit is
+used only as an interpolation device --- we attach no meaning to its
+extrapolation). The last two columns of Table~\ref{tab:zeta} give the
+result.
+
+\begin{observation}
+Over $5.6 \le L \le 12.45$ (heights $t$ from $\sim 1.2\times10^3$ to
+$1.6\times10^6$),
+\[
+N_{\mathrm{eff}}^{\mathrm{Pearson}} - L = +0.93,
+\qquad
+N_{\mathrm{eff}}^{\mathrm{Spearman}} - L = +1.86,
+\]
+each constant in $L$ within errors (constant-model $\chi^2/\mathrm{dof} =
+0.09$ and $0.06$; adding a linear trend improves $\chi^2$ by only $0.5$
+and $0.1$ respectively). We estimate a systematic uncertainty of
+$\pm 0.15$ on each constant from the interpolation of
+Table~\ref{tab:cue}.
+\end{observation}
+
+\begin{observation}
+No single effective dimension accounts for both statistics: the Pearson
+and Spearman projections of the joint law $(\tilde\delta, \tilde M)$
+require shifts differing by $\approx 0.9$. Consequently the joint
+gap--maximum law of $\zeta$ at finite height is not that of \emph{any}
+finite-dimensional CUE.
+\end{observation}
+
+Three remarks. First, the constancy of each shift over three orders of
+magnitude in $t$ makes an accidental origin unlikely; the natural suspects
+are the prime-oscillation terms of the explicit formula, which modulate
+$|Z|$ on scales longer than one gap and hence add gap-independent amplitude
+variance --- a decorrelating mechanism that pure CUE lacks. Second, the
+observable-dependence of $N_{\mathrm{eff}}$ is consistent with the picture
+of \cite{BBLM06}, where the spacing-shape observable selects the very
+different effective dimension $N_{\mathrm{eff}} = L/\sqrt{12\Lambda}$,
+$\Lambda = 1.57314\ldots$; each statistic probes the arithmetic corrections
+through its own projection. Third, we deliberately refrain from proposing
+closed forms for the constants $0.93$ and $1.86$: in an earlier phase of
+this project two closed-form candidates for a related slope observable
+survived to $T = 6\times10^3$ and $T = 10^4$ respectively and were then
+cleanly refuted at larger heights; the present note reports only
+quantities that remained stable under a $20$-fold extension in $T$.
+
+\section{Open problems}
+
+(1) Derive the local mean of $M_n^2$ \emph{conditioned on the gap} ---
+equivalently the regression slope behind $r$ --- from the methods of
+\cite{CG85, HLPC24}; the machinery (the auxiliary function $Z_1$) sums over
+extrema and may admit a gap-weighted variant.
+(2) Derive $c_{\mathrm{Pearson}}$ and $c_{\mathrm{Spearman}}$, or the
+deficit $r_{\mathrm{CUE}} - r_\zeta = 0.019$, from the explicit formula,
+in the spirit of \cite{BBLM06}.
+(3) Compute $r_{\mathrm{CUE}}(N)$ analytically; even the $N\to\infty$
+limit (the sine-process value) appears to be unknown.
+(4) Extend the measurement to Odlyzko-height windows ($t \sim 10^{12}$,
+$L \approx 26$) to test the constancy of the shifts over a much longer
+lever arm.
+
+\section*{Reproducibility}
+
+All code (analysis scripts 27--42b), the datasets of gap--maximum pairs,
+and a dated research log are available in the repository
+\url{https://github.com/azizran/deney} (directory \texttt{qm\_riemann/}).
+
+\section*{Acknowledgements}
+
+Computational assistance, literature search and drafting: Claude
+(Anthropic). All claims were verified numerically within the repository's
+scripts; errors are the author's.
+
+\begin{thebibliography}{99}
+
+\bibitem{BBLM06} E.~Bogomolny, O.~Bohigas, P.~Leboeuf, A.~G.~Monastra,
+\emph{On the spacing distribution of the Riemann zeros: corrections to the
+asymptotic result}, J. Phys. A: Math. Gen. \textbf{39} (2006), 10743--10754.
+arXiv:math/0602270.
+
+\bibitem{CG85} J.~B.~Conrey, A.~Ghosh, \emph{A mean value theorem for the
+Riemann zeta-function at its relative extrema on the critical line},
+J. London Math. Soc. (2) \textbf{32} (1985), 193--202.
+
+\bibitem{HLPC24} C.~Hughes, S.~Lugmayer, A.~Pearce-Crump, \emph{The second
+moment of the Riemann zeta function at its local extrema},
+arXiv:2411.05573 (2024); J. London Math. Soc. (2025).
+
+\bibitem{KS00} J.~P.~Keating, N.~C.~Snaith, \emph{Random matrix theory and
+$\zeta(1/2+it)$}, Comm. Math. Phys. \textbf{214} (2000), 57--89.
+
+\bibitem{Leh56} D.~H.~Lehmer, \emph{On the roots of the Riemann
+zeta-function}, Acta Math. \textbf{95} (1956), 291--298.
+
+\bibitem{Mil11} M.~B.~Milinovich, \emph{Moments of the Riemann
+zeta-function at its relative extrema on the critical line},
+Bull. London Math. Soc. \textbf{43} (2011), 1119--1129.
+
+\bibitem{Mont73} H.~L.~Montgomery, \emph{The pair correlation of zeros of
+the zeta function}, Proc. Sympos. Pure Math. \textbf{24} (1973), 181--193.
+
+\bibitem{Odl87} A.~M.~Odlyzko, \emph{On the distribution of spacings
+between zeros of the zeta function}, Math. Comp. \textbf{48} (1987),
+273--308.
+
+\bibitem{PC24} A.~Pearce-Crump, \emph{Moments of the Riemann zeta function
+at its local extrema}, arXiv:2411.05568 (2024); Mathematika \textbf{71}
+(2025), e70035.
+
+\bibitem{Theiler92} J.~Theiler, S.~Eubank, A.~Longtin, B.~Galdrikian,
+J.~D.~Farmer, \emph{Testing for nonlinearity in time series: the method of
+surrogate data}, Physica D \textbf{58} (1992), 77--94.
+
+\end{thebibliography}
+
+\end{document}

@@ -192,8 +192,11 @@ olarak teşhis etti — tablo zikzağı N_eff'e ±0.1-0.2 sahte dalga katıyormu
 - 36 (mpmath) ve 41 (RS) motorlarının pencereleri L=9.1/9.9 sınırında pürüzsüz
   birleşiyor — motorlar-arası tutarlılık görünür durumda
 
-3. Kısa not (4-6 sayfa) formatı: "numerical observation" türü, arXiv NT.
-   Güncel omurga önerisi: (i) CG85+HLP-C doğrulaması (güvenilirlik), (ii) r_CUE(N)
-   tablosu, (iii) r_ζ ölçümü + iki-null sıkıştırması, (iv) N_eff = L+0.84 gözlemi.
+3. ~~Kısa not taslağı~~ → **YAZILDI: `arxiv_gap_amplitude.tex`** (aynı gün gece).
+   Omurga: (i) veri + CG85/HLP-C çapa, (ii) iki null (Gaussian-PSD, CUE) +
+   r_CUE(N) tablosu, (iii) N_eff = L + c gözlemi (Pearson +0.93, Spearman +1.86,
+   iki Observation olarak), (iv) 4 açık problem. TeX makinede derlenemedi
+   (pdflatex yok) — arXiv/Overleaf'te derlenecek. Gözden geçirilecekler:
+   e-posta adresi, Milinovich/Lehmer künye teyidi, +6.67σ aralık ifadesi.
 
 *— 16 Ağustos 2026, tarama: Claude (WebSearch + tam metin: CG85 PDF, arXiv 2411.05573/68)*
