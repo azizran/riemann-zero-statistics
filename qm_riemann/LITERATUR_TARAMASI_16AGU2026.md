@@ -183,6 +183,26 @@ olarak teşhis etti — tablo zikzağı N_eff'e ±0.1-0.2 sahte dalga katıyormu
 3. BBLM paralelliği tamamlandı: onların spacing-şekil N_eff'i, bizim korelasyon
    N_eff'lerimiz — her gözlemlenebilir kendi efektif boyutunu seçiyor.
 
+## AÇIĞIN ANATOMİSİ (43, aynı gün gece)
+
+−0.019 nerede yaşıyor? 3 pencere (L=7.0/9.9/12.4) vs CUE(N=L) koşullu eğriler:
+
+1. **Koşullu ORTALAMA E[ã|g̃] eşleşiyor** (fark ~0.000-0.007, bin RMS ~0.03).
+   Yani boşluk-tepe REGRESYON EĞRİSİ RMT-evrensel — bağın şekli aynı.
+2. **Açık tamamen koşullu VARYANSTA ve büyük boşluklara yığılmış:**
+   g̃ < 1'de fark ≈ 0; g̃ = 1.3'ten sonra hızla büyüyor (L=12.45'te +0.05 →
+   +0.32). ζ'nın GENİŞ boşluklardaki tepe yüksekliği CUE'dan daha oynak.
+3. Beklediğim "boşluktan bağımsız eklenen varyans" (additive) modeli YANLIŞ
+   çıktı; çarpımsal modelden de dik. Büyük boşluk ↔ asal-rezonans bölgeleri
+   birlikteliği adayı — test edilmedi henüz.
+4. UYARI: en uç bin (g̃∈[2.2,3.5]) işaret değiştiriyor (−0.9…−1.1) —
+   az örnek / kuyruk etkisi olabilir, üstüne iddia kurulmamalı.
+
+Sonraki keskin test (44 adayı): |Z|'yi küçük asalların kısmi Euler çarpanına
+bölüp (p=2,3,5,7; uzun periyotlu modülasyonu taşıyanlar bunlar) büyük-boşluk
+varyans fazlasının çöküp çökmediğine bakmak. Çökerse mekanizma = asal dalgaları,
+kanıtlanmış olur.
+
 **Dürüst kayıtlar (güncel):**
 - r∞ ekstrapolasyonları (Pearson 0.52, Spearman 0.77) N≤19 fitinden — güvenilmez,
   satılmamalı; sadece interpolasyon aracı
