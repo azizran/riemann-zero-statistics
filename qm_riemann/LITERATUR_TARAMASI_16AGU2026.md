@@ -444,6 +444,33 @@ adımda eş sayıda — kayması ±0.0004, taban sıfır).
 doyuyor. İkinci notun ölçüm seti tamam: w(τ), v(τ), toplam kuralı |u|≈1,
 τ*≈0.42 geçişi, V_res(L).
 
+## ODLYZKO SEFERİ (53-54, 17 Ağustos öğleden sonra) ★★★
+
+zeros3 indirildi (10¹²'inci sıfır civarı 10⁴ sıfır, t≈2.677×10¹¹, L=24.475).
+
+**Motor (53):** çapa açılımlı RS (taban fazlar mpmath'te bir kez, artanlar
+float64; N=206,393 terim). Doğrulama: tablo sıfırlarında medyan |Z| = 1.4×10⁻⁹
+(tepe/sıfır oranı 7×10⁻¹⁰) — dokuzuncu ondalık. 9,999 tepe 8.7 dakikada.
+
+**Batarya (54) — kaldıraç kolu 12.45 → 24.48 (t'de ×160.000):**
+
+| Test | Sonuç |
+|---|---|
+| T2 w(τ) | **YASA TUTTU**: 45b kılavuzu (yalnız küçük-T fitli!) 6 asalda ±0.02-0.07 içinde. w(2)=0.871±0.007 (kılavuz 0.856). Büyük τ'da hafif altında — eğrilik var, lineer değil |
+| T3 sum rule | **TUTTU, daha da temiz**: 12 frekansta u = 0.99-1.07 (q=49: 1.18 outlier) |
+| T4 τ* | **OUT-OF-SAMPLE ÖNGÖRÜ TUTTU**: Q≤300 burada tamamen tepe-öncesi (τ≤0.233<0.42) → r*(Q) düşmeden tırmandı (0.901→0.959); L=12.45'te aynı aralık tepe-sonrasıydı |
+| T5 V_res | Lineer uzantı öngörüsü 0.617, ölçülen 0.650 (~%5; soyma Q=300'de eksik kaldığından hafif fazla olması beklenirdi — tutarlı) |
+| T1 N_eff | **SONUÇSUZ** (kırıldı DEĞİL): r_CUE(N) bu L'de çok yatık (eğim ~0.008/N) → 10⁴ aralıkla se(N_eff)≈0.8-0.9. Ölçülen P +2.26, S +1.12 — küçük-T değerlerinden ~1.6σ/0.8σ. Ayrıca ham açık r−r_CUE ≈ −0.014±0.006 (küçük-T: −0.019 — tutarlı) |
+
+**ANLAM:** τ-yasaları (w, τ*), sum rule ve V_res(L) yükseklikte 160.000 kat
+sıçramayı ATLADI — bunlar artık dar-aralık gözlemi değil, iki uçta doğrulanmış
+yapısal yasalar. N_eff gözlemlenebiliri büyük L'de istatistik gücünü kaybediyor
+(CUE r(N) yatıklaşıyor) — sabitlik testi için ~10⁵+ aralık gerekir (seçenek:
+LMFDB/Platt sıfırları, t~3×10¹⁰ civarı milyonlarca sıfır — gelecek sefere).
+
+w(τ→0) sorusu hâlâ açık: w(2)=0.871, kılavuzun hafif ÜSTÜNDE — 1'e doğru
+eğrilik mi, 0.94 platosu mu ayrıştırılamadı.
+
 **Dürüst kayıtlar (güncel):**
 - r∞ ekstrapolasyonları (Pearson 0.52, Spearman 0.77) N≤19 fitinden — güvenilmez,
   satılmamalı; sadece interpolasyon aracı
