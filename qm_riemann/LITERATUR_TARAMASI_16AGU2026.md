@@ -530,6 +530,27 @@ notlara böyle girer: τ-yasası keşif, kesişim noktası açık problem.
 Temiz pencereyle B ve C artık MÜKEMMEL fit (0.59/0.34) ve D'nin 1.005'i
 0.976'ya indi (sahte pencereye yaslanıyormuş).
 
+## 58: v-YASASI 18 BÜYÜKLÜK MERTEBESİNDE (17 Ağustos, gece geç) ★★★
+
+zeros4/zeros5 indirildi (10²¹ ve 10²²'inci sıfırlar; L=44.58 ve 46.83).
+Bu yüksekliklerde genlik hesabı imkânsız ama v-kanalı yalnız sıfır
+konumlarından ölçülür — tablolar yetti (Z hesabı YOK, anında).
+
+**SONUÇ: 12/12 nokta kılavuza oturdu.** Küçük-τ kılavuzu v ≈ 2.014·τ
+(yalnız t ≤ 2.7×10¹¹ verisine fit) yeni noktaları öngördü:
+- 10²¹: v(2)=0.035±0.010 (kılavuz 0.031), ... hepsi ≤0.5σ içinde
+- 10²²: v(2)=0.0297±0.0095 (kılavuz 0.0298 — 0.01σ!)
+- Sinyaller 3-5σ (12/12 tespit); sahte frekanslar gürültü tabanında
+
+**Anlam:** boşluk-kanalı yasası artık t ~ 10³'ten 1.4×10²¹'e — 18 büyüklük
+mertebesi — doğrulanmış durumda. 10²²'inci sıfırın komşuları bile asalların
+konumunu tam öngörülen genlikte fısıldıyor. (Explicit formulanın nitel
+içeriği bilinir; ölçülen İLETİM KATSAYISININ tek-değişkenli τ-yasasıyla
+bu menzilde doğrulanması bizim katkı.)
+
+Not 2'ye eklenecek; v ≈ 2τ küçük-τ davranışı teorik türetim için ekstra
+ipucu (lineer başlangıç → perdeleme teorisinin ilk katsayısı).
+
 **KARAR: w₀ < 1 BEŞ MODELDE BİRDEN — perde τ→0'da tam saydamlaşMIyor.**
 Kalıcı tutma en az ~%2 (D), muhtemelen %3-10 (B-C aralığı). Kesin değer
 1/p-vs-1/L dejenerasyonu yüzünden [0.88, 0.98] içinde açık; ama nitel soru
