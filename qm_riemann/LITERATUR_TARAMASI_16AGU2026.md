@@ -471,6 +471,42 @@ LMFDB/Platt sıfırları, t~3×10¹⁰ civarı milyonlarca sıfır — gelecek s
 w(τ→0) sorusu hâlâ açık: w(2)=0.871, kılavuzun hafif ÜSTÜNDE — 1'e doğru
 eğrilik mi, 0.94 platosu mu ayrıştırılamadı.
 
+## w(τ→0) TAM KARARI (55b+56, 17 Ağustos akşam) — DÜRÜSTÇE AÇIK
+
+4 ara pencere üretildi (t=10⁸..10¹¹, paralel, pencere-başına kayıt;
+10¹¹: 141 dk, doğrulama 1.5e-3). 44 (p,L) noktalı w tablosu çıktı.
+
+**Yeni yapı teyidi:** saf τ-çökmesi yetmiyor — aynı τ'da büyük p daha az
+geçiriyor (ör. τ≈0.058: p=2 0.771 vs p=3 0.753, ~4σ). İkincil ince değişken
+var; u-sürüklenmesiyle aynı aileden.
+
+**5 model varyantı, 5 farklı w₀:**
+| Model | w₀ | χ²/dof |
+|---|---|---|
+| A: saf kuadratik (p∈{2,3}) | 0.966±0.007 | 6.0 (kötü) |
+| B: + d/p | 0.910±0.009 | 1.8 (iyi) |
+| C: + e/L | 0.978±0.007 | 1.7 (iyi) |
+| D: yalnız p=2 | 1.005±0.017 | 3.1 |
+| E: p∈{2,3,5} + d/p | 0.889±0.008 | 2.5 |
+
+B ve C AYNI kalitede fit edip 0.91 vs 0.98 veriyor: sabit τ'da p ile L bağlı
+(log p = τL) → 1/p ve 1/L düzeltmeleri dejenere. Veri ikisini ayıramıyor.
+
+**Kalite bayrağı:** 10¹¹ penceresi 158 "kurtarılan yakın-çift" üretti
+(diğerleri 2'şer!) ve p=2 noktası (0.895±0.007), aynı τ'daki Odlyzko-tabanlı
+noktadan (0.866±0.008) ~2.8σ yukarıda. Yüksek faz-hata tabanı (1.5e-3)
+sahte sıfır bölünmeleri yaratmış olabilir → o pencere ŞÜPHELİ, D modelinin
+1.005'i en çok ona yaslanıyor.
+
+**SONUÇ: w₀ ∈ [0.89, 1.01] — model-bağımlı, çözülmedi.** Bu dürüst durum
+notlara böyle girer: τ-yasası keşif, kesişim noktası açık problem.
+
+**Çözüm yolları (gelecek seans):**
+1. 10¹¹'i ÇAPALI motorla yeniden tara (53 yöntemi; aynı maliyet, hatasız faz
+   — baştan öyle yapmalıydım, ders kayıtlı)
+2. d/p + e/L BİRLİKTE fit (dejenerasyon kısmen kırılabilir mi?)
+3. Kabul et: makaleye "w(0) unresolved in [0.89, 1.01]" yaz — meşru son
+
 **Dürüst kayıtlar (güncel):**
 - r∞ ekstrapolasyonları (Pearson 0.52, Spearman 0.77) N≤19 fitinden — güvenilmez,
   satılmamalı; sadece interpolasyon aracı

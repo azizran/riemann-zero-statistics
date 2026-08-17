@@ -80,42 +80,42 @@ for p, t, w, s, L in sorted(points, key=lambda r: r[1]):
     print(f"{int(p):>3} {L:>7.2f} {t:>7.4f} {w:>8.4f} {s:>7.4f}")
 
 # ---------------------------------------------------------------
-# FIT: p=2,3 noktaları, τ ≤ 0.12
+# FIT VARYANTLARI (ön koşudaki ders: saf τ-çökmesi yetmiyor —
+# aynı τ'da büyük p daha az geçiriyor. Sistematik pay için 4 model.)
 # ---------------------------------------------------------------
-m = (np.isin(pts[:, 0], PRIMES_FIT)) & (pts[:, 1] <= 0.12)
-tau, w, se = pts[m, 1], pts[m, 2], pts[m, 3]
-W = 1 / se**2
+def wfit(mask, cols_extra, label):
+    tau = pts[mask, 1]; w = pts[mask, 2]; se = pts[mask, 3]
+    pv = pts[mask, 0]; Lv = pts[mask, 4]
+    W = 1 / se**2; sw = np.sqrt(W)
+    cols = [np.ones_like(tau), tau, tau**2]
+    for ce in cols_extra:
+        cols.append({"invp": 1 / pv, "invL": 1 / Lv}[ce])
+    X = np.vstack(cols).T
+    beta, *_ = np.linalg.lstsq(X * sw[:, None], w * sw, rcond=None)
+    cov = np.linalg.inv((X * W[:, None]).T @ X)
+    resid = w - X @ beta
+    chi = float(np.sum(W * resid**2)); dof = mask.sum() - X.shape[1]
+    # w0: τ→0 limiti. 1/p ve 1/L terimleri τ→0'da p→∞/L→∞ limitinde düşer
+    w0, s0 = beta[0], np.sqrt(cov[0, 0])
+    print(f"  {label:<28} w0 = {w0:.4f} ± {s0:.4f}   χ²/dof = {chi/dof:.2f}"
+          f"   (1'e uzaklık {abs(1-w0)/s0:.1f}σ)")
+    return w0, s0, chi / dof, beta
 
-def chi2(params, fix_w0=None):
-    if fix_w0 is None:
-        w0, c1, c2 = params
-    else:
-        w0 = fix_w0; c1, c2 = params
-    return np.sum(W * (w - (w0 + c1 * tau + c2 * tau**2))**2)
+m23 = (np.isin(pts[:, 0], [2, 3])) & (pts[:, 1] <= 0.12)
+m2 = (pts[:, 0] == 2)
+m235 = (np.isin(pts[:, 0], [2, 3, 5])) & (pts[:, 1] <= 0.14)
 
-# serbest fit (ağırlıklı polinom)
-X = np.vstack([np.ones_like(tau), tau, tau**2]).T
-sw = np.sqrt(W)
-beta, *_ = np.linalg.lstsq(X * sw[:, None], w * sw, rcond=None)
-cov = np.linalg.inv((X * W[:, None]).T @ X)
-w0_free, se_w0 = beta[0], np.sqrt(cov[0, 0])
-chi_free = chi2(beta)
+print(f"\nFIT VARYANTLARI:")
+r1 = wfit(m23, [], "A: p∈{2,3} saf kuadratik")
+r2 = wfit(m23, ["invp"], "B: p∈{2,3} + d/p terimi")
+r3 = wfit(m23, ["invL"], "C: p∈{2,3} + e/L terimi")
+r4 = wfit(m2, [], "D: yalnız p=2, kuadratik")
+r5 = wfit(m235, ["invp"], "E: p∈{2,3,5} + d/p (geniş)")
 
-# w0 = 1 sabitli
-X1 = np.vstack([tau, tau**2]).T
-b1, *_ = np.linalg.lstsq(X1 * sw[:, None], (w - 1.0) * sw, rcond=None)
-chi_1 = chi2(b1, fix_w0=1.0)
-
-# w0 = 0.94 sabitli
-b94, *_ = np.linalg.lstsq(X1 * sw[:, None], (w - 0.94) * sw, rcond=None)
-chi_94 = chi2(b94, fix_w0=0.94)
-
-dof = m.sum() - 3
-print(f"\nFIT ({m.sum()} nokta, p∈{{2,3}}, τ≤0.12):")
-print(f"  SERBEST : w0 = {w0_free:.4f} ± {se_w0:.4f}   χ²/dof = {chi_free/dof:.2f}")
-print(f"  w0 = 1.00 sabit: χ² = {chi_1:.1f}  (serbest: {chi_free:.1f}, Δχ² = {chi_1-chi_free:.1f})")
-print(f"  w0 = 0.94 sabit: χ² = {chi_94:.1f}  (Δχ² = {chi_94-chi_free:.1f})")
-print(f"\n  1'den uzaklık: {(1-w0_free)/se_w0:.1f}σ   0.94'ten: {abs(0.94-w0_free)/se_w0:.1f}σ")
+w0s = [r[0] for r in (r1, r2, r3, r4, r5)]
+print(f"\n  w0 aralığı (5 model): [{min(w0s):.3f}, {max(w0s):.3f}]")
+print(f"  → sistematik pay istatistikten büyükse aralığı raporla, tek sayıyı değil")
+beta = r1[3]; w0_free, se_w0 = r1[0], r1[1]
 
 # ---------------------------------------------------------------
 # GRAFİK
@@ -127,8 +127,7 @@ for p, c in zip(PRIMES_ALL, ["firebrick", "steelblue", "darkorange", "teal"]):
                 label=f"p={int(p)}")
 xx = np.linspace(0, 0.14, 100)
 ax.plot(xx, beta[0] + beta[1] * xx + beta[2] * xx**2, "k-", lw=1.4,
-        label=f"serbest fit: w0={w0_free:.3f}±{se_w0:.3f}")
-ax.plot(xx, 1.0 + b1[0] * xx + b1[1] * xx**2, "g--", lw=1.2, label="w0=1 sabitli")
+        label=f"model A: w0={w0_free:.3f}±{se_w0:.3f}")
 ax.axhline(1, color="gray", lw=0.6)
 ax.set_xlabel("τ = log p / L"); ax.set_ylabel("w — genlik kanalı iletimi")
 ax.set_title("Perde τ→0'da tam saydamlaşıyor mu?")
