@@ -507,6 +507,37 @@ notlara böyle girer: τ-yasası keşif, kesişim noktası açık problem.
 2. d/p + e/L BİRLİKTE fit (dejenerasyon kısmen kırılabilir mi?)
 3. Kabul et: makaleye "w(0) unresolved in [0.89, 1.01]" yaz — meşru son
 
+## 57: ÇAPALI 10¹¹ + NİHAİ w₀ KARARI (17 Ağustos, gece) ★
+
+Çapalı motor 10¹¹'de: doğrulama 3.1e-5 (f64'ün 50'de biri), 20.000 aralık.
+**İki kayıtlı öngörü de TUTTU:**
+1. Buharlaşma: 158 "kurtarılan yakın çift" → **2** (156'sı faz-gürültüsü
+   sahtesiymiş — bayrak haklıydı)
+2. Yakınsama: p=2@L=23.49 noktası 0.895 → **0.863±0.005**, Odlyzko-tabanlı
+   komşusuyla (0.866±0.008) artık 0.4σ uyumda; p=3 çifti de 0.1σ.
+   İki bağımsız motor (bizim çapalı tarama / Odlyzko tablosu) bitişik
+   yüksekliklerde aynı fiziği veriyor.
+
+**NİHAİ FIT (temiz veri):**
+| Model | w₀ | χ²/dof | 1'e uzaklık |
+|---|---|---|---|
+| A: saf kuadratik | 0.955±0.007 | 4.6 | 6.6σ |
+| B: +d/p | 0.903±0.009 | 0.59 | 10.7σ |
+| C: +e/L | 0.967±0.007 | 0.34 | 4.7σ |
+| D: yalnız p=2 | 0.976±0.016 | 0.45 | 1.5σ |
+| E: geniş +d/p | 0.884±0.008 | 1.4 | 15.3σ |
+
+Temiz pencereyle B ve C artık MÜKEMMEL fit (0.59/0.34) ve D'nin 1.005'i
+0.976'ya indi (sahte pencereye yaslanıyormuş).
+
+**KARAR: w₀ < 1 BEŞ MODELDE BİRDEN — perde τ→0'da tam saydamlaşMIyor.**
+Kalıcı tutma en az ~%2 (D), muhtemelen %3-10 (B-C aralığı). Kesin değer
+1/p-vs-1/L dejenerasyonu yüzünden [0.88, 0.98] içinde açık; ama nitel soru
+kapandı: sonsuz uzun dalga bile sıfır gazından kayıpsız geçemiyor.
+Notlara işlenecek ifade: "the transmission does not reach unity as τ→0;
+a persistent absorption of 2-12% survives, its exact value blocked by a
+1/p-vs-1/L degeneracy."
+
 **Dürüst kayıtlar (güncel):**
 - r∞ ekstrapolasyonları (Pearson 0.52, Spearman 0.77) N≤19 fitinden — güvenilmez,
   satılmamalı; sadece interpolasyon aracı
