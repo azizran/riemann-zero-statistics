@@ -414,6 +414,36 @@ formula ağırlıklarıyla TAM olarak sürdüğü, neredeyse deterministik bir m
 "Rastgelelik"in üçte ikisi asal sinyali; CUE benzerliği tek istatistiklik bir
 maske. İkinci not bu zincirle yazılacak (düşman-göz denetimi sonrası).
 
+## 52: TÜKENİŞ EĞRİSİ — KALAN %32'NİN CEVABI (17 Ağustos, gece)
+
+Soyma kesimi Q = 13 → 300 (tüm p^k ≤ Q; 79 frekans, 158 sütun; plasebo her
+adımda eş sayıda — kayması ±0.0004, taban sıfır).
+
+**İki yeni bulgu:**
+
+1. **r*(Q) tepe yapıp hafifçe İNİYOR** — ve tepe noktası τ-yasasına oturuyor:
+   Q_tepe ≈ 50 (L=9.86), ≈100 (L=10.93), ≈200 (L=12.45) →
+   log Q_tepe / L ≈ 0.40-0.43 ≈ sabit. **Yeni bir τ* ≈ 0.42 geçişi:**
+   bu eşiğin altındaki asallar genlik-gürültüsü (soymak r'yi artırır),
+   üstündekiler ortak-mod sinyali (soymak r'yi düşürür — plasebo sıfırken!).
+   Asal dalgalarının "rol değiştirme" noktası.
+
+2. **V_res(L) ölçüldü — sıfır gazının öz-rastgeleliği (üst sınır):**
+   0.163 (L=9.86) → 0.244 (L=12.45), kabaca lineer, eğim ≈ 0.031/L.
+   Çarpıcı: CUE'nun genlik log-varyans eğimi de ≈ 0.036/N — ölçek AYNI,
+   ama mutlak değer CUE'nun ~1/6'sı. Sanki gaz, RMT ölçeklemeli ama çok
+   küçük katsayılı bir öz-gürültü taşıyor. (ÜST sınır: lineer-log,
+   sabit-katsayılı soyma modeli gap-bağımlı iletimi (43) yakalayamaz —
+   artıkta asal kalıntısı olabilir.)
+
+3. r*_P ≈ r*_S tam buluştu (L=11.47'de ikisi de 0.9734) — P/S anomalisi
+   tamamen asal kaynaklıymış, kapandı.
+
+**Nihai tablo:** tek-aralık yasası TAM deterministik DEĞİL — gerçek bir
+öz-rastgelelik var (varyansın %13-18'i, üstten sınırlı), r* ≈ 0.97-0.98'de
+doyuyor. İkinci notun ölçüm seti tamam: w(τ), v(τ), toplam kuralı |u|≈1,
+τ*≈0.42 geçişi, V_res(L).
+
 **Dürüst kayıtlar (güncel):**
 - r∞ ekstrapolasyonları (Pearson 0.52, Spearman 0.77) N≤19 fitinden — güvenilmez,
   satılmamalı; sadece interpolasyon aracı
