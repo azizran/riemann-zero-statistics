@@ -385,6 +385,35 @@ gürültü değil — asalların konuşması.
 - 43-50b zinciri yayın öncesi düşman-gözle tekrar denetlenmeli; mevcut makale
   sağlam kısımlarla sınırlı, bu zincir İKİNCİ not adayı
 
+## 51: HARMONİK SOYMA — ÇEKİRDEĞİN GERÇEK SIKILIĞI (17 Ağustos, final)
+
+Üç katman + büyütülmüş plasebo (23 sahte frekans, 46 sütun):
+
+| Soyma | r_P (L=12.45) | r_S | soyulan log-varyans |
+|---|---|---|---|
+| ham | 0.7521 | 0.8758 | — |
+| p≤13, k=1 | 0.9393 | 0.9695 | 0.676 |
+| + p^k kuvvetleri | 0.9602 | 0.9808 | 0.744 |
+| + kuyruk (17..47) | **0.9738** | **0.9821** | **0.938** |
+| plasebo | 0.7521 | 0.8758 | 0.0001 |
+
+1. **Çekirdek r ≈ 0.97-0.98** — ζ genlik log-varyansının **%68'i** (0.94/1.38)
+   asal-deterministik. Plasebo overfit tabanı: 0.0001 (sıfır). Kalan %32'nin
+   içinde hâlâ soyulmamış kuyruk (p>47, yüksek kuvvetler) + ölçüm gridi var —
+   0.97-0.98 hâlâ alt sınır.
+2. **TOPLAM KURALI HER YERDE:** 23 frekansın TAMAMINDA |u| ≈ 1.01-1.12 —
+   temel asallar, kuvvetler (4,8,9,16,25,27,32,49) ve kuyruk. Explicit formula
+   ağırlıkları p^{-k/2}/k, genlikleri 20 kat aralıkta, tek tek tepe verisinden
+   geri kazanıldı. (Frekansla hafif yükselen +%1→%12 sapma sistematik —
+   incelenecek; smearing/nonlineerlik adayı.)
+3. İki metrik yakınsıyor: ham fark 0.12 → soyulmuş 0.008. Pearson/Spearman
+   anomalisi asalların eseriydi — soyunca eriyor.
+
+**KAPANIŞ CÜMLESİ (43→51):** ζ'nın boşluk-tepe plakası, asalların explicit
+formula ağırlıklarıyla TAM olarak sürdüğü, neredeyse deterministik bir makine.
+"Rastgelelik"in üçte ikisi asal sinyali; CUE benzerliği tek istatistiklik bir
+maske. İkinci not bu zincirle yazılacak (düşman-göz denetimi sonrası).
+
 **Dürüst kayıtlar (güncel):**
 - r∞ ekstrapolasyonları (Pearson 0.52, Spearman 0.77) N≤19 fitinden — güvenilmez,
   satılmamalı; sadece interpolasyon aracı
