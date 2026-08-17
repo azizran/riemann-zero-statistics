@@ -530,7 +530,37 @@ notlara böyle girer: τ-yasası keşif, kesişim noktası açık problem.
 Temiz pencereyle B ve C artık MÜKEMMEL fit (0.59/0.34) ve D'nin 1.005'i
 0.976'ya indi (sahte pencereye yaslanıyormuş).
 
+## DÜŞMAN-GÖZ DENETİM RAPORU ÖZETİ (17 Ağustos, gece — bağımsız ajan)
+
+~60 sayı ham veriden yeniden üretildi; mekanik şüpheler (soyma şişirmesi,
+grid asimetrisi, unfolding döngüselliği) ÇÜRÜDÜ. Ama 4 KIRMIZI bulgu:
+
+**K1 (Not 1, ölümcül):** "N_eff − L sabit" büyük olasılıkla interpolant
+artefaktı — 42b'nin kuadratik CUE fiti kendi MC hatalarına karşı χ²/dof≈29
+ile reddediliyor; yeterli fitlerle kayma L ile YÜKSELİYOR (+0.74→+1.24).
+(42'deki trendi 42b'de "zikzak" diye silmiştik — yanlış teşhismiş; asıl
+sorun kuadratik ailenin sistematik misfit'iymiş.) KURTULAN: iki-metrik
+yarılması (~0.9, interpolant-bağımsız) ve iki-null sıkıştırması.
+**K2:** "plasebo ≤1e-4" cümleleri abartılı (52/54'te 1e-3 mertebesi) +
+plasebo çekim aralığı kaçınma listesini aşıyor (gerçek asallar karışıyor).
+**K3:** "eighteen orders" yanlış — v ölçümleri 16.1 mertebe (36 pencerelerinde
+v hiç ölçülmedi; ölçülürse ~18 gerçek olur — anlık iş).
+**K4:** sum rule seviyesi ve u-drift'i faz-çerçevesine ±%5-15 duyarlı;
+pürüzsüz çerçevede u≈0.96, drift kayboluyor (w₀<1 ile tutarlı!).
+"tmid egzojen" ifadesi daraltılmalı (genlik-ölçümüne-göre egzojen).
+
+SARI'lardan önemliler: w+βv≈1 sayısal tutmuyor (%30'a dek); kombinasyon
+frekanslarında (log p±log q) 11-13σ faz-kilitli içerik (YENİ BULGU —
+u-drift/V_res yorumlarını etkiler); Gaussian null künyesi yanlış
+(t∈[50,500]); τ*=0.40±0.03 (0.42 değil); "incomplete transparency"
+yumuşatılmalı (D modeli 1'le 1.5σ uyumlu); Not1/Not2 çapraz pürüzler.
+
+HÜKÜM: bu haliyle arXiv'e gitmez; veri altyapısı sağlam, iddia katmanı
+revizyon ister. Not 1 Observation-2 omurgasına yeniden kurulmalı (CUE MC
+büyütülerek); Not 2'de K2-K4 + S düzeltmeleri.
+
 ## 58: v-YASASI 18 BÜYÜKLÜK MERTEBESİNDE (17 Ağustos, gece geç) ★★★
+(NOT: denetim K3 — doğrusu 16.1 mertebe; 36 pencerelerinde v ölçülürse ~18)
 
 zeros4/zeros5 indirildi (10²¹ ve 10²²'inci sıfırlar; L=44.58 ve 46.83).
 Bu yüksekliklerde genlik hesabı imkânsız ama v-kanalı yalnız sıfır
