@@ -40,8 +40,13 @@ effective-dimension anomaly of the companion note melting away entirely;
 $\tau^* \approx 0.42$ and yields an upper bound on the intrinsic
 (non-arithmetic) variance of the amplitude sequence,
 $V_{\mathrm{res}}(L)$, which grows at a rate close to the CUE rate but at
-one sixth its magnitude. At single-gap scale, two thirds or more of the
-apparent randomness of $|Z|$ is deterministic prime signal.
+one sixth its magnitude. All of these laws, fitted at
+$t \le 1.6\times10^6$, are then re-tested out of sample at the
+$10^{12}$-th zero ($t \approx 2.7\times10^{11}$) using Odlyzko's tables:
+the $\tau$-laws, the sum rule, the crossover, and the
+$V_{\mathrm{res}}$ extension all hold across this $1.6\times10^5$-fold
+jump in height. At single-gap scale, two thirds or more of the apparent
+randomness of $|Z|$ is deterministic prime signal.
 \end{abstract}
 
 \maketitle
@@ -188,6 +193,50 @@ coefficients are gap-independent, whereas the conditional-variance
 anatomy shows the transmission grows with gap width, so arithmetic
 residue survives the stripping.
 
+\section{Out-of-sample validation at the $10^{12}$-th zero}
+
+All laws above were extracted from heights $t \le 1.6\times10^6$. Using
+Odlyzko's table of the $10^4$ zeros following the $10^{12}$-th
+\cite{OdlyzkoTables} ($t \approx 2.677\times10^{11}$, $L = 24.475$), we
+recomputed the entire battery at a height larger by a factor of
+$1.6\times10^5$. Amplitudes were evaluated by an anchor-expanded
+Riemann--Siegel engine ($206{,}393$-term main sum; base phases
+$\theta(t_0) - t_0 \log n \bmod 2\pi$ computed once in high precision,
+increments in double precision); at the tabulated zeros the engine gives
+$\mathrm{median}\,|Z| = 1.4\times10^{-9}$ against between-zero maxima of
+order $3$, validating it to nine digits.
+
+The results, with the small-height laws quoted as predictions:
+\begin{itemize}
+\item \emph{$\tau$-law for $w$}: the linear guide $0.940 - 2.967\tau$,
+fitted only to small heights, predicts the six measured $w_p$ at
+$L=24.475$ to within $0.02$--$0.07$; e.g.\ $w_2 = 0.871 \pm 0.007$
+against the guide value $0.856$. The residuals grow mildly with $\tau$
+(the true curve is not exactly linear), but the collapse variable
+survives the jump.
+\item \emph{Sum rule}: $|u_q| = 0.99$--$1.07$ across the twelve
+frequencies tested (one outlier, $q=49$, at $1.18$) --- if anything
+cleaner than at small heights.
+\item \emph{Role-crossover}: at this $L$ the crossover law places
+$Q_{\mathrm{peak}} = e^{0.42 L} \approx 3\times10^4$, so the entire
+accessible range $Q \le 300$ ($\tau \le 0.233$) should lie \emph{before}
+the peak: $r^*(Q)$ should rise without declining. It does
+($0.901 \to 0.959$), in contrast to the peak-and-decline seen at
+$L = 12.45$ over the same $Q$ range --- a successful qualitative
+out-of-sample prediction.
+\item \emph{Intrinsic variance}: the linear extension of
+$V_{\mathrm{res}}(L)$ predicts $0.617$ at this height; the measured value
+is $0.650$, high by $5\%$ in the direction expected from the (necessarily)
+incomplete stripping at this $L$.
+\item \emph{Effective dimension}: the $N_{\mathrm{eff}}$ test is
+\emph{inconclusive} here, neither confirming nor refuting the constant
+shifts: $r_{\mathrm{CUE}}(N)$ flattens at large $N$
+($\mathrm{d}r/\mathrm{d}N \approx 0.008$), so with $10^4$ gaps the
+uncertainty on $N_{\mathrm{eff}}$ is $\approx 0.8$. The raw deficit
+$r_\zeta - r_{\mathrm{CUE}}(N{=}L) = -0.014 \pm 0.006$ is consistent with
+the small-height value $-0.019$.
+\end{itemize}
+
 \section{What this says, and what it does not}
 
 At single-gap scale, the ``randomness'' of $|Z|$ between zeros is, to two
@@ -208,9 +257,12 @@ partition of the unit explicit-formula weight --- from a screening theory
 of the zero gas; (2) explain $\tau^* \approx 0.42$; (3) determine the
 nature of $V_{\mathrm{res}}$, whose CUE-like growth rate at reduced
 magnitude suggests a small genuinely-random component of the zero gas;
-(4) account for the $+1\%$ to $+12\%$ drift of $u_q$; (5) repeat the
-anatomy at Odlyzko heights ($L \approx 26$), where $\tau_2 \approx 0.027$
-and the transmission $w(2)$ should approach unity if the $\tau$-laws hold.
+(4) account for the $+1\%$ to $+12\%$ drift of $u_q$; (5) settle the
+$\tau \to 0$ limit of the transmission --- full transparency $w(0) = 1$
+versus a plateau near the extrapolated $0.94$ --- which requires dense
+small-$\tau$ coverage; (6) recover the discriminating power of the
+$N_{\mathrm{eff}}$ test at large heights, which needs $\gtrsim 10^5$
+consecutive zeros there (e.g.\ from the Platt/LMFDB datasets).
 
 \section*{Reproducibility}
 
@@ -244,6 +296,10 @@ arXiv:2411.05573 (2024).
 
 \bibitem{KS00} J.~P.~Keating, N.~C.~Snaith, \emph{Random matrix theory and
 $\zeta(1/2+it)$}, Comm. Math. Phys. \textbf{214} (2000), 57--89.
+
+\bibitem{OdlyzkoTables} A.~M.~Odlyzko, \emph{Tables of zeros of the
+Riemann zeta function},
+\url{https://www-users.cse.umn.edu/~odlyzko/zeta_tables/}.
 
 \bibitem{companion} U.~Sezen, \emph{The joint law of zero gaps and local
 maxima of Hardy's $Z$-function: a numerical study and a CUE
