@@ -309,6 +309,42 @@ Sıradaki (48): ortak-fazlı tam simülasyon (w_p, v_p, aynı φ) → r ve ΔVar
 profili öngörüsü → gerçek −0.018 ile son kıyas. Halka orada kapanır ya da
 dürüstçe açık kalır.
 
+## 48-49: HALKA KAPANMADI — AÇIK PROBLEM OLARAK KAYITTA (17 Ağustos akşam)
+
+**48 (ortak-fazlı model):** V1/V2 hâlâ açığı 4-6× fazla öngörüyor. Ama iki
+değerli bütçe ölçümü çıktı:
+- Var(log g̃_ζ) = 0.218 < CUE 0.233 < model 0.269 → BOŞLUK kanalında da
+  asallar EKLEMİYOR, İKAME ediyor; ζ boşlukları CUE(N=L)'den bile sessiz
+  (daha büyük N'li CUE'ya denk — N_eff=L+0.93 ile iç tutarlı!)
+- β = 2.31 (CUE log-genlik/log-boşluk eğimi) ölçüldü
+
+**49 (asal soyma) — İKİ DENEME, İKİSİ DE SORUNLU:**
+- 1. deneme (kontrollü soyma): tutarsız — genlikte β·S_v kaldı, boşluktan
+  gitti → çift uyumsuz, Spearman çöktü. Metodolojik hata, kayıtta.
+- 2. deneme (kontrolsüz/toplam soyma): r_P → 0.94, r_S → 0.967, altı
+  pencerede NEREDEYSE SABİT ve TÜM CUE tablosunun dışında.
+  **"Fazla güzel" — güvenilmez.** İki şüpheli:
+  (a) ENDOJENLİK: genlik fazları t_pk'de ölçülüyor ama t_pk tepenin KENDİ
+      konumu — tepe, aralık içinde asal dalganın sırtına oturmaya meyilli
+      → regresör artıkla korele → katsayılar şişer (büyük p'de w+βv > 1
+      çıkması da bu kokuyu veriyor)
+  (b) kanal modeli (log-lineer, tek-β) gerçek yapıyı ıskalıyor olabilir
+
+**Eğer artefakt değilse** ima devasa: ζ genlik oynaklığının ~%60'ı
+(0.83/1.38 log-varyans) asal-deterministik ve kalan "matris" gürültüsü
+CUE'nun üçte biri — sıfır gazı sandığımızdan çok daha katı. Ama bu iddia
+ancak endojenlik giderilince kurulabilir.
+
+**SONRAKİ SEANS PLANI:**
+1. Endojenliği gider: genlik fazlarını t_pk yerine tmid'de ölç (ya da
+   aralık-ortalamalı dalga); w'leri yeniden kalibre et
+2. Kanal modelini birleşik fit et (w, v, β tek likelihood'da)
+3. Ancak ondan sonra soyma/halka-kapatma tekrarı
+4. Makale (arxiv_gap_amplitude.tex) SAĞLAM kısımlarla sınırlı kalmalı:
+   N_eff anomalisi + iki-null sıkıştırması. 45-47 kanal ölçümleri
+   (w/v spektrumları, τ çökmesi) ayrı/ek bölüm — endojenlik notuyla.
+   48-49 halka-kapatma girişimi şimdilik YAYINA GİRMEZ.
+
 **Dürüst kayıtlar (güncel):**
 - r∞ ekstrapolasyonları (Pearson 0.52, Spearman 0.77) N≤19 fitinden — güvenilmez,
   satılmamalı; sadece interpolasyon aracı
