@@ -203,6 +203,40 @@ bölüp (p=2,3,5,7; uzun periyotlu modülasyonu taşıyanlar bunlar) büyük-bo�
 varyans fazlasının çöküp çökmediğine bakmak. Çökerse mekanizma = asal dalgaları,
 kanıtlanmış olur.
 
+## EULER BÖLME TESTİ (44, 17 Ağustos sabahı) — MEKANİZMA DOĞRULANDI
+
+GHK hibrit çarpım çerçevesi (Gonek–Hughes–Keating 2007: ζ ≈ P_X × Z_X).
+|Z|·Π_{p∈P}|1−p^{-1/2-it}| ile asal çarpanları bölündü, aynı ölçüm tekrarlandı:
+
+L=12.45 penceresi:
+| Bölünen | r | büyük-boşluk ΔVar |
+|---|---|---|
+| ham | 0.7521 | +0.172 |
+| p=2 | 0.8267 | −0.200 |
+| p≤3 | 0.8531 | −0.389 |
+| p≤7 | 0.8293 | −0.543 |
+| p≤13 | 0.7866 | −0.627 |
+(CUE hedefi r=0.7717. L=9.86'da aynı desen.)
+
+**Sonuçlar:**
+1. **Açığı taşıyan: p=2 (ve p=3).** Tek başına p=2 bölmek +0.17'lik varyans
+   fazlasını tamamen yok ediyor. ζ−CUE farkının kaynağı küçük asalların
+   uzun-periyot dalgaları — 43'teki hipotez DOĞRULANDI.
+2. **Aşırı-çıkarma gözlendi:** tam Euler çarpanı bölmek fazlasını götürüyor
+   (ΔVar negatife geçiyor, r CUE'nun ÜSTÜNE çıkıyor: 0.853 > 0.772).
+   Sonlu yükseklikte ζ asal katkısını SÖNÜMLÜ taşıyor (GHK X-ağırlıkları);
+   tam çarpan %100'ü çıkarınca ters-modülasyon enjekte oluyor.
+3. **r(P) eğrisi optimal-filtre şekli:** yükseliş (gürültü gidiyor) → tepe
+   (p≤3) → düşüş (aşırı-çıkarma yeni gürültü). Kalibre edilmiş ifade için
+   sönümlü (ağırlıklı) bölme gerekiyor → 45 adayı.
+4. **Dürüstlük kaydı:** bölme zarfı t'nin DETERMİNİSTİK fonksiyonu; boşluklar
+   asal fazlarıyla korele ise (mekanizmanın kendisi bu), zarf bölmek yapay
+   kuplaj üretebilir. r>CUE aşımı bu gözle yorumlanmalı; ΔVar çöküşü ise
+   işaretiyle net — ana kanıt o.
+
+Açık: sönümleme ağırlığı w(p) fit edilirse "ζ'nın taşıdığı asal-içerik oranı"
+ölçülür — bu, GHK ayrışmasının ortak-yasa düzeyinde ilk sayısal kalibrasyonu olur.
+
 **Dürüst kayıtlar (güncel):**
 - r∞ ekstrapolasyonları (Pearson 0.52, Spearman 0.77) N≤19 fitinden — güvenilmez,
   satılmamalı; sadece interpolasyon aracı
