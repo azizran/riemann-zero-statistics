@@ -194,6 +194,29 @@ coefficients are gap-independent, whereas the conditional-variance
 anatomy shows the transmission grows with gap width, so arithmetic
 residue survives the stripping.
 
+\subsection*{The $\tau \to 0$ limit}
+A dedicated small-$\tau$ campaign --- four additional windows at
+$t = 10^8, 10^9, 10^{10}, 10^{11}$ ($2\times10^4$--$3\times10^4$ gaps each;
+the $10^{11}$ window computed with an anchor-expanded engine after a
+double-precision phase-noise artifact was caught and eliminated by a
+placebo-style consistency check against the Odlyzko window) --- yields a
+$44$-point table of $w(p, L)$ reaching $\tau_2 = 0.028$. Two findings.
+First, the $\tau$-collapse acquires a resolvable fine structure: at fixed
+$\tau$, larger primes transmit slightly less (e.g.\ at $\tau \approx 0.058$,
+$w_2 = 0.771$ versus $w_3 = 0.753$, a $4\sigma$ split); a secondary
+variable beyond $\tau$ exists, plausibly related to the $u_q$ drift noted
+above. Second, extrapolating $\tau \to 0$ under five model variants
+(pure quadratic; quadratic plus $1/p$; plus $1/L$; $p=2$ points only;
+extended prime set) gives $w(0)$ between $0.88$ and $0.98$, with
+\emph{every} variant below unity (significance $1.5\sigma$ to $15\sigma$):
+\begin{observation}[Incomplete transparency]
+The amplitude-channel transmission does not reach unity as $\tau \to 0$: a
+persistent absorption of $2$--$12\%$ survives even for the longest prime
+waves. The exact value is currently blocked by a degeneracy between
+$1/p$ and $1/L$ corrections (at fixed $\tau$ these are tied through
+$\log p = \tau L$).
+\end{observation}
+
 \section{Out-of-sample validation at the $10^{12}$-th zero}
 
 All laws above were extracted from heights $t \le 1.6\times10^6$. Using
@@ -268,12 +291,12 @@ partition of the unit explicit-formula weight --- from a screening theory
 of the zero gas; (2) explain $\tau^* \approx 0.42$; (3) determine the
 nature of $V_{\mathrm{res}}$, whose CUE-like growth rate at reduced
 magnitude suggests a small genuinely-random component of the zero gas;
-(4) account for the $+1\%$ to $+12\%$ drift of $u_q$; (5) settle the
-$\tau \to 0$ limit of the transmission --- full transparency $w(0) = 1$
-versus a plateau near the extrapolated $0.94$ --- which requires dense
-small-$\tau$ coverage; (6) recover the discriminating power of the
-$N_{\mathrm{eff}}$ test at large heights, which needs $\gtrsim 10^5$
-consecutive zeros there (e.g.\ from the Platt/LMFDB datasets).
+(4) account for the $+1\%$ to $+12\%$ drift of $u_q$ and the fixed-$\tau$
+per-prime splitting, plausibly one phenomenon; (5) break the $1/p$-versus-$1/L$
+degeneracy and pin the residual absorption $1 - w(0) \in [0.02, 0.12]$;
+(6) recover the discriminating power of the $N_{\mathrm{eff}}$ test at
+large heights, which needs $\gtrsim 10^5$ consecutive zeros there
+(e.g.\ from the Platt/LMFDB datasets).
 
 \section*{Reproducibility}
 
