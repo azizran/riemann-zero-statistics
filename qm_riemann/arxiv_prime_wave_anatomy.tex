@@ -1,0 +1,251 @@
+\documentclass[12pt]{amsart}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\newtheorem{observation}{Observation}
+\newtheorem{remark}[observation]{Remark}
+
+\title{The prime-wave anatomy of the gap--amplitude law\\ for Riemann zeros}
+
+\author{U\u{g}ur Sezen}
+\address{Independent researcher, Istanbul, Turkey}
+\email{ugursezen@gmail.com}
+
+\date{\today}
+
+\begin{document}
+
+\begin{abstract}
+In a companion note we measured the joint law of consecutive-zero gaps
+$\delta_n$ and between-zero maxima $M_n = \max |Z(t)|$ of Hardy's function,
+finding that its correlation matches CUE characteristic polynomials only at
+a shifted effective dimension, with different shifts for different
+statistics. Here we dissect the deviation. Regressing $\log M_n$ and
+$\log \delta_n$ on the explicit-formula waves $\cos(t \log p^k)$ (phases
+evaluated at gap midpoints, hence exogenous; placebo frequencies shift
+correlations by $\le 10^{-4}$), we find: (i) a \emph{sum rule} --- the
+total prime content of the amplitudes matches the explicit-formula weights
+$p^{-k/2}/k$ to within $1$--$12\%$ at all $23$ frequencies tested,
+spanning a factor $20$ in amplitude; (ii) the content splits between a
+direct amplitude channel $w$ and a zero-displacement channel $v$, mirror
+curves that each collapse onto one-variable laws in
+$\tau = \log p / \log\frac{t}{2\pi}$; (iii) stripping the measured waves
+from both series leaves a core pair with correlation $r^* \approx 0.97$--$0.98$
+--- tighter than any finite CUE --- with the Pearson/Spearman
+effective-dimension anomaly of the companion note melting away entirely;
+(iv) an exhaustion analysis reveals a role-crossover at
+$\tau^* \approx 0.42$ and yields an upper bound on the intrinsic
+(non-arithmetic) variance of the amplitude sequence,
+$V_{\mathrm{res}}(L)$, which grows at a rate close to the CUE rate but at
+one sixth its magnitude. At single-gap scale, two thirds or more of the
+apparent randomness of $|Z|$ is deterministic prime signal.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+Let $\gamma_n$ denote consecutive ordinates of nontrivial zeros of
+$\zeta$, $\delta_n = \gamma_{n+1} - \gamma_n$,
+$M_n = \max_{\gamma_n \le t \le \gamma_{n+1}} |Z(t)|$, and
+$L = \log \frac{t}{2\pi}$. In a companion note \cite{companion} we
+measured the correlation of the unfolded pair
+$(\tilde\delta_n, \tilde M_n)$ over $3.4 \times 10^5$ gaps up to
+$t = 1.6 \times 10^6$, validated the dataset against the proven mean-value
+results of Conrey--Ghosh \cite{CG85} and Hughes--Lugmayer--Pearce-Crump
+\cite{HLPC24}, and compared it with the CUE characteristic-polynomial
+model \cite{KS00}. The outcome was an effective-dimension description:
+$r_\zeta(L) = r_{\mathrm{CUE}}(L + c)$ with $c$ constant in $L$ but
+\emph{different for different statistics} ($c_{\mathrm{Pearson}} = 0.93$,
+$c_{\mathrm{Spearman}} = 1.86$) --- so no single finite CUE reproduces the
+joint law.
+
+This note asks \emph{what, concretely, the deviation is}, and answers with
+a set of regression measurements against the explicit-formula frequencies.
+The toolbox is elementary (ordinary least squares on $10^5$-size samples),
+but three design choices matter: all wave phases are evaluated at gap
+midpoints, which are determined by the zeros alone and are therefore
+exogenous to the amplitude measurements; every stripping experiment is
+accompanied by a placebo run with an equal number of non-prime-power
+frequencies; and no closed forms are fitted --- all comparisons are
+against measured or proven quantities.
+
+\section{Data and conventions}
+
+The dataset is that of \cite{companion}: six windows of $4\times10^4$
+gaps centered at $t = 1.2, 2.0, 3.5, 6.0, 10, 16 \times 10^5$
+($L = 9.86$ to $12.45$), computed by a vectorized Riemann--Siegel engine
+validated to $7.6\times10^{-6}$ pointwise and cross-checked against the
+proven mean of $M_n^2$ (slope within $0.05\%$, constant term within
+$1\%$). Unfolding uses known scales:
+$\tilde\delta = \delta \cdot L/2\pi$ and
+$\tilde M = M / \sqrt{AL + \alpha_{-1} + 2A + (\alpha_0+\alpha_{-1})/L}$
+with $A = (e^2-5)/2$ and the $\alpha_i$ of \cite{HLPC24}.
+
+For a set $\mathcal{Q}$ of prime powers we regress
+\[
+\log \tilde M_n \sim 1 + \sum_{q \in \mathcal{Q}}
+\big[ a_q \cos(t_n \log q) + b_q \sin(t_n \log q) \big],
+\qquad
+\log \tilde\delta_n \sim \text{(same basis)},
+\]
+with $t_n$ the midpoint of gap $n$. ``Stripping'' means subtracting the
+fitted wave part from both series and re-exponentiating. Placebo runs
+replace $\mathcal{Q}$ by an equal number of frequencies bounded away from
+all $\log p^k$; across all experiments below the placebo changes the
+correlations by at most $10^{-4}$ and removes at most $10^{-4}$ of the
+log-variance.
+
+\section{The sum rule}
+
+The explicit formula assigns the wave $\cos(t \log p^k)$ weight
+$p^{-k/2}/k$ in $\log|\zeta(\tfrac12+it)|$. Define the normalized content
+$u_q = \sqrt{a_q^2 + b_q^2} \,/\, (p^{-k/2}/k)$ for $q = p^k$.
+
+\begin{observation}[Sum rule]
+For all $23$ frequencies tested --- the primes $2$ through $47$ and the
+prime powers $4, 8, 9, 16, 25, 27, 32, 49$ --- the measured total content
+of the maxima satisfies $|u_q| = 1.01$ to $1.12$, with the explicit-formula
+weights spanning a factor of $20$ ($0.71$ down to $0.035$). The
+sine components vanish (phase-aligned waves), and placebo frequencies give
+$|u| \approx 0$.
+\end{observation}
+
+The between-zero maxima of $|Z|$ therefore carry the prime oscillations at
+\emph{full explicit-formula weight}, term by term, including the
+harmonics. There is a small systematic drift of $u$ with frequency
+($+1\%$ at $q=2$ to $+12\%$ at $q=47$) whose origin we have not
+identified; we record it rather than absorb it.
+
+\section{Two channels and the $\tau$-laws}
+
+The unit total splits into two measurable channels: a direct amplitude
+channel (coefficient $w_p$: the response of $\log \tilde M$ at fixed
+observed gap) and a zero-displacement channel (coefficient $v_p$: the
+response of $\log \tilde\delta$). Measured across the six windows, the two
+run in opposite directions:
+\[
+\begin{array}{c|cccccc}
+p & 2 & 3 & 5 & 7 & 11 & 13\\ \hline
+w_p & 0.76 & 0.65 & 0.50 & 0.41 & 0.30 & 0.26\\
+|v_p| & 0.13 & 0.20 & 0.29 & 0.35 & 0.42 & 0.45
+\end{array}
+\]
+and both collapse, across all windows and primes simultaneously, onto
+single curves in the Berry variable $\tau = \log p / L$ \cite{Berry88}
+(residual RMS $\approx 0.01$ for $w$). Long waves (small $\tau$) transmit
+into amplitude; short waves are absorbed into zero positions. The
+channels are consistent with the sum rule through the gap--amplitude
+coupling: $w_p + \beta v_p \approx 1$ with $\beta \approx 2.3$ the
+log-log regression slope of amplitude on gap. We read this as a measured,
+observable-level decomposition of the hybrid Euler--Hadamard product of
+Gonek--Hughes--Keating \cite{GHK07}: the ``zeros part'' and ``primes
+part'' are here separated channel by channel, with the partition governed
+by $\tau$ alone.
+
+\section{Stripping: the arithmetic core}
+
+Removing the fitted waves from both series (basis: all $p^k \le Q$) and
+recomputing the correlation of the residual pair gives, at $Q = 49$,
+$r^*_P \approx 0.97$, $r^*_S \approx 0.98$ --- far tighter than any CUE in
+the range $N \in [5, 19]$ (max $0.93$) --- while the placebo leaves the raw
+values $0.75/0.88$ untouched. Two structural consequences follow.
+
+\begin{observation}[The effective-dimension anomaly is arithmetic]
+After stripping, the Pearson and Spearman statistics of the residual pair
+coincide (both $0.9734$ at $L = 11.47$; raw discrepancy $0.12$ shrinks to
+$0.008$). The two-constant anomaly of \cite{companion} is entirely a
+prime-wave effect.
+\end{observation}
+
+\begin{observation}[Exhaustion curve]
+Extending the basis to all $p^k \le Q$ with $Q$ up to $300$ ($79$
+frequencies; placebo still $\le 10^{-4}$), the stripped correlation
+$r^*(Q)$ rises to a maximum and then \emph{declines}. The maximum sits at
+$\log Q_{\mathrm{peak}} / L \approx 0.42$ in every window: below this
+threshold the waves act as amplitude noise (stripping tightens the pair),
+above it as common-mode signal shared by gaps and maxima (stripping
+removes genuine coupling). We denote this role-crossover
+$\tau^* \approx 0.42$.
+\end{observation}
+
+At $Q = 300$ the stripped share of the amplitude log-variance reaches
+$82$--$87\%$, leaving a residual
+\[
+V_{\mathrm{res}}(L): \quad 0.163 \;(L{=}9.86) \;\to\; 0.244 \;(L{=}12.45),
+\]
+increasing approximately linearly with slope $\approx 0.031$ per unit
+$L$. For comparison, the CUE amplitude log-variance grows at
+$\approx 0.036$ per unit $N$ but is six times larger in magnitude at
+matched dimension. $V_{\mathrm{res}}$ is an \emph{upper bound} on the
+intrinsic randomness of the maxima sequence: our per-frequency
+coefficients are gap-independent, whereas the conditional-variance
+anatomy shows the transmission grows with gap width, so arithmetic
+residue survives the stripping.
+
+\section{What this says, and what it does not}
+
+At single-gap scale, the ``randomness'' of $|Z|$ between zeros is, to two
+thirds or more, deterministic prime signal carried at full
+explicit-formula weight; the celebrated CUE resemblance of the
+gap--amplitude law is a single-statistic compensation, not a model
+equivalence. None of this bears directly on the Riemann Hypothesis, and
+none of it is a closed-form claim: the two candidate closed forms this
+project produced at smaller heights were both refuted by larger-$T$ tests
+and are recorded as such in the project log. What survives are measured
+curves --- $w(\tau)$, $v(\tau)$, the sum rule $u \approx 1$, the crossover
+$\tau^* \approx 0.42$, and $V_{\mathrm{res}}(L)$ --- each stable across a
+factor $16$ in height and each protected by placebo and exogeneity
+controls.
+
+Open problems: (1) derive $w(\tau)$ and $v(\tau)$ --- equivalently the
+partition of the unit explicit-formula weight --- from a screening theory
+of the zero gas; (2) explain $\tau^* \approx 0.42$; (3) determine the
+nature of $V_{\mathrm{res}}$, whose CUE-like growth rate at reduced
+magnitude suggests a small genuinely-random component of the zero gas;
+(4) account for the $+1\%$ to $+12\%$ drift of $u_q$; (5) repeat the
+anatomy at Odlyzko heights ($L \approx 26$), where $\tau_2 \approx 0.027$
+and the transmission $w(2)$ should approach unity if the $\tau$-laws hold.
+
+\section*{Reproducibility}
+
+All measurements are scripts 43--52 in
+\url{https://github.com/azizran/deney} (directory \texttt{qm\_riemann/}),
+runnable from the stored gap--maximum datasets; the dated research log in
+the same directory records the failed intermediate models (independent-phase
+and common-phase generative attempts) alongside the results reported here.
+
+\section*{Acknowledgements}
+
+Computational assistance, literature search and drafting: Claude
+(Anthropic). Errors are the author's.
+
+\begin{thebibliography}{9}
+
+\bibitem{Berry88} M.~V.~Berry, \emph{Semiclassical formula for the number
+variance of the Riemann zeros}, Nonlinearity \textbf{1} (1988), 399--407.
+
+\bibitem{CG85} J.~B.~Conrey, A.~Ghosh, \emph{A mean value theorem for the
+Riemann zeta-function at its relative extrema on the critical line},
+J. London Math. Soc. (2) \textbf{32} (1985), 193--202.
+
+\bibitem{GHK07} S.~M.~Gonek, C.~P.~Hughes, J.~P.~Keating, \emph{A hybrid
+Euler--Hadamard product for the Riemann zeta function}, Duke Math. J.
+\textbf{136} (2007), 507--549.
+
+\bibitem{HLPC24} C.~Hughes, S.~Lugmayer, A.~Pearce-Crump, \emph{The second
+moment of the Riemann zeta function at its local extrema},
+arXiv:2411.05573 (2024).
+
+\bibitem{KS00} J.~P.~Keating, N.~C.~Snaith, \emph{Random matrix theory and
+$\zeta(1/2+it)$}, Comm. Math. Phys. \textbf{214} (2000), 57--89.
+
+\bibitem{companion} U.~Sezen, \emph{The joint law of zero gaps and local
+maxima of Hardy's $Z$-function: a numerical study and a CUE
+effective-dimension anomaly}, draft (2026), same repository.
+
+\end{thebibliography}
+
+\end{document}
