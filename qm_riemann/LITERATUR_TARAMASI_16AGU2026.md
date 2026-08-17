@@ -345,6 +345,46 @@ ancak endojenlik giderilince kurulabilir.
    (w/v spektrumları, τ çökmesi) ayrı/ek bölüm — endojenlik notuyla.
    48-49 halka-kapatma girişimi şimdilik YAYINA GİRMEZ.
 
+## 50-50b: HALKA KAPANDI — SORU DEĞİŞEREK (17 Ağustos, 2. seans) ★★★
+
+**50 (temiz soyma):** Fazlar tmid'de (egzojen, Z hesabı gerekmez) + plasebo.
+- **PLASEBO MÜKEMMEL:** 6 asal-olmayan frekansla soyma r'yi ≤0.0001 oynatıyor.
+  Asallarla soyma: r_P 0.75→0.94, r_S 0.88→0.97. Mekanik artefakt DEĞİL;
+  49'un endojenlik şüphesi de boşa çıktı — sonuç gerçek.
+- **TOPLAM KURALI:** tmid-bazlı toplam genlik katsayısı |u| ≈ 1
+  (0.99/1.01/1.04/1.05/1.07/1.09) — genlik, asal dalgasının TAMAMINI taşıyor
+  (explicit formula w=1). 45'in "sönümlü" w'si yönlendirmeymiş: w + β·v ≈ 1.
+  44'ün aşırı-çıkarma bilmecesi de bununla çözüldü.
+- **ÇEKİRDEK SIKI:** soyulmuş çift r_P≈0.94, r_S≈0.97 — 6 pencerede kararlı,
+  HİÇBİR CUE(N∈[5,19]) bu kadar sıkı değil. ζ genlik log-varyansının ~%50'si
+  (0.68/1.38) asal-deterministik.
+
+**50b (varyans eşlemesi) — kompanzasyon hikayesi REDDEDİLDİ:**
+r-tabanlı N_eff = L+1.07 ama genlik-varyans tabanlı ~L−4 yönü, boşluk-varyans
+tabanlı eşleşme YOK (CUE eğrisi düz, ζ altında). Üç gözlemlenebilir üç ayrı
+yer gösteriyor → **N_eff = L + c köklü bir parametre değil, r-gözlemlenebilirine
+özgü EFEKTİF bir tanım.** ζ hiçbir sonlu-CUE değil.
+
+### NİHAİ SENTEZ (16-17 Ağustos yayı)
+
+ζ'nın tek-aralık (boşluk, tepe) yasası:
+  **sıkı aritmetik çekirdek (r≈0.94-0.97)
+  ⊕ TAM ağırlıklı asal dalgaları (u≈1),
+  dalga enerjisi konum (v) ve genlik (w) kanallarına τ = log p/L
+  yasasıyla bölünmüş (w + β·v ≈ 1).**
+
+CUE benzerliği (N_eff=L+0.93) yüzeysel: iletilen asal gürültüsü, TEK BİR
+istatistikte (r) matris iç gürültüsünü taklit ediyor; varyanslarda taklit
+bozuluyor. Mayıs sezgisinin vardığı yer: plakadaki "rastgelelik"in yarısı
+gürültü değil — asalların konuşması.
+
+**Dürüst kayıtlar:**
+- Soyma yalnız p≤13, k=1 harmonikleri; p^k harmonikleri (log4, log8, log9...)
+  soyulmadı → çekirdek sıkılığı ALT SINIR (daha da sıkı olabilir)
+- Soyulmuş r'lerde hafif L-düşüşü var (0.951→0.939) — kaydedildi, yorumsuz
+- 43-50b zinciri yayın öncesi düşman-gözle tekrar denetlenmeli; mevcut makale
+  sağlam kısımlarla sınırlı, bu zincir İKİNCİ not adayı
+
 **Dürüst kayıtlar (güncel):**
 - r∞ ekstrapolasyonları (Pearson 0.52, Spearman 0.77) N≤19 fitinden — güvenilmez,
   satılmamalı; sadece interpolasyon aracı
