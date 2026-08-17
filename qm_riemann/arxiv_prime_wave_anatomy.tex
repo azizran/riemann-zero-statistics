@@ -3,6 +3,7 @@
 \usepackage[margin=2.5cm]{geometry}
 \usepackage{hyperref}
 \usepackage{booktabs}
+\usepackage{graphicx}
 
 \newtheorem{observation}{Observation}
 \newtheorem{remark}[observation]{Remark}
@@ -206,6 +207,16 @@ increments in double precision); at the tabulated zeros the engine gives
 $\mathrm{median}\,|Z| = 1.4\times10^{-9}$ against between-zero maxima of
 order $3$, validating it to nine digits.
 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.82\textwidth]{fig_tau_en.png}
+\caption{The amplitude-channel transmission $w$ against
+$\tau = \log p / L$. Blue: the 36 measurements at $t \le 1.6\times10^6$.
+Red: the six out-of-sample measurements at $t = 2.677\times10^{11}$.
+Dashed: the linear guide fitted only to the blue points.}
+\label{fig:tau}
+\end{figure}
+
 The results, with the small-height laws quoted as predictions:
 \begin{itemize}
 \item \emph{$\tau$-law for $w$}: the linear guide $0.940 - 2.967\tau$,
@@ -292,7 +303,7 @@ Euler--Hadamard product for the Riemann zeta function}, Duke Math. J.
 
 \bibitem{HLPC24} C.~Hughes, S.~Lugmayer, A.~Pearce-Crump, \emph{The second
 moment of the Riemann zeta function at its local extrema},
-arXiv:2411.05573 (2024).
+arXiv:2411.05573 (2024); J. London Math. Soc. (2) (2025), e70250.
 
 \bibitem{KS00} J.~P.~Keating, N.~C.~Snaith, \emph{Random matrix theory and
 $\zeta(1/2+it)$}, Comm. Math. Phys. \textbf{214} (2000), 57--89.

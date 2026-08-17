@@ -3,6 +3,7 @@
 \usepackage[margin=2.5cm]{geometry}
 \usepackage{hyperref}
 \usepackage{booktabs}
+\usepackage{graphicx}
 
 \newtheorem{observation}{Observation}
 \newtheorem{remark}[observation]{Remark}
@@ -224,6 +225,15 @@ Table~\ref{tab:cue} (fit RMS $0.004$ Pearson, $0.002$ Spearman; the fit is
 used only as an interpolation device --- we attach no meaning to its
 extrapolation). The last two columns of Table~\ref{tab:zeta} give the
 result.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{fig_neff_en.png}
+\caption{The effective-dimension shift $N_{\mathrm{eff}} - L$ across all
+twelve windows, for Pearson-based (left) and Spearman-based (right)
+matching. Each is constant in $L$; the two constants differ.}
+\label{fig:neff}
+\end{figure}
 
 \begin{observation}
 Over $5.6 \le L \le 12.45$ (heights $t$ from $\sim 1.2\times10^3$ to
