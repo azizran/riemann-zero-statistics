@@ -115,7 +115,7 @@ tt = g_lo[:, None] + gaps[:, None] * u[None, :]
 Zg = np.abs(Z_anchor(tt.ravel(), chunk=60)).reshape(tt.shape)
 j = np.argmax(Zg, axis=1)
 rows = np.arange(len(j))
-jc = np.clip(j, 1, 23)
+jc = np.clip(j, 1, 22)
 y0, y1, y2 = Zg[rows, jc - 1], Zg[rows, jc], Zg[rows, jc + 1]
 den = y0 - 2 * y1 + y2
 dpos = np.where(np.abs(den) > 1e-12, 0.5 * (y0 - y2) / den, 0.0)

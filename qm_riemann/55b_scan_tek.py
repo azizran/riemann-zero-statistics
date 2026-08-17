@@ -1,19 +1,18 @@
 """
-55 — KÜÇÜK-τ SEFERİ: ARA YÜKSEKLİK PENCERELERİ (17 Ağustos 2026)
-==================================================================
+55b — TEK PENCERE TARAYICI (paralel koşum için parametrik) (17 Ağustos 2026)
+=============================================================================
 
-w(τ→0) sorusu: perde tam saydamlaşıyor mu (w→1) yoksa ~0.94'te mi duruyor?
-Ekstrapolasyonu beslemek için p=2'nin küçük-τ noktalarını yoğunlaştırıyoruz:
+Kullanım: python 55b_scan_tek.py <merkez_t> <aralik_sayisi>
+Çıktı: 55_win_<key>.npz  (pencere biter bitmez kaydedilir!)
 
-  t = 10⁸  (L=16.58, τ₂=0.0418)   30k aralık
-  t = 10⁹  (L=18.88, τ₂=0.0367)   30k aralık
-  t = 10¹⁰ (L=21.18, τ₂=0.0327)   25k aralık
-  t = 10¹¹ (L=23.48, τ₂=0.0295)   20k aralık
-
-Motor: 41'in düz float64 RS'i (bu aralıkta faz hatası ≤3×10⁻⁴ rad — güvenli;
-mpmath örneklemiyle her yükseklikte doğrulanır). Çıktı: 55_kucuk_tau.npz
+55'ten farklar:
+  - KRİTİK DÜZELTME: parabolik inceltmede jc üst sınırı 22 (23 değil) —
+    jc+1'in 24 kolonlu grid dizisini aşmasını önler (55'in çökme sebebi;
+    41 ve 53'te de aynı gizli hata vardı, hiç tetiklenmemişti)
+  - Pencere-başına kayıt (bir pencere çökse öbürleri yaşar)
 """
 
+import sys
 import numpy as np
 import mpmath as mp
 from pathlib import Path
@@ -29,7 +28,7 @@ def Z_rs(t, chunk=None):
     t = np.asarray(t, dtype=np.float64)
     if chunk is None:
         Nmax = int(np.sqrt(t.max() / TWO_PI)) + 1
-        chunk = max(200, int(1.0e8 / Nmax))
+        chunk = max(200, int(6.0e7 / Nmax))
     out = np.empty_like(t)
     for s in range(0, len(t), chunk):
         tt = t[s:s + chunk]
@@ -66,7 +65,6 @@ def scan_window(t_lo, t_hi):
         flo = np.where(left, fm, flo)
         hi = np.where(left, hi, mid)
     zeros = 0.5 * (lo + hi)
-    # şüpheli aralık (kaçmış yakın çift) taraması
     extra = []
     for i in range(len(zeros) - 1):
         a_, b_ = zeros[i], zeros[i + 1]
@@ -94,7 +92,7 @@ def scan_window(t_lo, t_hi):
     Am = np.abs(Z_rs(tt.ravel())).reshape(tt.shape)
     j = np.argmax(Am, axis=1)
     rows = np.arange(len(j))
-    jc = np.clip(j, 1, 22)
+    jc = np.clip(j, 1, 22)  # DÜZELTME: üst sınır 22 → jc+1 ≤ 23 güvenli
     y0, y1, y2 = Am[rows, jc - 1], Am[rows, jc], Am[rows, jc + 1]
     den = y0 - 2 * y1 + y2
     dpos = np.where(np.abs(den) > 1e-12, 0.5 * (y0 - y2) / den, 0.0)
@@ -102,32 +100,18 @@ def scan_window(t_lo, t_hi):
     A_pk = np.abs(Z_rs(t_pk))
     return gaps, np.maximum(Am[rows, j], A_pk), 0.5 * (g_lo + g_hi), len(extra)
 
-CENTERS = [(1e8, 30000), (1e9, 30000), (1e10, 25000), (1e11, 20000)]
-NVAL = {1e8: 10, 1e9: 8, 1e10: 5, 1e11: 3}
-
-out = {}
-for c, ng in CENTERS:
-    L = np.log(c / TWO_PI)
-    # mpmath doğrulama
-    mp.mp.dps = 15
-    rngv = np.random.default_rng(int(c % 97) + 7)
-    ts = c + rngv.uniform(0, 50, NVAL[c])
-    zr = Z_rs(ts)
-    t1 = time.time()
-    zm = np.array([float(mp.siegelz(t)) for t in ts])
-    err = np.abs(zr - zm).max()
-    print(f"t={c:.0e}: doğrulama max hata = {err:.2e} ({time.time()-t1:.0f}s)", flush=True)
-    if err > 5e-3:
-        print("  UYARI: hata büyük — bu pencere şüpheli!", flush=True)
-    half = ng * (TWO_PI / L) / 2
-    t1 = time.time()
-    gaps, amps, tmid, nex = scan_window(c - half, c + half)
-    key = f"{c:.0e}"
-    out[f"gaps_{key}"] = gaps
-    out[f"amps_{key}"] = amps
-    out[f"tmid_{key}"] = tmid
-    print(f"  L={L:.3f}: {len(gaps)} aralık, {nex} kurtarılan, "
-          f"{(time.time()-t1)/60:.1f} dk", flush=True)
-
-np.savez(HERE / "55_kucuk_tau.npz", **out)
-print("Kaydedildi: 55_kucuk_tau.npz", flush=True)
+c = float(sys.argv[1]); ng = int(sys.argv[2])
+L = np.log(c / TWO_PI)
+mp.mp.dps = 15
+rngv = np.random.default_rng(int(c % 97) + 7)
+nval = 3 if c >= 1e10 else 6
+ts = c + rngv.uniform(0, 50, nval)
+err = np.abs(Z_rs(ts) - np.array([float(mp.siegelz(t)) for t in ts])).max()
+print(f"t={c:.0e}: doğrulama max hata = {err:.2e}", flush=True)
+half = ng * (TWO_PI / L) / 2
+t1 = time.time()
+gaps, amps, tmid, nex = scan_window(c - half, c + half)
+key = f"{c:.0e}"
+np.savez(HERE / f"55_win_{key}.npz", gaps=gaps, amps=amps, tmid=tmid)
+print(f"  L={L:.3f}: {len(gaps)} aralık, {nex} kurtarılan, "
+      f"{(time.time()-t1)/60:.1f} dk → 55_win_{key}.npz", flush=True)

@@ -109,7 +109,7 @@ def scan_window(t_lo, t_hi, verbose=True):
     A = np.abs(Z_rs(tt.ravel()).reshape(tt.shape))
     j = np.argmax(A, axis=1)
     rows = np.arange(len(j))
-    jc = np.clip(j, 1, 23)
+    jc = np.clip(j, 1, 22)
     y0, y1, y2 = A[rows, jc - 1], A[rows, jc], A[rows, jc + 1]
     denom = y0 - 2 * y1 + y2
     dpos = np.where(np.abs(denom) > 1e-12, 0.5 * (y0 - y2) / denom, 0.0)

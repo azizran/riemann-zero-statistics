@@ -61,11 +61,12 @@ for k in sorted({x.split("_")[1] for x in d41.files}, key=lambda s: int(s[:-1]))
     L, rows = measure_w(d41[f"gaps_{k}"], d41[f"amps_{k}"], d41[f"tmid_{k}"])
     points += [(p, tau, w, s, L) for p, tau, w, s in rows]
 
-# 55 pencereleri
-d55 = np.load(HERE / "55_kucuk_tau.npz")
-for k in sorted({x.split("_")[1] for x in d55.files}, key=lambda s: float(s)):
-    L, rows = measure_w(d55[f"gaps_{k}"], d55[f"amps_{k}"], d55[f"tmid_{k}"])
+# 55b pencereleri (pencere-başına dosyalar)
+for f in sorted(HERE.glob("55_win_*.npz")):
+    d55 = np.load(f)
+    L, rows = measure_w(d55["gaps"], d55["amps"], d55["tmid"])
     points += [(p, tau, w, s, L) for p, tau, w, s in rows]
+    print(f"  yüklendi: {f.name} (L={L:.2f})")
 
 # 53 Odlyzko (çapalı sabit fazlar)
 d53 = np.load(HERE / "53_odlyzko_amps.npz")
