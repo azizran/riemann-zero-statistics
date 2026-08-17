@@ -559,6 +559,31 @@ HÜKÜM: bu haliyle arXiv'e gitmez; veri altyapısı sağlam, iddia katmanı
 revizyon ister. Not 1 Observation-2 omurgasına yeniden kurulmalı (CUE MC
 büyütülerek); Not 2'de K2-K4 + S düzeltmeleri.
 
+## 59-60: N_eff NİHAİ KARARI (K1 çözüldü) (18 Ağustos gecesi) ★★
+
+Hassas CUE kampanyası (16 N × 1.5M aralık, ampirik batch-hataları) + PCHIP
+(form varsayımsız). NİHAİ TABLO:
+
+| Metrik | Sabit model | Lineer eğim | Anlamlılık |
+|---|---|---|---|
+| Pearson | +1.04 (χ²/dof 1.89, kötü) | **+0.098±0.022 /L** | **4.5σ — YÜKSELIYOR** |
+| Spearman | **+1.99 (χ²/dof 0.34, iyi)** | +0.046±0.027 | 1.7σ — sabitle uyumlu |
+
+1. **Denetçi haklıydı:** Pearson kayması sabit değil (+0.75 → +1.30).
+   42b'nin "sabit +0.93"ü kuadratik-fit artefaktıydı. Ders: fit ailesi
+   yerine hassas noktalar + monoton interpolasyon.
+2. **Spearman kayması ≈ +2.0 SABİT** — sabitlik hikâyesi rank-metriğinde
+   yaşıyor.
+3. **İki-metrik yarılması hayatta: ort +0.93 ± 0.10** (interpolant-bağımsız).
+4. **Yeni resim Not 2 ile daha tutarlı:** P/S anomalisi asal-kaynaklı
+   (soymayla eriyor); Pearson'ın L-sürüklenmesi de doğal olarak iletilen
+   asal içeriğin L-bağımlılığı — rank-tabanlı N_eff sabitken genlik-duyarlı
+   N_eff asal dalgalarıyla sürükleniyor. Not 1'in yeni omurgası:
+   "rank-based effective dimension is constant (+2.0); the Pearson one
+   drifts in the manner expected from transmitted prime content."
+
+Not 1 yeniden yazımı bekliyor (sonraki iş).
+
 ## 58: v-YASASI 18 BÜYÜKLÜK MERTEBESİNDE (17 Ağustos, gece geç) ★★★
 (NOT: denetim K3 — doğrusu 16.1 mertebe; 36 pencerelerinde v ölçülürse ~18)
 
