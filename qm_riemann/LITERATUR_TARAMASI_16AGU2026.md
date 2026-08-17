@@ -584,6 +584,30 @@ Hassas CUE kampanyası (16 N × 1.5M aralık, ampirik batch-hataları) + PCHIP
 
 Not 1 yeniden yazımı bekliyor (sonraki iş).
 
+## BÜYÜK REVİZYON UYGULANDI (18 Ağustos gecesi) — commit 5d912d8
+
+**Not 1 yeni omurga:** abstract (iii)/(iv) yeniden; PCHIP metodolojisi
+(kuadratik-fit hikâyesi dürüstçe anlatıldı — "an earlier draft of this very
+note fell the same way"); Observation 1 = Spearman sabit +1.99 & Pearson
+drift 4.5σ; Observation 2 = yarılma 0.93±0.10; tablo/figür/CUE tablosu
+(1.5M kampanya değerleri) yenilendi; Gaussian null künyesi düzeltildi
+(t∈[50,500]); companion2 atıfı eklendi.
+
+**Not 2 denetim düzeltmeleri:** giriş yeni resmi anlatıyor; "sixteen orders"
+(K3); plasebo cümleleri dürüstleştirildi (K2 metin kısmı); τ*=0.40±0.03
+(S4); w+βv %5-30 nitelemesi (S1); transparency yumuşatıldı (S5); Odlyzko
+u hataları (S6); scripts 27-60; factor 13.
+
+**61 (çerçeve kontrolü) — K4 DOĞRULANDI VE ÇÖZÜLDÜ:** pürüzsüz (RvM-akışı)
+fazlarla dokuz asalın hepsi u = 0.95-0.97, drift YOK (tmid: 1.01→1.12
+driftli). u-drift bilmecesi = çerçeve artefaktı. Pürüzsüz seviye 0.96 ≈
+w₀ bulgusuyla tutarlı — nota işlendi.
+
+**Denetimden kalan işler:** K2 tasarım düzeltmesi + yeniden koşum (52/54
+plasebo çekim-aralığı); S2 kombinasyon-çizgileri bulgusunun nota eklenmesi;
+S3 ideali (Gaussian null'u ana pencerelerde tekrar); S11 novelty literatür
+turu (gönderim öncesi); K3 opsiyonu (36'da v ölç → gerçek ~18 mertebe).
+
 ## 58: v-YASASI 18 BÜYÜKLÜK MERTEBESİNDE (17 Ağustos, gece geç) ★★★
 (NOT: denetim K3 — doğrusu 16.1 mertebe; 36 pencerelerinde v ölçülürse ~18)
 
