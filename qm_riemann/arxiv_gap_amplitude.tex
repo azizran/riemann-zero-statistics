@@ -37,12 +37,13 @@ same power spectrum ($+6.7\sigma$); (iii) compared with characteristic
 polynomials of Haar-random unitary matrices (CUE), the zeta correlation at
 height $t$ matches CUE of \emph{effective dimension}
 $N_{\mathrm{eff}} = L + c$, $L=\log\frac{t}{2\pi}$, with
-$c_{\mathrm{Pearson}} = 0.93 \pm 0.15$ and
-$c_{\mathrm{Spearman}} = 1.86 \pm 0.15$, each constant over
-$5.6 \le L \le 12.45$; and (iv) since no single effective dimension fits
-both statistics, the joint gap--maximum law of $\zeta$ is not that of any
-finite-dimensional CUE. We propose the arithmetic (prime-driven) origin of
-the two shift constants as an open problem.
+a metric-dependent shift: the rank-based (Spearman) effective dimension is
+\emph{constant}, $N_{\mathrm{eff}} = L + 2.0$, over $5.6 \le L \le 12.45$,
+while the Pearson-based one drifts from $L + 0.75$ to $L + 1.30$ (slope
+$0.098 \pm 0.022$ per unit $L$, $4.5\sigma$); and (iv) the two effective
+dimensions differ by $0.93 \pm 0.10$ throughout, so the joint gap--maximum
+law of $\zeta$ is not that of any finite-dimensional CUE. A companion note
+traces both the split and the drift to transmitted prime waves.
 \end{abstract}
 
 \maketitle
@@ -136,7 +137,7 @@ Within each window we unfold both variables using known scales:
 $\tilde{\delta}_n = \delta_n \cdot L/2\pi$ and
 $\tilde{M}_n = M_n / \sqrt{AL + 2.758 - 0.054/L}$, so that
 $\mathrm{mean}(\tilde\delta) = 1$ and $\mathrm{mean}(\tilde M^2) = 1$
-to within $10^{-3}$. Table~\ref{tab:zeta} reports the windowed Pearson
+to within $3\times10^{-3}$. Table~\ref{tab:zeta} reports the windowed Pearson
 correlation $r$ of $(\tilde\delta_n, \tilde M_n)$.
 
 \begin{table}[ht]
@@ -149,18 +150,18 @@ effective CUE dimension shift (Section~\ref{sec:neff}).}
 $L$ & $n$ (gaps) & $r$ (Pearson) & $N_{\mathrm{eff}}^{P} - L$ &
 $N_{\mathrm{eff}}^{S} - L$ \\
 \midrule
- 5.60 &  1\,029 & 0.8917 & $+0.93$ & $+1.83$ \\
- 6.30 &  2\,322 & 0.8735 & $+0.93$ & $+1.88$ \\
- 6.99 &  5\,174 & 0.8566 & $+0.90$ & $+1.82$ \\
- 7.69 & 11\,418 & 0.8394 & $+0.92$ & $+1.88$ \\
- 8.39 & 24\,988 & 0.8238 & $+0.92$ & $+1.87$ \\
- 9.08 & 54\,299 & 0.8096 & $+0.90$ & $+1.86$ \\
- 9.86 & 39\,992 & 0.7947 & $+0.90$ & $+1.83$ \\
-10.37 & 39\,997 & 0.7849 & $+0.94$ & $+1.83$ \\
-10.93 & 39\,998 & 0.7754 & $+0.95$ & $+1.82$ \\
-11.47 & 39\,998 & 0.7663 & $+1.00$ & $+1.94$ \\
-11.98 & 39\,999 & 0.7589 & $+0.99$ & $+1.88$ \\
-12.45 & 40\,000 & 0.7521 & $+1.01$ & $+1.93$ \\
+ 5.60 &  1\,029 & 0.8917 & $+0.75$ & $+1.70$ \\
+ 6.30 &  2\,322 & 0.8735 & $+0.76$ & $+1.80$ \\
+ 6.99 &  5\,174 & 0.8566 & $+0.77$ & $+1.81$ \\
+ 7.69 & 11\,418 & 0.8394 & $+0.87$ & $+1.93$ \\
+ 8.39 & 24\,988 & 0.8238 & $+0.95$ & $+1.98$ \\
+ 9.08 & 54\,299 & 0.8096 & $+0.99$ & $+2.00$ \\
+ 9.86 & 39\,992 & 0.7947 & $+1.04$ & $+2.00$ \\
+10.37 & 39\,997 & 0.7849 & $+1.13$ & $+2.01$ \\
+10.93 & 39\,998 & 0.7754 & $+1.20$ & $+2.01$ \\
+11.47 & 39\,998 & 0.7663 & $+1.31$ & $+2.14$ \\
+11.98 & 39\,999 & 0.7589 & $+1.31$ & $+2.07$ \\
+12.45 & 40\,000 & 0.7521 & $+1.30$ & $+2.10$ \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -170,9 +171,10 @@ Following the surrogate-data method of Theiler et
 al.~\cite{Theiler92}, one generates Gaussian processes with the same power
 spectrum as $Z(t)$ (random Fourier phases), extracts their zeros and
 between-zero maxima, and computes the same correlation. In an earlier
-session of this project (over $t \in [14, 1000]$) this null gave
+session of this project (over $t \in [50, 500]$, $\approx 260$ gaps,
+grid-based extraction) this null gave
 $r_{\mathrm{null}} = 0.505 \pm 0.048$ over $30$ trials against the zeta
-value $r = 0.825$ on the same range: a $+6.7\sigma$ excess. The
+value $r = 0.825$ on the same range: an excess at the $6\sigma$ level. The
 gap--maximum coupling of $\zeta$ is therefore far stronger than that of
 \emph{any} Gaussian process with its spectrum; it depends on structure
 beyond second-order statistics.
@@ -183,8 +185,10 @@ $|\Lambda(\theta)| = \prod_j 2\,|\sin\frac{\theta-\phi_j}{2}|$, and for
 each of the $N$ cyclic eigenphase gaps record the pair (gap, interior
 maximum of $|\Lambda|$). The density matching $N \leftrightarrow L$ is the
 standard one of \cite{KS00}. Table~\ref{tab:cue} reports the correlation
-for $N = 5,\dots,19$ ($2\times10^5$ gaps per $N$); we are not aware of a
-published computation of this quantity.
+for $N = 5,\dots,20$ ($1.5\times10^6$ gaps per $N$; Monte-Carlo
+uncertainties, estimated from ten independent batches per $N$, are below
+$6\times10^{-4}$); we are not aware of a published computation of this
+quantity.
 
 \begin{table}[ht]
 \centering
@@ -194,14 +198,14 @@ published computation of this quantity.
 \toprule
 $N$ & Pearson & Spearman & $N$ & Pearson & Spearman \\
 \midrule
- 5 & 0.9293 & 0.9684 & 13 & 0.7628 & 0.8862 \\
- 6 & 0.9004 & 0.9541 & 14 & 0.7494 & 0.8795 \\
- 7 & 0.8758 & 0.9423 & 15 & 0.7347 & 0.8741 \\
- 8 & 0.8508 & 0.9303 & 16 & 0.7228 & 0.8672 \\
- 9 & 0.8303 & 0.9198 & 17 & 0.7120 & 0.8609 \\
-10 & 0.8107 & 0.9102 & 18 & 0.6961 & 0.8562 \\
-11 & 0.7929 & 0.9010 & 19 & 0.6910 & 0.8512 \\
-12 & 0.7773 & 0.8934 &    &        &        \\
+ 5 & 0.9293 & 0.9683 & 13 & 0.7632 & 0.8860 \\
+ 6 & 0.9011 & 0.9545 & 14 & 0.7486 & 0.8793 \\
+ 7 & 0.8750 & 0.9420 & 15 & 0.7365 & 0.8729 \\
+ 8 & 0.8512 & 0.9303 & 16 & 0.7258 & 0.8671 \\
+ 9 & 0.8305 & 0.9198 & 17 & 0.7130 & 0.8612 \\
+10 & 0.8109 & 0.9103 & 18 & 0.7022 & 0.8560 \\
+11 & 0.7929 & 0.9014 & 19 & 0.6931 & 0.8512 \\
+12 & 0.7773 & 0.8933 & 20 & 0.6825 & 0.8466 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -219,60 +223,65 @@ strongly coupled like a random-matrix model, but measurably less than one.
 \section{An effective-dimension anomaly}\label{sec:neff}
 
 To express the deficit structurally, define $N_{\mathrm{eff}}(L)$ by
-$r_{\mathrm{CUE}}(N_{\mathrm{eff}}) = r_\zeta(L)$, inverting a smooth fit
-$r_{\mathrm{CUE}}(N) = r_\infty + c_1/N + c_2/N^2$ of
-Table~\ref{tab:cue} (fit RMS $0.004$ Pearson, $0.002$ Spearman; the fit is
-used only as an interpolation device --- we attach no meaning to its
-extrapolation). The last two columns of Table~\ref{tab:zeta} give the
-result.
+$r_{\mathrm{CUE}}(N_{\mathrm{eff}}) = r_\zeta(L)$. We deliberately fit
+\emph{no} functional form to $r_{\mathrm{CUE}}(N)$: an earlier version of
+this analysis used a quadratic in $1/N$, which is rejected against the
+Monte-Carlo errors of Table~\ref{tab:cue} and, as an adversarial re-analysis
+showed, manufactured a spuriously constant Pearson shift. Instead we invert
+a shape-preserving monotone (PCHIP) interpolation of the precise integer-$N$
+values, and propagate both the zeta-side sampling errors and the CUE
+Monte-Carlo errors through the local slope. The last two columns of
+Table~\ref{tab:zeta} give the result.
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=\textwidth]{fig_neff_en.png}
+\includegraphics[width=0.8\textwidth]{fig_neff2_en.png}
 \caption{The effective-dimension shift $N_{\mathrm{eff}} - L$ across all
-twelve windows, for Pearson-based (left) and Spearman-based (right)
-matching. Each is constant in $L$; the two constants differ.}
+twelve windows. The Spearman-based shift is constant near $+2.0$; the
+Pearson-based shift rises with $L$. Dashed lines: weighted linear fits.}
 \label{fig:neff}
 \end{figure}
 
 \begin{observation}
 Over $5.6 \le L \le 12.45$ (heights $t$ from $\sim 1.2\times10^3$ to
-$1.6\times10^6$),
+$1.6\times10^6$), the rank-based shift is constant,
 \[
-N_{\mathrm{eff}}^{\mathrm{Pearson}} - L = +0.93,
-\qquad
-N_{\mathrm{eff}}^{\mathrm{Spearman}} - L = +1.86,
+N_{\mathrm{eff}}^{\mathrm{Spearman}} - L = +1.99
+\qquad (\text{constant-model } \chi^2/\mathrm{dof} = 0.34;\;
+\text{a linear trend improves } \chi^2 \text{ by only } 3.0),
 \]
-each constant in $L$ within errors (constant-model $\chi^2/\mathrm{dof} =
-0.09$ and $0.06$; adding a linear trend improves $\chi^2$ by only $0.5$
-and $0.1$ respectively). We estimate a systematic uncertainty of
-$\pm 0.15$ on each constant from the interpolation of
-Table~\ref{tab:cue}.
+while the Pearson-based shift is \emph{not}: it rises from $+0.75$ to
+$+1.30$, with weighted linear slope $+0.098 \pm 0.022$ per unit $L$
+($4.5\sigma$; constant-model $\chi^2/\mathrm{dof} = 1.89$).
 \end{observation}
 
 \begin{observation}
 No single effective dimension accounts for both statistics: the Pearson
 and Spearman projections of the joint law $(\tilde\delta, \tilde M)$
-require shifts differing by $\approx 0.9$. Consequently the joint
-gap--maximum law of $\zeta$ at finite height is not that of \emph{any}
-finite-dimensional CUE.
+require shifts differing by $0.93 \pm 0.10$, stably across all windows.
+Consequently the joint gap--maximum law of $\zeta$ at finite height is not
+that of \emph{any} finite-dimensional CUE.
 \end{observation}
 
-Three remarks. First, the constancy of each shift over three orders of
-magnitude in $t$ makes an accidental origin unlikely; the natural suspects
-are the prime-oscillation terms of the explicit formula, which modulate
-$|Z|$ on scales longer than one gap and hence add gap-independent amplitude
-variance --- a decorrelating mechanism that pure CUE lacks. Second, the
-observable-dependence of $N_{\mathrm{eff}}$ is consistent with the picture
-of \cite{BBLM06}, where the spacing-shape observable selects the very
-different effective dimension $N_{\mathrm{eff}} = L/\sqrt{12\Lambda}$,
-$\Lambda = 1.57314\ldots$; each statistic probes the arithmetic corrections
-through its own projection. Third, we deliberately refrain from proposing
-closed forms for the constants $0.93$ and $1.86$: in an earlier phase of
-this project two closed-form candidates for a related slope observable
-survived to $T = 6\times10^3$ and $T = 10^4$ respectively and were then
-cleanly refuted at larger heights; the present note reports only
-quantities that remained stable under a $20$-fold extension in $T$.
+Three remarks. First, the pattern --- a constant rank-based shift and a
+drifting amplitude-sensitive one --- points at the prime-oscillation terms
+of the explicit formula: they modulate the \emph{amplitudes} on scales
+longer than one gap, so a rank statistic of the ordering is largely immune
+while the Pearson statistic absorbs their $L$-dependent transmitted
+variance. The companion note \cite{companion2} measures exactly this
+mechanism and shows the two statistics coincide once the measured prime
+waves are stripped. Second, the observable-dependence of
+$N_{\mathrm{eff}}$ is consistent with the picture of \cite{BBLM06}, where
+the spacing-shape observable selects the very different effective
+dimension $N_{\mathrm{eff}} = L/\sqrt{12\Lambda}$,
+$\Lambda = 1.57314\ldots$; each statistic probes the arithmetic
+corrections through its own projection. Third, we deliberately refrain
+from proposing closed forms for the constants $2.0$ and $0.93$: in an
+earlier phase of this project two closed-form candidates for a related
+slope observable survived to $T = 6\times10^3$ and $T = 10^4$ respectively
+and were then cleanly refuted at larger heights; indeed the ``constant
+Pearson shift'' reported by an earlier draft of this very note fell the
+same way, to an adversarial re-analysis of the interpolation.
 
 \section{Open problems}
 
@@ -280,18 +289,19 @@ quantities that remained stable under a $20$-fold extension in $T$.
 equivalently the regression slope behind $r$ --- from the methods of
 \cite{CG85, HLPC24}; the machinery (the auxiliary function $Z_1$) sums over
 extrema and may admit a gap-weighted variant.
-(2) Derive $c_{\mathrm{Pearson}}$ and $c_{\mathrm{Spearman}}$, or the
-deficit $r_{\mathrm{CUE}} - r_\zeta = 0.019$, from the explicit formula,
-in the spirit of \cite{BBLM06}.
+(2) Derive the constant rank shift $2.0$, the Pearson drift, and the split
+$0.93$ from the explicit formula, in the spirit of \cite{BBLM06}; the
+companion note \cite{companion2} supplies the measured prime-wave inputs.
 (3) Compute $r_{\mathrm{CUE}}(N)$ analytically; even the $N\to\infty$
 limit (the sine-process value) appears to be unknown.
-(4) Extend the measurement to Odlyzko-height windows ($t \sim 10^{12}$,
-$L \approx 26$) to test the constancy of the shifts over a much longer
-lever arm.
+(4) Recover the discriminating power of the $N_{\mathrm{eff}}$ test at
+larger heights (at the $10^{12}$-th zero, $t \approx 2.7\times10^{11}$,
+$10^4$ gaps leave an uncertainty of $\approx 0.8$ on $N_{\mathrm{eff}}$),
+which needs $\gtrsim 10^5$ consecutive zeros there.
 
 \section*{Reproducibility}
 
-All code (analysis scripts 27--42b), the datasets of gap--maximum pairs,
+All code (analysis scripts 27--60), the datasets of gap--maximum pairs,
 and a dated research log are available in the repository
 \url{https://github.com/azizran/deney} (directory \texttt{qm\_riemann/}).
 
@@ -311,6 +321,9 @@ arXiv:math/0602270.
 \bibitem{CG85} J.~B.~Conrey, A.~Ghosh, \emph{A mean value theorem for the
 Riemann zeta-function at its relative extrema on the critical line},
 J. London Math. Soc. (2) \textbf{32} (1985), 193--202.
+
+\bibitem{companion2} U.~Sezen, \emph{The prime-wave anatomy of the
+gap--amplitude law for Riemann zeros}, draft (2026), same repository.
 
 \bibitem{HLPC24} C.~Hughes, S.~Lugmayer, A.~Pearce-Crump, \emph{The second
 moment of the Riemann zeta function at its local extrema},
