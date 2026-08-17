@@ -271,6 +271,44 @@ kısa dalga (p=13) çoğunlukla sıfır konumlarına emiliyor (%25 kalıyor).
 → taşıyıcı p=2,3 (44) → iletim spektrumu w(τ) ölçüldü (45) → tek değişkenli
 yasa (45b). Bir sonraki teorik hedef: w(τ)'dan c_Pearson=0.93'ü TÜRETMEK.
 
+## HALKA KAPATMA 1. DENEME: NEGATİF + TEŞHİS (46, 17 Ağustos öğle)
+
+w'lerden r açığını türetme denemesi. İki 0-parametreli model (EKLEME: asal
+dalga CUE üstüne; İKAME: matris sessizleşir) simüle edildi. **İKİSİ DE ÇOK
+KÖTÜ:** öngörülen açık −0.13/−0.12, gerçek −0.018; ΔVar 4-6× fazla.
+
+Varyans bütçesi sürprizi: Var(log ã_ζ)=1.376 < Var(log m̃_CUE)=1.534 —
+ζ'nın log-varyansı asallar EKLENMEDEN önce bile CUE'dan küçük!
+
+Teşhis: bağımsız-fazlı gürültü modeli yanlış — asal dalgası boşlukları da
+AYNI fazla sürüyorsa ortak faz korelasyonu geri yukarı iter.
+
+## BOŞLUK KANALI ÖLÇÜMÜ (47) — AYNANIN ÖBÜR YARISI ★
+
+log g̃ ~ asal kosinüsleri regresyonu (Z hesabı gerekmez, anlık):
+
+| p | 2 | 3 | 5 | 7 | 11 | 13 |
+|---|---|---|---|---|---|---|
+| w(p) genlik kanalı | 0.764 | 0.647 | 0.501 | 0.410 | 0.295 | 0.255 |
+| \|v(p)\| boşluk kanalı | 0.126 | 0.201 | 0.292 | 0.351 | 0.425 | 0.451 |
+
+1. **v(p) TAM AYNA GÖRÜNTÜSÜ**: w düşerken v yükseliyor. Asal dalganın
+   enerjisi iki kanala BÖLÜNÜYOR: uzun dalga (küçük τ) genliğe geçiyor,
+   kısa dalga sıfır konumlarına (boşluklara) emiliyor.
+2. v de τ = log p / L'de çöküyor (çapraz kontrol: τ≈0.111'de iki pencere
+   0.2245 vs 0.226 veriyor).
+3. Fazlar ≈ 0 (iki kanal HİZALI: dalga pozitifken boşluk genişliyor VE
+   genlik yükseliyor) — 46'nın aradığı ortak-faz mekanizması bu.
+4. Kontroller: sahte frekans RMS ≤0.005, sinyaller 25-100× üstünde.
+
+Fiziksel resim netleşti: sıfır gazı asal dalgasını PAYLAŞTIRIYOR —
+konum kanalı (v, explicit formulanın sıfır tarafı) + genlik kanalı (w).
+Bölüşüm yasası tek değişkenli: τ = log p / L.
+
+Sıradaki (48): ortak-fazlı tam simülasyon (w_p, v_p, aynı φ) → r ve ΔVar
+profili öngörüsü → gerçek −0.018 ile son kıyas. Halka orada kapanır ya da
+dürüstçe açık kalır.
+
 **Dürüst kayıtlar (güncel):**
 - r∞ ekstrapolasyonları (Pearson 0.52, Spearman 0.77) N≤19 fitinden — güvenilmez,
   satılmamalı; sadece interpolasyon aracı
