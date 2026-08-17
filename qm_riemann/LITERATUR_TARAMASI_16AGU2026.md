@@ -237,6 +237,40 @@ L=12.45 penceresi:
 Açık: sönümleme ağırlığı w(p) fit edilirse "ζ'nın taşıdığı asal-içerik oranı"
 ölçülür — bu, GHK ayrışmasının ortak-yasa düzeyinde ilk sayısal kalibrasyonu olur.
 
+## w(p) KALİBRASYONU + ÖLÇEKLEME ÇÖKMESİ (45/45b, 17 Ağustos)
+
+Yöntem: CUE'suz, bölmesiz doğrudan regresyon — log ã ~ [1, g̃, g̃²] +
+Σ_p [a_p cos(t_pk log p) + b_p sin(t_pk log p)] + sahte-frekans kontrolleri.
+w_p = a_p/p^{-1/2}. (g̃ kontrolleri gap-aracılı kanalı ayırır; ölçülen w =
+sabit-boşlukta GENLİK kanalı iletimi.)
+
+**Ölçülen iletim spektrumu (6 pencere ağırlıklı ort.):**
+w(2)=0.764, w(3)=0.647, w(5)=0.501, w(7)=0.410, w(11)=0.295, w(13)=0.255
+(hepsi ±0.001-0.002; hata çubukları sinyalin %1'inden küçük)
+
+**Doğrulamalar temiz:**
+- sin bileşenleri RMS ≤0.003 (teori saf kosinüs der — tutuyor)
+- sahte frekanslar (ω=log2.5, log6) katsayı RMS ≤0.004 (sinyal 17-170× üstünde)
+
+**ANA BULGU — ölçekleme çökmesi (45b):** w(p,L) iki-değişkenli tablo tek
+değişkende birleşiyor: **τ = log p / L** (Berry 1988 form-faktör değişkeni!).
+36 nokta, lineer kılavuz w ≈ 0.94 − 2.97τ etrafında artık RMS 0.012.
+Fiziksel okuma: sıfır gazı asal dalgalarını PERDELİYOR; perdeleme etkinliği
+sadece τ'ya bağlı. Uzun dalga (p=2, τ küçük) çoğunlukla geçiyor (%76-78),
+kısa dalga (p=13) çoğunlukla sıfır konumlarına emiliyor (%25 kalıyor).
+
+**Dürüst kayıtlar:**
+- Lineer form kapalı-form iddiası DEĞİL (proje dersi!) — çökme kalitesi ölçüsü
+- w(τ→0) ≈ 0.94: 1 mi değil mi bilmiyoruz; eğrilik/yanlılık olabilir. Satma.
+- p=13'te periyot ~5 aralık — "aralıkta sabit dalga" varsayımı zayıflıyor,
+  büyük p ucunda hafif yanlılık payı var
+- Ham w'ler L ile yükseliyor (τ düşüyor) — L→∞'da tam iletime gidiş sorusu
+  Odlyzko yüksekliklerinde (τ_2 = 0.693/26 = 0.027) test edilebilir
+
+**Zincir tamamlandı:** N_eff = L + c (42b) → açık büyük-boşluk varyansında (43)
+→ taşıyıcı p=2,3 (44) → iletim spektrumu w(τ) ölçüldü (45) → tek değişkenli
+yasa (45b). Bir sonraki teorik hedef: w(τ)'dan c_Pearson=0.93'ü TÜRETMEK.
+
 **Dürüst kayıtlar (güncel):**
 - r∞ ekstrapolasyonları (Pearson 0.52, Spearman 0.77) N≤19 fitinden — güvenilmez,
   satılmamalı; sadece interpolasyon aracı
