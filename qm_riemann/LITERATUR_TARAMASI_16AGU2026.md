@@ -655,3 +655,15 @@ a persistent absorption of 2-12% survives, its exact value blocked by a
    e-posta adresi, Milinovich/Lehmer künye teyidi, +6.67σ aralık ifadesi.
 
 *— 16 Ağustos 2026, tarama: Claude (WebSearch + tam metin: CG85 PDF, arXiv 2411.05573/68)*
+
+## KALAN DENETİM İŞLERİ TAMAMLANDI (18 Ağustos) — 62-65
+
+| İş | Sonuç |
+|---|---|
+| K3 (62) | v-kanalı 36 pencerelerinde ölçüldü → menzil GERÇEK 18.1 mertebe (t=1148'den); BONUS: v doyumu keşfi (~0.55-0.60, τ≈0.4 civarı — τ* ile aynı bölge) |
+| S2 (63) | Kombinasyon çizgileri sistematik: çarpım (log pq) çizgileri ~0.005, 13/13 cos-negatif kilitli (P~2⁻¹³); fark çizgileri YOK → karesel-doğrultma çürüdü, ANALİTİK-yanıt ipucu (e^{i(θp+θq)}, eşleniksiz); V_res etkisi ~1e-4 (önemsiz). Not: denetçinin 11-13σ/0.04-0.05 ön-sondajı bizim sistematikle uyuşmadı (muhtemelen farklı konvansiyon); nota BİZİM ölçüm girdi. Not 2'ye bölüm + açık problem 7 |
+| K2 (64) | Plasebo tasarımı düzeltildi (tam kaçınma listesi ≤360); tabanlar: 9-frek 6e-4, 79-frek 5e-3 (r-kayması). Sonuç: L=12.45 tepe-sonrası düşüş (−0.0013) taban içinde → τ* kanıtı alçak pencerelerde (−0.013, tabanın katbekat üstü). 52/54 scriptleri + Not 2 güncellendi |
+| S3 (65) | Modern Gaussian null: L=9.86, 40k aralık, 40 surrogate → r_null=0.494±0.007 vs ζ 0.794 = **+43σ** (eski: +6.7σ). Grid-tabanlı ζ r'si optimizer-tabanlıyla 3 ondalıkta aynı (çapraz doğrulama). Not 1 abstract+metin güncellendi |
+
+Gönderim öncesi kalanlar: S11 novelty literatür turu; kullanıcının son okuması;
+arXiv hesap/endorsement mekaniği.
