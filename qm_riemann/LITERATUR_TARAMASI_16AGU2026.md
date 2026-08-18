@@ -1033,3 +1033,30 @@ Açık: (a) biçim sorusu için büyük pencerelerde τ∈[0.55,0.75] gerekiyor
 (çapraz-frekans etkileşim modeli); (c) Odlyzko bağımsız-motor teyidi
 (sinyal/gürültü ~6σ tahmini). Script: 79_B_egimi.py (+ para-grafiği
 79_B_egimi.png: iki düz çizgi, −0.34 ve −0.12).
+
+## 80: GÖRÜNTÜ ÇİZGİLERİ — 2θ SPEKTROSKOPİSİ İLK ÖLÇÜM (19 Ağustos)
+
+Fısıltı: yansıyan dalganın frekansı aynalanır (görüntü kaynak, kayan frekans
+L−log m) — düz kulak duyamaz, 2θ gözlüğü gerekir: cos(2θ(t)−t·log m).
+Bunlar AFE ayna-toplamı çapraz terimleri (74'ün chirp'leri) — ilk kez
+max/gap KANALLARINDA arandı (13 pencere, m=1..12 + tamsayı-olmayan plasebo).
+
+ÜÇ PERDE:
+1. İlk geçiş GÜR: tamsayı-m çizgileri χ²=2700'e dek (52σ), HEPSİ saf-cos
+   kilitli (sin≈0); plasebo tertemiz (⟨χ²⟩=1.44); v kanalı neredeyse sağır
+   (18 vs plasebo 8.6 — explicit formülde 2θ yok öngörüsüyle uyumlu).
+   u(m) deseni çarpıcı: 2-kuvvetleri (4,8) gür, 2×tek (2,6,10) SESSİZ.
+2. ÖRNEKLEM KİMLİĞİ UYARISI: gap-ortalarında θ(γ)≈πn → 2θ gözlüğü kısmen
+   S-giydirilmiş DİREKT çizgiye katlanır. Ve P11 tabanında asal-kuvvet YOKTU:
+   düz kolonlar eklenince m=4,8 sesinin çoğu 2²,2³ direkt çizgisi çıktı
+   (+0.148/+0.051 — sum-rule'daki |u|≈1 ile tutarlı yönde). DERS: taban
+   daima p^k içermeli; 79'un "giydirme" bilmecesine de şüpheli oldu.
+3. AYRIŞTIRMA SONRASI SAHİCİ 2θ-ÖZEL İÇERİK HAYATTA: m=4: +0.0092±0.0004
+   (20σ+), m=8: +0.0018±0.0004 (5σ), oranlar direkt çizginin %3.6-6.2'si —
+   KISMİ YANSIMA ADAYI r ~ %4-6. m=1 (saf 2θ/S çizgisi, ilk geçişte +0.041)
+   kimliği AÇIK: düz karşılığı DC'ye çöker, temiz test S-vekili ister.
+
+Açık: (a) m=1 S-çizgisinin temiz tasarımı; (b) kat-dibi bölgesinde
+direkt+görüntü karışımı (inst. frekans çakışması — 79'un çıplak −0.35'iyle
+bağ); (c) r(τ′) yasası için m-taraması p^k-tam tabanla; (d) v'nin zayıf
+2θ artığı (plasebo-üstü ~2×) ne? Script: 80_goruntu_cizgileri.py + png.
