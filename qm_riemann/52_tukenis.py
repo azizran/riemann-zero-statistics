@@ -78,8 +78,10 @@ for wkey in keys:
         rP_list.append(rP); rS_list.append(rS)
         vres_list.append(V_tot - va)
 
+        # K2 düzeltmesi: çekim aralığındaki TÜM asal kuvvetlerinden kaçın
+        avoid_all = np.log(np.array(prime_powers_upto(360)))
         pf = placebo_freqs(len(freqs), np.log(2) * 0.9, np.log(300) * 1.02,
-                           freqs, rng)
+                           avoid_all, rng)
         yap, _ = strip_freqs(y_a, tmid, pf)
         ygp, _ = strip_freqs(y_g, tmid, pf)
         arp = np.exp(yap); arp /= np.sqrt((arp**2).mean())

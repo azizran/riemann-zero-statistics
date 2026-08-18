@@ -168,11 +168,12 @@ for Q in [13, 50, 150, 300]:
     qs = prime_powers_upto(Q)
     rp_, rs_, va = strip_r(qs)
     # eş sayıda plasebo frekansı
-    used = np.log(np.array(qs))
+    # K2 düzeltmesi: çekim aralığındaki TÜM asal kuvvetlerinden kaçın
+    used = np.log(np.array(prime_powers_upto(360)))
     plc = []
     while len(plc) < len(qs):
         c = rng.uniform(np.log(2) * 0.9, np.log(320))
-        if np.abs(used - c).min() > 0.01 and all(abs(x - c) > 0.01 for x in plc):
+        if np.abs(used - c).min() > 0.015 and all(abs(x - c) > 0.015 for x in plc):
             plc.append(c)
     rpp, _, vap = strip_r(np.array(plc), is_freq=True)
     print(f"  {Q:>5} {np.log(Q)/L:>6.3f} {rp_:>8.4f} {rs_:>8.4f} {va:>10.4f} {rpp:>12.4f}")

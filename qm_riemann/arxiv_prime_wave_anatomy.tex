@@ -107,9 +107,13 @@ For a set $\mathcal{Q}$ of prime powers we regress
 with $t_n$ the midpoint of gap $n$. ``Stripping'' means subtracting the
 fitted wave part from both series and re-exponentiating. Placebo runs
 replace $\mathcal{Q}$ by an equal number of frequencies bounded away from
-all $\log p^k$; for the $\le 23$-frequency bases below the placebo changes the
-correlations by $\sim 10^{-4}$; for the larger exhaustion bases the floor
-grows to the $10^{-3}$ level and results are quoted against it.
+\emph{all} prime-power lines in the drawing range. The measured floors
+(worst case over windows and five draws): $|\Delta r| \le 6\times10^{-4}$
+and stripped variance $\le 4\times10^{-4}$ for the $9$-frequency basis,
+growing to $|\Delta r| \le 5\times10^{-3}$ and variance
+$\le 2\times10^{-3}$ for the largest ($79$-frequency) basis. All quoted
+effects exceed these floors by an order of magnitude or more, except where
+noted.
 
 \section{The sum rule}
 
@@ -184,9 +188,12 @@ prime-wave effect.
 
 \begin{observation}[Exhaustion curve]
 Extending the basis to all $p^k \le Q$ with $Q$ up to $300$ ($79$
-frequencies; placebo floor at the $10^{-3}$ level for these large bases,
-against which the effects below remain large), the stripped correlation
-$r^*(Q)$ rises to a maximum and then \emph{declines}. The maximum sits at
+frequencies; corrected placebo floor $|\Delta r| \le 5\times10^{-3}$ for
+this basis size), the stripped correlation
+$r^*(Q)$ rises to a maximum and then \emph{declines}. The post-peak
+decline is largest in the lowest windows ($-0.013$ at $L = 9.86$, several
+times the floor) and shrinks with $L$ ($-0.0013$ at $L = 12.45$, within
+the floor); the peak location is therefore anchored by the lower windows. The maximum sits at
 $\log Q_{\mathrm{peak}} / L \approx 0.40 \pm 0.03$ across windows (the
 $Q$ grid is coarse): below this threshold the waves act as amplitude
 noise (stripping tightens the pair), above it as common-mode signal
