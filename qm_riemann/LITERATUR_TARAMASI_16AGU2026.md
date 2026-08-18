@@ -716,3 +716,27 @@ aynı semptom (τ-bağımlı kuplaj).
 çıkarılır — sum-rule sapmasıyla aynı fonksiyon mu? (ii) numerik Hilbert
 dönüşümü (çıkarmalı) doğrudan U ölçümünden w'yi kestirmeyi dener;
 (iii) paralelde Sıçrama 3 (Spearman +2.0 türetimi) hızlı zafer olarak.
+
+## SIÇRAMA 1, 2. TUR (67 + hızlı testler): ADAY YASA BULUNDU ★★★
+
+Zincir: iki-akışkan modeli de RED (χ²/dof 10.8) → AMA Test B mücevheri:
+sum-rule ihlali g(τ) = w + 2.14v − 1 küçük-τ'da SIFIR (−0.003), sonra
+büyüyor; iki-akışkan artığıyla corr −0.85 (iki anomali = tek fonksiyon ✓).
+
+g'nin şekli: g ≈ 1.167·v² (corr 0.96, artık tabanda). Ve 1.167 ≈ β²/4 =
+1.145 → cebir katlanıyor: w + βv − 1 = (βv/2)² ⟺ **w = (1 − βv/2)²**
+
+**ADAY YASA (genlik korunumu):  √w + (β/2)·v = 1,  β/2 ≈ 1.07**
+- Serbest fit: √w = 0.9913 − 1.0313·v, artık RMS 0.0091 (per-asal taban!)
+- a≡1 sabitli: b = 1.0683 ≈ β/2 = 1.07 (faz muhasebesinden bağımsız türetilen β!)
+- corr(√w, v) = −0.9955 (44 eşleşmiş çift, 11 pencere × 4 asal)
+- Aynı parametre sayılı düz-lineer w(v) fitinden 1.6× iyi
+- Fiziksel okuma: ışın-bölücü ünitaritesi gibi — GENLİK-iletimi (√w) ile
+  konum-soğurması (v) lineer bölüşüyor; şiddet değil genlik korunuyor.
+
+**DİSİPLİN NOTU (Mayıs dersleri):** bu kapalı-form-komşusu bir iddia —
+ama numeroloji değil: 2-değişkenli fonksiyonel ilişki, 44 noktada taban
+RMS'de, katsayısı bağımsız yoldan (faz muhasebesi β'sı) türetilmiş.
+ÖLDÜRME TESTLERİ (3. tur): (1) p=11,13 için w ölç (yasada HİÇ kullanılmadı)
+→ out-of-sample; (2) Odlyzko penceresinde p=11,13 çiftleri; (3) düşman-göz.
+Testlerden geçerse Not 2'ye "conservation law" bölümü + belki Not 3.
