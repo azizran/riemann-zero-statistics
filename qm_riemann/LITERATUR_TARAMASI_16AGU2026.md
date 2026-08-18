@@ -1060,3 +1060,46 @@ Açık: (a) m=1 S-çizgisinin temiz tasarımı; (b) kat-dibi bölgesinde
 direkt+görüntü karışımı (inst. frekans çakışması — 79'un çıplak −0.35'iyle
 bağ); (c) r(τ′) yasası için m-taraması p^k-tam tabanla; (d) v'nin zayıf
 2θ artığı (plasebo-üstü ~2×) ne? Script: 80_goruntu_cizgileri.py + png.
+
+## HAREKAT PLANI (19 Ağustos gecesi yazıldı; 20 Ağustos için)
+
+BUGÜNÜN HASADI (dört commit): Not 3 denetim düzeltmeleri işlendi + 77/78
+(4d6ce8b); üç notun okuma rehberi + üç yeni fısıltı (çizim seansı);
+79: arka odanın iki evrensel okuması (b17d319); 80: görüntü çizgileri,
+sahici 2θ-özel içerik %4-6 (34f08fb).
+
+İKİ KOL + BİR KAPI:
+
+KOL 1 — YAYIN (üçleme arXiv'e):
+  1a. Kullanıcının son okuması (devam ediyor; rehber verildi).
+  1b. arXiv hesabı + math.NT endorsement DURUMU — DIŞ BEKLEME SÜRESİ VAR,
+      erkenden başlatılmalı (kullanıcı işi; metadata/abstract'ları ben
+      hazırlarım). Gönderim sırası önerisi: Not 1 → ID al → Not 2-3'e
+      çapraz-ID işle → aynı oturumda gönder.
+  1c. KAPI (ön-gönderim sigortası): TABAN TAMLIĞI DENETİMİ (aşağıda 2a).
+      Not 1 kanal-regresyonu içermiyor → muaf. Not 2-3 sayıları p^k-eksik
+      tabanla ölçüldü → denetim geçilmeden gönderilmez.
+
+KOL 2 — ARAŞTIRMA (79-80'in açtığı damar; Not 4 adayı):
+  2a. ÖNCE: 81 = taban tamlığı denetimi. 80'in dersi: P-tabanlarında asal
+      kuvvet yoktu (log4, log8 direkt +0.148/+0.051 taşıyor!). Standart
+      boru hattına p^k (4,8,9,16,25,27,32) kolonları ekle; üçlemenin manşet
+      sayıları (τ-yasaları, korunum yasası fiti, sum rule, soyulmuş r*,
+      B'nin 2×2'si) OYNUYOR MU? Oynamazsa → üçleme mühürlü, gönder.
+      Oynarsa → düzelt, yeniden derle, sonra gönder. AYRICA 79'un
+      "giydirme ×2.77" bilmecesinin 1 numaralı şüphelisi bu.
+  2b. Kat-dibi karışımı: fold civarında direkt(p^k-tam) + 2θ ortak taban —
+      çıplak −0.35 ayrışıyor mu (direkt kuvvetler + görüntü)? 79↔80 köprüsü.
+  2c. r(τ′) taraması: p^k-tam tabanla m-süpürmesi; yansıma yasası biçimi,
+      pencereler arası çökme.
+  2d. m=1 S-çizgisi temiz tasarım: 61'in RvM-pürüzsüz konum makinesiyle
+      S(t_mid) vekil kolonu kur; genlik-S çiftlenimini doğrudan ölç.
+
+BEKLEME LİSTESİ (sıra sonrası): geçişin bulanıklığı (termal 2. öngörü);
+tepe-konumu kanalı (kemerin biçimi); Odlyzko bağımsız-motor B teyidi
+(çapalı-θ mpmath tasarımı gerek); v'nin zayıf 2θ artığı; teori ödevleri
+(çadır sabiti/BCHB, β türetimi, çekirdek GUE?).
+
+YARIN SABAH BAŞLANGIÇ SIRASI: (1b'yi kullanıcı başlatır — bekleme süresi
+yüzünden ilk iş) → 2a (kapı; yarım gün) → sonuca göre ya gönderim
+mekaniği ya 2b. Gerekçe: 2a hem sigorta hem bilmece çözümü — çift verim.
