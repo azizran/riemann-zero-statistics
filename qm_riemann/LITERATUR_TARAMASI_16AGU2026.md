@@ -740,3 +740,23 @@ RMS'de, katsayısı bağımsız yoldan (faz muhasebesi β'sı) türetilmiş.
 ÖLDÜRME TESTLERİ (3. tur): (1) p=11,13 için w ölç (yasada HİÇ kullanılmadı)
 → out-of-sample; (2) Odlyzko penceresinde p=11,13 çiftleri; (3) düşman-göz.
 Testlerden geçerse Not 2'ye "conservation law" bölümü + belki Not 3.
+
+## ÖLDÜRME TESTİ 1 (68): YASA SAĞ ÇIKTI (18 Ağustos, gece)
+
+p=11,13 için w İLK KEZ ölçüldü (22 yeni çift; yasa türetiminde yok;
+τ=0.10-0.26 — eğitim menzilinin ötesi; √w 0.45-0.78 aralığı):
+
+- Out-of-sample RMS = 0.0148 (eğitim tabanı 0.0091) — yasa çizgisi izleniyor
+- 22 çiftin 16'sı ≤1.5σ; en büyük sapmalar p=13'ün büyük-L noktaları
+  (−0.037@3σ, −0.034@4σ) — bilinen sabit-τ per-asal yarılma deseniyle uyumlu
+- Hafif sistematik: ortalama −0.009 (ölçüm çizginin hafif altında) —
+  ya yasanın 3. mertebe düzeltmesi ya ikincil değişken
+
+**DURUM: √w + (β/2)·v = 1 genlik-korunumu adayı 66 çift, 11 pencere,
+6 asal, t=10⁵→2.7×10¹¹ boyunca ~%1.5 içinde tutuyor.** İlk-mertebe gölgesi
+eski sum rule (u≈1); √ formu onu tüm ölçülen mertebelere taşıyor.
+
+3. tur (yeni oturum): düşman-göz turu (dolaşıklık: w ve v aynı regresyon
+verisinden — ortak-mod hata var mı?); teorik soru: NEDEN genlik-lineer?
+(ünitarite şiddet-lineer verirdi; bu koherent genlik-bölüşümü) ve neden β/2?
+Karar: Not 2'ye bölüm mü, Not 3 mü?
