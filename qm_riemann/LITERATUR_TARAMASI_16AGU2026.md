@@ -779,3 +779,33 @@ S3 FORM YARIŞI (w-ölçeği artık RMS): √w-lineer 0.0217 ≈ (1−bv)^k 0.02
 **SIÇRAMA 1 DURUM: √w + (β/2)v = 1 üç ayrı düşman testinden geçti.**
 Kalan: teori (neden genlik-lineer? neden β/2?) + yayın kararı (Not 2
 bölümü / Not 3) — yeni oturum.
+
+## 70 + FAZ KONTROLÜ: PERDE KAPANIYOR — VE AYNA-FAZINDA YENİDEN AÇILIYOR ★★★
+(18 Ağustos, gündüz — "neden tam kapanmıyor?" sorusunun ölçülmüş cevabı)
+
+Genişletilmiş ölçüm: p ∈ {2..31} × 12 pencere → 132 üçlü, τ = 0.056-0.613.
+
+**BULGU 1 — w İŞARET DEĞİŞTİRİYOR:** w(τ) sıfırı τ₀ ≈ 0.395-0.40'ta kesiyor
+(+0.018@0.378 → −0.004@0.402) ve negatifleşip ≈ −0.17'de platoluyor
+(τ=0.5-0.61; 23 ufuk-bölgesi noktasının HEPSİ negatif — işaret deseni 2⁻²³).
+**τ₀ = τ*: tükeniş analizinin rol-değişim noktası, w'nin sıfır geçişiymiş.**
+
+**BULGU 2 — FAZLAR DÖNMÜYOR, ATLIYOR:** w fazı 0° → (kesişte) → ±180°;
+sin bileşenleri her yerde ≤%3. v fazı hep ~0° (±3°), |v| pürüzsüz
+(tepe ~0.60 tam kesişme civarı, sonra 0.43'e iniş). Sönümlü rezonans ±90°'den
+geçerdi — geçmiyor. **Her iki kanal da REEL: sistem KAYIPSIZ.**
+Kayıpsız (Hermitsel) sistemin reaktif yanıtı: iç özfrekans geçilirken
+işaret değişir, soğurma yok. Hilbert-Pólya kokusu: perde yutmuyor, YANSITIYOR.
+
+**BULGU 3 — RS-ufku hipotezi (P1) YANLIŞLANDI:** τ=1/2'de özel bir şey yok;
+kapanış 0.40'ta, ufuktan önce. (P2 doğru: v 1/2'yi pürüzsüz geçiyor.)
+
+**SORUNUN CEVABI:** Perde tam kapanıyor — τ* ≈ 0.40'ta — ve ayna-fazında
+yeniden açılıyor. √w + (β/2)v = 1 yasası kesiş-öncesi dalın denklemi;
+v'nin 0.935'e ulaşması hiç gerekmiyordu. τ* böylece yasaya bağlandı ✓.
+V_res bağlantısı hâlâ açık (negatif dalın varyans katkısı w² ile girer —
+sonraki hesap).
+
+Dürüstlük: negatif-w bölgesi alçak pencerelerden (n=1k-25k); işaret deseni
+ve 5-8σ genlikler sağlam ama per-asal yarılma payı hesaba katılmalı;
+τ₀'ın tam yeri ±0.02.
