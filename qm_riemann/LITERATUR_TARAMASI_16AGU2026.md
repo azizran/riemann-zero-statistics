@@ -809,3 +809,25 @@ sonraki hesap).
 Dürüstlük: negatif-w bölgesi alçak pencerelerden (n=1k-25k); işaret deseni
 ve 5-8σ genlikler sağlam ama per-asal yarılma payı hesaba katılmalı;
 τ₀'ın tam yeri ±0.02.
+
+## 71: V_res'İN KİMLİĞİ ÇÖZÜLDÜ — ÜÇ BİLEŞEN (18 Ağustos, öğle)
+
+(A) KUYRUK ASALLARI (p>300, ölçülmüş w(τ) ile hesap): V_res'in yalnız
+    ~%4.5'i (0.008/0.163, 0.011/0.244). "Soyulmamış kuyruk" açıklaması ÖLDÜ.
+(B) BOŞLUK-MODÜLASYONLU ASAL KANALI (g̃-etkileşimli soyma, plasebo-düzeltmeli):
+    NET 0.074→0.062 (L=9.86→12.45) — V_res'in %45→%25'i. 43'ün w(g̃)
+    bulgusunun varyans bütçesindeki karşılığı. r* bu soymayla 0.984'e çıkıyor.
+(C) ÇEKİRDEK (artakalan): 0.081 → 0.171, eğim ≈ 0.035/L —
+    **CUE'nun genlik-varyans hızı 0.036/N ile NEREDEYSE AYNI, genlik ~1/10.**
+    Ham V_res'in 0.031/L'si bileşenler ayrılınca 0.035/L'ye oturdu:
+    gazın öz-gürültüsü RMT hızında büyüyor, RMT genliğinin onda birinde.
+
+**BÜYÜK RESİM TAMAM (bugünkü soru kapandı):**
+  yasa (√w+βv/2=1, kesiş-öncesi dal) + τ* (w'nin sıfır geçişi; ayna-açılım;
+  kayıpsız) + V_res (= %5 kuyruk + %25-45 modüle asal + CUE-hızlı öz-çekirdek)
+  — üçü tek yanıt-teorisi resminde. NOT 3 İSKELETİ HAZIR:
+  "The response theory of the zero gas".
+
+Dürüstlük: kuyruk hesabı w-eğrisi modeline bağlı (±%50 oynasa pay ≤%7);
+çekirdek eğimi 6 noktadan; modüle-kanal payının L ile düşüşü ayrıca ilginç
+(mutlak sabit ~0.06-0.07 → payı düşüyor) — teorik iş.
