@@ -940,3 +940,15 @@ ailesi); fonksiyonel denklem yanıt-teorisine ÖLÇÜLEBİLİR biçimde bağland
 Not 3 omurgası 8 omur oldu: + iki-toplam girişimi + çadır şarkısı.
 Açık: kesin sabit (BCHB türetimi), tarak-bandı ayrıştırması, B'nin
 max-kanalındaki işaret/büyüklük eşlemesi.
+
+## NOT 3 YAZILDI: "A response theory for the Riemann zero gas" (19 Ağustos)
+
+`arxiv_response_theory.tex` — 8 omur tek çatıda: (1) genlik-korunumu yasası
+(3 kill-test metinde), (2) işaret geçişi + kayıpsızlık (fazlar atlar),
+(3) termal Bragg (kesiş 0.406 hesaplı; ikincil değişken = sıcaklık),
+(4) duran-dalga s=4.11, (5) (1−2τ) türetimi (Derivation ortamında),
+(6) ayna kanalı = çadır (2 pencere, BCHB-ailesi), (7) V_res ayrışımı
+(CUE-hızlı çekirdek), (8) sentez + 6 açık problem. 3 İngilizce figür (76).
+Derlendi. GÖZDEN GEÇİRİLECEK: BCHB 1985 künyesi (J. reine angew. Math. 357,
+161-181) hafızadan — gönderim öncesi teyit şart; c₀ ~1.1 vs 2γ−1 dürüstçe
+metinde. Üçleme tamam: Not 1 (gözlem) + Not 2 (anatomi) + Not 3 (teori).
