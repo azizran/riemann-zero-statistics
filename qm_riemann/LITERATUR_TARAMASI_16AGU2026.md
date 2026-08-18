@@ -915,3 +915,28 @@ SONRAKİ (yeni oturum): (a) ayna-kanalı tahmini: Σ_{nm≈N²/p}(nm)^{-1/2}
 bölen-toplamları + durağan-faz ağırlığı → R_öte ≈ 1 hesaplanabilir mi?
 (b) B'nin işaret/büyüklüğünü ayna-kanalından türet; (c) fold-altı fazlalık =
 direkt + ayna toplamı ayrışımı; (d) Not 3'e "the two-sum interference" bölümü.
+
+## 75: AYNANIN SESİ HESAPLANDI — ÇADIR ŞARKISI ★★★ (18 Ağustos, gece)
+
+Tahmin: noktasal |Z|² modülasyonu kaydırılmış-ikinci-moment (BCHB-tipi)
+ana terimini izler: R = 2(L−log p + c₀)/(L+c₀) ≈ 2(1−τ) — katta KESİLMEZ,
+tam ufukta (p≈t/2π) ölür. Ayrışım: ayna = ölçüm − direkt = ÇADIR
+(2τ ↑ katta 1.0 ↓ 2(1−τ)).
+
+SONUÇ (2 pencere, 44 nokta, parametresiz):
+- Şekil DOĞRULANDI: iki pencerede de ölçüm 2(1−τ)-ailesini kat boyunca
+  izliyor (p=2'de %0.4-0.7 uyum; fold-ötesi 0.92/0.77 vs tahmin ~0.77);
+  çadır deseni ayrışımda net görünüyor.
+- Sistematik: ölçüm tahminden ~%8-15 yüksek; c₀ serbest fit 1.12 (tahmin
+  2γ−1=0.154) — kesin sabitler GERÇEK BCHB ana terimlerini ister (χ-tarafı
+  ikinci ana terim dahil). Teorik ödev: sabitin türetimi.
+- UYARI: τ ≳ 0.7'de sıfır-tarağı bandı (ω ~ 2π/gap dağılımı) regresyonu
+  kirletiyor — p=21169@L=12.45 (τ=0.80) ölçümü 5.2 (tahmin 0.42): tarak
+  kontaminasyonu, formül testi τ ≲ 0.7 ile sınırlı.
+
+**KAT KAPISININ TOPLAM HASADI (74-75):** (1−2τ) türetildi (çift-sayma);
+ayna kanalı keşfedildi ve şarkısı hesaplandı (çadır, kaydırılmış-moment
+ailesi); fonksiyonel denklem yanıt-teorisine ÖLÇÜLEBİLİR biçimde bağlandı.
+Not 3 omurgası 8 omur oldu: + iki-toplam girişimi + çadır şarkısı.
+Açık: kesin sabit (BCHB türetimi), tarak-bandı ayrıştırması, B'nin
+max-kanalındaki işaret/büyüklük eşlemesi.
