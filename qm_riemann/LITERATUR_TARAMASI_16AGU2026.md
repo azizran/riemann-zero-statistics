@@ -760,3 +760,22 @@ eski sum rule (u≈1); √ formu onu tüm ölçülen mertebelere taşıyor.
 verisinden — ortak-mod hata var mı?); teorik soru: NEDEN genlik-lineer?
 (ünitarite şiddet-lineer verirdi; bu koherent genlik-bölüşümü) ve neden β/2?
 Karar: Not 2'ye bölüm mü, Not 3 mü?
+
+## YASANIN DÜŞMAN-GÖZ TURU (69) — ÜÇ SALDIRI, ÜÇ SAĞ ÇIKIŞ (18 Ağustos, gece)
+
+S1 ORTAK-MOD (yarı-bölme, gürültüler bağımsız):
+  aynı-yarı RMS 0.0175 (a=0.999, b=1.053) | ÇAPRAZ RMS 0.0193 (a=0.998, b=1.051)
+  → neredeyse özdeş; ortak-mod hata açıklaması ÖLDÜ. Ve kesişim a = 1'e
+  üç ondalıkta oturuyor — iki bağımsız yarıda da.
+
+S2 ÜS ÖLÇÜMÜ: w = (1−bv)^k serbest fit → k = 1.938 ± 0.184 (2'den 0.3σ).
+  Genlik-korunumu üssü VARSAYILMADI, ÖLÇÜLDÜ.
+
+S3 FORM YARIŞI (w-ölçeği artık RMS): √w-lineer 0.0217 ≈ (1−bv)^k 0.0217
+  < w-lineer 0.0230 < üstel 0.0372 << şiddet-ünitaritesi 0.1656.
+  (w-lineer'in yakınlığı yanıltmasın: g-analizi v² teriminin gerçekliğini
+  ayrıca kanıtlıyor — lineer form onu üretemez.)
+
+**SIÇRAMA 1 DURUM: √w + (β/2)v = 1 üç ayrı düşman testinden geçti.**
+Kalan: teori (neden genlik-lineer? neden β/2?) + yayın kararı (Not 2
+bölümü / Not 3) — yeni oturum.
