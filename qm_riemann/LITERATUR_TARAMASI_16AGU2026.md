@@ -887,3 +887,31 @@ s = duran-dalga çarpanı (ölçüldü, 4.11). Not 3 omurgası 6 omur:
 yasa + kayıpsız ayna + sıcak-kristal + duran-dalga + V_res ayrışımı +
 sıcaklık-değişkeni. Açık: yapı çarpanı (1−2τ) kaba (RMS 0.029 > taban),
 kısmi-yansıma karışımı, s'nin 4'ten 4.11'e mikro-sapması.
+
+## 74: KAT KAPISI — TÜRETİM + BÜYÜK SÜRPRİZ: AYNA-TOPLAMI KONUŞUYOR ★★★
+(18 Ağustos, akşam)
+
+**TÜRETİM (3 satır, kalıcı):** |Z|²'de cos(t log p) frekansını (m, mp)
+çiftleri üretir (mp ≤ N) → bağıl genlik 2p^{-1/2}·S₁(N/p)/S₁(N) →
+sürekli limitte 2(1−2τ), p>N'de TAM SIFIR. (1−2τ) yapı çarpanının kimliği:
+katlanmış toplamın çift-sayma aritmetiği. ✓
+
+**ÖLÇÜM (noktasal |Z|², 1.27M grid, L=9.86, parametresiz kıyas):**
+1. Fold altında ölçülen R tahminden SİSTEMATİK YÜKSEK (1.32 vs 0.67 @τ=0.38)
+2. **FOLD ÖTESİNDE R ≈ 1.0 PLATOSU** (p=139→499, τ=0.50→0.63; tahmin 0!)
+   — cos-kilitli (sin ≤ 0.04), 20σ+ sıfırdan uzak.
+
+**TEŞHİS:** "hızlı" diye ihmal ettiğim 2θ-chirp terimleri (cos(2θ − t log nm))
+tam nm ≈ N²/p'de log-p frekansına KİLİTLENİR (durağan-faz geçişi) — bunlar
+AFE'nin AYNA-TOPLAMI ile ana toplamın çapraz terimleri. Fold ötesinde direkt
+çift yok → görülen HER ŞEY ayna-kanalı: **χ-girişimi ilk kez noktasal olarak
+ölçüldü, büyüklüğü ~1·p^{-1/2}, düz plato.** Max-kanalındaki B = −0.16
+platosunun kimlik adayı da bu (işaret/büyüklük eşlemesi açık iş).
+
+**Resim derinleşti:** "ayna = fonksiyonel denklem" çürümedi — tersine:
+katın ötesinde görünen her şey aynadaki görüntünün kendisi çıktı.
+
+SONRAKİ (yeni oturum): (a) ayna-kanalı tahmini: Σ_{nm≈N²/p}(nm)^{-1/2}
+bölen-toplamları + durağan-faz ağırlığı → R_öte ≈ 1 hesaplanabilir mi?
+(b) B'nin işaret/büyüklüğünü ayna-kanalından türet; (c) fold-altı fazlalık =
+direkt + ayna toplamı ayrışımı; (d) Not 3'e "the two-sum interference" bölümü.
