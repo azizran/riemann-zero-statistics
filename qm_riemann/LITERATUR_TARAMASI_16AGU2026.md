@@ -995,3 +995,41 @@ Not 3 yeniden derlendi (240 KB). Üçleme REVİZE HALİYLE TAMAM.
 Kalan: kullanıcı okuması; arXiv mekaniği (hesap, endorsement, çapraz-ID);
 teori ödevleri (çadır sabiti/BCHB ana terimleri, B eşlemesi, β türetimi,
 r(τ) kısmi yansıma, çekirdek dağılımı GUE?, L-fonksiyon evrenselliği).
+
+## 79: B'NİN EĞİMİ — ÇADIR YAMACI SORUSU ARKA ODANIN İKİ OKUMASINA VARDI (19 Ağustos)
+
+Fısıltı (çizim seansı): B = −0.16 ayna-sızıntısıysa düz olmamalı, çadırın
+yamacını (−k·2(1−τ)) izlemeli. Gece dört perdede ilerledi:
+
+1. SIMPSON TUZAĞI: havuzlanmış kat-ötesi eğim negatif (−0.24±0.09) çıktı ama
+   yüksek-τ noktaları yalnız küçük-L pencerelerinden geliyor; L-kontrollü eğim
+   +0.18±0.11 (pencere-içi +0.22, +0.18) — çadır yönünde ama düzle de uyumlu.
+   BİÇİM ÇÖZÜLMEDİ. Termal-çadır (DW×tent) fiti anti-sönüm istiyor (s<0) →
+   basit termal-çadır ÖLÜ.
+
+2. PLASEBO DERSİ: p+0.5 sahteleri asal çizgisine 3-16 çözünürlük-birimi
+   mesafede — SIZINTI (+0.07 yalancı taban, işaret bile ters). Geometrik-orta
+   sahtelerle taban ±0.02-0.05; sinyalin ~%5-15'i. Sahte tasarımında kural:
+   en yakın gerçek çizgiye ≥20 çözünürlük-birimi.
+
+3. "ERİYEN PLATO" ARTEFAKTI: pencere-ortalaması B̂(L) monoton görünüyordu
+   (−0.224→−0.143, dB/dL=+0.039, 6σ!) ve L≈11.7'de sıfır öngörüyordu —
+   büyük-pencere testi bunu ÖLDÜRDÜ (B̂≈−0.35, L-bağımsız). Sebep: pencere
+   ortalamalarının τ-bileşimi L ile kayıyordu. AYNI bandda ([0.505,0.55])
+   ölçünce süreksizlik yok.
+
+4. ANA BULGU — ARKA ODANIN İKİ OKUMASI, İKİSİ DE EVRENSEL: aynı τ-bandında
+   ÇIPLAK okuma (yalnız band asalları tabanda) B = −0.344; GİYDİRİLMİŞ okuma
+   (küçük asallar kovaryat) B = −0.124. Oran 2.77. İKİSİ DE L=5.6→16.6
+   boyunca SABİT (36+41+55 veri setleri, 12+1 pencere; 55@1e8 −0.32±0.11
+   aynı-motor kontrol). Not 3'ün −0.16'sı kendi konvansiyonunda (P11 karışık
+   band) tutarlı, arada. Giydirme mekanizması AÇIK — küçük-asal kovaryatları
+   kat-dibi yanıtının ~%64'ünü emiyor; 71'in gap-modüle etkileşim kanalıyla
+   akrabalık ilk şüpheli. Not 3 metnine dokunmadı (taban-bağımlılığı uyarısı
+   zaten girmişti; şimdi UÇLARI SAYISALLANDI).
+
+Açık: (a) biçim sorusu için büyük pencerelerde τ∈[0.55,0.75] gerekiyor
+(L=16.6'da p≈9e3..2.6e5 — ağır ama olanaklı); (b) giydirme mekanizması
+(çapraz-frekans etkileşim modeli); (c) Odlyzko bağımsız-motor teyidi
+(sinyal/gürültü ~6σ tahmini). Script: 79_B_egimi.py (+ para-grafiği
+79_B_egimi.png: iki düz çizgi, −0.34 ve −0.12).
