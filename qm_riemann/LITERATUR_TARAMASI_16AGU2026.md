@@ -685,3 +685,34 @@ arXiv hesap/endorsement mekaniği.
 
 İki not da derlendi. Gönderim öncesi kalan: kullanıcının son okuması +
 arXiv mekaniği.
+
+## SIÇRAMA 1: KRAMERS-KRONIG ARAYIŞI — 1. TUR (66/66b, 18 Ağustos)
+
+**Soru:** w(τ) ve v(τ) tek kompleks nedensel yanıtın iki yüzü mü?
+
+**Yol açan iki yapısal bulgu (kalıcı değerli):**
+1. Parite uyumu: w(0) sonlu (çift), v(0)=0 lineer başlangıç (tek) — nedensel
+   χ'nin Re/Im parite yapısıyla uyumlu.
+2. FAZ MUHASEBESİ: boşluk = sayımın türevi → türev cos'u sin'e çevirir →
+   w EŞ-FAZLI, yer-değiştirme U := v/τ ÇEYREK-FAZLI. Doğal çift (w, U).
+   Ve U(0)/w(0) = 2.01/0.94 ≈ 2.14 ≈ β (bağımsız ölçülen log-log eğim!) —
+   sum rule'un β'sı faz muhasebesinden kendiliğinden düşüyor.
+
+**Testler ve sonuçlar:**
+- 66 (Lorentz osilatörleri, w-fit → v öngörüsü): RED. Fit γ'yı sınıra itti
+  (aşırı-sönümlü rejim istiyor), öngörülen v-eğimi 4.5 (ölçülen 2.01).
+- 66b (Debye sürekliliği, pozitiflik=nedensellik, ortak ρ): RED.
+  Ama ASİMETRİK red: her kanal AYRI AYRI pozitif-Debye ile güzel fit
+  oluyor (w kendi Re-formuyla RMS 0.016 ≈ per-asal taban; U kendi
+  Im-formuyla χ²/dof ≈ 1.1) — fakat İKİ KANAL FARKLI SPEKTRUM İSTİYOR
+  (ortak ρ: Δχ²=1034, μ sınıra kaçıyor).
+
+**1. tur hükmü:** perde TEK skaler dielektrik değil. Eğer KK burada
+yaşıyorsa ya TENSÖREL (çift-kırılımlı malzeme gibi: iki kanal iki ayrı
+duyarlılık) ya da eşlenik çift başka. w+βv≈1'in p ile büyüyen sapması da
+aynı semptom (τ-bağımlı kuplaj).
+
+**2. tur adayları:** (i) μ(τ) serbest bırakılıp gereken kuplajın şekli
+çıkarılır — sum-rule sapmasıyla aynı fonksiyon mu? (ii) numerik Hilbert
+dönüşümü (çıkarmalı) doğrudan U ölçümünden w'yi kestirmeyi dener;
+(iii) paralelde Sıçrama 3 (Spearman +2.0 türetimi) hızlı zafer olarak.
