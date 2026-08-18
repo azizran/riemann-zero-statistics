@@ -667,3 +667,21 @@ a persistent absorption of 2-12% survives, its exact value blocked by a
 
 Gönderim öncesi kalanlar: S11 novelty literatür turu; kullanıcının son okuması;
 arXiv hesap/endorsement mekaniği.
+
+## S11 NOVELTY TURU (18 Ağustos) — TAMAMLANDI
+
+1. **Lehmer literatürü**: nitel kalıyor (Odlyzko'nun min|Z| sayımları var,
+   Pearson r yok) → Not 1 iddiası sağlam.
+2. **YENİ ATIF — FGK 2018** (Fyodorov–Gnutzmann–Keating, J. Phys. A 51,
+   464001): CUE'da GLOBAL maksimum ↔ büyük boşluk korelasyonunun ilk nicel
+   kanıtı. Bizim aralık-başına tablo değil ama en yakın akraba → Not 1'e
+   atıf + "closest published relative" nitelemesi eklendi.
+3. **YENİ ATIF — Ford–Zaharescu 2005** (J. reine angew. Math. 579) +
+   FSZ 2009 (Math. Ann. 343): {γ·log p/2π} kesirli kısımlarının asal-bağlı
+   non-uniform limit dağılımı — v-KANALININ klasik atası! Bizim katkı
+   "aralık-başına iletim katsayısı + τ-yasası" olarak konumlandı, Not 2'ye
+   atıflar eklendi.
+4. w/v kanal-ayrışması + τ-iletim ölçümü türünde başka iş bulunamadı.
+
+İki not da derlendi. Gönderim öncesi kalan: kullanıcının son okuması +
+arXiv mekaniği.
