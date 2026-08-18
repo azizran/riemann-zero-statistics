@@ -862,3 +862,28 @@ fit 4.2 istiyor (s·c_ort ≈ 3.9 ile tutarlı).
 teli pencereden pencereye farklı gösteren şey sıcaklık farkıymış."
 Not 3 iskeleti artık: yasa + kayıpsız Bragg aynası + sıcak-kristal kayması +
 V_res ayrışımı + sıcaklık-ikincil-değişken.
+
+## 73: s'NİN TEORİSİ ÇÖZÜLDÜ — DURAN DALGA SÖNÜMÜ ★★★
+
+Hipotez: Bragg yansımasında kristal içi alan 2k periyotlu DURAN DALGA →
+sönüm |⟨e^{i2ku}⟩| (Gauss'ta s=4). AMPİRİK test (Gauss varsayımı yok,
+karakteristik fonksiyon doğrudan u-serisinden):
+
+**s_eff = ln φ₂ / ln φ₁ = 4.11 ± 0.04** — 72'nin fitlerinin istediği 3.3-4.2
+aralığının tam içi. Gizemli çarpan = duran-dalga (2k) faktörü; Gauss 4'ü,
+alt-Gauss u-dağılımı (kurtosis −0.3…−0.5 — seviye itmesinin kuyruk bastırması!)
+4.11'e giydiriyor.
+
+MODEL YARIŞI (yalnız A serbest, B=plato): sönümsüz 0.074 → naif DW 0.052 →
+**duran dalga 0.029**. Kesişler: naif 0.408 / duran 0.368 (ölçülen 0.395-0.40
+arada) → kısmi-yansıma karışımı hipotezi (Bragg altında yansıma kesirli;
+Φ = (1−r)φ₁ + rφ₂) doğal sonraki adım.
+
+Ek ölçümler: ρ₁(komşu-u) L ile 0.40→0.63 yükseliyor; u alt-Gauss.
+
+**ÇOCUK-RESMİ SEANSININ TOPLAM HASADI (70-73):** ayna = Bragg; kayma =
+sıcaklık (hesaplandı, 0.406); ikincil değişken = pencere sıcaklığı;
+s = duran-dalga çarpanı (ölçüldü, 4.11). Not 3 omurgası 6 omur:
+yasa + kayıpsız ayna + sıcak-kristal + duran-dalga + V_res ayrışımı +
+sıcaklık-değişkeni. Açık: yapı çarpanı (1−2τ) kaba (RMS 0.029 > taban),
+kısmi-yansıma karışımı, s'nin 4'ten 4.11'e mikro-sapması.
