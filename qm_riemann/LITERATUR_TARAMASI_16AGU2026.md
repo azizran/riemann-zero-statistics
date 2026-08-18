@@ -1103,3 +1103,32 @@ tepe-konumu kanalı (kemerin biçimi); Odlyzko bağımsız-motor B teyidi
 YARIN SABAH BAŞLANGIÇ SIRASI: (1b'yi kullanıcı başlatır — bekleme süresi
 yüzünden ilk iş) → 2a (kapı; yarım gün) → sonuca göre ya gönderim
 mekaniği ya 2b. Gerekçe: 2a hem sigorta hem bilmece çözümü — çift verim.
+
+## GECE UÇUŞU HARİTASI — DURUM DEĞERLENDİRMESİ (19 Ağustos, gece sonu)
+
+Ülkenin haritası çizildi (sohbette; iki resim: "son gece uçuşu" + "Riemann
+ülkesi haritası"). Dürüst kartografya:
+
+AYDINLIK (fenerli) BÖLGE — ölçüldü, savunuldu, denetimden geçti:
+Kemerler Vadisi (Not 1: r, +43σ null, N_eff kayması/yarılması), İki Kanal
+Ovası (Not 2: w/v, τ-yasaları, sum rule; v 18 mertebe), Korunum Tepesi
+(√w+βv/2=1, 3 kill-test; ~3σ eğim gerilimi bilinen çatlağı), Sıcak Ayna
+(kesiş [0.37,0.41] kıskacı), Çadır Sahili (noktasal ayna kanalı).
+
+SİS KUŞAĞI — ölçüldü ama anlaşılmadı:
+Arka Oda (iki evrensel kapı −0.34/−0.12; giydirme mekanizması ?),
+Görüntü Kıyısı (%5 sahici yankı; yasası ?), S-feneri (m=1, kimliği ?),
+w₀ ([0.88,0.98] açık), ve KAT DİBİ SİS BOĞAZI — iki gecenin bütün
+iplerinin işaret ettiği yer; yarınki seferin rotası oraya.
+
+KARANLIK KUZEY: Çekirdek Denizi (V_res özü: GUE mi?), Neden Dağları
+(türetimler: β, çadır sabiti, B kimliği, kısmi yansıma teorisi).
+En uzakta RH Zirvesi: patikamız oraya ÇIKMIYOR ve bunu iddia etmiyoruz;
+ama ölçtüğümüz her şey (reel yanıtlar, dönmeden atlayan fazlar, kayıpsızlık)
+Hermitsel bir üreteçle TUTARLI — bulut arasından silüet.
+
+MESAFELER: yayına günler; fenomenoloji→teori orta mesafe (aylar, patika
+belli); RH'ye çok uzak ve rota o değil. HAVA DURUMU: iyi ve güzel —
+yasalar tek değişkende çöküyor, plasebolar temiz dönüyor, ve bugüne dek
+her tuzak doğanın değil BİZİM artefaktımız çıktı; düzeltilince resim hep
+netleşti. Epsikl bataklığı böyle davranmaz; gerçek ülke böyle davranır.
