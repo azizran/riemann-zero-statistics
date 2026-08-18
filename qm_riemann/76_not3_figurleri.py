@@ -107,7 +107,7 @@ from scipy.optimize import least_squares
 fT = least_squares(lambda p: ((p[0]*(1-2*tau)*np.exp(-c_jit*tau**2)*(tau<0.5) + B_PL) - w) / sw, [1.05])
 fig, ax = plt.subplots(figsize=(8.6, 5.4))
 ax.errorbar(tau, w, yerr=sw, fmt="o", ms=3, c="firebrick", alpha=0.55,
-            label=r"$w(\tau)$ (168 measurements)")
+            label=r"$w(\tau)$ (132 measurements)")
 tt = np.linspace(0.001, 0.62, 500)
 ax.plot(tt, fT.x[0]*(1-2*tt)*np.exp(-c_jit*tt**2)*(tt < 0.5) + B_PL, "k-", lw=1.4,
         label=rf"thermal Bragg: $A(1-2\tau)e^{{-c\tau^2}} + B$ ($A$={fT.x[0]:.2f})")

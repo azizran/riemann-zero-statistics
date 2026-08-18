@@ -952,3 +952,46 @@ max-kanalındaki işaret/büyüklük eşlemesi.
 Derlendi. GÖZDEN GEÇİRİLECEK: BCHB 1985 künyesi (J. reine angew. Math. 357,
 161-181) hafızadan — gönderim öncesi teyit şart; c₀ ~1.1 vs 2γ−1 dürüstçe
 metinde. Üçleme tamam: Not 1 (gözlem) + Not 2 (anatomi) + Not 3 (teori).
+
+## NOT 3 DÜŞMAN-GÖZ DENETİMİ + DÜZELTMELER (19 Ağustos)
+
+Bağımsız ajan denetimi (Not 1-2 protokolüyle): ~50 sayı yeniden üretildi,
+BCHB 1985 künyesi web'den TEYİT (J. reine angew. Math. 357 (1985), 161-181).
+Karar: "omurga sağlam, engeller metin düzeyinde — revizyonlarla gönderilebilir."
+
+3 KIRMIZI (hepsi işlendi):
+- K1: "31 asal / 168 nokta" → gerçekte 11 asal / 132 nokta (metin + figür
+  etiketi düzeltildi, fig_crossing_en yeniden üretildi).
+- K2: "kesiş HESAPLANDI (0.406)" abartıydı — naif-c modeli fit olarak
+  reddediliyor (serbest c=4.17, jitter'dan 28.9σ); duran-dalga en iyi fit ama
+  0.368'de kesiyor; ara ölçekler 0.39. Yeni çerçeve: TERMAL AİLE KESİŞİ
+  [0.37, 0.41]'DE KISKAÇLIYOR (abstract + Observation + giriş yeniden yazıldı).
+- K3: "β faz muhasebesinden TÜRETİLDİ" savunulamaz — w(0)∈[0.88,0.98]
+  çözülmemiş (Not 2), serbest eğim 1.029±0.012 ile β/2=1.07 arası ~3σ gerilim.
+  Yeni dil: "motive edilmiş, türetilmemiş"; Not 2'nin β≈2.3'üyle köprü kuruldu.
+
+8 SARI (hepsi işlendi): B taban-bağımlılığı + "sabit boşlukta" niteleyicisi;
+serbest-üs dürüstlüğü (aşağıda); s_eff=4.11 "Gauss'luk ölçüyor" itirafı +
+1.5k ara-ölçek eşdeğerliği; çadır "%6-20 sistematik altta" + tarak sınırı
+τ≲0.62 + noktasal-regresyon plasebo eksikliği bayrağı; out-of-sample −0.009
+tek-yanlı ofset; "one sixth/one tenth" köprüsü; abstract öncül düzeltmesi
+(ayna kanalı = çadır); "lossless" → "consistent with lossless";
+"independently" → "by a different method"; Berry88 + GHK07 metinde atıflandı;
+Reproducibility 62-78.
+
+YENİ SCRIPTLER (denetçinin S5'i — manşet sayıların numaralı scripti yoktu):
+- 77_yasa_fiti.py: 44-çift yasa fiti. Serbest: √w=0.990−1.025v RMS 0.0096;
+  a≡1: b=1.069; pencere-blok bootstrap eğim 1.029±0.012; form yarışı ×9.2.
+  ÖNEMLİ TEŞHİS: ortak (b,k) fiti DEJENERE VADİDE (b=0.75,k=3.0 da aynı RMS;
+  bootstrap medyan 2.9, %16-84 [2.3,3.9]) — ama b'yi doğrusal yasadan
+  koşullayınca k=2.01 taş gibi. Metin buna göre: "üs tek başına O(1);
+  koşullu k=2.01; ayırt edici test form yarışı" (denetçinin 1.94±0.29'undan
+  da dürüst — o da kendi boru hattının vadi konumuydu).
+- 78_sicaklik_cokmesi.py: pencere-c × ortak-s modeli: RMS 0.052→0.023,
+  soğuk/sıcak artık yarılması +0.030/+0.044 → ±0.003. Not 3 V2 iddiası
+  scriptle mühürlendi.
+
+Not 3 yeniden derlendi (240 KB). Üçleme REVİZE HALİYLE TAMAM.
+Kalan: kullanıcı okuması; arXiv mekaniği (hesap, endorsement, çapraz-ID);
+teori ödevleri (çadır sabiti/BCHB ana terimleri, B eşlemesi, β türetimi,
+r(τ) kısmi yansıma, çekirdek dağılımı GUE?, L-fonksiyon evrenselliği).
