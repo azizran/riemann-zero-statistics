@@ -831,3 +831,34 @@ ve 5-8σ genlikler sağlam ama per-asal yarılma payı hesaba katılmalı;
 Dürüstlük: kuyruk hesabı w-eğrisi modeline bağlı (±%50 oynasa pay ≤%7);
 çekirdek eğimi 6 noktadan; modüle-kanal payının L ile düşüşü ayrıca ilginç
 (mutlak sabit ~0.06-0.07 → payı düşüyor) — teorik iş.
+
+## 72: SICAK KRİSTAL (DEBYE-WALLER) — AYNA KAYMASI HESAPLANDI ★★★
+(18 Ağustos — "çocuk resmi" seansının kapısı)
+
+Bragg resmi: sıfır örgüsü = kristal; ideal ayna τ=1/2 (RS ufku = "2 salıncak");
+ısıl titreşim aynayı kaydırır. TÜM girdiler ölçülü: jitter σ_u (T1),
+plato B=−0.161, ideal kesiş 1/2.
+
+**T1 — Kristal ISINIYOR:** unfold jitter sabit değil: 0.198 (L=5.6) →
+0.272 (L=12.45) — S(t)'nin bilinen log-ısınması. c_jitter: 0.77→1.46.
+
+**T2 — SIFIR-AYAR VURUŞU:** c=jitter, B=plato, tek serbest A →
+A = 1.03 ≈ 1 (TAM koherent genlik) ve modelin sıfır-geçişi **τ = 0.406**
+(ölçülen τ* = 0.395-0.40). AYNANIN 0.50→0.40 KAYMASI, ölçülmüş sıcaklık +
+dolaylı kanal ile HESAPLANDI.
+
+**V2 — İKİNCİL DEĞİŞKENİN KİMLİĞİ:** pencere-bazlı c(L)·s (tek ortak s):
+RMS 0.052→0.023 ve soğuk/sıcak pencere artık-yarılması +0.034/+0.040 →
+±0.003'e ÇÖKTÜ. Günlerdir izlediğimiz "sabit-τ'da L-yarılması" ikincil
+değişkeni = PENCERE SICAKLIĞI. (Üçüncü anomali de resme katıldı.)
+
+**Açık kalanlar (dürüst):** etkin sönüm ölçeği s ≈ 3.3 (naif bağımsız-DW'nin
+üstü — korele düzensizlik/öz-tutarlı alan teorisi ister); yapı çarpanı
+(1−2τ) kaba tahmin (şekil artığı 0.023 > taban 0.012-0.016); T3'te serbest-c
+fit 4.2 istiyor (s·c_ort ≈ 3.9 ile tutarlı).
+
+**GÜNÜN CÜMLESI:** "Sıfırlar, asal dalgalarını Bragg-yansıtan, logaritmik
+ısınan bir kristaldir; aynanın yeri kristalin sıcaklığından hesaplanır;
+teli pencereden pencereye farklı gösteren şey sıcaklık farkıymış."
+Not 3 iskeleti artık: yasa + kayıpsız Bragg aynası + sıcak-kristal kayması +
+V_res ayrışımı + sıcaklık-ikincil-değişken.
