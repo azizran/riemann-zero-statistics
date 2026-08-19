@@ -1132,3 +1132,41 @@ belli); RH'ye çok uzak ve rota o değil. HAVA DURUMU: iyi ve güzel —
 yasalar tek değişkende çöküyor, plasebolar temiz dönüyor, ve bugüne dek
 her tuzak doğanın değil BİZİM artefaktımız çıktı; düzeltilince resim hep
 netleşti. Epsikl bataklığı böyle davranmaz; gerçek ülke böyle davranır.
+
+## 81: KAT DİBİ SİS BOĞAZI GEÇİLDİ — GİYDİRME MEKANİZMASI ÇÖZÜLDÜ (20 Ağustos)
+
+Boğaza girdik; sis beklediğimizden başka bir şey saklıyormuş:
+
+1. GİYDİRME MERDİVENİ (T1): band-asal B̂'si taban katmanlarıyla —
+   yalnız band −0.354 | +P11 −0.126 | +YALNIZ p^k kuvvetleri −0.358
+   (KUVVETLER MASUM — 80'in şüphelisi aklandı) | +tam direkt taban
+   (tüm p^k ≤ e^{0.45L}) −0.039 | band-altı TAM (≤ e^{0.505L}) −0.042
+   → YAKINSADI. Kontrolsüz sütun: +1.56→+0.90 (işaret bile kontrollerin
+   eseri; Not 3'ün "sabit boşlukta" niteleyicisi kat dibinde ×4 önemli).
+
+2. MEKANİZMA KANITI (T3): band-kolonu ~ küçük-asal kolonları Gram-R²:
+   gerçek gap-ortalarında 7×10⁻⁴, RvM-pürüzsüz ızgarada 0.00000.
+   → ÖRNEKLEME IZGARASI ASAL DALGALARINI TAŞIYOR (v-alanı deseni
+   örgüde). Atlanmış-değişken transferi + p^{-1/2} normalizasyonunun
+   √p büyütmesi = giydirme. Büyüklük mertebesi tutuyor (ρ~0.006 ×
+   büyük küçük-asal katsayıları × √p ≈ 0.2). ÇIPLAK −0.35'İN ~%88'İ
+   HAYALETMİŞ. 79'un "iki okuması" tek resimde birleşti: her taban
+   kendi atlanmış-değişken yüküyle okur; fizik tam-taban okumasında.
+
+3. SAHİCİ ARKA ODA (T4): B_tam(L) ≈ −0.05 (−0.06…−0.026), 18σ gerçek,
+   hafif iniş eğilimli olabilir, 36/41 veri sınırında sıçrama YOK.
+   Not 3 iması: metnin taban-bağımlılığı uyarısı artık MEKANİZMALI;
+   gönderim öncesi uyarıya tek cümle güçlendirme önerilecek (platonun
+   fiziksel değeri konvansiyon değerlerinden hayli küçük).
+
+4. GÖRÜNTÜ REGRESÖRLERİ (T2, ilk geçiş): durağan-bant ayna toplamı
+   zayıf ama var (cos +0.0026±0.0005, 5.5σ, saf-cos); kaydırılmış-bant
+   ve yarım-ızgara kontrolleri null ÇIKMADI (30σ/13σ) — 2θ-toplam
+   ailesi ortak S-kaynaklı bileşen paylaşıyor; kontroller aslında ayna
+   sürekliliğinin ölçümü. v kanalı sessiz (öngörü ✓). T2 v2 tasarımı:
+   karıştırılmış-gap vekil ızgara + S-vekili kolon gerekiyor.
+
+Ders defteri: (a) kat dibinde hiçbir tek-taban okuması ham haliyle
+fiziksel değil — merdiven yakınsaması şart; (b) örnekleme deseni bir
+kovaryat gibi davranır; (c) "kontrol" diye eklenen her kolon önce
+kendisi ölçülmeli. Script: 81_kat_dibi.py (T1-T4).
