@@ -1434,3 +1434,30 @@ Not 4 hiyerarşisi netleşti: (1) mutlak benek yasası [teorem-komşusu],
 (2) tarak/sıcaklık [char-fonksiyon], (3) fark-kanalı perdelemesi D(τ)
 [yeni gözlemlenebilir], (4) rampa bölüşümü [Berry-Montgomery bağı].
 Script: 89_montgomery_koprusu.py + 89_kopru.png.
+
+## 90: 1/k TESTİ — Λ-AĞIRLIĞI İKİ KANALDA KESİN DOĞRULANDI (21 Ağustos)
+
+89'un öngörüsü v(p^k) = (2/π)sin(πτ)·D/k iki bağımsız kanalda test edildi:
+
+T2 GAP KANALI (keskin oran testi, κ/D-bağımsız): R = k·v_q/v_asal(τ_q):
+  q=4: 1.013±0.009 | 8: 1.005±0.014 | 9: 1.005±0.009 | 16: 0.953±0.021 |
+  25: 0.984±0.012 | 27: 0.953±0.019 — havuz ⟨R⟩ = 0.986.
+  1/k HİPOTEZİ KAZANDI (karşı hipotez R≈k=2-5 derdi; ölçülen R/k
+  0.24-0.51'de ezildi). k·v(p^k) asal eğrisinin ÜSTÜNE düşüyor:
+  v-yasası gerçekten Λ-ağırlıklı. Plasebo 0.013 (sinyal ~0.1-0.4).
+
+T1 KUVVET BENEKLERİ (mutlak, regresyonsuz): 1/k formu her yerde kazanıyor
+  (4: 0.992, 8: 0.964, 9: 0.975 — asallarla aynı kalite!); zayıf/yüksek-k
+  çizgilerde ek açık: 16: 0.87, 25: 0.89, 27: 0.81, 32: 0.65, 49: 0.72.
+
+YENİ TUTARLI İNCE YAPI — "KUVVET AÇIĞI" ε(q,k): kuvvet çizgileri tam
+Λ-ağırlığının birkaç %-%35 altında, ÜÇ bağımsız nesnede aynı desen:
+85'in koşulsuz u'ları (0.99/0.96/0.90/0.93/0.90/0.83/0.90), 90'ın
+benekleri (0.99/0.96/0.87/0.89/0.81/0.65/0.72), T2'nin hafif 0.95'leri.
+Asallar tam, kuvvetler eksik — q ve k ile büyüyen açık. Aday teori:
+S(t) açılımının ikinci-mertebe (q^{-3/2}) düzeltmeleri. AÇIK NESNE.
+
+Zincirin durumu: EF → u-çizgileri (Λ-ağırlık ✓ 1/k ✓) → benekler
+(mutlak %1-4 ✓) → v-yasası (onset 2τ ✓, doyum 2/π ✓, perde D(τ)) →
+rampa bölüşümü. Not 4 malzemesi: 86-90, beş script, tek anlatı.
+Script: 90_kuvvet_v_testi.py.
