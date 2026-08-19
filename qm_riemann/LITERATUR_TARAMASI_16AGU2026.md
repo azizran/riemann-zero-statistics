@@ -1567,3 +1567,35 @@ Derlendi (409 KB). KÜNYE TEYİDİ GEREK (hafızadan): Montgomery 1973
 (PSPM 24, 181-193), Diaconis-Shahshahani 1994 (J. Appl. Probab. 31A,
 49-62) — gönderim öncesi web teyidi şart (BCHB geleneği). SIRADAKİ:
 taze düşman-göz denetimi (Not 4) → kullanıcı okuması → dörtleme arXiv.
+
+## NOT 4 DENETİMİ + DÜZELTMELER (21 Ağustos, gece — 2 KIRMIZI + 12 SARI işlendi)
+
+Taze düşman-göz denetimi: 86-93 + AĞIR 92 (8 dk CUE) sıfırdan bağımsız
+koşuldu; üç künye web-teyitli (Montgomery 1973 PSPM XXIV 181-193 ✓,
+Diaconis-Shahshahani JAP 31A 49-62 ✓, Berry Nonlinearity 1 ✓); türetim
+cebiri elle doğrulandı; scriptlerde olmayan iki ölçüm bağımsız üretildi.
+Karar: "sayısal omurga olağanüstü sağlam; iki kırmızı bir akşamlık iş."
+
+K1: τ≈0.17 kesişmesi 92'nin KABA ızgarasından kalmaydı (0.604@0.1
+    aradeğerlemesi) — 93'ün düzelttiği veriyle τ* = 0.140 (0.13-0.15;
+    çapraz-estimatör sistematiği bütçelenmedi notuyla). Dört yerde
+    düzeltildi. 95-T2 kesişmeyi numaralı script yaptı: 0.140 ✓.
+K2: §5'in "onset 2.014τ / doyum 0.55-0.60" doğrulaması eski-konvansiyon
+    sayılarıydı — tam-taban gerçeği: onset (1.7-1.8)τ = 2τ·D(0), doyum
+    ≈0.47 = (2/π)·D(kat); 2.014≈2 uyumu iki sistematiğin tesadüfi iptali
+    olarak KAYDA geçti. Rijit-öngörü/perdeli-ölçüm ayrımı netleşti.
+SARI'lar: 15→14 çizgi; k₀=1/D kapanışı "%1.5'e kadar" (1.101±0.003 vs
+1.083±0.007) + kapanış cebiri Açık Problem 3'e; abstract'ta iki-mekanizma
+özeti düzeltildi (biri fazla, biri nicel öldü); faz-saflığı belirsizlik-
+dürüstlüğü (güçlü beneklerde 3-5°, zayıflarda ±24°; kill güçlülerden);
+"exactly like CUE" → "%3 içinde, Nyquist'te %0.34"; tarak çift-taban
+açıklaması; 978/1200 frekans; enjeksiyon %1-9 + doğrusallık (95-T3:
+5× genlik → <%0.7); bant-karışımı sistematiği (donma yönsel sağlam —
+karışım yukarı çeker); "conditional (regression) response" adlandırması;
+TDS 4-18×; 630-950 frekans; TDS cümlesi "consistent with" tonuna.
+
+95_denetim_ekleri.py: faz kill-testi (KOD olarak; 180.00-180.65°,
+ist. belirsizlikler), dal kesişmesi (0.140), enjeksiyon doğrusallığı.
+Yeniden derlendi (422 KB). Repro 79-95. DÖRTLEME DURUMU: dördü de
+yazılmış + denetimli + düzeltilmiş. SIRADAKİ: kullanıcı okuması (4 not)
+→ arXiv mekaniği (endorsement erken başlatılabilir).
