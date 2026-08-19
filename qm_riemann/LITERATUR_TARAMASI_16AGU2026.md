@@ -1170,3 +1170,32 @@ Ders defteri: (a) kat dibinde hiçbir tek-taban okuması ham haliyle
 fiziksel değil — merdiven yakınsaması şart; (b) örnekleme deseni bir
 kovaryat gibi davranır; (c) "kontrol" diye eklenen her kolon önce
 kendisi ölçülmeli. Script: 81_kat_dibi.py (T1-T4).
+
+## 82: KAPI TESTİ ALARM VERDİ — ÜÇLEME BEKLEMEYE ALINDI (20 Ağustos)
+
+81'in mekanizması "büyük sonuç" olarak kovalandı ve kapı görevini yaptı:
+
+1. YER-GERÇEĞİ KANITI (T4b): gerçek gap-ortası ızgarası + BİLİNEN sentetik
+   sinyal (79 çizgi + kontroller + gürültü): P4-tabanlı regresyon w'yi
+   %15-25 SİSTEMATİK DÜŞÜK ölçüyor (21σ); tam taban gerçeği ~%1 içinde
+   buluyor. Kısıtlı-taban kanal ölçümü ızgara-çiftlenimi yüzünden yanlı;
+   FİZİKSEL OKUMA = TAM-TABAN OKUMASI. (Öngörümün aksine küçük τ bağışık
+   DEĞİL: R² küçük τ'da yeterince düşmüyor, T3.)
+
+2. GERÇEK VERİDE ETKİ: korunum yasası fiti P4→TAM: a 0.990→1.017,
+   b 1.025→0.884 (~12σ), a≡1 eğimi 1.069→0.806; RMS 0.0096→0.0075 —
+   YASANIN FORMU GÜÇLENIYOR, KATSAYILARI DEĞİŞİYOR. Merdiven TAM/2→TAM
+   arasında yakınsıyor. 132 τ-yasası noktasının hepsi oynuyor (ort ~15σ,
+   %2-6 mutlak); Δv/v %13-20.
+
+3. KARAR: Not 2-3 manşet sayıları kısıtlı-taban konvansiyonuyla ölçülmüş
+   → GÖNDERİM DONDURULDU; "büyük yeniden ölçüm" kampanyası gerek (tüm
+   boru hattı tam tabanla: τ-yasaları, sum rule, soyulmuş çekirdek,
+   kesiş, s_eff, w₀). Not 1 MUAF (kanal regresyonu yok). Not: b~0.88,
+   a~1.02 — β/2=1.07 hikâyesi ve K3 gerilimi yeniden yazılacak; w₀ tam
+   tabanda 1'e yaklaşabilir (perde tam saydam?) — heyecan verici ama
+   önce ölçüm. Süreç kültürün zaferi: bu, arXiv'den SONRA yakalansaydı
+   erratum olurdu; kapıda yakalandı.
+
+Scriptler: 82_izgara_denetimi.py (T1-T4). Sıradaki: 83 = büyük yeniden
+ölçüm (tam-taban boru hattı, tüm manşetler) + Not 2-3 revizyon turu.
