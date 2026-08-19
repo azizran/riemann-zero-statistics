@@ -1515,3 +1515,32 @@ aritmetik-koherans fiziği İZOLE edildi: perde, koheran deterministik
 sürücülere özgü. Açık: neden koheran sürücü perdelenir (adyabatik-vs-
 ani yanıt; sayım-özdeşliği gömülmesi); düşük-τ spontane detrend.
 Script: 92_perde_koprusu.py + 92_perde.png.
+
+## 93: DÜŞÜK-τ SORGUSU — ARTEFAKT DEĞİL, DONMA→CUE GEÇİŞİ (21 Ağustos, kapanış)
+
+92'nin şüpheli τ=0.1 noktası sorgulandı: yerel katlama + kübik detrend
+HİÇBİR ŞEYİ DEĞİŞTİRMEDİ (üç ondalık aynı); faz-karıştırmalı vekil taban
+0.01-0.05 (estimatör temiz). Düşüklük GERÇEK — ve ince ızgara altında
+yepyeni bir yapıya çözüldü:
+
+D_spont(τ): 0.041 (τ=0.04) → 0.240 (0.06) → 0.492 (0.08) → 0.662 (0.10)
+→ 0.788 (0.125) → 0.925 (0.15) → 0.964 (0.20) → 1.05/1.11/1.18 (CUE ✓).
+
+OKUMA: ilk asal çizgisi eşiğinin (τ₂ = log2/L ≈ 0.067) altında sıfır
+gazı fiilen DONMUŞ — konum modülasyonu var, gap yanıtı ~sıfır: rampa-altı
+karanlık bölgenin (86'da 18× ölçülmüştü) dalgalanmaları termal değil,
+katı kolektif öteleme. Çizgiler devreye girdikçe süreklilik CUE-termal
+davranışa geçiyor; Nyquist'te binde-beş CUE uyumu. DONMA→TERMALLEŞME
+geçişi tam asal çizgilerinin açıldığı bantta.
+
+İKİ-DAL YANIT RESMİ (Not 4'ün taç figürü adayı): asal dalı 0.91→0.48
+İNER, spontane dal ~0→1.18 ÇIKAR, kesişme τ≈0.15-0.2. Uzun dalgada
+asallar gap'leri spontane modlardan çok daha etkin sıkıştırıyor
+(adyabatik denge-deformasyonu); kısa dalgada perdeleniyor. Açık soru
+inceldi ve ikiye bölündü: (a) asal dalının perde çekirdeği; (b) spontane
+dalın fonon-katılığı — ikisinin kesişme noktası yeni bir ölçek (~0.17).
+
+Script: 93_spontane_detrend.py. 86→93: cetvel teorisi seferi TAMAM —
+sekiz script, iki teorem-teması, üç yeni nesne (D-dalları, kuvvet açığı,
+kırınım deseni), dört dürüst ölüm (KK-köprüsü adayları). LİMANA DÖNÜŞ:
+sıradaki oturum = Not 4 taslağı + üçleme okuması + arXiv.
