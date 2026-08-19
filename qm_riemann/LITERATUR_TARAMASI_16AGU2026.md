@@ -1238,3 +1238,36 @@ DEĞİŞMEYENLER:
 Çıktılar: 83_buyuk_yeniden_olcum.py, 83_tam_taban_egri.npz, 83_kampanya.png.
 SIRADAKİ: Not 2-3 revizyon turu (yeni sayılar + iki-form dürüstlüğü +
 basitleşen termal bölüm), ardından taze düşman-göz denetimi, SONRA arXiv.
+
+## NOT 2-3 REVİZYONU TAMAM — TAM-TABAN SAYILARIYLA (20 Ağustos, akşam)
+
+84: revizyon figürleri + Odlyzko tam-taban bataryası (fig_law/fig_crossing/
+fig_tau yeniden; fig_tent ve fig_v değişmedi — çadır muaf, v yeniden-ölçüm
+bekliyor). Odlyzko: w₂=0.9097±0.0035, yeni kılavuz 0.982−2.598τ farkı
++0.0011 (!); farklar τ ile −0.055'e büyüyor (eğrilik).
+
+NOT 3 revizyonu: yeni abstract (sistematik + tam-taban konvansiyonu başa);
+YENİ BÖLÜM "The sampling-grid systematic" (mekanizma, merdiven, yer-gerçeği,
+konvansiyon, muafiyet sınıfları); §yasa → "The two-channel constraint"
+(1.017−0.884v; kuvvet-u'ları; form-yarışı dürüstlüğü; β-koincidansı
+"cautionary record" olarak kayda geçti); §kesiş 0.447±0.005 + plato
+−0.05..−0.09 + faz oranları; §termal "The crossing is REPRODUCED"
+(model 0.443 vs ölçüm 0.447; sıcaklık-çökmesi ve duran-dalga yarışı eski
+konvansiyon bayrağıyla; s_eff duruyor); çadır bölümüne muafiyet cümlesi;
+V_res bölümü r*-duyarsızlığıyla yeniden; sentez + açık problemler (7 oldu:
++ızgara-çiftlenimi teorisi); repro 62-84.
+
+NOT 2 revizyonu: abstract'a sistematik + taban/çerçeve ayrımı; konvansiyon
+bölümüne revizyon alt-bölümü; kanal tablosu yeni (w 0.83..0.38, v 0.11..0.37);
+β≈2.3 cümlesi → kısıt yasası göndermesi; sum rule'a ortak-geçirim paragrafı;
+r* taban-duyarsızlığı; τ* ↔ 0.447 bağlantısı; V_res bayrağı; τ→0 alt-bölümü
+yeniden ("Near-complete transparency": eski %2-12 emilimin çoğu ızgara
+yanlılığıymış, yeni iz w(0)≈0.97-0.98, beş-model yeniden-uzatması AÇIK);
+Odlyzko maddesi yeni sayılarla; 10²¹-²² bölümü iç-tutarlı-eski-konvansiyon
+notuyla; ikinci-derece çizgilere aday-mekanizma; açık problemler güncel;
+repro 27-84. Her iki PDF derli.
+
+KALAN yeniden-ölçüm listesi (dürüst bayraklar metinde): beş-model w₀;
+exhaustion eğrisi; V_res oranları + etkileşim payı; sıcaklık-çökmesi;
+duran-dalga yarışı; v-yasası 10²¹-²² + onset; ikinci-derece çizgiler.
+SONRA: taze düşman-göz denetimi → kullanıcı okuması → arXiv.

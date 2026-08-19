@@ -26,35 +26,42 @@ Two companion notes measured how the local statistics of Riemann zeros
 respond to the prime oscillations of the explicit formula: an amplitude
 channel $w(\tau)$ and a zero-displacement channel $v(\tau)$, functions of
 $\tau = \log p / L$, $L = \log\frac{t}{2\pi}$. Here we organize those
-measurements into a coherent response theory. (i) The two channels obey
-an \emph{amplitude conservation law}, $\sqrt{w} + (\beta/2)\,v = 1$ with
-$\beta/2 \approx 1.07$, whose coefficient agrees with a phase-bookkeeping
-ratio within its extrapolation uncertainty;
-the law survives an out-of-sample test on unseen primes, a split-half
-common-mode test, and a free-exponent test consistent with $k = 2$.
-(ii) Extending the measurements to $\tau = 0.61$ shows that $w$
-\emph{changes sign} at $\tau_0 = 0.40$ --- the role-crossover of the
-companion note --- with response phases that jump from $0$ to $\pi$
-without rotating: both channels are real everywhere, consistent with a lossless
-(reactive) medium. (iii) A thermal Bragg model explains the crossing: the ideal
-mirror sits at the Riemann--Siegel fold $\tau = 1/2$; dressing it with the
-\emph{measured} zero-displacement jitter and the measured indirect-channel
-plateau brackets the observed zero: the thermal family places it in
-$[0.37, 0.41]$ around the measured $0.40$, with unit coherent amplitude
-($A \approx 1$) throughout; window-to-window jitter differences absorb
-the previously unexplained fixed-$\tau$ scatter. The dephasing scale is the
-\emph{standing-wave} factor: the empirical characteristic-function ratio
-gives $s = 4.11 \pm 0.04$ against the Gaussian value $4$. (iv) The
-structure factor $(1-2\tau)$ is derived in three lines as the pair count
-of the folded main sum, vanishing sharply at the fold; pointwise
-$|Z|^2$ regressions instead follow the shifted-second-moment family
-$\approx 2(1-\tau)$ through and beyond the fold, so that the
-complementary \emph{mirror channel} --- measurement minus the direct
-pairs --- is a \emph{tent} peaked at the fold --- the approximate functional equation
-made audible as an interference channel. (v) The residual variance
-decomposes as $\sim 5\%$ unstripped tail, $25$--$45\%$ gap-modulated
-prime channel, and a core growing at $0.035$ per unit $L$ --- the CUE
-rate at one tenth the amplitude.
+measurements into a coherent response theory --- after first identifying,
+mechanically explaining, and correcting a \emph{sampling-grid
+systematic}: the gap midpoints at which all wave phases are evaluated are
+themselves displaced by the prime waves, so regressions on restricted
+frequency bases transfer omitted-line content into the measured
+coefficients. A ground-truth test on the real grid shows a four-prime
+basis biases $w$ downward by $15$--$25\%$, while a complete basis over
+all prime powers recovers the truth to $\sim 1\%$; every number below
+uses the complete-basis convention. (i) The two channels obey a tight
+linear constraint, $\sqrt{w} = 1.017 - 0.884\,v$ (residual RMS $0.0075$;
+slope $\pm 0.021$ under window-block bootstrap), which extends unchanged
+to prime powers: $u(p^k)$ falls on the same $\tau$-curve as the primes.
+The constraint survives an out-of-sample test on unseen primes; among
+equal-parameter alternatives intensity-unitarity fails by a factor $6$,
+while the $\sqrt{w}$-linear and $w$-linear forms are at present
+statistically indistinguishable. (ii) Extending the measurements to
+$\tau = 0.61$ shows that $w$ \emph{changes sign} at
+$\tau_0 = 0.447 \pm 0.005$, with response phases that jump from $0$ to
+$\pi$ without rotating (quadrature below $8\%$ through the crossing):
+both channels are real, consistent with a lossless (reactive) medium.
+(iii) A thermal Bragg model \emph{reproduces} the crossing: the ideal
+mirror sits at the Riemann--Siegel fold $\tau = 1/2$; dressing it with
+the measured zero-displacement jitter and the measured beyond-fold
+plateau places the zero at $0.443$, within $1\sigma$ of the measurement,
+with unit coherent amplitude ($A = 1.02$). (iv) The structure factor
+$(1-2\tau)$ is derived in three lines as the pair count of the folded
+main sum; pointwise $|Z|^2$ regressions --- dense-grid measurements
+immune to the sampling systematic --- instead follow the
+shifted-second-moment family $\approx 2(1-\tau)$ through and beyond the
+fold, so that the complementary \emph{mirror channel} is a \emph{tent}
+peaked at the fold: the approximate functional equation made audible as
+an interference channel. (v) Stripping the measured waves leaves a core
+correlation $r^* = 0.977$, insensitive to the basis; the finer
+decomposition of the residual variance and the standing-wave refinement
+of the thermal model are quoted under the previous convention and
+flagged for re-measurement.
 \end{abstract}
 
 \maketitle
@@ -71,10 +78,13 @@ zero-displacement channel $v$, both collapsing onto one-variable laws in
 the Berry variable $\tau = \log p / L$ \cite{Berry88}; the channel
 decomposition itself is an observable-level counterpart of the hybrid
 Euler--Hadamard product \cite{GHK07}. This note asks what \emph{physics} organizes those
-curves, and answers with five measured structures: a conservation law, a
-sign-crossing, a thermal Bragg model that brackets the crossing's
-location, an arithmetic derivation of the structure factor, and the
-measurement of the complementary mirror channel. Throughout, the style
+curves, and answers with five measured structures: a two-channel linear
+constraint, a sign-crossing, a thermal Bragg model that reproduces the
+crossing's location, an arithmetic derivation of the structure factor,
+and the measurement of the complementary mirror channel. A sixth
+structure imposed itself during the final audit: the measurement grid
+itself responds to the primes, and Section~\ref{sec:grid} documents the
+systematic and the corrected convention now used throughout. Throughout, the style
 of the companions is kept: no closed forms are fitted; every ingredient
 is either measured or derived; and every claim is accompanied by the
 test that tried to kill it.
@@ -86,97 +96,138 @@ amplitude windows spanning $t = 1.2\times10^5$ to $2.7\times10^{11}$
 10^3$ for the extended-$\tau$ measurements; channels are measured by
 linear regression of $\log$(unfolded maxima) and $\log$(unfolded gaps)
 on $\cos(t_n \log p), \sin(t_n \log p)$ at gap midpoints, with own-gap
-controls for $w$.
+controls for $w$. All channel coefficients are measured with
+\emph{complete} regression bases (Section~\ref{sec:grid}).
 
-\section{The amplitude conservation law}
+\section{The sampling-grid systematic}\label{sec:grid}
+
+All per-gap channel measurements in this program regress log-maxima and
+log-gaps on wave columns evaluated at gap midpoints. The midpoints are
+determined by the zeros alone --- exogenous to the amplitudes --- but
+they are not a passive grid: the zeros are displaced by the prime waves
+(the $v$ channel itself), so the sampling pattern carries the primes. On
+the real midpoints a wave column at one frequency acquires a small,
+systematic correlation with the columns of \emph{other} frequencies
+(Gram $R^2 \approx 7\times10^{-4}$ against the small-prime block for a
+near-fold column; identically zero on the smooth Riemann--von Mangoldt
+grid). A regression on a restricted basis therefore transfers
+omitted-line content into the retained coefficients, and the per-prime
+normalization $w = \text{coefficient} \times p^{1/2}$ amplifies the
+transfer by $p^{1/2}$, so the bias grows toward the fold.
+
+Two measurements make this quantitative. A basis ladder on the near-fold
+band shows the transferred share converging as the basis completes: the
+apparent beyond-fold plateau $-0.354$ under a band-only basis shrinks to
+$-0.042$ under the full sub-band basis and is stable under further
+extension. And a ground-truth test --- synthetic amplitudes with known
+line content built on the \emph{real} midpoint grid --- shows a
+four-prime basis under-measures $w$ by $15$--$25\%$ ($21\sigma$), while
+the complete basis recovers the truth to $\sim 1\%$.
+
+Convention adopted throughout this note and the revised companion: all
+channel coefficients are measured with complete bases --- every prime
+power $p^k$ with $\log p^k / L \le 0.45$ (to $0.55$ for the
+extended-$\tau$ curve), capped at $q \le 720$. The $360 \to 720$ cap
+step moves the constraint slope below by $\sim 1\%$, which we quote as
+the residual basis-cutoff systematic. Three classes of results are
+immune by construction: dense-grid pointwise regressions (the tent of
+Section~\ref{sec:tent}), regression-free statistics (the dephasing
+scale $s_{\mathrm{eff}}$), and residual correlations (the stripped core
+$r^*$, which moves only from $0.9783$ to $0.9774$). The first companion
+note contains no channel regressions and is unaffected.
+
+\section{The two-channel constraint}
 
 The second companion's sum rule --- total prime content of unit weight
---- holds at first order in $v$. Its violation
-$g = w + \beta v - 1$ is zero at small $\tau$ and grows as
-$g \approx 1.17\,v^2$; and $1.17 \approx \beta^2/4$ with
-$\beta = 2.14$. The square completes:
-\[
-w \;=\; \bigl(1 - \tfrac{\beta}{2} v\bigr)^2
-\qquad\Longleftrightarrow\qquad
-\sqrt{w} + \tfrac{\beta}{2}\, v \;=\; 1 .
-\]
-The coefficient has an independent motivation: since a gap is the
-derivative of the counting function, the displacement response
-$U = v/\tau$ is the quadrature partner of the in-phase response $w$,
-suggesting $\beta = U(0)/w(0) = 2.01/0.94 \approx 2.14$. The $w(0)$
-extrapolation carries the $\pm 5\%$ model uncertainty documented in
-\cite{companion2}, and the unconstrained fit below prefers a slope
-$1.029 \pm 0.012$ (window-block bootstrap), in mild ($\approx 3\sigma$)
-tension with $\beta/2 = 1.07$; we treat the phase-bookkeeping value as
-motivated, not derived. (The coarser log--log regression estimate quoted
-as $\beta \approx 2.3$ in \cite{companion2} is the same quantity under
-a different convention.)
+--- suggested that the two channels share a budget. Under the
+complete-basis convention the sharing is a strikingly tight linear
+constraint.
 
-\begin{observation}[Amplitude conservation]
+\begin{observation}[Two-channel constraint]
 Across $44$ matched $(w, v)$ pairs ($4$ primes $\times$ $11$ windows,
 $t$ from $10^5$ to $2.7\times10^{11}$), the free fit gives
-$\sqrt{w} = 0.990 - 1.025\,v$ with residual RMS $0.0096$
-(slope $1.029 \pm 0.012$ under window-block bootstrap), at the
-irreducible per-prime scatter floor; constraining the intercept to $1$
-gives slope $1.069 \approx \beta/2$.
+$\sqrt{w} = 1.017 - 0.884\,v$ with residual RMS $0.0075$ (slope
+$\pm 0.021$ under window-block bootstrap), at the per-prime scatter
+floor. Constraining the intercept to $1$ worsens the fit (RMS $0.0102$):
+the intercept exceeds unity by $\approx 2\%$, comparable to the
+residual basis-cutoff systematic, so we do not attach physical
+significance to the excess.
 \end{observation}
 
-Three attempts to kill the law failed (Figure~\ref{fig:law}).
-\emph{Out of sample}: $w$ for $p = 11, 13$ --- never used in deriving the
-law, and extending $\tau$ to $0.26$ --- follows the line with RMS
-$0.0148$ over $22$ new pairs (with a small one-sided mean offset of
-$-0.009$) while $\sqrt{w}$ falls from $0.78$ to $0.45$. \emph{Common mode}: measuring $w$ from even-indexed gaps and $v$
-from odd-indexed gaps (independent noise) reproduces the law with
-$a = 0.998$, $b = 1.051$, RMS $0.019$ against $0.018$ for same-half
-pairs. \emph{Free exponent}: fitting $w = (1 - b v)^k$ jointly is degenerate
-along a $(b, k)$ valley (window-block bootstrap spans $k \approx 2$--$4$
-with compensating slope), so the exponent alone is determined only at
-$O(1)$; conditioning $b$ on the linear law gives $k = 2.01$, and the
-discriminating test is the form race: among equal-parameter alternatives
-the intensity-unitarity form $w + c v^2 = 1$ fails by a factor $\approx 9$
-in RMS.
-What is conserved is the \emph{amplitude}, not the intensity: the prime
-wave's unit amplitude splits linearly between the transmitted amplitude
-$\sqrt{w}$ and the absorbed displacement $(\beta/2) v$.
+The constraint extends beyond the primes. Measuring the prime-power
+lines under the same convention and normalizing by the explicit-formula
+weight $p^{-k/2}/k$ gives $u(4) = 0.700 \pm 0.002$,
+$u(8) = 0.560 \pm 0.003$, $u(9) = 0.530 \pm 0.002$,
+$u(25) = 0.338 \pm 0.004$, $u(27) = 0.335 \pm 0.006$ --- each equal,
+within errors, to the prime curve $w(\tau)$ evaluated at that line's own
+$\tau = \log p^k / L$. The transmission law is a law of prime powers,
+governed by $\tau$ alone.
+
+Stress tests (Figure~\ref{fig:law}). \emph{Out of sample}: $w$ for
+$p = 11, 13$ --- not used in the fit, extending the $v$-range ---
+follows the free line with RMS $0.0269$ over $22$ pairs, with a
+one-sided mean offset of $-0.018$: the constraint survives, though less
+crisply than under the previous convention; we suspect genuine curvature
+at larger $\tau$. \emph{Form race}: among equal-parameter alternatives
+the intensity-unitarity form $w + c v^2 = 1$ fails by a factor $6$ in
+RMS; the $\sqrt{w}$-linear and $w$-linear forms, by contrast, are at
+present statistically indistinguishable ($0.0127$ vs $0.0099$ in the
+$w$-scale), so the data no longer single out amplitude over intensity as
+the linearly shared quantity --- an honest retreat from the previous
+version of this note.
+
+A cautionary record. Under the previous (restricted-basis) convention
+the fit gave $\sqrt{w} = 0.990 - 1.025\,v$, the constrained slope
+$1.068$ matched a quadrature phase-bookkeeping ratio $\beta/2 = 1.07$,
+and we presented that agreement as a motivated coefficient. The
+corrected slope $0.884 \pm 0.021$ does not match it. The bookkeeping
+coincidence was an artifact of the sampling-grid bias --- precisely the
+kind of trap this project's audit culture exists to catch, and we record
+it as such.
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.8\textwidth]{fig_law_en.png}
-\caption{The conservation law. Blue: the $44$ pairs from which the law
-was extracted. Red: the $22$ out-of-sample pairs ($p = 11, 13$).}
+\caption{The two-channel constraint under the complete-basis convention.
+Blue: the $44$ pairs of the fit. Red: the $22$ out-of-sample pairs
+($p = 11, 13$). Solid: the corrected line $1.017 - 0.884\,v$; dashed:
+the previous convention's line.}
 \label{fig:law}
 \end{figure}
 
 \section{The sign crossing and losslessness}
 
 Extending the channel measurements to the primes up to $31$ (eleven
-primes) over twelve windows ($132$ points, $\tau$ up to $0.61$) shows that the amplitude channel
-does not merely shrink --- it \emph{crosses zero} at
-$\tau_0 = 0.40 \pm 0.02$ and settles on a negative plateau
-$B = -0.16$: beyond the crossing, peaks are slightly \emph{low} where
-the prime wave is high. The crossing coincides with the role-crossover
-$\tau^* \approx 0.40$ found by a different method (the exhaustion
-analysis of \cite{companion2}), which is thereby identified: $\tau^*$
-is the zero of $w$. Two qualifications: the plateau value depends on the
-regression basis ($B = -0.16$ for the eleven-prime basis used throughout;
-restricted bases give larger values, and more complete bases shrink it
-substantially --- its decomposition into genuine indirect response and
-basis-transfer systematics is deferred to future work), and the statement
-``peaks are low where the wave is high'' holds \emph{at fixed observed
-gap} --- without the own-gap controls the unconditional response is
-positive.
+primes) over twelve windows ($132$ points, $\tau$ up to $0.61$, all
+complete-basis) shows that the amplitude channel does not merely shrink
+--- it \emph{crosses zero} at
+\[
+\tau_0 \;=\; 0.447 \pm 0.005
+\]
+(window-block bootstrap over the $\tau \in [0.30, 0.58]$ points) and
+settles on a shallow negative plateau: beyond the crossing, peaks are
+slightly \emph{low} where the prime wave is high. The plateau depth is
+$-0.05$ to $-0.09$ depending on how far the covariate basis is extended
+beyond the fold --- much shallower than the $-0.16$ of the previous
+convention, most of which the audit exposed as basis transfer. Two
+qualifications, sharpened by the audit: the statement ``peaks are low
+where the wave is high'' holds \emph{at fixed observed gap} --- without
+the own-gap controls the unconditional near-fold response is positive
+and of order unity --- and the crossing lies within $1.5\sigma$ of the
+coarse exhaustion-analysis crossover $\tau^* = 0.40 \pm 0.03$ of
+\cite{companion2}; the identification of $\tau^*$ with the zero of $w$
+remains plausible but awaits a complete-basis re-measurement of the
+exhaustion curve.
 
 The response phases are diagnostic. Through the crossing the phase of
-$w$ jumps from $\approx 0^\circ$ to $\approx 180^\circ$ with quadrature
-components below $3\%$ everywhere; the phase of $v$ stays pinned at
-$0^\circ$. A damped resonance would rotate through $\pm 90^\circ$; a
-real response that changes sign is the signature of a \emph{lossless}
-(conservative, Hermitian) medium. The curtain does not absorb the prime
-waves; it redistributes and reflects them --- consistent, at the level
-of response theory, with a Hermitian generator underneath. This also
-resolves the conservation law's apparent paradox: $w$ reaches zero not
-where $v$ would extrapolate the law to closure, but at the sign
-crossing; the law describes the below-crossing branch.
+$w$ jumps from $\approx 0$ to $\approx \pi$ with quadrature-to-in-phase
+ratios below $0.011$ for $\tau < 0.35$, $0.08$ through the crossing
+region, and $0.14$ beyond; the phase of $v$ stays pinned at $0$. A
+damped resonance would rotate through $\pm\pi/2$; a real response that
+changes sign is the signature of a \emph{lossless} (conservative,
+Hermitian) medium. The curtain does not absorb the prime waves; it
+redistributes and reflects them --- consistent, at the level of response
+theory, with a Hermitian generator underneath.
 
 \section{The thermal Bragg mirror}
 
@@ -185,65 +236,55 @@ $n \le N = \sqrt{t/2\pi}$, i.e.\ $\log n \le L/2$: the amplitude has a
 sharp spectral fold at $\tau = 1/2$, and a wave whose period matches two
 lattice spacings ($1/\tau = 2$) is precisely the Bragg condition of the
 zero lattice. The ideal mirror sits at $\tau = 1/2$; the measured
-crossing sits at $0.40$. The shift is thermal.
+crossing sits at $0.447$. The shift is thermal.
 
 Model: $w(\tau) = A\,(1 - 2\tau)\, e^{-c \tau^2}\,[\tau < 1/2] + B$,
 where $(1-2\tau)$ is the ideal structure factor (derived in
-Section~\ref{sec:fold}), $B$ is the indirect (zero-mediated) channel
-measured as the beyond-fold plateau, and the Gaussian factor is
-Debye--Waller dephasing by the zeros' displacement jitter. The jitter is
-\emph{measured}: comparing gap midpoints with the Riemann--von Mangoldt
-flow gives $\sigma_u$ per window; in unfolded units it grows from
-$0.198$ to $0.272$ across our windows --- the crystal warms
-logarithmically, as the classical $S(t)$ variance suggests --- giving
-$c = (L \sigma_u)^2/2 = 0.77$--$1.46$, mean $1.17$.
+Section~\ref{sec:fold}), $B$ is the indirect channel measured as the
+beyond-fold plateau ($B = -0.092$ on the corrected curve), and the
+Gaussian factor is Debye--Waller dephasing by the zeros' displacement
+jitter. The jitter is \emph{measured}: comparing gap midpoints with the
+Riemann--von Mangoldt flow gives $\sigma_u$ per window; in unfolded
+units it grows from $0.198$ to $0.272$ across our windows --- the
+crystal warms logarithmically, as the classical $S(t)$ variance suggests
+--- giving $c = (L \sigma_u)^2/2 = 0.77$--$1.46$, mean $1.17$.
 
-\begin{observation}[The crossing is bracketed]
+\begin{observation}[The crossing is reproduced]
 With $c$ fixed from the measured jitter and $B$ fixed from the measured
-plateau, the single remaining parameter fits to $A = 1.03 \approx 1$
-(unit coherent amplitude) and the model's zero lands at $\tau = 0.406$
-(Figure~\ref{fig:crossing}); with the empirical standing-wave damping,
-which fits the full curve best (RMS $0.029$ vs $0.052$), the zero moves
-to $0.368$; intermediate damping scales fit equally well and cross at
-$0.39$. The thermal family thus brackets the measured crossing within
-$[0.37, 0.41]$; no member is simultaneously the best global fit and the
-exact crossing, which we attribute to the crude ideal structure factor
-and to partial reflection below the Bragg condition.
+plateau, the single remaining parameter fits to $A = 1.02$ (unit
+coherent amplitude), and the model's zero lands at $\tau = 0.443$ ---
+within $1\sigma$ of the measured $0.447 \pm 0.005$
+(Figure~\ref{fig:crossing}). Under the previous convention the model
+and the measurement disagreed by more than the thermal family's internal
+spread, and the previous version of this note could claim only a bracket
+$[0.37, 0.41]$; the sampling-grid correction moved the measured crossing
+onto the model. Nothing about the model changed --- only the
+measurement.
 \end{observation}
 
-Two refinements. First, giving each window its own measured $c(L)$, together with one
-fitted overall damping scale, collapses the previously unexplained
-fixed-$\tau$, window-to-window scatter of the channel measurements from
-$\pm 0.04$ to $\pm 0.003$: the ``secondary variable'' of the companion
-note is the window temperature.
-Second, the \emph{scale} of the dephasing is consistent with
-standing-wave physics: at a Bragg mirror the intracavity field has period
-$2k$, so dephasing involves $e^{2 i k u}$ rather than $e^{i k u}$. Measured empirically
---- as the ratio of log characteristic functions of the displacement
-series, with no Gaussian assumption --- this gives
+Two refinements of the previous version are flagged rather than
+asserted: the window-temperature collapse of the fixed-$\tau$ scatter
+(to $\pm 0.003$) and the damping-scale race that preferred the
+standing-wave factor were both computed on the previous convention's
+curve, and await re-measurement on the corrected one. The
+model-independent ingredient stands: measured as the ratio of log
+characteristic functions of the displacement series, with no Gaussian
+assumption and no regression,
 \[
 s_{\mathrm{eff}} \;=\; \frac{\ln |\langle e^{2 i k u}\rangle|}
 {\ln |\langle e^{i k u}\rangle|} \;=\; 4.11 \pm 0.04 ,
 \]
 the Gaussian value $4$ dressed by the measured sub-Gaussian displacement
 statistics (excess kurtosis $-0.3$ to $-0.5$ --- level repulsion
-suppressing the tails). Replacing the Gaussian factor by the empirical
-$|\langle e^{2iku}\rangle|$ halves the model residual (RMS
-$0.074 \to 0.052 \to 0.029$ for no damping, naive, and standing-wave
-damping respectively). Two honest caveats: the ratio $s_{\mathrm{eff}}$
-is largely a measurement of the near-Gaussianity of $u$ (any
-near-Gaussian series gives $\approx 4$), and damping at intermediate
-scales (e.g.\ $1.5k$) fits the $w$ curve equally well while crossing at
-$0.39$; so the standing-wave scale is \emph{consistent} rather than
-demonstrated, with partial reflection below the Bragg condition the
-natural interpolation --- an open refinement.
+suppressing the tails).
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.82\textwidth]{fig_crossing_en.png}
-\caption{The sign crossing and the thermal Bragg model with $c$ from the
-measured jitter, $B$ from the measured plateau, and $A = 1.03$ the only
-fitted number.}
+\caption{The sign crossing on the complete-basis curve, with the thermal
+Bragg model: $c$ from the measured jitter, $B$ from the measured
+plateau, $A = 1.02$ the only fitted number. The model's zero ($0.443$)
+lands within $1\sigma$ of the measured crossing ($0.447 \pm 0.005$).}
 \label{fig:crossing}
 \end{figure}
 
@@ -267,7 +308,7 @@ The structure factor $(1-2\tau)$ of the Bragg model is therefore not a
 guess: it is the pair-counting arithmetic of the folded sum, with a
 sharp horizon at the fold.
 
-\section{The mirror channel: a tent at the fold}
+\section{The mirror channel: a tent at the fold}\label{sec:tent}
 
 Testing the derivation pointwise --- regressing $|Z(t)|^2$ on the prime
 waves over fine grids ($1.3 \times 10^6$ points per window, two windows)
@@ -299,7 +340,9 @@ prefers $c_0 \approx 1.1$ over the naive $2\gamma - 1$). Measurements
 at $\tau \gtrsim 0.62$ are excluded: the zero-spacing comb band sets in
 there, and non-prime control frequencies reach the tent scale --- unlike
 the max-channel measurements, these pointwise regressions do not yet
-carry a full placebo battery, which we flag as a limitation.
+carry a full placebo battery, which we flag as a limitation. Being
+dense-grid pointwise measurements, they are immune to the sampling-grid
+systematic of Section~\ref{sec:grid}.
 
 \begin{figure}[ht]
 \centering
@@ -313,45 +356,50 @@ there.}
 \section{The residual variance, decomposed}
 
 The companion note's residual amplitude variance
-$V_{\mathrm{res}}(L) = 0.163 \to 0.244$ (after stripping all
-$p^k \le 300$) decomposes as follows. The unstripped tail, computed from
-the measured $w(\tau)$ curve including its negative plateau, contributes
-only $\sim 4.5\%$. Re-stripping with gap-interaction terms (the
-transmission is gap-dependent) removes, placebo-corrected, a further
-$0.074 \to 0.062$ --- $45\%$ to $25\%$ of the residual --- and lifts the
-stripped core correlation to $0.984$. What remains grows linearly at
-$0.035$ per unit $L$: within errors the \emph{CUE amplitude-variance
-rate} ($0.036$ per unit $N$), at one tenth the magnitude (the
-companion's ``one sixth'' referred to the raw, undecomposed residual). The zero gas
-carries an intrinsic noise component that beats at the random-matrix
-tempo but at a whisper.
+$V_{\mathrm{res}}(L) = 0.163 \to 0.244$ and its decomposition ---
+$\sim 4.5\%$ unstripped tail, a gap-modulated interaction share of
+$25$--$45\%$, and a core growing at $0.035$ per unit $L$, the CUE rate
+at one tenth the amplitude --- were measured under the previous
+convention. The headline that survives the audit unchanged is the
+correlation statistic: stripping the measured waves from both series
+leaves a core pair correlation $r^* = 0.9783$ under the previous basis
+and $0.9774$ under the complete basis --- \emph{insensitive} to the
+convention, as a correlation of residuals should be. The variance rates
+and the interaction share are flagged for re-measurement; we retain the
+qualitative statement that a small intrinsic component grows at close to
+the random-matrix tempo.
 
 \section{Synthesis and open problems}
 
-The measured response theory of the zero gas now reads: each prime wave
-enters at unit amplitude and is split, conserving amplitude, between
-transmission and zero displacement ($\sqrt{w} + (\beta/2)v = 1$); the
-medium is lossless, with a Bragg mirror at the Riemann--Siegel fold whose
-observed position is shifted to $0.40$ by the measured, logarithmically
-growing thermal jitter, with standing-wave dephasing of measured scale
-$4.11$; the ideal structure factor is the fold's pair-counting
-arithmetic; beyond the fold the response is carried entirely by the
-functional equation's mirror sum, whose interference channel is a tent
-peaked at the fold; and the last residue of randomness beats at the CUE
-rate at one tenth amplitude.
+The measured response theory of the zero gas now reads: each prime-power
+wave enters at full explicit-formula weight and splits between
+transmission and zero displacement along a tight linear constraint
+($\sqrt{w} = 1.017 - 0.884\,v$; the $\sqrt{w}$-versus-$w$ form question
+is open); the medium is consistent with lossless, with a Bragg mirror at
+the Riemann--Siegel fold whose observed position $0.447$ is reproduced
+by dressing the ideal mirror with the measured thermal jitter; the ideal
+structure factor is the fold's pair-counting arithmetic; beyond the fold
+the response is carried by the functional equation's mirror sum, whose
+interference channel is a tent peaked at the fold; the stripped core
+correlation $0.977$ is basis-insensitive; and the measurement grid
+itself is part of the medium --- the zeros' displacement field couples
+every restricted regression to the omitted lines.
 
 Open problems: (1) the exact tent normalization from the classical
-shifted-moment main terms, including the $\chi$-side; (2) the mapping of
-the pointwise mirror channel to the max-channel plateau $B = -0.16$
-(sign and size); (3) partial-reflection dressing $r(\tau)$ below the
-Bragg condition; (4) a derivation of $\beta$; (5) the distribution (not
-just variance) of the intrinsic core --- is it GUE?; (6) universality:
-does the same response theory, with the same constants, hold for
-Dirichlet $L$-functions?
+shifted-moment main terms, including the $\chi$-side; (2) the mapping
+of the pointwise mirror channel to the corrected max-channel plateau
+($-0.05$ to $-0.09$): sign and size; (3) partial-reflection dressing
+$r(\tau)$ below the Bragg condition (a first $2\theta$-locked candidate
+at the few-percent level is recorded in the project log); (4) a
+derivation of the constraint's slope $0.884$ and intercept $1.017$;
+(5) the distribution of the intrinsic core --- is it GUE?; (6)
+universality: does the same response theory hold for Dirichlet
+$L$-functions?; (7) a mechanistic theory of the sampling-grid coupling
+--- the grid the zeros provide is not a passive ruler.
 
 \section*{Reproducibility}
 
-All measurements are scripts 62--78 in
+All measurements are scripts 62--84 in
 \url{https://github.com/azizran/deney} (directory \texttt{qm\_riemann/}),
 runnable from the stored datasets; the dated research log records the
 failed intermediate models alongside the results.
