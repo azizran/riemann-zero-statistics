@@ -1340,3 +1340,30 @@ sıcaklık (tarak), hiperuniformluk (karanlık alan). Not 4'ün omurga adayı.
 Açık: benek-sönümü yasası; 0.885 sabiti; Re<0 işaretinin fiziği;
 karanlık-alan tayfının ince haritası (S-denizi); kuvvet benekleri.
 Script: 86_kirinim_deseni.py + 86_kirinim.png.
+
+## 87: KAPALI DEVRE — BÜKÜLME, KRİSTALİN TERMAL DİFÜZ SAÇILMASINDA YAŞIYOR (20 Ağustos, gece-2)
+
+Soru: 81'in ölçtüğü giydirme, 86'nın ölçtüğü Ĝ'den türer mi? ÜÇ ADIM:
+
+1. KİMLİK (T1): iki dalga kolonunun Gram'ı = ½[Ĝ(Δω) ± Ĝ(Σω)] bileşimleri
+   — sayısal doğrulama: maks hata ~5e-8 (Gram ölçeği 0.006). Cetvel
+   teorisinin cebiri KESİN: bütün çiftlenim Ĝ'de yaşıyor.
+2. AYRIŞTIRMA (T2): atlanmış-değişken transferi kesin cebirle kapandı
+   (çıplak−tam = bias, iki pencerede +0.429/+0.450 birebir). Katkı
+   dağılımı: TEK taşıyıcı YOK — 11 atlanan çizginin hepsi pozitif katkı,
+   q ile yavaş azalan (+0.06'dan +0.02'ye): transfer KOLEKTİF.
+3. TAŞIYICI KİMLİĞİ (T3): en büyük çiftlerin frekanslarında |Ĝ| =
+   0.002-0.009 — p^k çizgilerinde DEĞİL (uzaklıklar 0.03-0.44), ama
+   yerel karanlık tabanın (5e-4) 4-15 KATI, ve Σω büyüdükçe tarağa
+   (ω=L) doğru YÜKSELİYOR. Kimlik: TERMAL DİFÜZ SAÇILMA (TDS) —
+   hiperuniform karanlıkla Bragg tarağı arasındaki termal omuz.
+   Kaba 1B kristal kestirimi √((1−e^{−ω²σ²})/2n) ≈ 0.0035 @ω=6.5;
+   ölçülen 0.005-0.009 — aynı mertebe.
+
+BÜYÜK RESİM: üç günün draması tek cümleye indi — "regresyonu büken şey,
+sıfır kristalinin termal difüz saçılmasıdır." Halka: v-alanı → Ĝ
+(benekler+tarak+TDS) → Gram → giydirme → düzeltilmiş fizik. Not 4'ün
+merkezi bölümü hazır. Açık: TDS'nin sıcaklık ölçeklemesi (pencereler
+arası test: kaba işaret karışık — n ve √p farkları ayıklanmalı);
+kontrollü-rung kontrol-aracılı pay; tam difüz-model fiti (DW²·tarak +
+(1−DW²)·difüz + benekler = tam S(ω) modeli). Script: 87_kapali_devre.py.
