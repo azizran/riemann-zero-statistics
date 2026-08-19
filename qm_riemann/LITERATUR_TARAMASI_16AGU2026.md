@@ -1199,3 +1199,42 @@ kendisi ölçülmeli. Script: 81_kat_dibi.py (T1-T4).
 
 Scriptler: 82_izgara_denetimi.py (T1-T4). Sıradaki: 83 = büyük yeniden
 ölçüm (tam-taban boru hattı, tüm manşetler) + Not 2-3 revizyon turu.
+
+## 83: BÜYÜK YENİDEN ÖLÇÜM TAMAM — ESKİ→YENİ TABLOSU (20 Ağustos)
+
+Tam-taban kampanyası (tüm p^k, τ≤0.45-0.55 / q≤720; Odlyzko dahil 11+12
+pencere). Sonuçlar üç sınıf:
+
+GÜÇLENENLER:
+- TERMAL BRAGG ÇAKIŞTI: yeni kesiş τ₀ = 0.447±0.005 (eski 0.40); naif
+  termal model (ölçülen c_jit=1.17, yeni B, A=1.020) kesişi 0.443'te
+  veriyor — ÖLÇÜMLE 1σ İÇİNDE. Eski "aile kıskacı [0.37,0.41]" gerilimi
+  ERİDİ: düzeltilmiş veriyle model basitleşti ve isabet etti.
+- τ-YASASI EVRENSELLEŞTİ: kuvvet çizgileri u(4)=0.700, u(8)=0.560,
+  u(9)=0.530, u(25)=0.338, u(27)=0.335 — her biri kendi τ'sundaki w
+  değerinde: yasa asal DEĞİL, asal-kuvveti yasası (sum rule p^k dahil).
+- Kayıpsızlık tutuyor: sin/cos ≤ 0.08 (geçiş altı), 0.14 (ötesi).
+- w₀ izi: w(2) τ=0.028'de 0.9097±0.0035; kaba uzatma w₀≈0.97-0.98 —
+  perde eski tahminden çok daha saydam (eski aralığın üst ucu).
+
+DEĞİŞENLER (revizyon gerektirir):
+- Yasa fiti: √w = 1.0171 − 0.8835·v, RMS 0.0075 (eski 0.990−1.025v,
+  0.0096). Blok-bootstrap eğim ±0.021. a≡1 artık ZAYIF (RMS 0.0102 >
+  0.0075): kesme 1.017, 1'den ayrılıyor. β/2 anlatısı yeniden yazılacak.
+- FORM YARIŞI BULANIKLAŞTI: w-lineer 0.0099 ← √w-lineer 0.0127 (hafif
+  öne geçti); şiddet-ünitaritesi hâlâ ölü (×6.3). "Genlik korunumu"
+  formu artık tek galip değil — dürüstçe iki-form belirsizliği yazılacak.
+- Out-of-sample p=11,13: serbest doğruya RMS 0.0269, ofset −0.018 (eski
+  0.0148) — yasa out-of-sample hayatta ama daha gevşek; τ-menzil
+  büyümesi/eğrilik şüphesi not edildi.
+- Plato: B = −0.05..−0.09 (konvansiyona göre; eski −0.16'dan çok sığ;
+  81-83 konvansiyon farkı AÇIK madde).
+
+DEĞİŞMEYENLER:
+- Soyulmuş çekirdek: ham 0.920 → P11-soyulmuş 0.9783 → TAM-soyulmuş
+  0.9774 — r* tabana DUYARSIZ ✓ (Not 2'nin en sağlam sonucu).
+- s_eff = 4.11 muaf (regresyonsuz); Not 1 komple muaf.
+
+Çıktılar: 83_buyuk_yeniden_olcum.py, 83_tam_taban_egri.npz, 83_kampanya.png.
+SIRADAKİ: Not 2-3 revizyon turu (yeni sayılar + iki-form dürüstlüğü +
+basitleşen termal bölüm), ardından taze düşman-göz denetimi, SONRA arXiv.
