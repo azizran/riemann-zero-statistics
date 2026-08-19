@@ -1395,3 +1395,42 @@ toplam kuralı ⟹ v-yasası normalizasyonunun (ve belki k₀'ın) TÜRETİM YOL
 Model artık tam: S(ω) = benekler[(v·q^{-1/2}/2)·πτcot(πτ)·k₀] +
 tarak[char-fonksiyon, alt-Gauss] + karanlık alan[sonlu-L rampa inşası].
 Not 4 omurgası üç bölümüyle hazır. Script: 88_S_modeli.py + png.
+
+## 89: MONTGOMERY KÖPRÜSÜ — MUTLAK BENEK YASASI DOĞRULANDI, v-KURALI FİZİĞE İNCELDİ (21 Ağustos)
+
+TÜRETİM: S(t) çizgisi Λ(q)/(π√q log q) ⟹ u-çizgisi U_q = 2Λ/(L√q log q);
+ortalar ortalama (cos πτ), gap'ler fark alır ⟹
+  BENEK: |Ĝ(log q)| = Λ(q)/(L√q)·cos(πτ)·DW   [kanal ölçümsüz, mutlak]
+  GAP:   v(τ) = (2/π)·sin(πτ)  [naif fark-geometrisiyle]
+  → onset 2τ TÜREDİ (ölçülen 2.014); doyum ölçeği 2/π = 0.637;
+  → kuvvetler için v(p^k) = (2/π)sin(πτ)/k (yeni öngörü, test edilecek);
+  → Pythagoras: benek ∝ cos²(πτ), gap ∝ sin²(πτ) — rampa bölüşümü.
+
+T2 — MUTLAK BENEK YASASI: 1-4% İÇİNDE DOĞRULANDI. p=2: 0.999, p=3: 1.002
+(!!), p=31: 1.040; ortalama 1.022±0.014. Explicit formül, sıfır örgüsünün
+kırınım desenini HİÇBİR kanal ölçümü girmeden öngörüyor — programın en
+temiz ilk-ilke temas noktası. (+%2-4 hafif eğim: Gauss-DW'nin çizgiler
+için fazla sönümü — alt-Gauss düzeltme adayı, açık.)
+
+T3 — ENJEKSİYON KALİBRASYONU (gerçek diziye bilinen dalga): cos-tarafı
+KUSURSUZ (a_G = 0.943/0.674/0.281 vs cos(πτ) = 0.951/0.707/0.309) —
+86'nın benek geometrisi bağımsız doğrulandı. SÜRPRİZ: sin-tarafında
+boru hattı naif U·ω'yu neredeyse aynen döndürüyor (a_v = 1.00/0.98/0.92),
+sabit-gap sin-formülünden ÇOK daha az zayıflatıyor.
+
+T1 + T3 BİRLEŞİMİ — YENİ FİZİK NESNESİ: benekler U'nun EF değerini
+kanıtladığına ve boru hattı sadık olduğuna göre, ölçülen v'nin
+2τ·a_v'den kalan açığı (0.92→0.75, τ ile büyüyen) GERÇEK bir bastırma:
+FARK-KANALI PERDELEMESİ D(τ) — sıfırlar asal dalgaya katı yerdeğiştirme
+olarak değil KISMEN KORELE hareketle yanıt veriyor (komşular birlikte
+kayınca gap'ler daha az nefes alır; ortalama kanalı etkilenmez —
+benekler tam, v eksik: tutarlı!). D(τ) ≈ sinc(πτ)·κ, κ ≈ 0.86-0.92:
+sinc = "bir sıfırın yanıtı dalgayı ~bir örgü aralığı üzerinden ortalar"
+(fiziksel çekirdek) → v(τ) = (2/π)sin(πτ)·κ formu fizikle geri geliyor;
+κ<1 artığı açık. T4 rampa: orta binlerde uyum (0.076 vs 0.081; 0.061 vs
+0.050), düşük binlerde Λ²-topaklanması — nitel ✓, nicel pürüzlü.
+
+Not 4 hiyerarşisi netleşti: (1) mutlak benek yasası [teorem-komşusu],
+(2) tarak/sıcaklık [char-fonksiyon], (3) fark-kanalı perdelemesi D(τ)
+[yeni gözlemlenebilir], (4) rampa bölüşümü [Berry-Montgomery bağı].
+Script: 89_montgomery_koprusu.py + 89_kopru.png.
