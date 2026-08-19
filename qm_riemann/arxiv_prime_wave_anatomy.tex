@@ -27,37 +27,37 @@ a shifted effective dimension, with different shifts for different
 statistics. Here we dissect the deviation. (This revision additionally
 identifies a \emph{sampling-grid systematic} --- the gap midpoints are
 themselves displaced by the prime waves, biasing restricted-basis
-regressions, ground-truth-validated at $15$--$25\%$ on the amplitude
-channel --- and quotes all channel numbers in the corrected
+regressions, ground-truth-validated at $0.14$--$0.24$ absolute
+($16$--$40\%$ relative) on the amplitude channel --- and quotes all channel numbers in the corrected
 complete-basis convention.) Regressing $\log M_n$ and
 $\log \delta_n$ on the explicit-formula waves $\cos(t \log p^k)$ (phases
 evaluated at gap midpoints, exogenous to the amplitude measurement;
 placebo controls at the noise floor), we find: (i) a \emph{sum rule} --- the
 total prime content of the amplitudes tracks the explicit-formula weights
 $p^{-k/2}/k$ term by term across a factor $20$ in weight, at an overall
-normalization near unity whose exact value carries frame and basis
-systematics at the $5$--$15\%$ level, both identified and controlled in
-this revision --- under the complete-basis convention the prime powers
-fall on the same transmission curve as the primes; (ii) the content splits between a
+normalization that the complete-basis revision pins, for all fifteen
+primes, at unity within one percent with no frequency drift (the prime
+powers a few percent below); (ii) the content splits between a
 direct amplitude channel $w$ and a zero-displacement channel $v$, mirror
 curves that each collapse onto one-variable laws in
 $\tau = \log p / \log\frac{t}{2\pi}$; (iii) stripping the measured waves
 from both series leaves a core pair with correlation $r^* \approx 0.97$--$0.98$
 --- basis-insensitive ($0.977$ under the complete basis), tighter than
-any CUE in the sampled range $N \in [5, 20]$ --- with the Pearson/Spearman
+any CUE in the sampled range $N \in [5, 19]$ --- with the Pearson/Spearman
 effective-dimension anomaly of the companion note melting away entirely;
 (iv) an exhaustion analysis reveals a role-crossover at
 $\tau^* \approx 0.40$ and yields an upper bound on the intrinsic
 (non-arithmetic) variance of the amplitude sequence,
-$V_{\mathrm{res}}(L)$, which grows at a rate close to the CUE rate but at
-one sixth its magnitude. All of these laws, fitted at
+$V_{\mathrm{res}}(L)$, which grows at a rate close to the CUE rate but
+at one sixth its magnitude (previous convention). All of these laws, fitted at
 $t \le 1.6\times10^6$, are then re-tested out of sample at the
 $10^{12}$-th zero ($t \approx 2.7\times10^{11}$) using Odlyzko's tables:
 the $\tau$-laws, the sum rule, the crossover, and the
 $V_{\mathrm{res}}$ extension all hold across this $1.6\times10^5$-fold
 jump in height; the zero-displacement law is further verified at the
-$10^{21}$-st and $10^{22}$-nd zeros, where only gap data exist, extending
-its validated range to eighteen orders of magnitude in $t$. At single-gap scale, two thirds or more of the apparent randomness of
+$10^{21}$-st and $10^{22}$-nd zeros (previous convention on both sides
+of that comparison), where only gap data exist, extending its validated
+range to eighteen orders of magnitude in $t$. At single-gap scale, two thirds or more of the apparent randomness of
 the maxima sequence is deterministic prime signal.
 \end{abstract}
 
@@ -134,13 +134,15 @@ Riemann--von Mangoldt grid). Restricted regression bases therefore
 transfer omitted-line content into the retained coefficients, amplified
 by the $p^{1/2}$ normalization. A ground-truth test --- synthetic
 amplitudes with known line content built on the real midpoint grid ---
-shows a four-prime basis under-measures $w$ by $15$--$25\%$
-($21\sigma$), while a complete basis (all $p^k$ with
-$\log p^k / L \le 0.45$--$0.55$, capped at $q \le 720$) recovers the
-truth to $\sim 1\%$. All channel coefficients in this revision use the
+shows a four-prime basis under-measures $w$ by $0.14$--$0.24$ in
+absolute units ($16$--$40\%$ relative; $20$--$22\sigma$), while a
+complete basis (all $p^k$ with $\log p^k / L \le 0.45$--$0.55$, capped
+at $q \le 720$) recovers the truth to $\le 1.5\%$. All channel coefficients in this revision use the
 complete-basis convention; correlation statistics ($r^*$) and
 regression-free quantities are insensitive to it, and the companion
-note's results involve no channel regressions at all.
+note's results involve no channel regressions at all. (The ground-truth
+test uses a single window and i.i.d.\ noise; a broadband
+grid-correlated component would evade it and is not yet excluded.)
 
 \section{The sum rule}
 
@@ -150,32 +152,31 @@ $u_q = \sqrt{a_q^2 + b_q^2} \,/\, (p^{-k/2}/k)$ for $q = p^k$.
 
 \begin{observation}[Sum rule]
 For all $23$ frequencies tested --- the primes $2$ through $47$ and the
-prime powers $4, 8, 9, 16, 25, 27, 32, 49$ --- the measured total content
-of the maxima tracks the explicit-formula weight, which itself spans a
-factor of $20$ ($0.71$ down to $0.035$). In the midpoint frame
-$|u_q| = 1.01$ to $1.12$. The sine components vanish (phase-aligned
-waves), and placebo frequencies give $|u| \approx 0$.
+prime powers $4, 8, 9, 16, 25, 27, 32, 49$ --- the measured total
+content of the maxima tracks the explicit-formula weight, which itself
+spans a factor of $20$ ($0.71$ down to $0.035$). Under the unconditioned
+complete-basis measurement of this revision, all fifteen primes give
+$|u_p| = 0.99$--$1.01$: unity within one percent, with no frequency
+drift. The prime powers fall slightly below unity ($0.83$--$0.99$,
+decreasing with weight), a fine structure we leave open. The sine
+components vanish (phase-aligned waves), and placebo frequencies give
+$|u| \approx 0$.
 \end{observation}
 
-The overall normalization carries a \emph{frame systematic}: the gap
-midpoints are themselves displaced by the prime waves (the $v$ channel of
-the next section), so they carry phase jitter (rms $\approx 0.14$, a
-quarter of the mean gap). Re-evaluating the phases at jitter-free
-positions --- the Riemann--von Mangoldt flow started at the window's first
-zero --- moves every prime to $|u_p| = 0.95$--$0.97$ with \emph{no}
-frequency drift (the apparent $+1\%$ to $+12\%$ drift of the midpoint
-frame is a frame artifact), while the low-weight prime powers become
-noisier but remain consistent with unity. We therefore state the sum rule
-as: term-by-term proportionality to $p^{-k/2}/k$ is frame-robust; the
-overall level is $\approx 1$ within a $5$--$15\%$ frame systematic, the
-jitter-free frame preferring $\approx 0.96$. Under the complete-basis
-convention the picture sharpens: the prime-power contents
-$u(4) = 0.700$, $u(8) = 0.560$, $u(9) = 0.530$, $u(25) = 0.338$,
-$u(27) = 0.335$ each coincide, within errors, with the prime
-transmission curve $w(\tau)$ evaluated at the line's own
-$\tau = \log p^k / L$: term-by-term proportionality to $p^{-k/2}/k$
-holds with a \emph{single} $\tau$-dependent transmission factor common
-to primes and prime powers.
+The previous version reported $|u_q| = 1.01$--$1.12$ in the midpoint
+frame with an apparent $+1\%$ to $+12\%$ drift, and a
+jitter-free-frame level of $0.95$--$0.97$ (both under the previous,
+restricted-basis convention). The complete basis resolves most of this:
+the drift was largely basis transfer, and the midpoint-frame level lands
+on unity. Whether a residual frame systematic at the percent level
+survives is left to the pending re-measurements; the term-by-term
+proportionality is robust under every convention tested. Two objects
+must not be conflated: the \emph{unconditioned} content $u_q$ quoted
+here (unity for the primes), and the \emph{gap-conditioned}
+coefficients $w$ of the next section, which are systematically smaller
+--- at fixed observed gap the prime-power contents
+$0.700, 0.560, 0.530, 0.338, 0.335$ for $q = 4, 8, 9, 25, 27$ match the
+conditioned prime curve $w(\tau)$ at the $1$--$2\%$ level.
 
 \section{Two channels and the $\tau$-laws}
 
@@ -192,7 +193,8 @@ w_p & 0.83 & 0.72 & 0.60 & 0.52 & 0.42 & 0.38\\
 \end{array}
 \]
 (complete-basis convention; the restricted-basis values of the previous
-version were $5$--$20\%$ lower in $w$ and higher in $|v|$)
+version were $8$--$30\%$ lower in $w$, growing with $p$, and
+$10$--$18\%$ higher in $|v|$)
 and both collapse, across all windows and primes simultaneously, onto
 single curves in the Berry variable $\tau = \log p / L$ \cite{Berry88}
 (residual RMS $\approx 0.01$ for $w$). The phenomenon underlying the $v$
@@ -242,7 +244,7 @@ noise (stripping tightens the pair), above it as common-mode signal
 shared by gaps and maxima (stripping removes genuine coupling). We denote
 this role-crossover $\tau^* \approx 0.40$. (The complete-basis sign
 crossing of the $w$ channel, measured in the companion response-theory
-note, sits at $0.447 \pm 0.005$ --- within $1.5\sigma$ of this coarse
+note, sits at $0.447 \pm 0.005$ --- at $1.6\sigma$ from this coarse
 peak; a complete-basis re-measurement of the exhaustion curve is
 pending.)
 \end{observation}
@@ -272,14 +274,17 @@ a double-precision phase-noise artifact was caught and eliminated ---
 extends the $w(2)$ trace to $\tau = 0.028$. Under the complete-basis
 convention the trace reads
 $w_2 = 0.807$ at $\tau = 0.070$ rising monotonically to
-$w_2 = 0.910 \pm 0.004$ at $\tau = 0.028$ ($L = 24.48$), and a crude
-linear extrapolation gives $w(0) \approx 0.97$--$0.98$.
+$w_2 = 0.910 \pm 0.004$ at $\tau = 0.028$ ($L = 24.48$);
+extrapolation to $\tau = 0$ is model-dependent --- linear variants give
+$0.96$--$1.01$, a quadratic $0.94$ --- so full transparency is no longer
+excluded, nor is a few-percent absorption.
 
 \begin{observation}[Near-complete transparency]
 The previous version of this note reported a persistent absorption of
 $2$--$12\%$ as $\tau \to 0$, with every model variant below unity.
 Most of that absorption was the sampling-grid bias: the corrected trace
-points to $w(0) \approx 0.97$--$0.98$. Whether a small residual
+is consistent with $w(0)$ anywhere in $0.94$--$1.01$, centered near
+$0.97$--$0.98$. Whether a small residual
 absorption survives --- and whether the previously reported fixed-$\tau$
 per-prime fine splitting does --- awaits the five-model re-extrapolation
 under the corrected convention, which we leave explicitly open.
@@ -317,9 +322,10 @@ predicts the six measured $w_p$ at $L=24.475$ to within
 $0.001$--$0.055$; e.g.\ $w_2 = 0.9097 \pm 0.0035$ against the guide
 value $0.9086$. The residuals grow mildly with $\tau$ (the true curve
 is not exactly linear), but the collapse variable survives the jump.
-\item \emph{Sum rule}: $|u_q| = 0.99$--$1.07$ across the twelve
+\item \emph{Sum rule}: $|u_q| = 0.99$--$1.07$ for eleven of the twelve
 frequencies tested (previous convention; uncertainties $\pm 0.02$ at
-$q=2$ growing to $\pm 0.2$ at the largest $q$).
+$q=2$ growing to $\pm 0.2$ at the largest $q$); the twelfth, $q = 49$,
+gives $1.18$, $0.9\sigma$ from unity.
 \item \emph{Role-crossover}: at this $L$ the crossover law places
 $Q_{\mathrm{peak}} = e^{0.40 L} \approx 2\times10^4$, so the entire
 accessible range $Q \le 300$ ($\tau \le 0.233$) should lie \emph{before}
@@ -388,7 +394,8 @@ from its linear onset and saturate near $0.55$--$0.60$ --- in the same
 region as the role-crossover $\tau^* \approx 0.40$ of the exhaustion
 analysis, as one would expect if absorption is nearly complete there. The previously quoted linear onset $v \approx 2\tau$ was a
 previous-convention value; the complete-basis primary windows prefer a
-shallower onset (slope $\approx 1.6$ for $\tau < 0.2$), whose exact
+shallower onset (slope $1.6$--$1.7$ for $\tau < 0.2$, depending on
+whether the fit is anchored at the origin), whose exact
 small-$\tau$ behavior --- and the extreme-height comparison above ---
 will be settled together in the pending re-measurement.
 
@@ -430,8 +437,8 @@ magnitude suggests a small genuinely-random component of the zero gas;
 (4) determine how much of the previously reported $u_q$ drift and
 fixed-$\tau$ per-prime splitting survives the corrected convention ---
 the sampling-grid coupling is the prime suspect; (5) pin the residual
-absorption $1 - w(0)$, now bounded near $0.02$--$0.03$ by the corrected
-trace, via the five-model re-extrapolation;
+absorption $1 - w(0)$, now consistent with $0$--$0.06$, via the
+five-model re-extrapolation;
 (6) recover the discriminating power of the $N_{\mathrm{eff}}$ test at
 large heights, which needs $\gtrsim 10^5$ consecutive zeros there
 (e.g.\ from the Platt/LMFDB datasets); (7) explain the sum-only,

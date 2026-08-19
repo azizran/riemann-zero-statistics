@@ -1271,3 +1271,39 @@ KALAN yeniden-ölçüm listesi (dürüst bayraklar metinde): beş-model w₀;
 exhaustion eğrisi; V_res oranları + etkileşim payı; sıcaklık-çökmesi;
 duran-dalga yarışı; v-yasası 10²¹-²² + onset; ikinci-derece çizgiler.
 SONRA: taze düşman-göz denetimi → kullanıcı okuması → arXiv.
+
+## REVİZYON DENETİMİ + DÜZELTMELER (20 Ağustos, gece)
+
+Taze düşman-göz denetimi (bağımsız ajan; 81-84 + 54 sıfırdan yeniden koştu,
+npz'ler BİT-BİT AYNI çıktı — deterministik yeniden-üretim onayı). Karar:
+"bu haliyle geçmez ama az farkla, tamamen onarılabilir." 5 KIRMIZI +
+7 SARI — HEPSİ İŞLENDİ (28/28 yama):
+
+- K1 (en değerlisi): u(4)=0.70 vs sum-rule u≈1 farkı taban değil KOŞULLAMA
+  farkıymış (83'ün w-regresyonu g_u-kovaryatlı). 85_sum_rule_tam.py yazıldı:
+  KOŞULSUZ tam-taban sum rule → ON BEŞ ASALIN HEPSİ u=0.988–1.007, DRİFTSİZ
+  (eski +%1..12 drift taban transferiymiş); kuvvetler birimin hafif altında
+  (0.83–0.99, ağırlıkla azalan) — YENİ ince yapı, açık bırakıldı. Not 2
+  sum-rule bölümü koşulsuz/koşullu ayrımıyla yeniden yazıldı — SUM RULE
+  ESKİSİNDEN GÜÇLÜ ÇIKTI.
+- K2: silinen q=49 outlier'ı (1.18) geri kondu — dürüstlük gerilemesiydi.
+- K3: termal formül birim hatası: c=(Lσ_u)²/2 → c=(2πσ_u)²/2 (sayılar
+  zaten doğruydu, yazım yanlıştı).
+- K4: tablo parantezi %5-20 → %8-30 (p ile büyüyen).
+- K5: yer-gerçeği "%15-25" → "0.14-0.24 mutlak (%16-40 göreli)", "~%1" →
+  "≤%1.5" (dört yerde).
+- S1: kesiş tanım-sistematiği eklendi (±0.009 aralık; kuadratik-sıfır
+  0.447-0.448 sabit). S2: termal "reproduced" dürüstlüğü (model sıfırı
+  konvansiyon taramasında 0.44-0.47; B aynı eğriden → kısmen iç-tutarlılık);
+  plato −0.04..−0.09. S3: 1.5σ → 1.6σ. S4: w(0) 0.94–1.01 model-bağımlı;
+  açık problem (5) "0–0.06". S5: u(p^k)≈w(τ) "within errors" → "%1-2
+  düzeyinde (q=4'te 2-4σ artık açık)"; koşullama dili netleşti. S6:
+  yer-gerçeği sınırlaması (tek pencere/iid gürültü; genişbant bileşen
+  dışlanmadı — 81-T2 bağlantısı). S7: N∈[5,19]; ≤0.011; onset 1.6-1.7
+  (tanıma bağlı); kesme +%1.7 vs cap +%0.3 (statü açık); abstract V_res
+  ve 10²¹⁻²² bayrakları; her iki not derli.
+
+YEŞİL özeti: manşetlerin tamamı (yasa 1.017−0.884v ±0.021; kesiş; termal;
+r*; Odlyzko; tablo; merdiven; Gram; cautionary record sayıları) birebir
+doğrulandı. Denetçinin sözü: "bunlar işlendikten sonra iki not kendi
+denetim kültürünün standardını karşılar." Script: 85_sum_rule_tam.py.

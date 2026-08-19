@@ -32,12 +32,14 @@ systematic}: the gap midpoints at which all wave phases are evaluated are
 themselves displaced by the prime waves, so regressions on restricted
 frequency bases transfer omitted-line content into the measured
 coefficients. A ground-truth test on the real grid shows a four-prime
-basis biases $w$ downward by $15$--$25\%$, while a complete basis over
-all prime powers recovers the truth to $\sim 1\%$; every number below
-uses the complete-basis convention. (i) The two channels obey a tight
+basis biases $w$ downward by $0.14$--$0.24$ in absolute units
+($16$--$40\%$ relative), while a complete basis over all prime powers
+recovers the truth to $\le 1.5\%$; every number below uses the
+complete-basis convention. (i) The two channels obey a tight
 linear constraint, $\sqrt{w} = 1.017 - 0.884\,v$ (residual RMS $0.0075$;
-slope $\pm 0.021$ under window-block bootstrap), which extends unchanged
-to prime powers: $u(p^k)$ falls on the same $\tau$-curve as the primes.
+slope $\pm 0.021$ under window-block bootstrap), which extends to
+prime powers: the gap-conditioned contents fall on the same
+$\tau$-curve as the primes.
 The constraint survives an out-of-sample test on unseen primes; among
 equal-parameter alternatives intensity-unitarity fails by a factor $6$,
 while the $\sqrt{w}$-linear and $w$-linear forms are at present
@@ -121,8 +123,9 @@ apparent beyond-fold plateau $-0.354$ under a band-only basis shrinks to
 $-0.042$ under the full sub-band basis and is stable under further
 extension. And a ground-truth test --- synthetic amplitudes with known
 line content built on the \emph{real} midpoint grid --- shows a
-four-prime basis under-measures $w$ by $15$--$25\%$ ($21\sigma$), while
-the complete basis recovers the truth to $\sim 1\%$.
+four-prime basis under-measures $w$ by $0.14$--$0.24$ in absolute units
+($16$--$40\%$ relative; $20$--$22\sigma$), while the complete basis
+recovers the truth to $\le 1.5\%$.
 
 Convention adopted throughout this note and the revised companion: all
 channel coefficients are measured with complete bases --- every prime
@@ -134,7 +137,12 @@ immune by construction: dense-grid pointwise regressions (the tent of
 Section~\ref{sec:tent}), regression-free statistics (the dephasing
 scale $s_{\mathrm{eff}}$), and residual correlations (the stripped core
 $r^*$, which moves only from $0.9783$ to $0.9774$). The first companion
-note contains no channel regressions and is unaffected.
+note contains no channel regressions and is unaffected. One limitation
+is recorded: the ground-truth test uses a single window, a single noise
+draw, and i.i.d.\ noise with a pure line spectrum; a broadband
+grid-correlated component --- hinted at by non-null chirp-sum controls
+in the project log --- could in principle bias even complete bases, and
+its characterization is open.
 
 \section{The two-channel constraint}
 
@@ -149,19 +157,22 @@ $t$ from $10^5$ to $2.7\times10^{11}$), the free fit gives
 $\sqrt{w} = 1.017 - 0.884\,v$ with residual RMS $0.0075$ (slope
 $\pm 0.021$ under window-block bootstrap), at the per-prime scatter
 floor. Constraining the intercept to $1$ worsens the fit (RMS $0.0102$):
-the intercept exceeds unity by $\approx 2\%$, comparable to the
-residual basis-cutoff systematic, so we do not attach physical
-significance to the excess.
+the intercept exceeds unity by $\approx 1.7\%$ --- several times the
+cap-step effect on the intercept ($+0.3\%$) --- and its status,
+physical or residual systematic, is left open.
 \end{observation}
 
 The constraint extends beyond the primes. Measuring the prime-power
-lines under the same convention and normalizing by the explicit-formula
-weight $p^{-k/2}/k$ gives $u(4) = 0.700 \pm 0.002$,
-$u(8) = 0.560 \pm 0.003$, $u(9) = 0.530 \pm 0.002$,
-$u(25) = 0.338 \pm 0.004$, $u(27) = 0.335 \pm 0.006$ --- each equal,
-within errors, to the prime curve $w(\tau)$ evaluated at that line's own
-$\tau = \log p^k / L$. The transmission law is a law of prime powers,
-governed by $\tau$ alone.
+lines under the same (gap-conditioned, complete-basis) convention and
+normalizing by the explicit-formula weight $p^{-k/2}/k$ gives
+$0.700 \pm 0.002$, $0.560 \pm 0.003$, $0.530 \pm 0.002$,
+$0.338 \pm 0.004$, $0.335 \pm 0.006$ for $q = 4, 8, 9, 25, 27$ ---
+each matching the prime curve $w(\tau)$ at that line's own
+$\tau = \log p^k / L$ at the $1$--$2\%$ level (a small systematic
+excess, $2$--$4\sigma$ at $q = 4$, is left open). The gap-conditioned
+transmission law is a law of prime powers, governed by $\tau$ alone;
+the \emph{unconditioned} contents, by contrast, sit at unity for all
+primes (revised companion, sum rule).
 
 Stress tests (Figure~\ref{fig:law}). \emph{Out of sample}: $w$ for
 $p = 11, 13$ --- not used in the fit, extending the $v$-range ---
@@ -204,16 +215,19 @@ complete-basis) shows that the amplitude channel does not merely shrink
 \[
 \tau_0 \;=\; 0.447 \pm 0.005
 \]
-(window-block bootstrap over the $\tau \in [0.30, 0.58]$ points) and
-settles on a shallow negative plateau: beyond the crossing, peaks are
+(statistical, from a window-block bootstrap of the linear fit over the
+$\tau \in [0.30, 0.58]$ points; the linear-fit-zero definition carries
+a fit-range systematic of $\pm 0.009$, which a quadratic-fit zero
+removes --- stable at $0.447$--$0.448$ across ranges) and settles on a
+shallow negative plateau: beyond the crossing, peaks are
 slightly \emph{low} where the prime wave is high. The plateau depth is
-$-0.05$ to $-0.09$ depending on how far the covariate basis is extended
+$-0.04$ to $-0.09$ depending on how far the covariate basis is extended
 beyond the fold --- much shallower than the $-0.16$ of the previous
 convention, most of which the audit exposed as basis transfer. Two
 qualifications, sharpened by the audit: the statement ``peaks are low
 where the wave is high'' holds \emph{at fixed observed gap} --- without
 the own-gap controls the unconditional near-fold response is positive
-and of order unity --- and the crossing lies within $1.5\sigma$ of the
+and of order unity --- and the crossing lies at $1.6\sigma$ from the
 coarse exhaustion-analysis crossover $\tau^* = 0.40 \pm 0.03$ of
 \cite{companion2}; the identification of $\tau^*$ with the zero of $w$
 remains plausible but awaits a complete-basis re-measurement of the
@@ -221,7 +235,7 @@ exhaustion curve.
 
 The response phases are diagnostic. Through the crossing the phase of
 $w$ jumps from $\approx 0$ to $\approx \pi$ with quadrature-to-in-phase
-ratios below $0.011$ for $\tau < 0.35$, $0.08$ through the crossing
+ratios at or below $0.011$ for $\tau < 0.35$, $0.08$ through the crossing
 region, and $0.14$ beyond; the phase of $v$ stays pinned at $0$. A
 damped resonance would rotate through $\pm\pi/2$; a real response that
 changes sign is the signature of a \emph{lossless} (conservative,
@@ -247,14 +261,19 @@ jitter. The jitter is \emph{measured}: comparing gap midpoints with the
 Riemann--von Mangoldt flow gives $\sigma_u$ per window; in unfolded
 units it grows from $0.198$ to $0.272$ across our windows --- the
 crystal warms logarithmically, as the classical $S(t)$ variance suggests
---- giving $c = (L \sigma_u)^2/2 = 0.77$--$1.46$, mean $1.17$.
+--- giving $c = (2\pi \sigma_u)^2/2 = 0.77$--$1.46$, mean $1.17$.
 
 \begin{observation}[The crossing is reproduced]
 With $c$ fixed from the measured jitter and $B$ fixed from the measured
 plateau, the single remaining parameter fits to $A = 1.02$ (unit
 coherent amplitude), and the model's zero lands at $\tau = 0.443$ ---
 within $1\sigma$ of the measured $0.447 \pm 0.005$
-(Figure~\ref{fig:crossing}). Under the previous convention the model
+(Figure~\ref{fig:crossing}). Two qualifications: across the plateau's
+convention range ($-0.04$ to $-0.09$) and the jitter's window spread the
+model zero moves over $0.44$--$0.47$, comfortably containing the
+measurement; and since $B$ is measured from the same curve's beyond-fold
+points, the agreement is partly internal consistency rather than
+prediction. Under the previous convention the model
 and the measurement disagreed by more than the thermal family's internal
 spread, and the previous version of this note could claim only a bracket
 $[0.37, 0.41]$; the sampling-grid correction moved the measured crossing
@@ -388,7 +407,7 @@ every restricted regression to the omitted lines.
 Open problems: (1) the exact tent normalization from the classical
 shifted-moment main terms, including the $\chi$-side; (2) the mapping
 of the pointwise mirror channel to the corrected max-channel plateau
-($-0.05$ to $-0.09$): sign and size; (3) partial-reflection dressing
+($-0.04$ to $-0.09$): sign and size; (3) partial-reflection dressing
 $r(\tau)$ below the Bragg condition (a first $2\theta$-locked candidate
 at the few-percent level is recorded in the project log); (4) a
 derivation of the constraint's slope $0.884$ and intercept $1.017$;
