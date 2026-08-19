@@ -1307,3 +1307,36 @@ YEŞİL özeti: manşetlerin tamamı (yasa 1.017−0.884v ±0.021; kesiş; terma
 r*; Odlyzko; tablo; merdiven; Gram; cautionary record sayıları) birebir
 doğrulandı. Denetçinin sözü: "bunlar işlendikten sonra iki not kendi
 denetim kültürünün standardını karşılar." Script: 85_sum_rule_tam.py.
+
+## 86: SIFIR ÖRGÜSÜNÜN KIRINIM DESENİ — CETVEL TEORİSİ İLK ÖLÇÜM (20 Ağustos, gece)
+
+Fikir: bükülmenin tamamı tek nesnede — ızgaranın kendi Fourier'i
+Ĝ(ω) = ⟨e^{iωt_n}⟩ (yapı çarpanı / kırınım deseni). Birinci-ilke teori
+(t = t^s + u, birinci mertebe): üç parametresiz öngörü. ÜÇÜ DE İSABET:
+
+P1 ASAL BENEKLERİ: |Ĝ(log p)| = v_p·p^{-1/2}/2 (83'ün v'siyle,
+   parametresiz). Ölçüm/öngörü: p=2..7'de 1.07/1.05/1.01/0.98 (—
+   küçük ω'da teori TAM), p büyüdükçe sistematik açık: 31'de 0.70.
+   Ortalama 0.887±0.123. Açık ince yapı: benek-sönümü yasası (çizginin
+   kendi DW'si ~0.90 veriyor, yetmiyor — v-doyumu/2. mertebe adayı).
+P2 FAZ KİLİDİ: Ĝ(log p) SAF REEL, hepsi NEGATİF işaretli; Im ≈ 0.0000
+   (Re ~0.03-0.06'ya karşı <1e-4!). v cos-kilitli ⟹ u sin ⟹ iω ⟹ reel:
+   teorinin faz zinciri kusursuz doğrulandı. (Negatif işaretin fiziği —
+   itme fazı — yorumlanacak.)
+P3 TARAK/SICAKLIK: katlanmamış çerçevede |Ĝ_x(2π)| vs e^{-c_jit}:
+   altı pencerede oran 0.88-0.89 SABİT — tarak parlaklığı pencere
+   sıcaklığını birebir izliyor (sıcaklığın 3. bağımsız ölçümü ✓);
+   sabit 0.885 çarpanı yeni açık sabit (alt-Gauss düzeltmesi adayı).
+T4 KARANLIK ALAN: çizgi-dışı taban gerçek ızgarada 0.0002 — beyaz
+   gürültü 1/√n=0.005'in 25 KAT ALTI ve karıştırılmış-gap vekilinin
+   (0.0014) altında: HİPERUNİFORMLUK doğrudan kırınımda görüldü. S-ışıltısı
+   parıltı değil KARANLIKMIŞ: sıfır gazının katılığı ekranda. Aritmetik
+   içerik tamamen ayrık beneklerde.
+
+SENTEZ: "cetvel bükülmesi" artık ne hata ne düzeltme — ölçülmüş, öngörülü
+bir nesne. Ĝ(ω) tek başına birleştiriyor: giydirme (Gram çiftlenimleri =
+benekler), v-alanı (benek parlaklığı = v'nin bağımsız ikinci ölçümü!),
+sıcaklık (tarak), hiperuniformluk (karanlık alan). Not 4'ün omurga adayı.
+Açık: benek-sönümü yasası; 0.885 sabiti; Re<0 işaretinin fiziği;
+karanlık-alan tayfının ince haritası (S-denizi); kuvvet benekleri.
+Script: 86_kirinim_deseni.py + 86_kirinim.png.
