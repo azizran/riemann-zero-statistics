@@ -1599,3 +1599,32 @@ ist. belirsizlikler), dal kesişmesi (0.140), enjeksiyon doğrusallığı.
 Yeniden derlendi (422 KB). Repro 79-95. DÖRTLEME DURUMU: dördü de
 yazılmış + denetimli + düzeltilmiş. SIRADAKİ: kullanıcı okuması (4 not)
 → arXiv mekaniği (endorsement erken başlatılabilir).
+
+## 96: DIRICHLET BETA'NIN KIRINIMI — EVRENSELLİK + KARAKTER OKUMA (21 Ağustos, akşam)
+
+Not 4 açık problem 6 aynı gün saldırıya uğradı: programın İLK zeta-dışı
+veri seti üretildi — L(s,χ₄) (Dirichlet beta), 4.962 sıfır, kendi
+tamamlanmış-fonksiyon makinemizle (Hurwitz-zeta + faz; iç sağlama
+maks|Im Z| = 1.7e-11 ✓). Dört öngörü ÖLÇÜMDEN ÖNCE script başına
+mühürlendi; DÖRDÜ DE İSABET:
+
+P1 ✓ 2/4/8 BENEKLERİ SÖNDÜ (χ₄(2)=0): 0.0011/0.0006/0.0003 —
+   karanlık-alan seviyesinde, fazlar rastgele. Zeta'da 2-beneği 0.043.
+P2 ✓✓ FAZLAR KARAKTERİ OKUDU: χ=−1 asalları (3,7,11,19,23) 0.5-2.5°
+   (kilit 0°); χ=+1 (5,13,17) ve q=9 → 178-181° (kilit 180°).
+   "Kırınım deseniyle aritmetik spektroskopi" İLK KEZ gösterildi.
+P3 ✓ mutlak yasa iletken-L (log 4t/2π) + tarak-termometreli DW ile:
+   asallar 0.99/0.96/0.96/0.94/0.91/0.90/0.92/0.81 (zeta ailesiyle aynı
+   biçim); q=9: 0.76 — KUVVET AÇIĞI BETA'DA DA (evrensel ince yapı!).
+P4 ✓ karanlık alan 1/√n'in 12 kat altı (hiperuniformluk L'de de);
+   tarak 0.60 → σ_u = 0.161 — zeta'nın log-ısınma eğrisinin soğuk ucu
+   (L=7.2), SICAKLIK YASASI L-FONKSİYONLAR ARASI uzuyor gibi.
+
+Dürüst notlar: tarama ~27 yakın-çift kaçırdı (%0.5; benekler duyarsız;
+indeksli akış bozulduğundan sıcaklık tarak-termometreyle — indekssiz);
+tarak Gauss-varsayımlı (0.885 düzeltmesi benek-DW'ye <%1 etkir); benek
+belirsizliği ~0.001-0.0015. NOT 5 TOHUMU: "Arithmetic spectroscopy:
+reading Dirichlet characters off the diffraction pattern of L-function
+zeros" — evrensellik-taşınan sabitler (cos-geometri, DW-sıcaklık,
+karanlık alan, kuvvet açığı) vs karakter-taşıyan yapılar (benek
+varlığı/fazı). Script: 96_beta_kirinim.py + npz önbellek + figür.
