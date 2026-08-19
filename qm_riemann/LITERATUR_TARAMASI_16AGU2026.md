@@ -1486,3 +1486,32 @@ genlik, gürültüsüz) sentetik örgü, örtük sıfır koşulu ρ̄u = −S(t+
    yanlış kapı kapandı ve faz-saflığı kısıtı (yeni, keskin) kayda geçti.
 
 Script: 91_kuvvet_acigi_lab.py (+faz testi çıktısı logda).
+
+## 92: PERDE KÖPRÜSÜ — NAİF KÖPRÜ ÖLDÜ, DAHA DERİN BİR UYUM DOĞDU (21 Ağustos, gece)
+
+Hipotez: D(τ) perdelemesi CUE log-gazının doğrusal yanıtından türer.
+Dört katlı test (a_v 6-nokta enjeksiyon kalibrasyonlu):
+
+T1 ÖLÇÜLEN PERDE (temiz eğri): D = 0.908 → 0.863 → 0.797 → 0.726 →
+   0.634 → 0.484 (τ 0.05→0.55). T2 null (analitik): additif çekirdek
+   D≡1 verirdi → ölçüm çekirdek-çizgi ETKİLEŞİMİNİ kanıtlıyor.
+
+T3 NAİF KÖPRÜ ÖLDÜ: CUE koşullu yanıtı perdelemiyor, TERS yönde
+   (D_CUE = 1.00→1.18, κ→π; sağlama ⟨|ρ_m|²⟩ = min(m,N) ✓ kusursuz —
+   Diaconis-Shahshahani). Zeta perdesi hem null'un hem CUE'nun altında.
+
+T4 ASIL KEŞİF: zeta KENDİ spontane modlarına (çizgi-dışı bantlar,
+   pseudo-topluluk) CUE GİBİ yanıt veriyor: D_spont = 1.075 / 1.088 /
+   1.177 @ τ = 0.3 / 0.4 / 0.5 — CUE'nun 1.081 / 1.132 / 1.183'üne
+   karşı (Nyquist'te binde-beş!). τ=0.2: 0.956; τ=0.1: 0.604 ŞÜPHELİ
+   (pencere-içi yoğunluk sürüklenmesi düşük-ω kirliliği; detrend
+   tekrarı gerek — bayraklı).
+
+SENTEZ: perdeleme GAZIN değil SÜRÜCÜNÜN özelliği. Sıfır gazı kendi
+gürültüsüne CUE gibi yanıt veriyor (yeni, keskin bir CUE-uyum ölçümü:
+koşullu gap-yanıt fonksiyoneli — bilinen testlerden bağımsız); asal
+korosuna ise perdeyle. D_asal/D_spont ≈ 0.63/1.09 @ τ≈0.45 → saf
+aritmetik-koherans fiziği İZOLE edildi: perde, koheran deterministik
+sürücülere özgü. Açık: neden koheran sürücü perdelenir (adyabatik-vs-
+ani yanıt; sayım-özdeşliği gömülmesi); düşük-τ spontane detrend.
+Script: 92_perde_koprusu.py + 92_perde.png.
