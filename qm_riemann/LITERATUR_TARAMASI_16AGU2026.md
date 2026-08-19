@@ -1544,3 +1544,26 @@ Script: 93_spontane_detrend.py. 86→93: cetvel teorisi seferi TAMAM —
 sekiz script, iki teorem-teması, üç yeni nesne (D-dalları, kuvvet açığı,
 kırınım deseni), dört dürüst ölüm (KK-köprüsü adayları). LİMANA DÖNÜŞ:
 sıradaki oturum = Not 4 taslağı + üçleme okuması + arXiv.
+
+## NOT 4 TASLAK YAZILDI — TERSANEDEN DENİZE (21 Ağustos, akşam)
+
+`arxiv_warm_crystal.tex`: "The Riemann zero lattice as a warm crystal:
+diffraction, screening, and the two-branch response". 86-93 seferinin
+tamamı tek çatıda, dokuz bölüm:
+  §2 kırınım deseni (benekler saf-180°/tarak-termometre/karanlık alan 25×)
+  §3 mutlak benek yasası (parametresiz, %0.1-4; kuvvetlerde Λ ve 1/k)
+     + benek geometrisi πτ·cot(πτ), k₀=1.083 = 1/D(0) kapanışı
+  §4 cetvel kimliği (Gram=Ĝ, 5e-8) + giydirme=TDS + Berry-rampa inşası
+  §5 gap toplam-kuralı (2τ onset, 2/π doyum — türetilmiş) + enjeksiyon
+     kalibrasyonu + perdeleme D(τ) 0.91→0.48 + Λ/1k oran testleri
+  §6 iki-dal yanıtı: CUE referansı (min(m,N) sağlamalı), spontane dal
+     (donma→CUE, τ₂ eşiğinde çözülme, Nyquist %0.5), asal dal; kesişme
+     τ≈0.17
+  §7 kuvvet açığı: iki ölü mekanizma (lab + faz-saflık testi; Bessel)
+     + üç-kısıt seti
+  §8 sentez + 6 açık problem; repro 79-94.
+4 İngilizce figür (94): fig_diffraction/geometry/bridge/twobranch_en.
+Derlendi (409 KB). KÜNYE TEYİDİ GEREK (hafızadan): Montgomery 1973
+(PSPM 24, 181-193), Diaconis-Shahshahani 1994 (J. Appl. Probab. 31A,
+49-62) — gönderim öncesi web teyidi şart (BCHB geleneği). SIRADAKİ:
+taze düşman-göz denetimi (Not 4) → kullanıcı okuması → dörtleme arXiv.
