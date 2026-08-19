@@ -1367,3 +1367,31 @@ merkezi bölümü hazır. Açık: TDS'nin sıcaklık ölçeklemesi (pencereler
 arası test: kaba işaret karışık — n ve √p farkları ayıklanmalı);
 kontrollü-rung kontrol-aracılı pay; tam difüz-model fiti (DW²·tarak +
 (1−DW²)·difüz + benekler = tam S(ω) modeli). Script: 87_kapali_devre.py.
+
+## 88: TAM S(ω) MODELİ — BENEK YASASI ÇÖZÜLDÜ, RAMPA GÖRÜLDÜ (21 Ağustos)
+
+M1 — BENEK-SÖNÜMÜ YASASI ÇÖZÜLDÜ: gap regresyonu dalganın FARKINI ölçer
+(2sin(πτ)), ortalar ORTALAMASINI taşır (cos(πτ)) → saf geometri düzeltmesi
+f(τ) = πτ·cot(πτ). Ölçülen oran/f = 1.083 ± 0.007 — ON BİR ASALDA DÜMDÜZ
+(86'nın 1.07→0.70 düşüşü tamamen geometriymiş). f(1/2)=0: beneklerin
+katta sönmesi = Nyquist. Kalan tek sabit k₀=1.083 (v-konvansiyonu ya da
+çizgi-üstü korelasyon adayı) — yeni açık sabit.
+
+M2 — TARAK YARISI ÇÖZÜLDÜ: k=1'de Gauss 0.32 vs ölçüm 0.256; ölçülen
+kurtosis (−0.75) ile Edgeworth 0.27 — 0.885 açığının ÇOĞU alt-Gauss
+düzeltmesi, ~%6 artık (yüksek kümülantlar). k=2 tarağı fiilen sönmüş
+(ölçüm ~gürültü; Edgeworth k=2'de çöker — beklenen).
+
+M3 — BERRY AYRIŞIMI DOĞRUDAN GÖRÜLDÜ (ince-ızgara F(α)=n|Ĝ|², 36k nokta):
+İlk çizgiden önce (α<0.65/L·L) F̄=0.002 — GUE rampasının 18 KAT ALTINDA
+(sonlu-yükseklik hiperuniform karanlığı); log2-log3 binine gelince
+çizgiler DAHİL F̄=0.102 vs rampa 0.089 — RAMPA BENEKLERDEN GERİ GELİYOR
+(Berry 1988'in resmi, ortalar üzerinde ilk doğrudan ölçüm); çizgi-arası
+süreklilik 10-20 kat altta kalıyor. Yüksek α'da F̄ rampanın gerisine
+düşüyor — v-DOYUMUYLA AYNI BÖLGE: yeni teori köprüsü adayı —
+MONTGOMERY RAMPASI (teorem!) + kırınım kimliği ⟹ v(τ) üzerinde kesin
+toplam kuralı ⟹ v-yasası normalizasyonunun (ve belki k₀'ın) TÜRETİM YOLU.
+
+Model artık tam: S(ω) = benekler[(v·q^{-1/2}/2)·πτcot(πτ)·k₀] +
+tarak[char-fonksiyon, alt-Gauss] + karanlık alan[sonlu-L rampa inşası].
+Not 4 omurgası üç bölümüyle hazır. Script: 88_S_modeli.py + png.
