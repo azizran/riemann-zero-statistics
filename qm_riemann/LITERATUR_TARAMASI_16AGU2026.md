@@ -1461,3 +1461,28 @@ Zincirin durumu: EF → u-çizgileri (Λ-ağırlık ✓ 1/k ✓) → benekler
 (mutlak %1-4 ✓) → v-yasası (onset 2τ ✓, doyum 2/π ✓, perde D(τ)) →
 rampa bölüşümü. Not 4 malzemesi: 86-90, beş script, tek anlatı.
 Script: 90_kuvvet_v_testi.py.
+
+## 91: KUVVET AÇIĞI LABORATUVARI — İKİ ADAY ÖLDÜ, GÜÇLÜ KISIT DOĞDU (21 Ağustos)
+
+Türetim denemesi laboratuvarla: EF çizgilerinden (tüm p^k ≤ 720, bilinen
+genlik, gürültüsüz) sentetik örgü, örtük sıfır koşulu ρ̄u = −S(t+u) tam
+çözüldü, gerçek ölçüm makinesi üstünde koşuldu.
+
+1. LAB DESENİ ÜRETTİ: kuvvetler asallardan sistematik derin (0.92→0.46,
+   sıralama gerçekle uyumlu); gap-oranının ≈1 kalması bile kopyalandı
+   (R_lab 1.01-1.04). Ama gürültüsüz lab açıkları abartıyor VE kuvvet
+   fazlarını döndürüyor (−176°→−150° — 2. mertebenin parmak izi).
+2. ANINDA ÖLDÜRME TESTİ (lab'ın öngörüsüyle): gerçek veride kuvvet-beneği
+   fazları ölçüldü — SAF 180°, 0.1-0.6° içinde (32 ve 49 dahil!).
+   FAZ DÖNMESİ YOK → koheran S'S mekanizması gerçek açığın kaynağı değil;
+   gerçek alanın rastgele bileşeni koheran 2. mertebeyi dekohere ediyor.
+3. Bessel/harmonik-örnekleme adayı da nicel elendi: J_4(0.38) 16'nın
+   %13'ünü veremez; ε(49) < ε(25) sıralaması U_p-hiyerarşisine ters.
+4. KALAN KISIT SETİ (yeni ölçüm): mekanizma faz-koruyucu (saf reel),
+   yalnız p^k'ları seçiyor, q VE k ile büyüyor, asalları es geçiyor.
+   Açık adaylar: dekohere-filtreli harmonik terimler; S(t) çizgi
+   genliklerinin kendi 2. mertebe düzeltmeleri; kendi-çizgi × harmonik
+   girişim analitiği. Dürüst durum: kuvvet açığı TÜRETİLEMEDİ — ama iki
+   yanlış kapı kapandı ve faz-saflığı kısıtı (yeni, keskin) kayda geçti.
+
+Script: 91_kuvvet_acigi_lab.py (+faz testi çıktısı logda).
