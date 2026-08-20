@@ -1628,3 +1628,23 @@ reading Dirichlet characters off the diffraction pattern of L-function
 zeros" — evrensellik-taşınan sabitler (cos-geometri, DW-sıcaklık,
 karanlık alan, kuvvet açığı) vs karakter-taşıyan yapılar (benek
 varlığı/fazı). Script: 96_beta_kirinim.py + npz önbellek + figür.
+
+## 97 (KISIM 1): χ₅ KADRANI OKUNDU — KOMPLEKS KARAKTER FAZLARDAN SÖKÜLDÜ (20 Ağustos, sabah)
+
+4601 χ₅ sıfırı (10 saatlik mpmath seferi; Hurwitz büyük-t'de tahminden
+~50× yavaş — ders). ÖN-MÜHÜRLÜ ÖNGÖRÜLER:
+
+P2 KADRAN ✓✓✓ — dört konum, derece hassasiyeti:
+  q≡2 (χ=i): 269.3/270.0/271.5° | q≡3 (χ=−i): 89.9/89.4/89.7/89.5°
+  q≡4 (−1): 1.6/359.6/0.3° | q≡1 (+1): 180.0°.
+  SANAL BİRİM i KIRINIM FAZINDAN OKUNDU — aritmetik spektroskopinin
+  kompleks hali ilk kez. P1 ✓ mezarlık taşındı: 5, 25 ölü (plasebo
+  dibi), 2 dirildi. P3 ✓ genlikler mutlak yasada (asallar 0.94-0.99);
+  kuvvet açığı ÜÇÜNCÜ örgüde de aynı bant (8: 0.77, 9: 0.81).
+
+P5 SÜRPRİZİ → İNCELMİŞ YASA: χ₅ σ_u=0.220 vs β 0.161 (aynı L!) — naif
+tek-eğri YANLIŞ; ama fark tam 2-ailesinin varyansı: Δσ² = 0.0225 vs
+hesap Σ U²(2,4,8)/2 = 0.0216 (%4!). "HER ADA KENDİ KOROSU KADAR
+ISINIR." ÖN-MÜHÜR (χ₃ fırındayken): χ₃ tarak-termometresi σ_u ≈
+0.20-0.21 vermeli (3-korosu susmuş). ζ-adalar tam kıyası: termometre-
+konvansiyonu inceliğiyle açık (χ₃ inince aynı ayakla).
