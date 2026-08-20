@@ -1648,3 +1648,27 @@ hesap Σ U²(2,4,8)/2 = 0.0216 (%4!). "HER ADA KENDİ KOROSU KADAR
 ISINIR." ÖN-MÜHÜR (χ₃ fırındayken): χ₃ tarak-termometresi σ_u ≈
 0.20-0.21 vermeli (3-korosu susmuş). ζ-adalar tam kıyası: termometre-
 konvansiyonu inceliğiyle açık (χ₃ inince aynı ayakla).
+
+## 97 (KISIM 2): χ₃ İNDİ — KADRAN YİNE OKUNDU, KORO-YASASI ÜÇ NOKTADA (20 Ağustos)
+
+4755 χ₃ sıfırı (L_eff=6.92). P4 KADRAN ✓: 3 ve 9 ölü (0.0008/0.0002,
+plasebo dibi); χ=−1 sınıfı (2,5,8,11) → 0.4/0.3/359.5/0.1°; χ=+1
+(4,7,13) → 180.2/179.3/180.3°. Genlikler: asallar 0.97-1.00 (q=2:
+1.003 — mutlak yasa DÖRDÜNCÜ örgüde de tam); kuvvet açığı yine aynı
+bant (8: 0.74, 4: 0.93) — dört örgüde evrensel ince yapı.
+
+ÖN-MÜHÜR KARNESİ: öngörü σ_u ≈ 0.20-0.21 (L'yi 7.6 sanarak); ölçüm
+0.196 @ L=6.92 — bandın dibinde, İSABET sayılır (kaba öngörü hassasiyeti
+içinde). KORO-YASASININ ÜÇ-ADA TESTİ: her adaya susturulmuş ailesinin
+varyansı geri eklenince "tam" sıcaklıklar: χ₃ 0.0535, β 0.0481,
+χ₅ 0.0562 (L 6.9-7.3) — ham yayılım ±%32'den ±%8'e ÇÖKÜYOR.
+"Her ada kendi korosu kadar ısınır" ilk denetimden geçti; kalan ±%8
+(pencere-içeriği, alt-Gauss, kaçırılan-çift oranı) açık. ζ-adalar tam
+kıyası hâlâ konvansiyon-inceliği bekliyor (aynı-ayak termometre).
+
+NOT 5 İSKELETİ TAMAM: dört örgü (ζ, β, χ₃, χ₅) — mutlak benek yasası
+4/4; kadran iki karakterde (biri KOMPLEKS) derece-hassas; mezarlık üç
+kez taşındı; kuvvet açığı 4/4; koro-sıcaklık yasası. Başlık adayı:
+"Arithmetic spectroscopy: reading Dirichlet characters off the
+diffraction patterns of L-function zero lattices". Ders: Hurwitz
+büyük-t'de yavaş — Not 5 kampanyası için vektörize L-motoru gerek.
