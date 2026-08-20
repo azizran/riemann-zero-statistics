@@ -1672,3 +1672,38 @@ kez taşındı; kuvvet açığı 4/4; koro-sıcaklık yasası. Başlık adayı:
 "Arithmetic spectroscopy: reading Dirichlet characters off the
 diffraction patterns of L-function zero lattices". Ders: Hurwitz
 büyük-t'de yavaş — Not 5 kampanyası için vektörize L-motoru gerek.
+
+## 99: HEXAGON KAMPANYASI — ALTIGEN OKUNDU, KUVVET-AÇIĞI YASASI DOĞDU (20 Ağustos)
+
+Motorla dört ada, ~291.000 sıfır, TOPLAM 19 SANİYE (χ₃ 79.9k, β 74.0k,
+χ₅ 72.4k, χ₇ 64.4k; önbellekler 99_*_zeros.npz).
+
+H1 ✓✓✓ ALTIGEN KADRAN (mod 7, 6. birim kökleri) YARIM-DERECE İÇİNDE:
+  180°: 29(179.8), 8(180.5) | 240°: 3(240.4), 17(240.3) |
+  300°: 2(300.6), 23(299.9), 9(299.8) | 0°: 13(359.5), 27(357.2) |
+  60°: 4(60.0), 11(60.2), 25(59.8) | 120°: 5(120.4), 19(119.7).
+  Ölü: 7(0.0003), 49(0.0002). e^{iπ/3} bir nokta kümesinden ölçüldü.
+  χ₅ kadranı da 15× istatistikle keskinleşti (270.1/90.1/0.3/180.0).
+
+H2 ✓ MUTLAK YASA BİNDE-DÜZEYİNE İNDİ: asal oranları dört adada
+  0.96-1.00; χ₅'te 17: 1.001, 13: 1.002, 23: 1.001, 11: 0.998 —
+  parametresiz yasa, binde-birkaç isabetle.
+
+H4 ✓ → YENİ NİCEL YASA — KUVVET-AÇIĞI ÇÖKMESİ: (1−ε)/k = f(τ) tek
+  eğriye biniyor: f(0.146)=0.007 [4@χ₃], f(0.226)=0.0285 [9:0.0285 ve
+  8/3:0.029 — k=2 ve k=3 AYNI f!], f(0.333)=0.105-0.112 [25/2 ve 27/3
+  yine aynı!]. Eğim log-log ~3.2-3.4: f ≈ c·τ^{~3.3}. KUVVET AÇIĞI
+  ARTIK YASALI: 1−ε ≈ k·f(τ), f ~ τ^3.3 — üçüncü-mertebe koku
+  (teori adayı: S(t) genliklerinin τ³-düzeltmesi?). 91'in üç kısıtı
+  (faz-koruyucu ✓ burada da, p^k-seçici, q&k-büyüyen) yasayla uyumlu.
+
+H3 ✓/△ ADA-İÇİ ISINMA: dört adada da log-ısınma NET (β: 0.142→0.194,
+  χ₃: 0.181→0.226, χ₅: 0.207→0.248, χ₇: 0.216→0.255; L~6→10) —
+  ısınma evrensel. Koro-sıralaması ✓ (β en soğuk < χ₃ < χ₅ ≲ χ₇).
+  Nicel koro-düzeltmesi: küçük-L üçlüsünde ±%8 idi; büyük-L dörtlüsünde
+  ±%15 ve β düzeltme-sonrası bile sistematik soğuk — açık inceltme
+  (pencere-içeriği/alt-Gauss/kaçırılan-çift; iletken-4 imprimitiflik?).
+
+NOT 5 MALZEMESİ TAŞTI: 5 örgü (ζ dahil), kadran 3 karakterde (kare +
+altıgen), mutlak yasa binde-düzeyi, kuvvet-açığı YASASI, ada-içi ısınma
++ koro. Scriptler: 98 motor + 99 kampanya.
