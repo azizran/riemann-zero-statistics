@@ -1707,3 +1707,31 @@ H3 ✓/△ ADA-İÇİ ISINMA: dört adada da log-ısınma NET (β: 0.142→0.194
 NOT 5 MALZEMESİ TAŞTI: 5 örgü (ζ dahil), kadran 3 karakterde (kare +
 altıgen), mutlak yasa binde-düzeyi, kuvvet-açığı YASASI, ada-içi ısınma
 + koro. Scriptler: 98 motor + 99 kampanya.
+
+## 100: KUVVET-AÇIĞI YASASI MEKANİK OLARAK TÜRETİLDİ (20 Ağustos, gece)
+
+f ~ τ^3.3'ün türetim oturumu, iki perdelik:
+
+PERDE 1 — kaba düğme: lab tabanı %5 yanlıydı (asal kontrol 1.05),
+eğim fiti savruldu (4.9/2.4/3.5). Teşhis: mutlak-taban sistematiği
+açıklarla aynı mertebede. Çare gerçek-veri metodolojisinin aynısı:
+ORAN-TESTİ (lab'ın kendi asal eğrisine bölme, taban iptali) + çok-tohum.
+
+PERDE 2 — SONUÇ: saf-koheran lab (gürültüsüz!), taban-iptalli okumayla
+gerçek yasayı VURDU: eğim 3.26 (gerçek 3.3), f(0.23) = 0.0306 (gerçek
+0.030) — sıfır serbest parametre. TÜRETİM KAPANDI (mekanik düzeyde):
+(1−ε)/k = f(τ) ≈ 4·τ^{3.3} yasası, örtük sıfır-koşulu + EF aile-
+çizgileri + orta-nokta örneklemesinin oran-testi görüntüsüdür.
+DÜZELTME: 91'in "koheran mekanizma τ^1.8 verir" hükmü mutlak-taban
+artefaktıydı; koheran mekanizma DOĞRU yasayı veriyor.
+DEKOHERANS HİPOTEZİ ÖLDÜ: iid gürültü eğimi bozuyor (2.6-2.3) —
+gerçek rastgelelik iid değil (hiperuniformlukla tutarlı).
+
+AÇIK: (a) faz-saflığı — lab ~4-7° döndürür, gerçek ≤1°: döndüren
+bileşeni gerçekte bastıran şey (korele gürültü / S'S-örnekleme iptali)
+türetilmedi; (b) kapalı form — validen modelin asimptotiği (τ³-ailesi
+cos/log düzeltmeli), kâğıt-kalem ödevi. Script: 100_dekoherans_dugmesi.py.
+Not 5'e girecek hali: "the power-deficit law is reproduced, slope and
+amplitude, by the coherent family mechanism read through the
+ratio-test — with its phase purity still stricter in nature than in
+the model."
