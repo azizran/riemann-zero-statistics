@@ -1735,3 +1735,52 @@ Not 5'e girecek hali: "the power-deficit law is reproduced, slope and
 amplitude, by the coherent family mechanism read through the
 ratio-test — with its phase purity still stricter in nature than in
 the model."
+
+## 101: DONMUŞ KOYLAR — ÇÖZÜLME SINIRI KARAKTERLE PROGRAMLANIYOR (20 Ağustos)
+
+Tatil modu kararı: gönderim/Not-5 yazımı kaptan dönene dek ertelendi;
+ölçüm sürüyor. Kuyu seçimi: 93'ün donma→CUE geçişinin takımada testi —
+"gazı çözen aritmetiktir" iddiasının KONTROLLÜ deneyi, çünkü doğa
+mükemmel bir kontrol hediye etmiş: β'nın 2-çizgisi ÖLÜ (χ₄(2)=0).
+Ön-mühür: P1 (χ₃/χ₅/χ₇ ζ gibi log2/L'de çözülür), P2 (β log3/L'e
+GECİKİR, ~×1.585), P3 (τ≥0.3'te hepsi tek CUE), P4 (ζ aynı-ayak tarak).
+
+PERDE 1 — ARTEFAKT VE KAPI (101, 101b): ham ölçüm dört adada "donma
+yok" dedi (τ=0.04'te D≈0.97). Kusur kapısı bunu ÇÜRÜTTÜ: donma
+estimatörü kinematik kilidin (yapısız süreç → D=1/cos(κ/2); Poisson
+kontrolü 1.016 ✓) İHLALİNİ ölçer; temiz ζ'ya %0.1 sıfır-silme
+enjeksiyonu D'yi 0.09→0.55'e fırlatır. Benek/faz ölçümleri kusura
+bağışık; donma ölçümü DEĞİL.
+
+PERDE 2 — MOTORUN KÖR NOKTASI (101c, 101e, 101f): ince ızgara (4×)
+sadece +54-72 buldu ama sayım sertifikası (d_i = i − Δθ/π sürüklenmesi)
+ada başına ~285-620 kayıp gösterdi. Teşhis: KALDIRILMIŞ DİPLER —
+motorun RS-düzeltmesiz O((qt)^{-1/4}) hatası dar çiftin |Z| çukurunu
+sıfır üstüne kaldırır; işaret-taraması HİÇBİR ızgarada göremez.
+Hibrit kurtarma: dip adayı (işaretsiz |Z| minimumu) + 3-5 mpmath
+(Hurwitz, gerçek-Z) + parabol kökleri → ada başına ~290-790 sıfır
+kurtarıldı. Kalan pürüzler (tekrar-ekleme kopyaları, χ₇'de ~10 inatçı)
+için nihai disiplin: DÜZLÜK SEGMENTASYONU — sayım-sürüklenmesi düz
+(|Δmedyan|<0.5) parçalar sertifikalıdır, her basamakta kes, çevresini
+at. Kusur analize giremez. ζ'ya da aynı disiplin (0 kesim çıktı ✓).
+YENİ STANDART: motorlu kampanyalarda hiperuniformluk-hassas ölçümler
+(donma, karanlık alan, sıkıştırılabilirlik) sayım-sertifikası +
+düzlük-segmentasyonu İSTER; benek/faz ölçümleri istemez (98-S2).
+
+PERDE 3 — SONUÇ (101d, figür 101_donmus_koylar.png): P1 ✓ P2 ✓✓✓ P3 ✓
+  τ=0.068 (log2/L): ζ 0.34, χ₃ 0.39, χ₅ 0.35, χ₇ 0.47 — çözülmede;
+  β 0.040 (vekil taban 0.028) — DONUK. β 0.085→0.113'te dik çözülür
+  (0.116 → 0.460 → 0.705 tam log3/L'de), 0.14'te ortak eğriye biner.
+  τ=0.3: beşi 1.01-1.06 (tek CUE). Yarı-çözülme kayması ×1.4-1.5
+  (öngörü ×1.585). HÜKÜM: DONMA SINIRI ADANIN İLK SAĞ KALAN
+  ÇİZGİSİDİR. Ölü kırınım beneği dinamikte de ölü: benek yoksa çözülme
+  yok. Karakter seçimiyle donma sınırı KAYDIRILABİLİYOR — aritmetik
+  gazı çözer iddiası artık müdahaleli-deney statüsünde.
+P4 ✓: ζ aynı-ayak tarak-termometresi: σ_u = 0.2287 (L=6.99) → 0.2833
+  (L=12.45), 10 pencere — H3 nicel tablosunun ζ satırları hazır.
+
+Scriptler: 101 (ham+kapı notu), 101b (kusur kapısı), 101c (sayım-
+denetimli yeniden türetim), 101e (hibrit dip-kurtarma), 101f (temizlik),
+101d (segmentli ölçüm), 101g (figür). Not 5 malzemesi: "the thaw
+boundary is programmable: kill a character line and the freeze extends
+to the next surviving one."
