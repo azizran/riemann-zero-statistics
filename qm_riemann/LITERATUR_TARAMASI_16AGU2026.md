@@ -1784,3 +1784,93 @@ denetimli yeniden türetim), 101e (hibrit dip-kurtarma), 101f (temizlik),
 101d (segmentli ölçüm), 101g (figür). Not 5 malzemesi: "the thaw
 boundary is programmable: kill a character line and the freeze extends
 to the next surviving one."
+
+## 101h-j: OPUS TAYFASI İLK SEFERİ — İKİ HİPOTEZ ÖLDÜ, KİLİT KESKİNLEŞTİ (20 Ağustos)
+
+Bütçe rejimi: Fable %91'de → mekanik ölçümler tarifli+ön-mühürlü olarak
+Opus alt-ajanına verildi (ilk deneme; ajan kendi kapılarını ekledi ve
+kaptanın iki hipotezini öldürdü — düzen İŞLİYOR). Denetim+commit Fable.
+
+Kuram sohbetinin üç-adımlı iskeleti (mod envanteri / moiré / TDS-omzu)
+teste girdi; SKOR: 1 güçlendi, 2 öldü:
+
+1) 101h (dar bant): çözülme yamacı bandla dikleşiyor (±0.02L→±0.005L:
+   1.8-4.3×); "yumuşak öncü" büyük ölçüde BAND KAÇAĞIYMIŞ (band ilk
+   çizgiyi kapsayınca sızıyor; kaçak kapısı eklendi). β'nın 101d'deki
+   0.095/0.460 noktası da kaçaktı: kaçaksız β 0.156'da sürünüp 0.847'ye
+   TAM τ_ilk=0.1143'te sıçrar → ÇİZGİ KİLİDİ DAHA NET. x=τ/τ_ilk
+   çökmesi eşik civarı %38 iyileşir. AÇIK: χ₇ τ=0.04 anomalisi (band
+   daralınca yükseliyor, kaçak yok; segmentasyon şüphesi, test edilmedi).
+
+2) 101i (vuruş/moiré): HİPOTEZ RET — donuk bölge artığı vuruş moiré'si
+   DEĞİL. Çözünürlük kapısı: ω=log2'de ζ keskin tepe (D 0.35→1.005→
+   0.43; kontrast 1.93×), β aynı ω'da DÜZ (0.97×) — ölü-çizgi hükmü
+   ilk kez TEK FREKANSTA doğrudan. Vuruşlarda %1 tümsek bile yok;
+   D(ω) çizgiler arasında pürüzsüz vadi (0.36→0.19→0.23, log3'e
+   yaklaşırken yükseliş). Artık D'nin kaynağı: çizgi KOMŞULUĞU.
+
+3) 101j (TDS örtüşmesi): HİPOTEZ RET + TEHLİKELİ BULGU — Hann taperli
+   I(ω) log2 çevresinde 15 kademe Δω^{-6} (pencere yan-lobu) iner,
+   kusursuz-örgüden ayırt edilemez → ÇİZGİ ÇEVRESİNDE FİZİKSEL DİFÜZ
+   BİLEŞEN YOK (açık formülün atomik tayfıyla tutarlı: log2 altı ve
+   log2-log3 arası atom YOK, boşluk). Tapersiz (dikdörtgen) çekirdek
+   1/Δω² verir = TAM TDS'NİN BEKLEDİĞİ YASA → sahte doğrulama tuzağı.
+   87'NİN TDS HÜKMÜ ŞÜPHEDE (tapersiz ölçülmüştü; "karanlık taban"ı
+   sızıntı düzeyinde). 86'nın karanlık-alan sayıları da alet-sınırlı
+   ÜST SINIR olur (hiperuniformluk yönü sağlam, "25×" sayısı değil).
+   Taperli-D kapısı 0/0'a çöktü (E) → "eşik-altı D artığı sızıntıdır"
+   iddiası KANITSIZ kaldı (yalnız I(ω) düzeyinde kesin).
+
+YENİ RESİM ADAYI (bir sonraki derin oturuma): "her şey çizgidir" —
+tayf saf atomik (log q); karanlık bölgeler gerçek BOŞLUK; çözülme =
+çizgi yoğunlaşması; 92'nin iki-dal ayrımı (asal 0.48 vs spontane 1.18)
+belki atom-üstü vs atom-kanadı okumasının pencere optiği. Sıradaki
+mekanik iş (102, Opus): 86-T4/87-T3/88-M3'ün taperli yeniden denetimi +
+kanat-öngörüsü testi (Ĝ_win(ω) = Σ A_q·K(ω−log q) parametresiz fit) +
+Not 4 etki listesi. Commit: 87cd917.
+
+## 102: KARANLIK ALANIN VE "TDS"NİN SAHİBİ BULUNDU (20 Ağustos, Opus tayfası 2. sefer)
+
+86/87/88'in taperli yeniden denetimi + kanat-öngörüsü + Not 4 etki
+listesi. 101j'nin şüphesi kısmen doğru, kısmen yanlış çıktı; asıl bulgu
+üçüncü bir şey: MERKEZİ KİMLİK Ĝ_orta(ω) = (1/n)Σ e^{iωz}·e^{iωg/2} —
+orta noktalar örgüyü DALGALANAN YARIM-GAP kaymasıyla örnekler; bu
+kaymanın dalgalanması difüz saçılmadır. Aynı ω'da SIFIRLAR 8-10 kademe
+daha karanlık: sıfır tayfı ÇÖZÜLMÜŞ ÇİZGİ ORMANI + GERÇEK BOŞLUK
+("her şey çizgidir" resmi ölçümle doğrulandı); "karanlık alan" ve
+"TDS" ORTA-NOKTA IZGARASININ malı. Örnekleme-fazı eğrisi (yeni
+gözlemlenebilir): c=0→karanlık, c=1(orta)→tepe, c=2→yine karanlık.
+
+102a (86-T4): 86 tabanı ω<1'de sızıntı düzeyindeydi (kusursuz örgüyle
+1.20×), tüm bantta değil (28×). Taperli tabanda orta-noktalarda GERÇEK
+bileşen var; sıfırlarda taban 7.3e-16 = VERİ-SINIRLI üst sınır.
+Dürüst hiperuniformluk: bağımsız-gap vekilinin 40-1150× altı; rampaya
+göre ortalar ≥78-1.3e4×, sıfırlar ≥5.6e11-7.5e13×.
+
+102b (87-T3, kalp): KANAT HİPOTEZİ RET (1. mertebe kanatlar ölçümün
+1/2300'ü) AMA içerik GERÇEK (taperi geçer ×0.62-0.67, sızıntının
+10⁴-10²⁰ katı) ve TAMAMEN ARİTMETİK: gürültüsüz açık-formül lab örgüsü
+düzeyi medyanda %6 içinde veriyor. KİMLİK DEĞİŞTİ: sıfır kristalinin
+TDS'si değil, ASAL ÇİZGİLERİNİN ORTA-NOKTA ÖRNEKLEMESİYLE ÜRETİLEN
+DOĞRUSAL-OLMAYAN YAN BANTLARI. 87'nin giydirme mekanizması AYAKTA
+(taban gerçek, sızıntı değil — 101j'nin o şüphesi ω≈4-7'de yanlıştı);
+87'nin "çizgide değil" mesafeleri tam p^k listesiyle düzeltildi
+(çözünürlüğün 7-199 katı).
+
+102c (88-M3): "18× karanlık" %100 ALETMİŞ (aritmetiksiz RvM kontrol
+aynı 17.2×'i veriyor!); gerçek sınırlar ≥6.5e3× (orta) / ≥2.1e12×
+(sıfır). RAMPA DÖNÜŞÜ GERÇEK VE GÜÇLENDİ: log2-log3 bini taper-
+değişmez 0.1013, %99.9 çizgi-üstü, MUTLAK YASA %2-4 içinde parametresiz
+(1.016/1.038). "Çizgi-arası 10-20×" sinc kuyruklarıyla ~90× şişikmiş
+(gerçek 924×/2.5e5×). BONUS: sıfır ızgarası Montgomery rampasını
+α≳0.2'de ±%25 izler; 88/89'un "yüksek-α açığı" fizik değil orta-nokta
+cos(πτ)+DW sönümü.
+
+NOT 4 ETKİ LİSTESİ → NOT4_ETKI_LISTESI_102.md (11 değişiklik + 3 kazanç
++ ayakta kalanlar + dürüst kayıtlar). Çoğu iddia ayakta; Berry bölümü
+GÜÇLENDİ; TDS kimliği ve karanlık sayıları değişecek. Tex'e dokunulmadı
+(revizyon kaptanın dönüşüne). Scriptler: 102a/b/c (+png/npz).
+Dürüst kayıtlar: sıfır tabanı veri-sınırlı; lab uyumu düzey uyumu;
+I üstel (medyan/ort ln2); DW konvansiyonu ~1.3×; χ₇ 0.04 anomalisi
+hâlâ açık. SENTEZ CÜMLESİ: "regresyonları büken şey aritmetiktir ve
+örnekleme ızgarasının difüz saçılmasında yaşar."
