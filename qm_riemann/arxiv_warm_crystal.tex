@@ -31,7 +31,9 @@ $\hat G(\omega) = \langle e^{i\omega t_n}\rangle$ --- the diffraction
 pattern of the zero lattice --- decomposes into three measured
 components: \emph{arithmetic spots} at $\omega = \log p^k$,
 \emph{Bragg combs} damped by the lattice temperature, and a
-\emph{dark field} lying a factor $\sim 25$ below shot noise
+\emph{dark field} --- a property of the midpoint sampling grid, not of
+the zeros, which are dark down to the data floor --- lying a factor
+$15$--$490$ below shot noise once window leakage is removed
 (hyperuniformity seen directly in diffraction). The spots obey an
 absolute, parameter-free law derived from the explicit formula,
 $|\hat G(\log q)| = \Lambda(q)\,(L\sqrt{q})^{-1}\cos(\pi\tau)
@@ -41,11 +43,15 @@ brightness tracks the measured window temperature ($e^{-c}$, ratio
 $0.885$ constant across windows, most of the deviation from Gaussian
 explained by the measured negative excess kurtosis); and binned over
 the spots, the pattern rebuilds the Montgomery ramp in the first
-line-bearing bin --- Berry's semiclassical decomposition observed
+line-bearing bin --- taper-invariant, $99.9\%$ of it carried by the
+lines themselves, and predicted to $2\%$ by the absolute law with no
+free parameter --- Berry's semiclassical decomposition observed
 directly. The grid systematic of the companion revisions closes into an
 identity: all Gram couplings between wave columns are values of
-$\hat G$, and the regression-dressing lives in the thermal diffuse
-scattering between the dark field and the comb. On the gap side, the
+$\hat G$, and the regression-dressing lives in the off-line continuum
+of the midpoint grid --- the non-linear half-gap sampling sidebands of
+the arithmetic lines, whose level a noiseless explicit-formula lattice
+reproduces to $6\%$. On the gap side, the
 same displacement field yields a derived sum rule for the
 zero-displacement channel --- onset $v = 2\tau$ and saturation scale
 $2/\pi$ --- with $\Lambda$-weighting confirmed for prime powers
@@ -143,21 +149,83 @@ window-by-window --- a third, independent thermometer for the thermal
 Bragg model of \cite{companion3}.
 
 \emph{Dark field.} Off the lines and away from the comb, the pattern is
-\emph{dark}: the median $|\hat G|$ over $978$ off-line frequencies (of $1200$
-scanned) is $2\times10^{-4}$, a factor $\sim 25$ \emph{below} the shot-noise level
-$1/\sqrt{n}$, and below a shuffled-gap surrogate (which destroys the
-anticorrelations and raises the floor to $1.4\times10^{-3}$).
-Hyperuniformity of the zero gas --- number-variance rigidity --- is here
-seen directly as darkness in a diffraction pattern. All arithmetic
-content is concentrated in the discrete spots.
+\emph{dark} --- but how dark is a statement about the window as much as
+about the lattice, and the two have to be separated. With a rectangular
+window the median $|\hat G|$ over the $956$ off-line frequencies of the
+scan (of $1200$) is $1.5\times10^{-4}$, a factor $33$ \emph{below} the
+shot-noise level $1/\sqrt{n}$ and below a shuffled-gap surrogate (which
+destroys the anticorrelations and raises the floor to
+$1.4\times10^{-3}$). A perfect lattice pushed through the identical
+estimator, however, returns $1.20$ times that floor for $\omega < 1$:
+there the rectangular measurement is spectral leakage and not zeros
+(over the full band, and above $\omega = 3$, it stands $28$ and $293$
+times clear of leakage). Under a Hann taper the leakage collapses by
+twenty orders of magnitude while the floor survives --- it then exceeds
+the windowed perfect lattice by $4.8\times10^{11}$ ($\omega < 1$) to
+$3.1\times10^{19}$ ($\omega > 3$), so it is measured content, not
+instrument --- and the darkness statement sharpens: the off-line median
+lies $48$, $490$ and $15$ times below shot noise over the full band,
+below $\omega = 1$, and above $\omega = 3$ respectively. (Levels are
+quoted either as $|\hat G|$ or as the taper-invariant intensity
+$I(\omega) = |\sum_n w_n e^{i\omega t_n}|^2 / \sum_n w_n^2$, which
+equals $n|\hat G|^2$ for a rectangular window and unity for a Poisson
+process. All floors are medians over the scan; $I$ is exponentially
+distributed off the lines, so the corresponding means are larger by
+$1/\ln 2$.)
+
+The honest measure of hyperuniformity is not a comparison with shot
+noise but with the field an \emph{independent} gap sequence would
+radiate through the same sampling, $1 - |\langle e^{i\omega
+g/2}\rangle|^2$: the measured diffuse channel sits $40$ to $1150$ times
+below that proxy, and shuffling the gaps --- which destroys their
+anticorrelation and nothing else --- raises it $63$-fold, back onto it.
+Hyperuniformity of the zero gas --- number-variance rigidity --- is
+here seen directly as darkness in the diffraction pattern of the
+midpoint grid. All arithmetic content is concentrated in the discrete
+spots.
+
+\emph{Whose darkness?} The dark field belongs to the grid, not to the
+zeros. Writing the midpoints as $t_n = z_n + g_n/2$ gives the identity
+\[
+\hat G_{\mathrm{mid}}(\omega) \;=\; \frac{1}{n}\sum_{n}
+e^{i\omega z_n}\, e^{i\omega g_n/2},
+\]
+so the midpoints sample the zero lattice through a \emph{fluctuating}
+half-gap shift: $\langle e^{i\omega g/2}\rangle$ is a Debye--Waller
+factor of the gap distribution, and the fluctuation of that shift is
+diffuse scattering. Run on the zeros $z_n$ themselves, the same
+estimator returns an off-line floor of $7\times10^{-16}$ in $I$ ---
+eight to ten orders below the midpoint grid at the same frequencies,
+and itself data-limited, since injecting the $\sigma = 3.3\times10^{-8}$
+quantization of our zero finder raises it by $1.3$--$1.5$ times. The
+zero-lattice floors quoted here and below are therefore upper bounds,
+and the darkness ratios built on them lower bounds.
+The interpolation $t_n(c) = z_n + \bar g/2 + c\,(g_n - \bar g)/2$ turns
+the mechanism into a curve: $I = 2.4\times10^{-14}$ at $c = 0$, where
+the grid is the zero lattice rigidly shifted; $2.3\times10^{-4}$ at
+$c = 1/2$; a maximum of $4.2\times10^{-4}$ at $c = 1$, the midpoints;
+and back to $2.4\times10^{-14}$ at $c = 2$, where the grid is the zero
+lattice again, shifted the other way. The dark field is a
+\emph{sampling-phase} effect oscillating between two identical and ten
+orders darker lattices, and the midpoint convention of this program
+sits exactly on its maximum.
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.95\textwidth]{fig_diffraction_en.png}
 \caption{Left: arithmetic spots against the absolute explicit-formula
-prediction of Section~\ref{sec:abs}. Right: the off-line dark field for
-the real grid, a shuffled-gap surrogate, and the smooth grid; dashed
-line is shot noise.}
+prediction of Section~\ref{sec:abs}. Centre: the off-line dark field,
+$|\hat G| = \sqrt{I/n}$, for the midpoint grid under a rectangular
+window and under a Hann taper, for a shuffled-gap surrogate, for the
+zeros $z_n$ themselves, and for a perfect lattice passed through the
+identical estimator (the instrument floor); dashed line is shot noise.
+The tapered midpoint floor runs $48$ times below shot noise over the
+band and $490$ times below it for $\omega < 1$, while the zero lattice
+lies a further eight to ten orders down, at its data-limited floor.
+Right: the same off-line median along the sampling-phase interpolation
+$t_n(c) = z_n + \bar g/2 + c\,(g_n - \bar g)/2$ --- dark at $c = 0$ and
+$c = 2$, where the grid is the zero lattice, and maximal at $c = 1$,
+the midpoints.}
 \label{fig:diff}
 \end{figure}
 
@@ -236,28 +304,64 @@ transfer that biased restricted-basis channel measurements
 diffraction pattern. Decomposing the transfer line by line shows it is
 \emph{collective} --- all eleven omitted small-prime lines contribute
 with the same sign, none dominating --- and the carrier frequencies sit
-not on arithmetic lines but on the \emph{thermal diffuse scattering}:
-the rising flank of $|\hat G|$ between the hyperuniform dark field and
-the Bragg comb, at $4$--$18$ times the local dark floor, of the
-magnitude a one-dimensional warm crystal predicts
-($\sqrt{(1 - e^{-\omega^2\sigma^2})/2n} \approx 3.5\times10^{-3}$ at
-$\omega = 6.5$ against measured $5$--$9\times10^{-3}$). In one
-sentence: \emph{the bending of the regressions is consistent, in
-location and magnitude, with the thermal diffuse scattering of the zero
-crystal.}
+not on arithmetic lines but in the off-line continuum between them.
+Checked against the complete prime-power list ($7327$ lines with
+$\log q \le 11.2$; the earlier check used a truncated one), the nearest
+line to a carrier is $7$ to $199$ resolution widths away
+($2\pi/T = 2.6\times10^{-4}$), even though the surrounding forest at
+$\omega \approx 6.5$ has a spacing of only $\Delta\log p \approx 0.01$.
+The carriers are real: they survive tapering almost unchanged (the
+tapered/untapered $|\hat G|^2$ ratio is $0.62$--$0.67$) and stand
+$3$--$7$ times (median $4$--$5$) above the tapered, line-excluded local
+floor, which is itself nine orders above the leakage of a smooth grid
+put through the same scan.
+
+It is tempting to read this rising off-line field as the thermal
+diffuse scattering of the zero crystal. It is not. At the very same
+frequencies the spectrum of the zeros
+$z_n$ is a further factor $\sim 10^{4}$ darker in $|\hat G|$; what
+carries the dressing is the diffuse field that the midpoint sampling
+\emph{manufactures} out of the arithmetic lines --- the non-linear
+sidebands of the fluctuating half-gap shift. A noiseless lattice built
+from the explicit formula alone, with no $\zeta$ data and at the
+measured window temperature ($\sigma_{\mathrm{lab}}/\sigma =
+1.00$--$1.22$), reproduces the carrier level to $6\%$ in the median,
+though only to a factor $0.5$--$5$ frequency by frequency: the
+identification is of mechanism and magnitude, not of fine structure.
+In one sentence: \emph{the bending of the regressions is arithmetic in
+origin, and lives in the diffuse scattering of the sampling grid.}
 
 Binned over frequency, the pattern makes contact with the Montgomery
-form factor \cite{Montgomery73}: with $F = n|\hat G|^2$ and
-$\alpha = \omega/L$, the sub-first-line region carries
-$\bar F = 0.002$ against the ramp value $0.036$ (a factor $18$ dark),
-while the first line-bearing bin recovers the ramp from the spots alone
-($0.102$ vs $0.089$), with the off-line continuum $10$--$20$ times
-below throughout --- Berry's semiclassical construction of the GUE ramp
-out of prime lines \cite{Berry88}, observed directly on the midpoint
-grid. At larger $\alpha$ the binned means fall behind the ramp in the
-same region where the $v$-channel saturates; we record, as a theory
-target, that the ramp theorem plus the spot law constitute a sum rule
-constraining $v(\tau)$ from first principles.
+form factor \cite{Montgomery73}. The form factor is the taper-invariant
+intensity $I$ of Section~\ref{sec:diff}, whose bin averages
+$\bar F$ sit on the ramp $\alpha = \omega/L$. Below the first line --- below $\log 2$, where the explicit formula has
+no atom at all --- the binned average is
+$\bar F = 5.6\times10^{-6}$ against the ramp value $0.036$: at least
+$6.5\times10^{3}$ times dark on the midpoint grid, at least
+$2\times10^{12}$ on the zeros, both instrument-limited bounds. (The
+rectangular-window version of this ratio, a factor $18$, is entirely
+instrument: an arithmetic-free smooth control grid returns the same
+$17.2$.) The first line-bearing bin, by contrast, recovers the ramp
+from the spots alone, and does so robustly: $\bar F = 0.1013$ against
+the ramp $0.0892$, taper-invariant to $0.2\%$, with $99.91\%$ of the
+bin average carried by the on-line points, and predicted by the
+absolute spot law of Section~\ref{sec:abs} --- no free parameter, no
+channel input --- as $0.0997$, a ratio of $1.016$; on the zero grid the
+same bin gives $0.1127$ measured against $0.1086$ predicted, $1.038$.
+The off-line continuum inside that bin lies a factor $9.2\times10^{2}$
+below the ramp on the midpoints and $2.5\times10^{5}$ on the zeros; a
+first rectangular-window pass gave only $10$--$20$ here, the sinc tails
+of the two main lobes leaking through too narrow a mask and inflating
+the level some ninetyfold. This is
+Berry's semiclassical construction of the GUE ramp out of prime lines
+\cite{Berry88}, observed directly and now held to a parameter-free
+amplitude. At larger $\alpha$ it is the \emph{zero} grid that tracks
+the ramp, to $\pm 25\%$ for $\alpha \gtrsim 0.2$, while the midpoint
+binning falls behind in the same region where the $v$-channel
+saturates: that shortfall is the $\cos(\pi\tau)$ and Debye--Waller
+damping of the midpoint sampling, not a property of the zeros. We
+record, as a theory target, that the ramp theorem plus the spot law
+constitute a sum rule constraining $v(\tau)$ from first principles.
 
 \section{The gap-channel sum rule and the screening function}
 \label{sec:gap}
@@ -356,8 +460,9 @@ consecutive-gap contents rather than two-point counts alone, is not
 reducible to the pair-correlation function. Second, below the first prime line
 ($\tau_2 = \log 2/L \approx 0.067$) the gas is \emph{frozen}: position
 modulations exist but gaps do not breathe --- the sub-ramp
-(quasi-random) regime of the form factor, where the dark field is a
-factor $18$ below the GUE ramp, is rigid, and the thaw to CUE behavior
+(quasi-random) regime of the form factor, where the dark field lies at
+least three orders below the GUE ramp on the midpoint grid and at least
+twelve on the zeros, is rigid, and the thaw to CUE behavior
 occurs across precisely the band where the first prime lines turn on.
 
 \emph{The prime branch.} The coherent arithmetic drive behaves
@@ -420,10 +525,16 @@ is stated as an open analytic problem.
 The zero lattice, viewed through its own diffraction pattern, is a warm
 one-dimensional crystal: arithmetic spots whose brightnesses the
 explicit formula predicts absolutely; a Bragg comb whose brightness is
-the window thermometer; thermal diffuse scattering that is precisely
-the agent bending every restricted regression; and a hyperuniform dark
-field whose binned average rebuilds the Montgomery ramp out of prime
-lines. On this substrate the gap channel obeys a derived sum rule
+the window thermometer; a diffuse scattering of the sampling grid,
+arithmetic in origin, that is precisely the agent bending every
+restricted regression; and a hyperuniform dark field, two to three
+orders below shot noise once window leakage is removed, whose binned
+average rebuilds the Montgomery ramp out of prime lines. Two spectra
+are in play here, and keeping them apart is the note's main lesson:
+the zero spectrum is atomic --- a resolved forest of prime-power lines
+separated by true voids --- while the midpoint spectrum is that same
+forest plus an arithmetic continuum manufactured by the sampling.
+On this substrate the gap channel obeys a derived sum rule
 ($2\tau$ onset, $2/\pi$ scale) filtered through a measured screening
 function, and the conditional response splits into two branches ---
 frozen-to-CUE for the gas's own noise, near-unity-to-screened for the
@@ -436,7 +547,11 @@ transition, including the crossing scale $\tau^* \approx 0.14$; (3) the
 ramp-plus-spot-law sum rule as a first-principles derivation of the
 $v$-normalization and of $k_0$; (4) the $6\%$ non-Edgeworth remainder
 of the comb and the sub-Gaussian refinement of the spot DW factor;
-(5) the low-$\tau$ frozen regime as a compressibility statement ---
+(5) the low-$\tau$ frozen regime as a compressibility statement:
+below the first prime line the form factor sits at least
+$6.5\times10^{3}$ times below the ramp on the midpoint grid and at
+least $2\times10^{12}$ on the zeros --- both instrument-limited bounds
+--- while the conditional gap response there is $D \approx 0.04$;
 what, precisely, is rigid below the first prime line?; (6) the same
 diffraction program for Dirichlet $L$-functions: which spots move,
 which constants persist?
@@ -445,6 +560,8 @@ which constants persist?
 
 All measurements are scripts 79--95 in
 \url{https://github.com/azizran/deney} (directory \texttt{qm\_riemann/}),
+with the tapered re-audit of the diffraction, dressing and form-factor
+sections in scripts 101b--101j, 102a--102c, 87b and 103,
 runnable from the stored datasets; the dated research log records the
 two failed mechanisms of Section~\ref{sec:deficit} alongside the
 results, together with the audit trail of the companion revisions.

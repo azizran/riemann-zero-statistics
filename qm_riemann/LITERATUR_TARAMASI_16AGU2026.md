@@ -1874,3 +1874,38 @@ Dürüst kayıtlar: sıfır tabanı veri-sınırlı; lab uyumu düzey uyumu;
 I üstel (medyan/ort ln2); DW konvansiyonu ~1.3×; χ₇ 0.04 anomalisi
 hâlâ açık. SENTEZ CÜMLESİ: "regresyonları büken şey aritmetiktir ve
 örnekleme ızgarasının difüz saçılmasında yaşar."
+
+## 87b: 87'NİN ÜÇ TESTİNİN TAPERLİ KAPANIŞ DENETİMİ (20 Ağustos, tayfa 3. sefer)
+
+Kaptanın görevi (101j şüphesi üzerine) 87'yi yeniden denetlemekti;
+102b'nin çoğunu kapattığı görüldü, 87b kalan boşlukları mühürledi:
+T1 hiç yeniden koşulmamıştı, T2 kapanış artığı ölçülmemişti,
+frekans-eşlenik taperli taban tablosu yoktu.
+
+87b (87b_taperli_denetim.py): T1 Gram=Ĝ kimliği tapersiz VE
+Hann-ağırlıklı biçimde ~5e-8 ile geçiyor; T2 kapanış artığı ~1e-14,
+B̂ +0.429/+0.450 birebir — İKİSİ DE TABANDAN BAĞIMSIZ, AYAKTA.
+T3: taşıyıcılar taperi geçiyor (|Ĝ|² oranı 0.67/0.62, 102b ✓);
+taperli çizgi-dışlamalı taban 4e-4–1.6e-3, M-S sızıntısının
+~3e9 katı (101j'nin "taban alet" şüphesi ω≈4–7'de kesin yanlış);
+AMA frekans-eşlenik oran 3–7× (medyan 4.0/5.0) — 87'nin "15×" ucu
+Σω taşıyıcılarını Δω tabanına bölme eseriymiş. Sıfır ızgarası aynı
+frekanslarda 9.3e3–1.6e4× (|Ĝ|) karanlık → kimlik düzeltmesi kesinleşti:
+87-T3 "sıfır kristalinin TDS'si" → "orta-nokta ızgarasının asal-çizgi
+yan bant difüz alanı, tabanın 3–7× üstünde". Script: 87b (+npz).
+
+## 103: NOT 4 REVİZYONU UYGULANDI (20 Ağustos, gece — Opus tayfası 3. sefer)
+
+Etki listesi (NOT4_ETKI_LISTESI_102.md) tex'e işlendi: 11 değişiklik +
+3 kazanç (örnekleme-fazı paragrafı "Whose darkness?", bin-düzeyi Berry
+güçlendirmesi, atomik/sürekli tayf ayrımı Synthesis'te) + dürüst
+sınır-dili. TDS artık yalnız reddedildiği cümlede geçiyor; tutarlılık
+taraması temiz. fig_diffraction_en 3 panele çıktı (103 scripti; orta
+panel 5-ızgara karşılaştırması, sağ panel örnekleme-fazı eğrisi —
+102a değerleri her basamağa dek bağımsız yeniden üretildi). Derleme
+temiz, 10 sayfa. TEK ESASLI SAPMA (onaylandı): 4-18× → 3-7× (medyan
+4-5) — kaynak 87b (kaptanın başlattığı bağımsız oturum; 87'nin 15×
+ucu Σω taşıyıcısını Δω tabanına bölme artefaktıydı; taban gerçek,
+sızıntının ~10⁹ katı — 101j'nin o şüphesi ω≈4-7'de kesin yanlış).
+Kalan: kaptanın son okuması; abstract'taki "hyperuniformity seen
+directly" ibaresi gövdeden hafif yumuşak (son okumada karar).
