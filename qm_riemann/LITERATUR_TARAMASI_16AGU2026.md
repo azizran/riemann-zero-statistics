@@ -2216,3 +2216,25 @@ KALAN AYAK: komşu-bağı kanalı (gerçek R_nn≈−1.5, reçetesiz kaldı) +
 iid-dışı gürültü yapısı → M-c basamağı ve kapalı form sıradaki oturum.
 Scriptler: 110, 110b. GÜNÜN KAPANIŞI: perde artık karakterize (108) +
 faz-uzayı yüzü ölçülü (109-109b) + mekanik köprüsü yarı-kurulu (110).
+
+## 110c: M-c BASAMAĞI — KÖPRÜ %60-80 KURULDU, İKİ KAPALI FORM (25 Ağustos)
+
+25 hücrelik (β,τ) ızgarası + gerçekle hizalama. İKİ KAPALI FORM:
+  R_p(β,τ) = πτ·cot(πτ) + β·cos(πτ)   [25 hücrede ±0.05 ✓]
+  D(β,τ) = 1 − 0.111·|β|·τ            [artık std 0.008]
+πτcot(πτ) ÜÇÜNCÜ kez sahnede (88 benek sönümü, 102c bin-rampa, şimdi
+nefes kinematiği) — örnekleme geometrisinin ana fonksiyonu olduğu
+kesinleşti. HİZALAMA (gerçek tarafta sıfır serbest parametre: β_eff
+ölçülen R'den, c sentetik merdivenden): τ=0.10→0.30 aralığında nefes
+köprüsü gerçek perdenin %59→%81'ini taşıyor. Kalan %20-40 (düşük-τ
+ağırlıklı): konum-jitter sınıfının bond kilidi gerçeğin düşük-τ
+R_nn/R_p oranını (2.75) vermiyor — daha zengin gürültü çekirdeği
+(Δ² bileşenleri) ister. τ=0.45 hizalaması geçersiz (cosπτ→0 ıraksama;
+gerçek R yüksek-τ'da ölçülmedi — kompozit asallarla ölçüm adayı).
+AÇIK: c=0.111'in analitik türetimi + σ-ölçeklemesi.
+BÜYÜK RESİM: perde hikâyesi üç kapalı-formlu bir mekanizma zincirine
+indi: gaz kendi gap-dalgasının fazında ters nefes alır (R_true≈−1,
+yalnız kendi dalgalarında) → nefes, örnekleme geometrisi (πτcotπτ)
+üzerinden koheran okumayı lineer-τ yasasıyla söndürür (D=1−c|β|τ) →
+ölçülen perdenin ~3/4'ü budur. Not 5'in mekanizma bölümü hazır.
+Scriptler: 110c. Commit ile: 110 serisi tamam.
