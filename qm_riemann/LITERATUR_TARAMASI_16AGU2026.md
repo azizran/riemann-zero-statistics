@@ -2255,3 +2255,20 @@ Sıradaki basamak: 112 (alt-Gauss/çarpıklık merdiveni). Yüksek-τ R_nn
 kilit-uyumsuzluğu açık. KÖPRÜ DURUMU: ~3/4 kapalı-formlu kuruldu
 (R_p = πτcotπτ + βcosπτ; D = 1−0.111|β|τ; iki-nüfus resmi), son
 çeyreğin adresi Gaussian-ötesi yapıya daraltıldı. Script: 111.
+
+## 112: ÇARPIKLIK DALGASI — YENİ ODA AÇILDI, İKİ SÜRPRİZ (25 Ağustos)
+
+Üçüncü momentin ilk faz-çözümlü ölçümü (ζ, iki pencere, plasebolu,
+boyalı-kontrollü). S1: η AĞIR-KUYRUKLU — skew +0.24, kurt +0.86 →
+111'in "alt-Gauss yapı" adayı η düzeyinde RET (73'ün −0.75'i u içindi,
+η'ya taşınmıyor). S2: çarpıklık dalgası VAR ve anti-fazlı (R₃ −1.4..
+−2.0; plasebo tabanının 3-6 katı). S3 SÜRPRİZ: boyalı referans da
+NEGATİF ve daha güçlü (−4.5/−4.1) — naif adyabatik +1 referansı bu
+kanalda YANLIŞ (ön-mühür çerçevesi kısmen geçersiz; dürüst kayıt).
+Geçici okuma: gerçek gaz, kinematik çarpıklık yanıtını ~0.4'e BASTIRIYOR
+— tanıma 3. momentte işaret-çevirme değil güçlü bastırma. Köprüye
+sayılması R₃-kinematiği teorisi yazılana dek beklemede. Kalan-%25
+adayları: alt-Gauss RET; 3.-moment yorumu açık; kaynak-verteksi masada.
+Script: 112. — Bugünün toplamı (110c+111+112): köprü ~3/4 kapalı-form,
+son çeyrek iki daralmış adaya inmiş durumda; üç yeni gözlemlenebilir
+(R_p, R_nn, R₃) ve iki kapalı form Not 5'e hazır.
