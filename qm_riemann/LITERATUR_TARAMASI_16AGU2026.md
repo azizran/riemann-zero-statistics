@@ -2178,3 +2178,17 @@ SIRADAKİ: (a) CUE-referans R (dış dalga enjekteli CUE topluluğu — termal
 gaz ne yapar?); (b) adalarda R evrenselliği; (c) ters-nefes ↔ perde
 (D≈1−0.36τ) nicel köprüsü; (d) beat-özdeşliğinin açık hesabı.
 Script: 109_uclu_korelator.py.
+
+## 109b: HAKİKAT MATRİSİ — "TAM TERS NEFES" (24 Ağustos, kaptan)
+
+Dört hücre: CUE+boyalı / ζ+boyalı / ζ+kendi / lab+kendi. Kinematik
+teorem (boyalı dalga → R=+1) küçük τ'da doğrulandı; 2.-moment kanalının
+kendi τ-transferi çıktı (S1-S2 referans eğrisi: +0.94→+0.15; 1. momentin
+a_v≈1'inden farklı — yeni alet bilgisi). ζ boyalı dalgaya CUE ile
+örtüşerek termal davranıyor (+0.95/+0.77/+0.27); KENDİ dalgalarına
+−0.85 DÜZ; lab kendi dalgalarına POZİTİF (+0.2..+0.6) → ters nefes
+EF-ötesi ve YALNIZ gerçek gazda. TRANSFER-DÜZELTMELİ: R_true ≈ −1 —
+gaz kendi aritmetiğine adyabatiğin TAM TERSİ, EŞİT GÜÇTE nefesle yanıt
+veriyor. Seçicilik artık iki momentte kanıtlı (108c: 1. moment; 109b:
+2. moment). Perde-köprüsü (D≈1−0.36τ ↔ R_true≈−1) sıradaki teori ödevi.
+Script: 109b_cue_referans_nefes.py.
