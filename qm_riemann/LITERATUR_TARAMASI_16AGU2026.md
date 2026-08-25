@@ -2129,3 +2129,27 @@ Anomali aletseldi (0.188→0.045). AÇIK: χ₃'ün orta-τ çukuru yeni kapıyl
 derinleşti → 101f verilerinin (4 eski ada) kısa-çukur kapısıyla yeniden
 denetimi sıradaki iş; hiperuniformluk ölçümü kaba (102a titizliğinde
 değil). Scriptler: 105a-e + npz'ler.
+
+## 108: ADA PERDESİ — EVRENSEL, SICAKLIK-BAĞIMSIZ, SEÇİCİ (24 Ağustos, kaptan)
+
+Perde-teorisi kuyusunun ölçüm ayağı, üç script:
+108 (tek-çizgi) TUZAĞA DÜŞTÜ ve ζ kontrol sütunu yakaladı: D≈1.05
+  her yerde — 81-83'ün örnekleme-ızgarası şişmesi. DERS TAZELENDİ:
+  perde YALNIZ tam-taban ortak regresyonla ölçülür.
+108b (tam-taban, 8 küme): alet doğrulandı (ζ 2τ-normda 0.94→0.54 =
+  kampanya). KAVRAM DENETİMİ: sinüs-normda perde 0.955→0.823 —
+  "0.48'e düşüş"ün çoğu 2τ/sinüs geometrisi. P3 ✓✓✓ SEKİZ SÜTUN TEK
+  EĞRİ (±0.01-0.02): PERDE EVRENSEL. P2 RET: ölü-2 üçlüsü canlılarla
+  özdeş (ln-oran ~1.0) → sıcaklık-DW hipotezi ÖLDÜ; perde aritmetik
+  sıcaklığa değil yerel/evrensel istatistiğe bağlı.
+108c (enjeksiyon kalibrasyonu): a_v(τ) ≈ 1.00 (ζ ve χ₃ özdeş) →
+  zincir temiz; D_fiz = 0.958→0.797, ~1−0.36τ. BONUS — SEÇİCİLİK:
+  enjekte yapay dalga AYNI frekansta PERDELENMİYOR → perde yalnız
+  gazın KENDİ aritmetik dalgalarını bastırır; yarım-gap-jitter DW
+  adayı da öldü (yapayı da bastırırdı).
+GÜNÜN PERDE BİLANÇOSU (106+108): perde (a) EF-ötesi gerçek fizik,
+  (b) evrensel, (c) sıcaklık-bağımsız, (d) alet-temiz, (e) SEÇİCİ.
+  Kalan tek mekanizma sınıfı: gap-dalgalanmalarının aritmetik dalga
+  FAZIYLA korelasyonu — gazın dalga çevresinde yeniden-dengelenmesi.
+  Sıradaki teori ödevi: bu korelasyonu doğrudan ölçmek (faz-çözümlü
+  ⟨δg·cos(ω m+φ)⟩ üçlü-korelatörü) ve GUE'de karşılığını hesaplamak.
