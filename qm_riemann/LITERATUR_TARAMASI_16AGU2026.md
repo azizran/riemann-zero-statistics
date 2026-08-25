@@ -1909,3 +1909,29 @@ ucu Σω taşıyıcısını Δω tabanına bölme artefaktıydı; taban gerçek,
 sızıntının ~10⁹ katı — 101j'nin o şüphesi ω≈4-7'de kesin yanlış).
 Kalan: kaptanın son okuması; abstract'taki "hyperuniformity seen
 directly" ibaresi gövdeden hafif yumuşak (son okumada karar).
+
+## 106: İKİ-DAL GİZEMİ ÇÖZÜLDÜ — BİRİ ÖZDEŞLİK, BİRİ OPTİK, FİZİK PERDEDE (24 Ağustos)
+
+Kota tazelendi; 104 (χ₇) ve 105 (çift karakter + mod 8) Opus tayfalarında,
+kaptan köşkü 106'da. Belirleyici deney: öz-tutarlı (ρ̄u=−S(t+u)) vs naif
+(u=−S(t)/ρ̄) lab örgüleri + 101d spontane estimatörü + 101i vuruş tarama.
+
+ÜÇ HÜKÜM (106 + 106b):
+1) PERDE = GERÇEK ÇOK-CİSİM FİZİĞİ: öz-tutarlı lab v-genlikleri katı-
+   analitiğin %±5'inde DÜZ — perde (0.91→0.48) lab'da YOK. Öz-tutarlılık
+   hipotezi RET (naif-oran kanalı 671 kesişmeyle kirli; yükselen oran
+   artefakt olarak kayıtlı). 92'nin açık sorusu temiz izole edildi:
+   perdeyi üreten mekanizma EF-yerdeğiştirme alanının ötesinde.
+2) SPONTANE "CUE-UYUMU" = ÖRNEKLEME OPTİĞİ: lab (CUE'suz!) spontane
+   eğriyi τ≥0.15'te %2-6 içinde üretiyor (1.041/1.112/1.192 vs
+   1.075/1.088/1.177). 92-T4'ün "ζ spontane modlara CUE gibi yanıt
+   verir" cümlesi yeniden yorumlandı; Not 4 §branches'e son-okuma
+   kaydı (etki listesine EK yazıldı).
+3) DONMA = ATOMİK TAYFIN KESİNLİĞİ: lab düşük-ω'da gerçeğin 109 katı
+   parlak; lab SIFIR-ızgarası bile parlak (4.7e-4 vs gerçek ~7e-16).
+   Gerçek boşluklar TAM boş çünkü açık formül kesin özdeşlik; lab'ın
+   t+u inşası u² vuruşlarını sahte üretir (lab boşluk modeli değil;
+   orta-ω yan-bant geçerliliği [102b %6] sürer). Donmanın "çizgi
+   envanteri" okuması (101) bu temele oturdu: boşluğun boşluğu
+   özdeşliktir, çözülme çizginin girişidir.
+Belirsiz: lab vuruş-tepe kontrastı yok (P3'). Scriptler: 106, 106b.

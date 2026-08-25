@@ -82,3 +82,12 @@ olgusu (yalnız kimlik ve mesafe sayıları değişir).
 - I(ω) üstel dağılımlı; medyan/ortalama ln2 → mutlak sayılar ~1.44×
   oynayabilir. DW konvansiyonu (σ_t sıfırlardan mı ortalardan mı)
   yüksek-α'yı ~1.3× oynatır. 102a çizgi maskesi 86'dan sıkı.
+
+## EK (106, 24 Ağustos) — §branches CUE-uyumu kaydı
+
+106/106b bulgusu: gürültüsüz açık-formül lab'ı spontane eğriyi τ≥0.15'te
+%2-6 içinde üretiyor (CUE fiziği olmadan) → "responds to its spontaneous
+modes like CUE (within 3%)" cümlesine son okumada kayıt düşülmeli:
+uyum örnekleme-estimatörünün özelliği olarak okunmalı, gaz termalitesinin
+kanıtı olarak değil. Donma ve perde iddiaları etkilenmez (perde tam
+tersine güçlendi: lab perdeyi ÜRETEMİYOR → gerçek çok-cisim yanıtı).
