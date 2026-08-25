@@ -2014,3 +2014,38 @@ kaptan köşkü 106'da. Belirleyici deney: öz-tutarlı (ρ̄u=−S(t+u)) vs nai
    envanteri" okuması (101) bu temele oturdu: boşluğun boşluğu
    özdeşliktir, çözülme çizginin girişidir.
 Belirsiz: lab vuruş-tepe kontrastı yok (P3'). Scriptler: 106, 106b.
+
+## 105: ÇİFT KARAKTER + MOD 8 — DÖRT ÖN-MÜHÜR DE İSABET (24 Ağustos, Opus tayfası)
+
+Üç yeni ada: chi5e (mod 5 Legendre, İLK ÇİFT karakter a=0), chi8e
+(mod 8 çift), chi8o (mod 8 tek) — motor a=0 sağlaması geçti (yanlış
+parite 38 mertebe patlatıyor → kapı duyarlı; a=0 dalı konumda a=1'den
+iyi). Kampanya + tam sertifika: 72.8k/65.9k/65.9k sıfır; kaldırılmış-dip
+dersi birebir tekrarlandı (+376/+130/+432 mpmath kurtarması).
+
+P2 ✓✓✓ SPEKTROSKOPİ: fazlar 0.04-0.11° içinde; mezarlıklar (chi5e:
+  5,25; chi8'ler: 2,4,8) binde-1 düzeyinde ölü.
+P1 ✓✓ GAMMA EVRENSELLİĞİ: mutlak yasa oranı chi5e (a=0) 1.009 = chi5
+  (a=1) 1.009 (aynı q, aynı L!); chi8e/chi8o |Ĝ| ve kuvvet-açığı
+  birebir, yalnız fazlar arg χ kadar ayrık; hiperuniformlukta a-farkı
+  ≤0.01 (kaba Σ²(n) ölçümü). Gamma faktörü HİÇBİR yasaya girmiyor.
+P4 ✓✓✓ β-SOĞUKLUĞU ÇÖZÜLDÜ: σ_tam²@L=9 — canlı-2 dörtlüsü 0.058-0.064,
+  ölü-2 üçlüsü (β, chi8e, chi8o) 0.0496/0.0500/0.0500: iki iletken
+  (4 ve 8), iki parite, AYNI −%20 artık. İletken-4/imprimitiflik
+  hipotezi ÖLDÜ; soğukluk = 2-ailesinin ölülüğü. (Koro-varyansı artığı
+  tam açıklamıyor — nicel artık-yasası açık; ama artık yalnız çizgi
+  envanterine bağlı.)
+P3 ✓✓✓ DONMA İKİ BAĞIMSIZ ADADA REPLİKE: chi5e log2/L'de çözülür
+  (yarı-çözülme/τ_ilk = 1.006, χ₃ ile birebir); chi8e VE chi8o log3'e
+  gecikir (chi8e log2'de D=0.009 — vekil tabanında: ölü çizgide çözülme
+  YOK); parite farkı %1.3. HÜKÜM: donma sınırı YALNIZ çizgi
+  envanterinin fonksiyonu — parite/gamma/iletken değil.
+
+105e DÜRÜST KOVALAMACA: chi8e eşik-altı anomalisi kovalandı → YENİ
+KUSUR SINIFI: kısa çukur (2 kayıp + anında telafi) — 80'lik medyan
+dedektörü bunları YIKAR, donma estimatörü aşırı duyarlı (0.02→0.48).
+Yeni kapı: kısa-20/uzun-200 medyan farkı > 0.7 (yanlış-pozitif temiz).
+Anomali aletseldi (0.188→0.045). AÇIK: χ₃'ün orta-τ çukuru yeni kapıyla
+derinleşti → 101f verilerinin (4 eski ada) kısa-çukur kapısıyla yeniden
+denetimi sıradaki iş; hiperuniformluk ölçümü kaba (102a titizliğinde
+değil). Scriptler: 105a-e + npz'ler.
