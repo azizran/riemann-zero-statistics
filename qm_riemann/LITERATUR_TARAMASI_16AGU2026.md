@@ -1894,6 +1894,85 @@ frekanslarda 9.3e3–1.6e4× (|Ĝ|) karanlık → kimlik düzeltmesi kesinleşti
 87-T3 "sıfır kristalinin TDS'si" → "orta-nokta ızgarasının asal-çizgi
 yan bant difüz alanı, tabanın 3–7× üstünde". Script: 87b (+npz).
 
+## 104: χ₇'NİN τ=0.04 ANOMALİSİ KAPANDI — İKİ KOPYA SIFIR (25 Ağustos)
+
+101h'den beri açık duran ve 102'nin "dürüst kayıtlar"ında da anılan
+tek soru: χ₇'nin D_spont(τ=0.04)'ü band daraldıkça neden YÜKSELİYOR
+(0.078 → 0.106 → 0.125, kaçak yok)? Üç hipotez ön-mühürlü ayrıştırıldı;
+ikisi öldü, biri kanıtlandı ve kusurun YERİ tek tek sıfırlara indi.
+
+H-seg (104a) KESİN RET. χ₃/χ₅'i χ₇'nin segment profiline, 2 uzun
+  parçaya, 6 eşit parçaya bölmek (eş-n) ve ortak n*=24000 üstünde
+  m = 1,2,4,6,8 eşit-parça merdiveni: parça sayısıyla HİÇBİR eğilim
+  yok, m=1'de oran en büyük. Ortak ω₀ + ortak ω-bandı da yükselişi
+  öldürmüyor (χ₇ 1.39×) → τ↔ω hizalaması da suçsuz.
+  YAN KAZANÇ 1: "band daraldıkça yükselme" 20+ düzenekte GENEL
+  DAVRANIŞ (1.1-1.3×); anormal olan χ₇'nin 1.60'ı kadar χ₃'ün
+  0.26'sıydı. YAN KAZANÇ 2: vekil taban V band'dan ve (tek pencerede)
+  n'den pratikte BAĞIMSIZ, AİLEYE bağlı.
+  YAN KAZANÇ 3 (asıl ipucu): χ₇'nin havuz D'sinin tamamı TEK
+  PENCEREDEN (w1, n=11539) geliyor — w1'de D 0.30-0.45, öteki beşinde
+  0.02-0.14. χ₃'ün ters anomalisi de kendi w1'inden.
+
+H-kusur (104b, 104d, 104e) DOĞRULANDI — KESİN.
+  101b'nin kusur duyarlılığı ilk kez BAND'A genişletildi: temiz χ₃'e
+  SADECE 10 SİLME (0.13‰) D'yi 0.018 → 0.134'e çıkarıyor ve ΔD dar
+  bantta 1.8× büyük (+0.117 vs +0.063). "Band daralınca yükselme"
+  KUSURUN İMZASIDIR.
+  Kusurun yeri (104d): χ₇ w1, t = 3081.6688 ve 3081.6695 (fark 7e-4),
+  3081.8885 ve 3081.8891 (fark 6e-4) — İKİ KOPYA SIFIR (normalize
+  boşluk 0.0008; pencere medyanı 0.974) + ilerideki iki telafi edici
+  kayıp. NET sürüklenme sıfır olduğu için 101f'nin sayım sertifikası
+  DA 101d'nin düzlük segmentasyonu DA göremedi. Aynı sınıf ikinci
+  kusur χ₃ w1'de, t ∈ [3872.5, 3890.2].
+  101f'nin listelediği 8 şüpheli χ₇ bölgesinin analiz pencereleriyle
+  örtüşmesi 0 — suçlu listede değildi.
+
+H-fizik (104c) RET. Sabit-ω taraması ω ∈ [0.20,0.65], band ±0.004:
+  χ₇'nin en güçlü artığı z = +2.00 (ω=0.380), ön-mühürdeki z ≥ 3'ün
+  altında ve ince taramada tekrarlanmıyor. Çözünürlük kapısı χ₇'de de
+  geçildi (log2 kontrastı 1.55×), yani null gerçek.
+  BAĞIMSIZ DOĞRULAMA: D(ω) artık saçılması ζ 0.070 / χ₅ 0.056 (pürüzsüz,
+  101i'yle uyumlu) ama χ₃ 0.464 / χ₇ 0.303 — gürültülü iki aile, kusur
+  taşıyan iki aileyle birebir aynı.
+  (Dürüst kayıt: ω=log7 ölü/canlı çaprazı BİLGİSİZ çıktı — orada
+  τ ≈ 0.19 ve beş aile de çoktan çözülmüş, D ≈ 1; doymuş zeminde
+  kontrast imkânsız. Ölü-çizgi hükmünün nulli değildir.)
+
+YENİ KAPI — SIÇRAMA KAPISI (104e), sayım sertifikası + düzlük
+segmentasyonunun ÜÇÜNCÜ basamağı: r = (d'nin 21'lik kayan ortalaması)
+− (801'lik kayan medyanı); temiz 17 pencerede maks|r| = 0.06-0.12,
+kusurlu ikisinde 1.99/2.01 → eşik 0.30, pad 600 (sıçramanın yumuşak
+kuyruğu ~1000 sıfır sürüyor). Ek: normalize boşluk u < 0.005 (kopya).
+Beş ailede toplam İKİ küme işaretlendi; ζ, β, χ₅ tertemiz.
+
+TEMİZLENMİŞ SONUÇ: χ₇ 0.078/0.106/0.125 (1.60×) → 0.033/0.037/0.038
+(1.15×); χ₃ 0.069/0.038/0.018 (0.26×) → 0.004/0.003/0.006 (1.52×, ama
+vekil taban 0.0045 ile aynı mertebede = ölçüm sınırında donmuş).
+ANOMALİ KAPANDI. 101d/101h'nin ANA HÜKMÜ ETKİLENMEDİ: β log3/⟨L⟩ =
+0.1143'e dek donuk (0.013-0.091) ve tam orada 0.847'ye sıçrıyor;
+ζ/χ₅/χ₇ log2/⟨L⟩'de çözülüyor. "Donma sınırı adanın ilk sağ kalan
+çizgisidir" ayakta.
+
+DÜRÜST KAYIT — YENİ ALET SINIRI: D = |Σ_w num_w| / Σ_w den_w
+pencereler-arası KOHERENT toplamdır; pencere katkıları ters fazda
+gelince YIKICI GİRİŞİM olur. Ölçüldü: χ₃ τ=0.068'de pencere-başına
+0.301/0.033/0.384 iken havuz 0.109 — üçünün de altında. 101h'nin χ₃
+satırındaki dalgalanmalar (0.583→0.320→0.232) bunun eseriymiş.
+Eşik-üstü tek tek τ noktaları ±0.2 oynayabilir; EŞİĞİN YERİ oynamaz.
+
+PRATİK KURAL (donuk-taban ölçümleri için, 98-S2 ve 101'in standardına
+ek): (1) sıçrama kapısı zorunlu — net sürüklenme sıfır olsa bile
+pencere-içi |r| > 0.30 varsa kes (pad ≥ 600); (2) donuk D ancak
+D > 3·V ise ölçümdür, altı üst sınırdır; (3) band-daraltma bir
+KUSUR TESTİDİR: D(dar)/D(geniş) genel bandı (1.0-1.4×) belirgin
+aşıyorsa veriden şüphelen, fizikten değil; (4) havuzlanmış D'yi
+daima pencere-başına ayrıştırarak rapor et.
+
+Scriptler: 104a (segment aleti), 104b (kusur/sıkılaştırma), 104c
+(sabit-ω taraması), 104d (kusurun yeri), 104e (sıçrama kapısı +
+temizlenmiş taban). Toplam koşu ~8 dk. npz: 104a/104b/104c/104e.
+
 ## 103: NOT 4 REVİZYONU UYGULANDI (20 Ağustos, gece — Opus tayfası 3. sefer)
 
 Etki listesi (NOT4_ETKI_LISTESI_102.md) tex'e işlendi: 11 değişiklik +
