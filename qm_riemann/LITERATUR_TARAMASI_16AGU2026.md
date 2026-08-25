@@ -1894,6 +1894,86 @@ frekanslarda 9.3e3–1.6e4× (|Ĝ|) karanlık → kimlik düzeltmesi kesinleşti
 87-T3 "sıfır kristalinin TDS'si" → "orta-nokta ızgarasının asal-çizgi
 yan bant difüz alanı, tabanın 3–7× üstünde". Script: 87b (+npz).
 
+## 107: YEDİ ADA + ζ, İKİ YENİ KAPIYLA DENETLENDİ — LOG2/LOG3 KERVANLARI
+       (25 Ağustos)
+
+105'in bıraktığı iş ("101f verilerinin kısa-çukur kapısıyla yeniden
+denetimi") yapıldı ve iki yeni kapı (105e KISA-ÇUKUR + 104e SIÇRAMA)
+TEK BORU HATTINDA sekiz veri kümesine uygulandı. Ölçüm 101d estimatörü,
+τ ızgarası 101d'ninki, band ±0.01L, band-kaçağı kapılı, havuz DAİMA
+pencere-ayrıştırmalı (104'ün pratik kuralı 4).
+
+POZİTİF KONTROL ✓✓ (107a/107c): kapılar 104d'nin ve 105e'nin ELLE
+bulduğu kusurların TAMAMINI otomatik buldu ve analiz dışında tuttu —
+χ₃ t∈[3872.54,3892.79], χ₇ t∈[3081.89,3109.55] (104d'nin kopya çiftleri),
+χ₇ t∈[3664.60,3680.83] (104d'nin "i₀≥1000, t≥3680" yumuşak kuyruğu, bu
+kez K3 otomatik buldu), chi8e t∈[19353.5,19359.3] (105e'nin çukuru).
+ADLI KUSUR DENETİMİ 8/8 ✓.
+
+ÜÇ YENİ KUSUR (hiç raporlanmamıştı), üçü de KISA-ÇUKUR kapısından:
+  χ₅  t ∈ [5810.70, 5828.48]  (23 sıfır) ← χ₅ "TERTEMİZ" SANILIYORDU
+      (104e'nin sıçrama kapısı ona 0 işaret vermişti). "χ₅ temiz"
+      hükmü artık geçersiz; etkisi küçük (D'ler ≤0.006 oynadı).
+  χ₇  t ∈ [767.62, 831.45] ve [1903.73, 1915.34] — ikisi de χ₇'nin
+      n=2578 < 3000 olduğu için zaten analize girmeyen en alt
+      log-penceresinde (sertifika kaydına girer, ölçümü etkilemez).
+KOPYA ENVANTERİ genişledi: χ₇'de u<0.005 olan ALTI çift var (104d ikisini
+bulmuştu), chi8e'de bir. YEDİSİ DE nihai pencerelerin dışında — bu yüzden
+K3'ün u-ölçütü hiç tetiklenmedi; SON EMNİYET KİLİDİ olarak duruyor.
+TERTEMİZ KÜMELER: ζ (maskelenen 0), chi8o (hiçbir kapı), β (yalnız K1).
+
+χ₃'ÜN ORTA-τ ÇUKURU — AÇIK SORU OLARAK KALDI (ve teşhis DEĞİŞTİ):
+  τ         0.095  0.105  0.113  0.125  0.140
+  ÖNCE      0.590  0.565  0.512  0.320  0.766   (yalnız 101d kapısı)
+  SONRA     0.426  0.199  0.161  0.134  0.531   (üç kapı)
+  Yalnız 816 sıfır (%1.1) maskelendi, D(0.105) 0.565 → 0.199. Çukur
+  DÜZELMEDİ, DERİNLEŞTİ. 104'ün "havuzlama girişimi" açıklaması bu
+  τ'larda ÇÜRÜDÜ: pencere ayrıştırmasında ÜÇ PENCERENİN ÜÇÜ DE çukurda
+  (0.282/0.134/0.137, havuz 0.199 — havuz onların ORTASINDA, ALTINDA
+  değil; oran 0.71-0.77, beş kümenin genel bandı 0.59-0.92 içinde).
+  Buna karşılık τ=0.068'de yıkıcı girişim GERÇEKTEN var (0.320/0.145/
+  0.544, havuz 0.194, oran 0.36) — 104'ün teşhisi O NOKTADA doğru.
+  ⟹ χ₃'ün orta-τ çukuru ne kusur ne havuzlama; ya fiziksel, ya da henüz
+  görülmemiş bir ÜÇÜNCÜ kusur sınıfı. SIRADAKİ İŞ.
+
+ANA HÜKÜM 5'e 3 İLE GÜÇLENDİ (107b, band ±0.01L, sekiz küme):
+  EŞİKSİZ AYRIŞTIRICI — D(log2/L), yani ORTAK çizgide:
+    LOG2 KERVANI  ζ .461  χ₃ .508  χ₅ .482  χ₇ .512  χ₅ᵉ .492
+    LOG3 KERVANI  β .046  χ₈ᵉ .009  χ₈ᵒ .048          ← 10-50× düşük
+  β artık tek ada değil ÜÇ ÜYELİ BİR SINIF. "Donma sınırı adanın ilk
+  sağ kalan çizgisidir" beş çözülmüş + üç donmuş ada ile duruyor.
+
+YENİ NİCEL SONUÇ — YARI-ÇÖZÜLME MUTLAK FREKANSTA log 2'YE OTURUYOR:
+  ω_yarı = τ_yarı·⟨L⟩ ;  LOG2 kervanının dört Dirichlet adası:
+  χ₃ 0.6918, χ₅ 0.7054, χ₇ 0.6792, χ₅ᵉ 0.6966 → ORT 0.6932
+  ve log 2 = 0.69315  (%0.01!). LOG3 kervanı: β 0.9790, χ₈ᵉ 0.9668,
+  χ₈ᵒ 0.9555 → ort 0.9671, log 3 = 1.0986'nın %12 ALTINDA.
+  Kervan kayması ×1.395 (101d ×1.4-1.5, 105d ×1.376-1.410 ile aynı
+  bant; saf öngörü log3/log2 = 1.585'in altında). Bu %12'lik ERKEN
+  AÇILMA üç adada da sistematik (yarı/τ_ilk 0.870-0.891) ve AÇIKTIR.
+  DÜRÜST KAYIT: ζ'nın yarı/τ_ilk = 1.338'i eşik-kırılganlığıdır
+  (D(0.068) = 0.489, 0.5'in 0.011 altında; τ=0.075 çukuru geçişi
+  0.085'e atlatıyor). Eşiksiz D(τ_ilk) ζ'da 0.461 — bandın içinde.
+  YARI-ÇÖZÜLME ÖLÇÜTÜ EŞİĞE KIRILGANDIR; D(τ_ilk) tercih edilmeli.
+
+YENİDEN ÖLÇEKLEME ÇÖKMESİ (x = τ/τ_ilk): eşik bölgesinde sekiz eğrinin
+saçılması ham τ'da std/ort 0.5125 iken ölçekli x'te 0.2559 — YARIYA
+iniyor (χ₃ hariç 0.2296, ζ hariç 0.2503, ikisi de hariç 0.2141).
+İki kervan tek eşiğe kilitleniyor.
+
+SERTİFİKA DEFTERİ (107c, Not 5 §reproducibility'ye hazır): sekiz küme
+için n_ham / n_analiz / kalan bölge / K1-K2-K3 ihlalleri / kopya /
+maskelenen sıfır / pencere sayısı / ⟨L⟩ / τ_ilk tek tabloda; ayrıca
+nihai analiz penceresi t-aralıkları birebir listeli. Maskelenen oran
+%0.0 (ζ) - %10.0 (χ₇). χ₇ tek başına K1'in %54'ünü, K2'nin %61'ini,
+K3'ün TAMAMINI taşıyor.
+
+Scriptler: 107a (eski dörtlünün yeniden denetimi, 81 s), 107b (yedi-ada
+tablosu + figür, 16 s), 107c (sertifika defteri, 9 s).
+npz: 107a_temiz, 107b_yedi_ada, 107c_sertifika (+107a_kusurlar.json).
+Figür: 101_donmus_koylar_v2.png (panel a: ham τ, "donma penceresi";
+panel b: x = τ/τ_ilk çökmesi).
+
 ## 104: χ₇'NİN τ=0.04 ANOMALİSİ KAPANDI — İKİ KOPYA SIFIR (25 Ağustos)
 
 101h'den beri açık duran ve 102'nin "dürüst kayıtlar"ında da anılan
