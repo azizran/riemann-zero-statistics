@@ -2238,3 +2238,20 @@ yalnız kendi dalgalarında) → nefes, örnekleme geometrisi (πτcotπτ)
 üzerinden koheran okumayı lineer-τ yasasıyla söndürür (D=1−c|β|τ) →
 ölçülen perdenin ~3/4'ü budur. Not 5'in mekanizma bölümü hazır.
 Scriptler: 110c. Commit ile: 110 serisi tamam.
+
+## 111: BOND-ZENGİN ÇEKİRDEK — GAUSSIAN SINIFIN TAVANI %70 (25 Ağustos)
+
+İki-düğmeli (β: yerel genlik-mod; γ: paylaşımlı-çift, yalnız-varyans)
+çekirdek, 32 hücre + iki-nüfus doğrulama noktası. E1 ✓ (γ ayrıştırır:
+R_p oynar, R_nn sağır). E2: D VARYANS kanalına bağlı — bond D'yi
+doğrudan beslemez; bond, zayıflamasız dürüst GÖSTERGE (içsel β'yı düşük
+τ'da o verir: gerçek R_nn −1.95 → β≈−3 → D-yasası 1−0.333τ = gerçeğin
+%92 eğimi!). AMA tek-β R_p'yi aşırı yapar; iki-nüfus noktası (β=−3,
+γ=17: yerel ters nefes + kolektif birlikte-nefes) çifti eşler ve D
+açığının %65-78'ini verir. HÜKÜM: faz-modülasyonlu GAUSSIAN jitter
+sınıfları ~%70 TAVANINDA — kalan %25-35 sınıf dışı: alt-Gauss yapı
+(gerçek kurt −0.75), çarpıklık dalgası ⟨η³⟩(faz), veya kaynak-verteksi.
+Sıradaki basamak: 112 (alt-Gauss/çarpıklık merdiveni). Yüksek-τ R_nn
+kilit-uyumsuzluğu açık. KÖPRÜ DURUMU: ~3/4 kapalı-formlu kuruldu
+(R_p = πτcotπτ + βcosπτ; D = 1−0.111|β|τ; iki-nüfus resmi), son
+çeyreğin adresi Gaussian-ötesi yapıya daraltıldı. Script: 111.
