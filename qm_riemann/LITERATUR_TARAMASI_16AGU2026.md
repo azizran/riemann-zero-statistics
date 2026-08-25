@@ -2192,3 +2192,27 @@ gaz kendi aritmetiğine adyabatiğin TAM TERSİ, EŞİT GÜÇTE nefesle yanıt
 veriyor. Seçicilik artık iki momentte kanıtlı (108c: 1. moment; 109b:
 2. moment). Perde-köprüsü (D≈1−0.36τ ↔ R_true≈−1) sıradaki teori ödevi.
 Script: 109b_cue_referans_nefes.py.
+
+## 110: KÖPRÜ DENKLEMİ — AYAKLAR DİKİLDİ (24 Ağustos gecesi, kaptan)
+
+Soru: tam-ters-nefes (R≈−1) perdeyi (D≈1−0.36τ) üretir mi? Kalem
+(tek-gap teleskop, 2. mertebe): D = 1/(1+(κ/2)tan(κ/2)σ_η²|R|) —
+düzey (0.97) ve biçim (κ²) YETERSİZ → sentetik merdiven.
+
+PERDE 1 — İKİ ÖĞRETİCİ NULL: (a) eklemeli mimari (dalga + jitter)
+nefes üretmez; dilatasyon teoremi gürültünün dalganın İÇİNDEN geçmesini
+ister (CUE kontrolü +0.94 vs eklemeli 0 çelişkisi yakalattı).
+(b) FAZ DERSİ: nefes GAP-dalgası (türev, −sin) fazında yaşar;
+yerdeğiştirme (cos) fazına boyanan reçete R'ye DİK kalır — kuadratür
+ayrışımı (K1-K6 suç merdiveni) sırrı çözdü. İkisi de mekanizma bilgisi.
+
+PERDE 2 — DÜZELTİLMİŞ MERDİVEN (dilatasyon + türev-fazlı jitter-mod):
+β=0 kinematik sağlama ✓ (R +0.93→+0.26, D≈1). β=−2: R −0.86/−0.49/
+−0.11, D 0.982/0.961/0.913. β=−3: R −1.78/−1.19/−0.35, D 0.971/0.917/
+0.872. HÜKÜM: ANTİ-NEFES PERDEYİ MEKANİK ÜRETİR ve biçim LİNEER-τ
+(gerçeğin 1−0.36τ biçimi ✓ — kalemin κ²'si değil). Büyüklük: gerçek
+açığın ~%70-75'i (orta/yüksek τ, R eşlenik); düşük-τ ucu eksik.
+KALAN AYAK: komşu-bağı kanalı (gerçek R_nn≈−1.5, reçetesiz kaldı) +
+iid-dışı gürültü yapısı → M-c basamağı ve kapalı form sıradaki oturum.
+Scriptler: 110, 110b. GÜNÜN KAPANIŞI: perde artık karakterize (108) +
+faz-uzayı yüzü ölçülü (109-109b) + mekanik köprüsü yarı-kurulu (110).
