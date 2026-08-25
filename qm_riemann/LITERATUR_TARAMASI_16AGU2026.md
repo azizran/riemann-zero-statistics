@@ -2153,3 +2153,28 @@ GÜNÜN PERDE BİLANÇOSU (106+108): perde (a) EF-ötesi gerçek fizik,
   FAZIYLA korelasyonu — gazın dalga çevresinde yeniden-dengelenmesi.
   Sıradaki teori ödevi: bu korelasyonu doğrudan ölçmek (faz-çözümlü
   ⟨δg·cos(ω m+φ)⟩ üçlü-korelatörü) ve GUE'de karşılığını hesaplamak.
+
+## 109: GAZIN NEFESİ TERS — ANTİ-ADYABATİK ÜÇLÜ-KORELATÖR (24 Ağustos, kaptan)
+
+Perde mekanizması avının faz-çözümlü ölçümü: dalga-ortalaması tam-tabanla
+söküldü, artık η'nın ikinci momentleri çizgi fazında okundu (ζ, iki
+büyük pencere; plasebolu; asallar 2-17).
+
+YAN MANŞET (M0): var(ds)=0.164 (GUE-yakın; 41/36/101f üç kaynakta
+teşhisle doğrulandı) ama σ_η²=0.022 → GAP VARYANSININ ~%87'Sİ
+DETERMİNİSTİK açık-formül dalgaları (Σ A²/2 ≈ 0.14 muhasebesi tutuyor).
+GUE-biçimli spacing dağılımı ~60 deterministik dalganın süperpozisyonu
+olarak doğuyor. Artık komşu-bağı c₁/σ² = −0.52.
+
+ANA MANŞET (Q2): NEFES DALGASI VAR (Q1 ✓, plasebo temiz) ve TERS —
+R_p ≈ −0.85, yedi asalda düz. Adyabatik yerel-ölçekleme R=+1 öngörür;
+gaz tam tersini yapıyor: aritmetik dalganın GERDİĞİ bölgeler sessizleşir,
+SIKIŞTIRDIĞI bölgeler gürültülenir (%85 güçle). Q3: komşu-bağı dalgası
+R_nn −1.9→−1.2. TUZAK KONTROLÜ: dalga-çifti (beat) özdeşliği p=11,13,17
+için mevcut değilken R düz → özdeşlik kaynak olamaz (açık hesap
+doğrulaması yapılacak).
+
+SIRADAKİ: (a) CUE-referans R (dış dalga enjekteli CUE topluluğu — termal
+gaz ne yapar?); (b) adalarda R evrenselliği; (c) ters-nefes ↔ perde
+(D≈1−0.36τ) nicel köprüsü; (d) beat-özdeşliğinin açık hesabı.
+Script: 109_uclu_korelator.py.
