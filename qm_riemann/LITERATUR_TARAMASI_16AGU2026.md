@@ -2272,3 +2272,17 @@ adayları: alt-Gauss RET; 3.-moment yorumu açık; kaynak-verteksi masada.
 Script: 112. — Bugünün toplamı (110c+111+112): köprü ~3/4 kapalı-form,
 son çeyrek iki daralmış adaya inmiş durumda; üç yeni gözlemlenebilir
 (R_p, R_nn, R₃) ve iki kapalı form Not 5'e hazır.
+
+## 113: R₃ KİNEMATİĞİ HAKEM EĞRİLERİ — ÜÇ YASA, BİR YAPISAL KEŞİF (25 Ağu gecesi)
+
+K1: Gaussian kinematiği sıfır değil — R₃(σ³) ≈ −0.3·κ³·σ (σ-lineer,
+τ-kübik; katlanma değil komşu-lag [⟨η³δm⟩=3σ⁴] adayı). K2 YAPISAL
+KEŞİF: konum-jitter farkı gap-çarpıklığını HER dağılımda öldürür
+(⟨(Δw)³⟩≡0) → gerçek η'nın +0.24 çarpıklığı GAP-DÜZEYİ (itme fiziği)
+asimetrisi — tüm jitter sınıflarının dışında; kalan-%25 için en somut
+iz. K3: ζ+boyalı eğrisi ~düz (−2.7..−3.2, σ³-norm), Gaussian-kinematiğin
+çok üstünde; işaret ANTİ-ölçek-sürükleme (naif +2.1'e karşı −2.8).
+Gerçek/boyalı oranı ≈0.4 eğri düzeyinde doğrulandı (112 okuması ✓).
+KALEM OTURUMU HEDEFLERİ: −0.3κ³σ Isserlis türetimi; anti-sürükleme
+kübik muhasebesi; gap-asimetrili gürültü sınıfıyla D-merdiveni.
+Script: 113. Kübik gece bereketli kapandı.
