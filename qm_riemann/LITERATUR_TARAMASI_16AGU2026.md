@@ -2424,3 +2424,43 @@ GL(2)'de ölü çizgi için CM formu veya ölü Euler çarpanı gerek).
 Scriptler: 117a_delta_motoru.py (motor+kapılar), 117a2_delta_kampanya.py,
 117b_delta_kirinim.py; veriler 117a_delta_zeros.npz (87 543),
 117b_delta_kirinim.npz, 117a_oracle_ornek.npz.
+
+## KALEM DEFTERİ — DENGE-DIŞI İLKE: ÇERÇEVE (26 Ağustos, kaptan)
+
+Termal aynanın (116) bıraktığı soru: her denge referansı +1 verirken
+ζ'nın üç-moment ters nefesi hangi ilkeden doğar? Kalem dökümü üç parça:
+
+1) NO-GO LEMMASI (yerel-evrensellik ⟹ adyabatik): dalga-boyundan kısa
+pencerelerde gap istatistiği "yerel ortalama aralıkla ölçeklenmiş
+evrensel yasa" ise, ⟨η²⟩(m) = σ²(1+W)² zorunlu → R_p = R_nn = R₃ = +1
+(TÜM momentler adyabatik). Ölçülen (−0.85/−1.5/−1.4) ⟹ YEREL
+EVRENSELLİK, ARİTMETİK ALANIN FAZINDA O(1) GÜÇLE KIRILIYOR: gazın
+yerel istatistiği yalnız yerel yoğunluğun fonksiyonu DEĞİL — aritmetik
+fazı taşıyor. "Gaz kendi aritmetiğini tanır"ın mikroskobik içeriği bu.
+(Statik-adyabatik, boyalı-kinematik ve spontane-denge referanslarının
+üçünün de +1 vermesi lemmanın üç ampirik köşesi: 109b-S1/S2, 116.)
+
+2) YENİDEN-ÇERÇEVELEME — AŞIRI-TERMAL SABİTLENME: aritmetik modlar
+denge dalgalanması değil; kıyas: koheran çizgi genliği A≈0.1 (ds),
+aynı modun termal RMS'i √(σ_η²/n)·√S ≈ 7e-4 → çizgiler ~100× termal
+GENLİKTE (~10⁴× eşbölüşüm enerjisi) SABİTLENMİŞ. Soru "gaz dengeyi
+neden ihlal ediyor" değil; "katı log-gaz, aşırı-termal sabitlenmiş bir
+mod çevresinde nasıl düzenlenir" — parametrik/nonlineer rejim,
+pertürbatif denge değil. (Açık formülün KESİNLİĞİ = modların genlik
+dalgalanması SIFIR — denge topluluklarında modlar nefes alır, ζ'da
+alamaz; artık serbestlik yalnız gürültüde.)
+
+3) BAĞ ADAYI — KAYIPSIZLIK/KORUNUM: 68'in korunum yasası
+(√w+(β/2)v=1; g≈−(β²/4)v²) genlik-kanalında "birinci moment büyükken
+ikinciden eksilt" yapısındaydı; 70-73'ün kayıpsızlık/Hermitsel koku
+gözlemleriyle birlikte, ters nefes bu korunumun gap-kanalı sureti
+olabilir. Türetim açık.
+
+MÜHÜRLÜ AYRIŞTIRICI ÖNGÖRÜLER (sıradaki ölçümler):
+  Ö1 ADALARDA R: sabitlenme-çerçevesi R'nin ada sıcaklığıyla (ölü-2
+     üçlüsü −%20) oynayabileceğini söyler; katı-evrensellik aynı kalır
+     der. (D evrenseldi [108b]; R henüz adalarda ölçülmedi — ayrıştırıcı.)
+  Ö2 GENLİK-KANALI NEFESİ R_w: 41 verisinde amps var — |Z| gürültüsünün
+     varyansı gap-dalgası fazında nasıl salınıyor? Korunum-çerçevesi
+     belirli bir çapraz-kanal deseni öngörür (gap-gürültüsü kısılırken
+     genlik-gürültüsü?); tamamen yeni gözlemlenebilir.
