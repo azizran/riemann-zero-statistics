@@ -2464,3 +2464,19 @@ MÜHÜRLÜ AYRIŞTIRICI ÖNGÖRÜLER (sıradaki ölçümler):
      varyansı gap-dalgası fazında nasıl salınıyor? Korunum-çerçevesi
      belirli bir çapraz-kanal deseni öngörür (gap-gürültüsü kısılırken
      genlik-gürültüsü?); tamamen yeni gözlemlenebilir.
+
+## 119: ÇAPRAZ-KANAL NEFES TAKASI — H-KORUNUM KAZANDI (26 Ağustos)
+
+Kalem defterinin Ö2 hakem ölçümü: |Z| genlik-gürültüsünün varyansı,
+gap-dalgası fazında İLK KEZ dinlendi. SONUÇ: R_w GÜÇLÜ POZİTİF
+(+6.26 → +0.94, p=2..17; plasebo 0.05-0.18) — R_p aynı koşuda
+−0.69..−0.92. Aritmetik dalganın gerdiği bölgede gap-gürültüsü
+kısılırken GENLİK-GÜRÜLTÜSÜ KÜKRÜYOR: iki kanal, gazın kendi
+dalgasının fazına kilitli DALGALANMA TAKASI yapıyor. 68'in korunum
+yasası ve Not 1'in gap-genlik korelasyonu gürültü düzeyinde doğrulandı.
+Denge-dışı ilkenin adı: SABİT DALGALANMA BÜTÇESİ (faz-çözümlü korunum,
+kayıpsızlığın 2.-moment sureti). Yapı notu: R_w hiperbolik-yakın düşer
+(R_w·τ 0.44→0.26). AÇIK: hangi büyüklüğün korunduğunun türetimi;
+R_w biçim yasası; Ö1 (adalarda R) mühürlü ayrıştırıcı duruyor.
+Script: 119. — Not 6 malzemesi (bugün): termal ayna + GL(2) Hecke +
+çarpımsal koro + no-go lemması + NEFES TAKASI.
