@@ -2493,3 +2493,132 @@ c₁/σ² (−0.58..−0.60) yedi adada özdeş — artık-gürültü evrensel;
 −%20 sıcaklık farkı tamamen deterministik dalga payında (tutarlılık).
 Türetim hedefi: "β=−2 neden evrensel?" (iki kanal/iki kuadratür
 bütçesi −1+−1?). Script: 120. Günün beşinci büyük bulgusu.
+
+## 118: YEDİ GL(1) ADASININ TAPER'LI YENİDEN DÖKÜMÜ — 104/105/107'NİN
+##      BÜTÜN KUSURLARI TEK BİR ALET DEĞİŞİKLİĞİYLE YOK OLDU (26 Ağustos)
+
+117'nin açık işi ("101/105'in yedi GL(1) adasının taper'lı yeniden
+dökümü") yapıldı. Sonuç 117'nin öngördüğünden geniş çıktı: 104, 105e ve
+107a'nın ÜÇ AYRI SEFERDE ELLE kovaladığı yedi adlı kusurun YEDİSİ DE
+ALETSELMİŞ ve keskin AFE kesimi düzeltilince ortadan kalktı.
+
+118a — TAPER'LI GL(1) MOTORU + YER GERÇEĞİ (645 s, dört kapı da ✓)
+  Taper 117a kalıbı; tek değişen X = √(qt/2π) (GL(1) uzunluğu).
+  G1 ✓ yedi adada |Δθ|=0, |Δε|=0, c=0 ⇔ 98 BİT-BİT aynı.
+  G2 ✓✓ ORACLE GL(1)'DE 117'DEN GÜÇLÜ: mpmath Hurwitz her yükseklikte
+     kesin Z veriyor (117'de oracle t≲250'de ölüyordu). Keskin hata
+     %1.34-4.34 → taper(c=0.5) %0.14-0.46; KAZANÇ 4.9-12.5 kat.
+     Optimum c GL(1)'de 0.7-1.0'a kayıyor (117'de 0.5) — c=0.5 tek
+     konvansiyon için korundu; c=0.7 ~1.5× daha kazandırır (AÇIK İŞ).
+  G3 ✓✓ konum doğruluğu, mpmath köküne karşı: medyan |Δγ|/⟨g⟩
+     3.5e-3…1.6e-2 → 2.1e-4…6.6e-4 (11-50 kat). 105a-G5'in ~1e-2'si
+     ~1e-4'e indi.
+  G4 ✓✓✓ ASIL SINAV: 101e/101f/105b'nin mpmath dip-kurtarmasıyla ELLE
+     çıkardığı 2499 sıfırın %98.7'si (2467) taper motorunda SALT
+     İŞARET-TARAMASIYLA geri geldi. Keskin motor aynı kümede 1/2499.
+     Ada başına: chi3 98.6, beta 97.5, chi5 98.1, chi7 98.5,
+     chi5e 98.9, chi8e 99.2, chi8o 100.0.
+  BULUNAMAYAN 32'NİN TEŞHİSİ (ve bir hipotez ÖLDÜ): "artık sorun
+     ızgara adımı" dedim; ÇÜRÜDÜ. 18 kümenin yalnız 5'inde taper-Z
+     işaret değiştiriyor; 13'ünde DİP HÂLÂ KALDIRILMIŞ (min|Z|
+     2e-4…1.5e-2). grid_frac 0.03→0.01 yalnız χ₃'te +2 getirdi,
+     β/χ₇'de HİÇ. ⟹ TAPER MEKANİZMAYI YOK ETMİYOR, NÜFUSUNU ~60 KAT
+     AZALTIYOR. 117'nin Δ'da 0 çıkması GL(2)'nin şansıymış.
+     Ayrıca 5'i 107c'nin KOPYA envanterindeki sahte çiftler — taper'ın
+     onları üretmemesi kaçırma değil düzeltme.
+  DÜRÜST KAYIT: G3'ün ilk ölçütü ("önbellek sıfırlarında |Z|")
+     DAİRESELDİ — o sıfırlar zaten keskin motorun kökleri, keskin
+     orada tanım gereği 1.7e-11 veriyor. Bağımsız yer gerçeğine
+     çevrildi. (117'nin S1/S2 düzeltmeleriyle aynı sınıf hata.)
+
+118b — YEDİ ADANIN DÖKÜMÜ (59 s; boru hattı 105b'nin A/B/C/D'si aynen)
+  DİP-KURTARMA İHTİYACI ÇÖKTÜ: C adımı ada başına 128-435 → 2-8 sıfır;
+  mpmath eval 217-741 → 3-12 (60 kat). Toplam sayılar eski dökümle
+  0-6 sıfır farkla örtüşüyor (chi8o birebir 65943) — iki BAĞIMSIZ yol
+  aynı sayıya varıyor.
+  KALAN ŞÜPHELİ BÖLGE 18 → 0 (yedi adanın yedisinde).
+  ÜÇ KAPI DA SUSTU: K1 ham 85/254/789/169/84/85/0 → hepsi 0;
+  K2 24/23/121/20/0/12/0 → hepsi 0; K3 yalnız χ₅'te 2 (yeni bir kopya
+  çifti, t=34633.32; kapı yakaladı, analiz dışında).
+  maks|med₂₀−med₂₀₀| 1.85/2.01/1.97/1.90/0.37/1.40/0.20 →
+  0.20-0.29 (eşik 0.7). Maskelenen: χ₇ %10.0→%4.0, χ₃ %5.2→%3.4,
+  χ₈ᵉ %5.4→%4.0, β %4.1→%3.6; kalan maskeleme artık kusurdan değil,
+  n<3000 düşen en alt log-penceresinden.
+  ★ ADLI KUSUR DENETİMİ — SEFERİN EN ÇARPICI SATIRI: 104d/105e/107a'nın
+  elle bulduğu YEDİ kusurun yedisi de artık analiz İÇİNDE, çünkü
+  KUSURUN KENDİSİ YOK. Ölçüldü (±400 sıfır komşuluğu, maks|Δmed₈₀| ve
+  maks|m₂₀−m₂₀₀|): χ₇ 3081.67: 0.49→0.05 / 1.97→0.13; χ₅ 5820:
+  2.00→0.10 / 2.01→0.19; χ₃ 3872.5: 0.18→0.10 / 1.85→0.15;
+  χ₈ᵉ 19352: 0.13→0.09 / 1.40→0.16. χ₇'nin altı "kopya sıfırı" ve
+  chi8e'nin biri de gitti.
+
+118c — TAÇ SONUÇLAR (96 s) — DÖRT SORUNUN HÜKMÜ
+  C1 ✓✓ KERVAN AYRIMI AYAKTA. D(log2/L): LOG2 ζ .461 χ₃ .533 χ₅ .516
+     χ₇ .512 χ₅ᵉ .492 | LOG3 β .032 χ₈ᵉ .025 χ₈ᵒ .061. Ortalama oran
+     14.3× → 12.8×. D(τ_ilk) LOG3: .742/.800/.722 → .756/.757/.722
+     (DARALDI). "Donma sınırı adanın ilk sağ kalan çizgisidir" 5'e 3.
+     ÇÖKME İYİLEŞTİ: x=τ/τ_ilk std/ort 0.2559 → 0.2184 (ham τ 0.509
+     sabit) — temizlik arttıkça kilitlenme SIKILAŞIYOR.
+  C2 ✓/DÜZELTME — ω_yarı ≈ log 2 SAĞ ama "%0.01" TESADÜFMÜŞ.
+     χ₃ .6918→.6857, χ₅ .7054→.6834, χ₇ .6792→.6840, χ₅ᵉ .6966→.6966;
+     ort .6932→.6874 (log 2 = .69315). Sapma %0.01 → %0.83. AMA
+     SAÇILMA YARIYA İNDİ (std .0110→.0062, sem .0055→.0031) ve log 2
+     hâlâ 1.9 sem mesafede. Doğru ifade: "~%1 doğrulukla log 2".
+     Not 5'te %0.01 YAZILMAMALI.
+  C3 ✓ LOG3'ÜN %12 ERKEN AÇILMASI GERÇEK, ALETSEL DEĞİL: %12.0→%11.0
+     (log 3'ten 9.9 sem). yarı/τ_ilk .891/.880/.870 → .890/.909/.870.
+     Kervan kayması ×1.395 → ×1.422 (öngörü 1.585). "Kaçırılan
+     sıfırların kalıntısı" açıklaması ÖLDÜ; mekanizma AÇIK SORU.
+  C4 ✓ χ₃'ÜN ORTA-τ ÇUKURU DURUYOR; "ÜÇÜNCÜ KUSUR SINIFI" ELENDİ.
+     τ=0.105/0.113/0.125: .199/.161/.134 → .237/.210/.191 (χ₅ .734/
+     .754/.741 ve χ₇ .716/.827/.767 ile kıyasla hâlâ 3-4 kat düşük).
+     Band ±0.005/0.01/0.02L'de pencere-başına .31/.16, .33/.13,
+     .58/.16 — İKİ PENCEREDE DE, ÜÇ BANTTA DA düşük; çukur χ₃'ün
+     YÜKSEK-t yarısında (L=9.65, n=63549) yaşıyor. Kusur değil,
+     havuzlama değil ⟹ geriye FİZİKSEL şık kaldı. AÇIK SORU.
+  ARTEFAKT (gizleme yok): χ₇'nin D(0.095)'i 0.527→0.036'ya düştü.
+     C5 teşhis etti — band ±0.01L'de havuz 0.036 iken pencereler
+     0.42/0.42: 104'ün YIKICI GİRİŞİM patolojisi. ±0.005L'de 0.361,
+     ±0.02L'de 0.602 ⟹ ALETSEL. Taç sonuçları etkilemez (χ₇'nin
+     τ_ilk 0.0693, yarı-τ 0.0684). İkinci küçük kayıt: χ₈ᵉ D(0.140)
+     .638→.474, D(0.200) .953→.778; pencere oranı 0.90, girişim yok,
+     estimatörün bilinen duyarlılık bandında.
+
+DERS (boru hattı için kalıcı): motorlu kampanyalarda AFE'nin KESİM
+PROFİLİ, RS-düzeltmesi kadar önemli bir sistematiktir. "Kaldırılmış
+dip" bir doğa olgusu değil bir pencere olgusuydu. Kosinüs-taper
+(W=0.5√X) GL(1)+GL(2)'de tek satırlık bir değişiklikle sekiz veri
+kümesinin kusur envanterini sıfırladı. YENİ STANDART: yeni ada
+dökümlerinde taper VARSAYILAN; sayım sertifikası + dip-kurtarma
+KALDIRILMIYOR (13/18 kalıntı dip hâlâ onu gerektiriyor) ama artık
+seyrek bir emniyet kilidi.
+
+AÇIK İŞLER: (i) c = 0.7 taper'ı (~1.5× daha) ve kalan dar-çift
+diplerinin kapatılması; (ii) χ₃'ün orta-τ çukurunun fiziği;
+(iii) log3 kervanının %11 erken açılmasının mekanizması; (iv) Not 5'in
+sertifika defteri ve ω_yarı ifadesi 118b/118c sayılarıyla güncellenmeli.
+Scriptler: 118a_taperli_L_motoru.py (motor+dört kapı), 118b_yedi_ada_
+taperli_dokum.py (döküm+sertifika defteri), 118c_tac_sonuc_dogrulamasi.py.
+npz: 118a_yer_gercegi, 118b_{ada}_ham, 118b_{ada}_zeros, 118b_sertifika,
+118c_yedi_ada.
+
+## KALEM DEFTERİ 2 + 121: "NEDEN −2" → "NEDEN 2× KİNEMATİK" (26 Ağu)
+
+Kalem dökümü üç parça, üçü de 121 hakemiyle onaylı:
+(1) TERSİNME ÖZDEŞLİĞİ (kesin): sayım kısıtı ∫ρ=1/gap →
+    ds = (W−ν)/(1−W+ν); kinematik nefes TÜM momentlerde +2
+    (varyans (1−W)^{-4}, m₃ (1−W)^{-6}). Hakem: yoğunluk-mimarili
+    sentetik R_p +1.90/+1.62, R₃ +2.10/+1.61 ✓; boyalı +0.96/+0.71 ✓
+    (mimari ayrımı tam 2×).
+(2) İNVOLÜSYON R_g + R_ρ = 2 (faz referansı dillerde ters döner):
+    sabit nokta +1 = DENGENİN ADYABATİĞİ — termal aynanın (116)
+    ilk-ilke açıklaması: denge gazı gap↔yoğunluk ikiliğinin öz-eş
+    noktasında oturur.
+(3) SORU NİHAİ BİÇİMDE: ölçülen R_g = −2 ⟺ R_ρ = +4 — gerçek gazın
+    artık-yoğunluk gürültüsü, yoğunluk dalgasına KİNEMATİK ORANIN TAM
+    İKİ KATIYLA biner. "Neden −2" = "neden 2× kinematik"; adaylar:
+    iki kuadratür (+2+2), |Z|²-kanalı bağlantısı (R_w>0 ile tutarlı).
+BONUS (121): yoğunluk-mimarisi faz-bağımsız gürültüyle bile perde
+üretir (D 0.87 @ τ0.3) — perde |modülasyon|-sürücülü, işaret-bağımsız.
+Script: 121. Denge-dışı ilkenin kalem arkı bugünlük burada: soru
+en yalın biçimine indirildi ve tüm referans noktaları hakemli.
