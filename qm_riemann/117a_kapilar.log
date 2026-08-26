@@ -1,0 +1,73 @@
+==========================================================================
+117a — Δ MOTORU SAĞLAMA KAPILARI
+==========================================================================
+
+G1 — τ(n), n ≤ 6000 (0.31 sn)
+  referans değerler: τ(2)=-24✓  τ(3)=252✓  τ(5)=4830✓  τ(7)=-16744✓  τ(11)=534612✓
+  çarpımsallık τ(6) = τ(2)τ(3): ✓
+  çarpımsallık τ(10) = τ(2)τ(5): ✓
+  çarpımsallık τ(15) = τ(3)τ(5): ✓
+  çarpımsallık τ(35) = τ(5)τ(7): ✓
+  çarpımsallık τ(77) = τ(7)τ(11): ✓
+  Hecke τ(2²) = τ(2)² − 2^11: ✓
+  Hecke τ(3²) = τ(3)² − 3^11: ✓
+  Hecke τ(5²) = τ(5)² − 5^11: ✓
+  Hecke τ(7²) = τ(7)² − 7^11: ✓
+  Hecke τ(11²) = τ(11)² − 11^11: ✓
+  Hecke τ(13²) = τ(13)² − 13^11: ✓
+  DELIGNE |a(p)| ≤ 2: 783 asal, ihlal 0; maks |a(p)| = 1.9514 @ p=3967  ✓
+
+G2 — θ: Stirling vs mpmath
+  t=     200: |Δθ| = 0.00e+00
+  t=    1000: |Δθ| = 4.55e-13
+  t=    5000: |Δθ| = 3.64e-12
+  t=   20000: |Δθ| = 0.00e+00
+  t=   40000: |Δθ| = 0.00e+00
+  KAPI: ✓ (eşik 1e-9)
+
+G3 — BAĞIMSIZ ORACLE (Hecke kesin integral formülü)
+  (oracle örneklemi önbellekten: 21 nokta)
+  (a) Λ GERÇEK mi: maks |Im/Re| = 0.0e+00  ✓ (ε=+1, FE doğrulandı)
+  (b) 21/21 nokta güvenilir (çift-dps kapısı); RMS|Z| = 1.553
+      KESKİN kesim : ort|Δ| = 0.0913 (5.88%), maks 0.1735
+      TAPER c=0.5  : ort|Δ| = 0.0080 (0.51%), maks 0.0170
+      kazanç: 11.4 kat
+      (b2) KESİM UZUNLUĞU X = u·t/2π, oracle'a karşı ort|Δ|: u=0.7: 0.3962  u=1.0: 0.0080  u=1.3: 0.2886   ⟹ en iyi u = 1.0
+  (c) motor 93 sıfır buldu t∈[40,150]; 5'i oracle bisection'ıyla karşılaştırılıyor
+      γ_motor= 41.732137  oracle  41.730492  |Δγ|/⟨g⟩ = 9.91e-04  (parantez 1.685)
+      γ_motor= 72.817387  oracle  72.814061  |Δγ|/⟨g⟩ = 2.59e-03  (parantez 1.176)
+      γ_motor=100.224680  oracle 100.224615  |Δγ|/⟨g⟩ = 5.77e-05  (parantez 0.800)
+      γ_motor=124.606773  oracle 124.606240  |Δγ|/⟨g⟩ = 5.06e-04  (parantez 1.364)
+      γ_motor=148.118196  oracle 148.117754  |Δγ|/⟨g⟩ = 4.45e-04  (parantez 1.316)
+  (d) oracle'ın kendi ilk sıfırları (motor devrede DEĞİL):
+      9.22237940  13.90754986  17.44277698  19.65651314  22.33610364
+      γ₁(oracle) = 9.222379399  vs literatür 9.22237939992 → Δ = 4.56e-10
+  KAPI G3: ✓
+
+S1 — KESİM DUYARLILIĞI (kampanya yükseklikleri)
+  t∈[1000,1050] RMS|Z|=2.355 | taper0.3  1.32% | taper1.0  1.18% | keskin  2.55%  ‖ (bilgi) 1.3X 21.01%
+  t∈[10000,10050] RMS|Z|=2.746 | taper0.3  0.07% | taper1.0  0.51% | keskin  0.80%  ‖ (bilgi) 1.3X 16.62%
+  t∈[19950,20000] RMS|Z|=2.656 | taper0.3  0.16% | taper1.0  0.59% | keskin  0.56%  ‖ (bilgi) 1.3X 25.08%
+
+S2 — SAYIM SERTİFİKASI (pilot pencereler)
+  t∈[200,700] TAPER : n=671, σ(d)=0.25, aralık [-0.72,+0.74], BASAMAK=0
+                     KESKİN: n=671, σ(d)=0.25, aralık [-0.68,+0.67], BASAMAK=0   [taper−keskin = +0 sıfır]
+  t∈[10000,10400] TAPER : n=941, σ(d)=0.29, aralık [-1.02,+0.88], BASAMAK=0
+                     KESKİN: n=937, σ(d)=1.77, aralık [-4.93,+0.78], BASAMAK=93   [taper−keskin = +4 sıfır]
+  t∈[19600,20000] TAPER : n=1025, σ(d)=0.30, aralık [-0.93,+0.97], BASAMAK=0
+                     KESKİN: n=1025, σ(d)=0.30, aralık [-0.94,+0.94], BASAMAK=0   [taper−keskin = +0 sıfır]
+
+S3 — SIFIR KARARLILIĞI (taper vs keskin eşlemesi)
+  |Δγ|/⟨g⟩: medyan 5.76e-03, %95 3.60e-02, maks 1.61e+00
+  (maks büyükse sebep: keskin motorun KAÇIRDIĞI sıfırlar — eşleşme komşuya kayar; bkz. S2 taper−keskin sütunu)
+
+N1 — NEGATİF KONTROLLER (kapı duyarlı mı?)
+  DOĞRU konfigürasyon: sürüklenme aralığı 1.90
+              yanlış ε (θ+π/2): n=  716  sürüklenme aralığı   222.64  ✓ (patladı)
+      derece-1 uzunluk √(t/2π): n=  866  sürüklenme aralığı    75.08  ✓ (patladı)
+   yanlış normalizasyon n^-5.5: n=  154  sürüklenme aralığı   777.37  ✓ (patladı)
+
+==========================================================================
+KAPI ÖZETİ: G1=✓  G2=✓  G3=✓  S1=✓  S2=✓  S3=✓  N1=✓
+HÜKÜM: TÜM KAPILAR GEÇİLDİ — kampanyaya girilebilir (117a2)
+==========================================================================

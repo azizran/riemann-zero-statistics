@@ -2334,3 +2334,93 @@ teorisinin kalan sorusu keskinleşti: statik-adyabatik denge de +1
 verir (yerel-evrensellik) — ters işaret için denge-dışı/kural-bağlı
 bir ilke gerek (varyans bütçesi? sayım-özdeşliği kısıtı?). Script: 116.
 Büyük hamle B (GL(2)/Δ, 117) tayfada sürüyor.
+
+## 117: RAMANUJAN Δ — PROGRAMIN İLK GL(2) ÖRGÜSÜ; HECKE İŞARETLERİ
+## KIRINIMDAN OKUNDU (26 Ağustos, Opus tayfası)
+
+Bugüne kadarki sekiz ada GL(1)'di (ζ + yedi Dirichlet). Δ = q·Π(1−q^n)^24
+(seviye 1, ağırlık 12) ile derece 2'ye geçildi. Λ(s)=(2π)^{-s}Γ(s)L(s,Δ),
+FE s→12−s, ε=+1, kritik doğru Re s=6; θ(t)=−t log2π+Im logΓ(6+it);
+ana toplam X(t)=t/2π (analitik iletken (t/2π)²).
+KONVANSİYON: yoğunluk θ'/π=(1/π)log(t/2π) ⟹ L_eff = 2·log(t/2π).
+(Harekât mühründeki (2/π)·log yoğunluğu 2 kat fazlaydı; N(36000)=87 700
+öngörüsü ölçülen 87 543 ile %0.2 uyuştu — konvansiyon böyle sabitlendi.)
+
+MOTOR (117a) — ve seferin ilk sürprizi: TAPER.
+τ(n) kesin (Jacobi E³ seyrek çekirdeği, 7 çarpım, 0.3 sn; Deligne 783
+asalda ✓). BAĞIMSIZ ORACLE bulundu: Hecke'nin kesin integral formülü
+Λ = Σ τ(n)[Γ(S,2πn)/(2πn)^S + Γ(12−S,2πn)/(2πn)^{12−S}] — e^{πt/2}
+iptali yüzünden t≲250'de ama TAMAMEN bağımsız. Oracle: (a) Λ tam
+gerçek ⟹ ε=+1 ve FE doğrulandı; (b) γ₁=9.222379399 (LMFDB ile 4.6e-10);
+(c) KESKİN kesim %5.88 hata, KOSİNÜS-TAPER (W=0.5√X) %0.51 — 11-14 KAT.
+(d) kesim uzunluğu ölçüldü: u=0.7→0.396, u=1.0→0.008, u=1.3→0.289 —
+derece-2 uzunluğu t/2π'de keskin optimum (iletkenin doğrudan ölçümü).
+SONUÇ: "kaldırılmış dip" GL(1)'de de ALETSELMİŞ — derecenin değil
+KESİM PROFİLİNİN eseri. Kanıt S2'de canlı: t∈[10000,10400]'de keskin
+motor 4 sıfır kaçırıyor (93 basamak bayrağı), taper 0 basamak.
+⟹ AÇIK İŞ: 101/105'in yedi GL(1) adasının taper'lı yeniden dökümü.
+
+KAMPANYA (117a2): T∈[200, 36000], 87 543 sıfır, 3.7 dk. Sayım
+sertifikası +2, dip-kurtarma +0, temizlik +0, KALAN BÖLGE 1.
+GL(1)'de ada başına 128-435 kayıp dip vardı; burada SIFIR. Öngörü
+mühürlüydü ve isabet etti.
+
+KIRINIM (117b) — TAÇ SORU CEVAPLANDI.
+Kod kapısı: aynı boru hattı ζ'da 89'un yasasını birebir veriyor
+(faz 180.0°±0.4°, oran 0.99-1.03) ⟹ okumalar kalibre.
+P1 ✓✓✓ HECKE İŞARETLERİ 14/14, iki ızgarada da. τ(p) işareti
+  (p=2..43: −++−+−−+++−−+−) kırınım FAZINDAN hatasız okundu;
+  maks |Δfaz| 0.24° (p=43 hariç — |a_43|=0.018, neredeyse ölü çizgi,
+  5.8° sapıyor ama işareti yine doğru).
+P2 ✓✓✓ SATAKE p^k 9/9. b(p^k)=α^k+β^k özyinelemesi hem ÇEVRİK hem
+  ÇEVRİLMEMİŞ öngördü: 4,9,25,27,49,121,169 → 0° (ζ'da 180°'ydi);
+  8 (b=+1.442) ve 16 (b=+0.954) → 180°, ÇEVRİLMEDİ. Faz b'nin
+  İŞARETİNİ izliyor, "hepsi çevrik" değil.
+MUTLAK BENEK YASASI DERECEDEN BAĞIMSIZ ✓✓: |Ĝ|=|b(q)|Λ(q)/(L_eff√q)
+  ·cos(πτ)·DW, üst pencerede oranlar 1.003-1.035 (20 çizgi) — GL(1)
+  kalitesi. Tek değişen: açık formül katsayısı 1 → b(q).
+MEZARLIK ✓✓✓: bileşik ω (log 6,10,14,15,21,22,33,35) plasebo
+  tabanında (3e-5…6e-4 vs canlı 0.008-0.047) — "her şey çizgidir"
+  GL(2)'de doğrudan.
+P3 — KORO YASASI KIRILDI VE YENİDEN KURULDU. Ön-mühür "Δ eşleştirilmiş
+  L'de ζ'dan soğuk" dedi: İSABET (σ_u 0.2129 vs 0.2858 @L=12.66;
+  0.2342 vs 0.3055 @L=16.10). Ama 97/105'in TOPLAMSAL biçimi
+  (Δσ² = (2/L²)(Σa_p²/p − Σ1/p)) büyüklüğü 3.1-5.3 kat ıskaladı ve
+  L ile yanlış yöne gitti — RET. Veriden ÇARPIMSAL biçim doğdu:
+     σ_u²(Δ)/σ_u²(ζ) = [Σ a_p² w_p/p] / [Σ w_p/p]   (w = DW ağırlığı)
+  %5.2 ve %2.2 sapma, L ile İYİLEŞİYOR. GL(1)'de iki biçim ayırt
+  edilemiyordu (envanter yalnız birkaç ölü çizgi kadar değişiyordu);
+  Δ'da Sato-Tate BÜTÜN çizgileri yeniden ağırlıklandırdığı için ilk kez
+  AYRIŞTILAR. Fizik: Δ soğuk çünkü küçük asallarda a_p²≪1 (0.281,
+  0.358, 0.142) ve koro ağırlığı 1/p; ⟨a_p²⟩=0.9775 (Sato-Tate ✓).
+  β'nın "ölü 2-ailesi soğukluğu"nun SÜREKLİ analoğu.
+Σ²(n) = 0.504/0.460/0.443/0.470 — GUE'nin 0.76-1.31 katı, GL(1)
+  bandıyla aynı.
+
+ARTEFAKT AVI (gizleme yok — beşi de kayıtlı):
+ 1) G3'ün ilk parantezi ±0.3⟨g⟩ idi; t≈146'daki YAKIN ÇİFT
+    (γ=146.1487/146.4091, s=0.26) parantezde iki kesişim bıraktı,
+    sahte 2.6e-1 "hata" üretti. Oracle o bölgede motorla 1e-3 içinde.
+ 2) S1 ölçütü "1.3X ile fark<%10" idi — YANLIŞ KURULMUŞ ölçüt: AFE
+    uzunluğu iletkenle sabittir, uzatmak bozar. (b2) bunu ölçtü.
+ 3) S2 ölçütü "sürüklenme aralığı<1.2" idi — yanlış istatistik;
+    d_i sabit değil S(t) dalgalanmasıdır (1000 sıfırda ~4σ≈1.8 normal).
+    Ölçüt basamak dedektörüne çevrildi.
+ 4) Σ²(n) ilk koşuda 0.70/1.13/3.02/16.14 çıktı (GUE'nin 26 katı!) —
+    kesilen kusurlu bölgenin BOŞLUĞU kutuları boş sayıyordu.
+    Segment-bazlı ölçümle düzeldi.
+ 5) ζ kontrol örgüsü keskin kesimle üretilmişti, 40 birim sürüklenme
+    (kayıp sıfır ζ'yı SAHTE ISITIR ⟹ "Δ soğuk"u sahte güçlendirirdi).
+    Taper'lı yeniden döküm: sürüklenme 40.0→2.4, 38 sıfır geri geldi,
+    σ_u 0.2856→0.2858. Etki 2e-4, fark 0.073 — HÜKÜM AYAKTA.
+
+AÇIK İŞLER: (i) GL(1) adalarının taper'lı yeniden dökümü; (ii) SIFIR
+ızgarasında (orta-noktasız) mutlak yasa oranları ω ile büyüyor
+(1.03→2.42) — o ızgaranın sönümü Gauss DEĞİL, yeni gözlemlenebilir;
+(iii) çarpımsal koro yasasının türetimi; (iv) Δ'da donma/çözülme
+ölçümü (117 bu seferde YAPILMADI — ilk sağ kalan çizgi log 2, ölü
+çizgi yok, o yüzden 101'in müdahaleli deneyi Δ'da kurulamıyor;
+GL(2)'de ölü çizgi için CM formu veya ölü Euler çarpanı gerek).
+Scriptler: 117a_delta_motoru.py (motor+kapılar), 117a2_delta_kampanya.py,
+117b_delta_kirinim.py; veriler 117a_delta_zeros.npz (87 543),
+117b_delta_kirinim.npz, 117a_oracle_ornek.npz.

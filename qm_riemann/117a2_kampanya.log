@@ -1,0 +1,16 @@
+==========================================================================
+117a2 — Δ KAMPANYASI  T ∈ [200, 36000]
+==========================================================================
+τ tablosu hazır (0.3 sn); X(T1) = 5730 ≤ 6000 ✓
+A) ince ızgara (0.03): 87541 sıfır, 196 sn
+   B tur 1: 2 şüpheli bölge → n=87543
+   B tur 2: 1 şüpheli bölge → n=87543
+   B tur 3: 1 şüpheli bölge → n=87543
+B) SERTİFİKA-1: n=87543 (+2); kalan bölge=1; sürüklenme [-3.15,1.39]  (14 sn)
+   C tur 1: uzlaşan dip yok, kalan bölge 1
+C) SERTİFİKA-2: n=87543 (+0 dip-kurtarma); kalan bölge=1; sürüklenme [-3.15,1.39]
+D) SON SERTİFİKA: n=87543 (+0 temizlik); KALAN BÖLGE=1; sürüklenme [-3.15,1.39]; L_eff≈16.05
+   kurtarılan (uzlaşı hakemli, zayıf sertifika) toplam: 0 sıfır
+   TOPLAM SÜRE: 3.7 dk
+
+117a_delta_zeros.npz yazıldı.
