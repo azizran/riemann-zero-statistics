@@ -2480,3 +2480,16 @@ kayıpsızlığın 2.-moment sureti). Yapı notu: R_w hiperbolik-yakın düşer
 R_w biçim yasası; Ö1 (adalarda R) mühürlü ayrıştırıcı duruyor.
 Script: 119. — Not 6 malzemesi (bugün): termal ayna + GL(2) Hecke +
 çarpımsal koro + no-go lemması + NEFES TAKASI.
+
+## 120: Ö1 — NEFES YEDİ ADADA EVRENSEL; R_nn ≈ −2cos(πτ) (26 Ağustos)
+
+Mühürlü ayrıştırıcı Ö1 ölçüldü: ⟨R_p⟩ = −0.880..−0.941, ölü-2 üçlüsü
+canlılardan AYRIŞMIYOR; hepsi ζ ile uyumlu — NEFES DE (D gibi)
+EVRENSEL → sabit dalgalanma bütçesi yalnız evrensel büyüklüklerden
+kurulu; sıcaklık/çizgi-envanteri katsayıya girmiyor. YENİ KAPALI FORM:
+R_nn ≈ −2·cos(πτ) yedi adada ve ζ'da (bond kanalı kinematik-temiz;
+İÇSEL β = −2.0 EVRENSEL SABİT). YAN BULGU: σ_η (0.149-0.157) ve
+c₁/σ² (−0.58..−0.60) yedi adada özdeş — artık-gürültü evrensel;
+−%20 sıcaklık farkı tamamen deterministik dalga payında (tutarlılık).
+Türetim hedefi: "β=−2 neden evrensel?" (iki kanal/iki kuadratür
+bütçesi −1+−1?). Script: 120. Günün beşinci büyük bulgusu.
