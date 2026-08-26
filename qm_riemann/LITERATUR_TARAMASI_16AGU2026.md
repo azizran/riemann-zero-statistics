@@ -2317,3 +2317,20 @@ varyansını hem çarpıklığını ters-modüle eder; bu iki doğrultma birlikt
 koheran gap-okumasının 1−0.36τ'sunu üretir." AÇIK inceltmeler: ortak
 (β,λ) ince-ayarı; lag-deseni; çarpıklık-katsayısının analitik türetimi;
 orta-τ R_p payı. SIRADAKİ BÜYÜK İŞ: NOT 5. Scriptler: 114, 115.
+
+## 116: TERMAL AYNA — TANIMA ARİTMETİĞE ÖZGÜ (26 Ağustos)
+
+Büyük hamle A: denge-CUE'nun KENDİ spontane dalgalarına dörtlüsü
+(kovaryans koşullaması, Metropolis'siz; 3000 örnek). T1 ✓ (D_eq
+92-T3'ü birebir üretti — makine doğru). KARAR: DENGE GAZI KENDİ
+DALGALARINA ADYABATİK NEFES ALIR — R_eq +1.02→+0.47, Rnn_eq pozitif,
+R3_eq güçlü pozitif (+3.6 σ³) — ÜÇ MOMENTTE DE GERÇEĞİN TERSİ.
+HÜKÜM: ζ-gazının ters nefesi hiçbir denge log-gaz davranışında yok;
+aritmetik dalgalar gazın gözünde "kendi termal dalgası" değil — özel
+muamele görüyor. Program cümlesi artık termal-aynalı: "denge gazı
+kendi dalgalarını adyabatik taşır; ζ-gazı kendi aritmetiğine karşı
+gürültüsünü ters örgütler." NOT 6'NIN ANA CÜMLESİ ADAYI. Mekanizma
+teorisinin kalan sorusu keskinleşti: statik-adyabatik denge de +1
+verir (yerel-evrensellik) — ters işaret için denge-dışı/kural-bağlı
+bir ilke gerek (varyans bütçesi? sayım-özdeşliği kısıtı?). Script: 116.
+Büyük hamle B (GL(2)/Δ, 117) tayfada sürüyor.
