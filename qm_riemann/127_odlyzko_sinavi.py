@@ -21,6 +21,24 @@ kuyruğudur, η'da kalırlar; σ_η büyür, R-tanımı korunur (kayıtlı).
   O2  R_p ≈ −0.75..−0.95 civarı kalır (kinematik-bulaşıklı kanal).
   O3  En derin blokta (L≈44.6) tüm küçük asallar τ→0 → R_nn ≈ −2.0
       öbeklenmeli — yasanın en çıplak görünümü.
+
+SONUÇ (26 Ağustos gecesi) — İKİ YÜZLÜ HÜKÜM:
+  ÇÖZÜLÜR REJİM (41'in altı penceresi, L 9.86→12.45): O1 İSABET —
+  50 çizgi-okumasında R_nn/(−2cosπτ) = 0.83-1.10, ezici çoğunluk ±%10;
+  yasa τ'nun L'yle kaymasını birebir izliyor; O2 ✓ (R_p −0.65..−0.94);
+  σ_η ≈ 0.149 ve c₁/σ² ≈ −0.51 altı pencerede değişmez (evrensel
+  artık-istatistik büyük-T'de de sabit). MEKANİZMA YASASI OUT-OF-SAMPLE
+  GEÇTİ (L-aralığı ×1.26, yükseklik ×13).
+  DERİN BLOKLAR (L=24.5 / 44.6 / 46.8): GEÇERSİZ-OLARAK-KOŞULDU —
+  R'ler pozitif/saçık AMA tanı bayrakları yanıyor: σ_η 0.31-0.40
+  (0.15 değil!), c₁/σ² −0.68..−0.43 (−0.52 değil). YAPISAL NEDEN:
+  10⁴-sıfırlık pencere yüksek-L çizgi ormanını ÇÖZEMEZ (τ≤0.52 tabanı
+  q~3×10⁵ ister — parametre > veri; orman pencere çözünürlüğünün
+  altında). η ayrıştırılabilir bir nesne olmaktan çıkıyor; estimatör
+  başka bir şey ölçüyor. Bu, yasanın değil ALETİN menzil sınırı — ve
+  mekanizmanın kendisi bu sınırı ÖNGÖRÜYOR (η = çözülmemiş orman).
+  GELECEK İŞ: Odlyzko'nun 10⁶+ sıfırlık halka-açık blokları edinilirse
+  L=24-45'te çözülür-rejim testi mümkün olur (veri-edinme görevi).
 """
 
 import numpy as np

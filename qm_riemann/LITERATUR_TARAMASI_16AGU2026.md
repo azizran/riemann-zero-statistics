@@ -2708,3 +2708,22 @@ vuruşları ancak kendi çizgilerine düşebilir, ve aynadan işaret-çevrik
 dönerler." KALEM CİLASI (açık): çift-toplamın kâğıt-üstü
 değerlendirmesi (→ −2cosπτ analitik); derinlik-yakınsaması; DW/öz-
 tutarlılık düzeltmeleri. Script: 126. NOT 6/7'NİN TAÇ TAŞI KONDU.
+
+## 127: ODLYZKO SINAVI — YASA ÇÖZÜLÜR REJİMDE GEÇTİ (26 Ağustos gecesi)
+
+126'nın mekanizma yasası büyük-T sınavında: ÇÖZÜLÜR REJİMDE (41'in
+altı penceresi, L 9.86→12.45, yükseklik ×13) 50 çizgi-okumasında
+R_nn/(−2cosπτ) = 0.83-1.10 (ezici ±%10) — yasa τ-kaymasını birebir
+izliyor; σ_η ≈ 0.149 ve c₁/σ² ≈ −0.51 altı pencerede sabit (artık-
+istatistik evrenselliği büyük-T'de doğrulandı). OUT-OF-SAMPLE İSABET.
+DERİN BLOKLAR (L=24.5/44.6/46.8; 53 + odlyzko_zeros3/4/5): geçersiz-
+olarak-koşuldu — tanı bayrakları (σ_η 0.31-0.40; c₁ kayması) rejim
+değişimini gösteriyor: 10⁴-sıfırlık pencere yüksek-L çizgi ormanını
+ÇÖZEMEZ (taban q~3×10⁵ ister; orman pencere-çözünürlüğü altında);
+η ayrıştırılamaz. Aletin menzil sınırı — ve mekanizma bu sınırı
+kendisi öngörüyor. GELECEK: Odlyzko 10⁶-sıfır blokları edinilirse
+derin test açılır (veri-edinme görevi). — 118 de bağlandı (5bd0890):
+kusur çağı kapandı (%98.7 yer-gerçeği; adlı kusurların hepsi aletsel);
+taç sonuçlar keskin; ω_yarı düzeltmesi (~%1); log3-%11-erken GERÇEK;
+χ₃ çukuru fiziksel şıkta. Scriptler: 127; commit 657e234 (127 scripti,
+mesajı 118'i anar — kozmetik not).
