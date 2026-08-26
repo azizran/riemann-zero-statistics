@@ -2637,3 +2637,19 @@ iki sektör, iki rejim. Z3: genlik gürültüsü çarpımsal (doğal).
 SIRADAKİ KALEM ADAYI: kısıt-hipotezi — gap'ler sayım-özdeşliğini
 (∫ρ=1/gap) TAM taşır, |Z| taşımaz → kısıtlı sektör anomalik, serbest
 sektör adyabatik. Script: 122.
+
+## KALEM DEFTERİ 3 + 123: H-KISIT ÖLDÜ — SABİTLENMİŞ GAZ ADYABATİK (26 Ağu)
+
+Kısıt-hipotezi kalemi iki mini-no-go üretti (Gaussian koşullama faz-
+kilitli nefes veremez; lineer-yanıt R_eq=+1'i kopyalar) → tek umut
+aşırı-termal eyer rejimiydi. 123 DENEYİ (Metropolis, dairesel β=2 +
+mod-mıhlama): C₀/σ = 1.9/5/10'da R_p = +1.07/+0.96/+0.95 — ON KAT
+termal sabitlemede, %29 dev dalgada bile İNATLA ADYABATİK. H-KISIT RET.
+DÖRDÜNCÜ DARALMA: −2 (1) evrensel, (2) denge-dışı, (3) sektör-seçici,
+(4) sabitlenmiş-gazla üretilemez. KALAN İKİ ADAY: (a) çoklu-mod
+sabitleme (~60 çizgi + p^k kule yapısı birden — modlar-arası yapı;
+sıradaki basamak), (b) determinizm/spektral yapı (ζ örgüsü Gibbs
+ölçüsü değil deterministik tayfın ergodik izi; −2 iz-formülünün
+2.-mertebe yapısı olabilir — derin teori). Script: 123.
+Kalem arkının bugünkü bilançosu: dört no-go/RET, iki kapalı form,
+bir involüsyon, bir sektör haritası — soru tarihinin en dar hâlinde.
