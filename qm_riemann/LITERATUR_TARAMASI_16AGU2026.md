@@ -2682,3 +2682,29 @@ topluluk değil; mikroskobik gürültünün aritmetik faza karşı-örgütlenmes
 deterministik tayf özdeşliğinin (belki o operatörün) 2.-mertebe imzası.
 Sayısal deneyin sınırına gelindi; kapı teoriye açılıyor. Scriptler:
 125a, 125b (+png, npz). NOT 6/7 malzemesi TAMAM.
+
+## 126: İZ-FORMÜLÜ KALEMİ — "NEDEN −2" TÜRETİLDİ (26 Ağustos gecesi)
+
+AVIN KAPANIŞI. Kalem fark edişi: η artık-gürültü değil — fit tabanının
+dışındaki KATLANMIŞ YÜKSEK-τ ARİTMETİK KUYRUK (varyans payı aynı
+mertebe). ÇARPIMSAL YARIGRUP KAPANIŞI: kuyruk çizgilerinin fark-
+vuruşları log(q₁/q₂) ancak q₁=q·q₂ ise bir frekansa denk gelir — yani
+YALNIZ ÇİZGİLERE düşer; ayna/çadır katından işaret-çevrik gelir.
+Tek hamlede açıklananlar: 101i nullü (vuruşun gidecek başka yeri yok),
+SEÇİCİLİK (boyalı çizgi-dışı frekansa vuruş desteği yok), çizgi-kilidi,
+ve beş daralmanın beşi (evrensellik = her ailenin aynı çarpımsal
+yapısı; denge-dışılık; sektör; mıhlama-bağışıklıkları — mıhlı gazlarda
+deterministik kuyruk yok).
+
+MERDİVEN HAKEMİ (126): EF lab'ı üç kuyruk derinliğinde (21/209/2128
+çizgi): R_p = +2.2..+0.35 → −0.62..−0.69 → −0.75..−0.93 (GERÇEK:
+−0.85..−0.94); R_nn D3'te −1.71/−1.79/−1.68/−1.55 vs −2cosπτ =
+−1.93/−1.82/−1.62/−1.46 — %5-12, derinlikle monoton yaklaşım;
+c₁/σ² = −0.55..−0.57 (gerçek −0.52..−0.59 ✓). SIFIR PARAMETRE.
+106'nın "EF-ötesi" hükmü REVİZE: perde/nefes budanmamış EF'nin malı.
+
+KAPANIŞ CÜMLESİ: "Gaz kendi aritmetiğini tanır — çünkü aritmetiğinin
+vuruşları ancak kendi çizgilerine düşebilir, ve aynadan işaret-çevrik
+dönerler." KALEM CİLASI (açık): çift-toplamın kâğıt-üstü
+değerlendirmesi (→ −2cosπτ analitik); derinlik-yakınsaması; DW/öz-
+tutarlılık düzeltmeleri. Script: 126. NOT 6/7'NİN TAÇ TAŞI KONDU.
