@@ -2622,3 +2622,18 @@ BONUS (121): yoğunluk-mimarisi faz-bağımsız gürültüyle bile perde
 üretir (D 0.87 @ τ0.3) — perde |modülasyon|-sürücülü, işaret-bağımsız.
 Script: 121. Denge-dışı ilkenin kalem arkı bugünlük burada: soru
 en yalın biçimine indirildi ve tüm referans noktaları hakemli.
+
+## 122: ZARF SÜRÜCÜSÜ HAKEMİ — ANOMALİ SEKTÖR-SEÇİCİ (26 Ağustos)
+
+Z1 yön isabet üs RET: Var(η|a_u) 6× düşüyor ama eğim −0.60 (kare-ters
+zarf zincirinin −2..−4 bandı değil) — zincir üs düzeyinde çürüdü.
+Z2 BÜYÜK İSABET: R_w'nun vahşi +6.3→+0.9 düşüşü payda hatasıymış;
+doğru paydayla (genlik-kanalının kendi dalga genliği A1_w)
+R_w' = +1.21→+0.72 ≈ +1 — GENLİK KANALI KENDİ DALGASINA ADYABATİK.
+YENİ KESKİN YAPI: anomali GAP/YOĞUNLUK SEKTÖRÜNE HAS — |Z| sektörü
+öz-eş (+1) noktada, gap sektörü −2 ayna-noktasında; aynı dalgalar,
+iki sektör, iki rejim. Z3: genlik gürültüsü çarpımsal (doğal).
+"Neden −2" iki kez darald: evrensel sabit (120) + sektör-seçici (122).
+SIRADAKİ KALEM ADAYI: kısıt-hipotezi — gap'ler sayım-özdeşliğini
+(∫ρ=1/gap) TAM taşır, |Z| taşımaz → kısıtlı sektör anomalik, serbest
+sektör adyabatik. Script: 122.
