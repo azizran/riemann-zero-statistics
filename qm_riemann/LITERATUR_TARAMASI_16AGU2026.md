@@ -2286,3 +2286,34 @@ Gerçek/boyalı oranı ≈0.4 eğri düzeyinde doğrulandı (112 okuması ✓).
 KALEM OTURUMU HEDEFLERİ: −0.3κ³σ Isserlis türetimi; anti-sürükleme
 kübik muhasebesi; gap-asimetrili gürültü sınıfıyla D-merdiveni.
 Script: 113. Kübik gece bereketli kapandı.
+
+## 114-115: KALEM OTURUMU — KÖPRÜ KAPANDI (26 Ağustos sabahı)
+
+114 (kalem+hakem): Gaussian kinematik çarpıklık yasası TÜRETİLDİ ve
+DOĞRULANDI — R₃_kin = −(3/4)·σ_ds·κ² (eğrilik-doğrultması; fit'in
+⟨N⟩-merkezlemesi katsayıyı 12→6 yapar; yüksek-sinyal hücrelerde %2-7).
+MİNİ-TEOREM 1: yasa durağan-Gaussian'da korelasyon-bağımsız (cov(η²,u²)
+=2⟨ηu⟩²=0 iptali) → ζ-boyalı düz −2.8 KESİN non-Gaussian. Gerçek η'nın
+lag-momentleri ilk kez ölçüldü: skew +0.243, ⟨η²η₊⟩ +0.118,
+⟨ηη₊²⟩ +0.119, ⟨η²η₊₊⟩ +0.055, ⟨ηη₊η₊₊⟩ −0.180 (üç-gap itme imzası).
+
+115 (hedef 3): MİNİ-TEOREM 2 — her site-haritası u=f(ε) gap-çarpıklığını
+öldürür; çarpıklık ZAMAN-ASİMETRİK çapraz-site yapı ister. En yalın
+kurucu: u_n = ε_n + λ·(ε²_{n−1}−σ²) → ⟨η³⟩=6λσ⁴. λ=0.12 skew'i
+kalibre etti (lag-deseni kısmen ters — kaba tür, dürüstçe kayıtlı).
+MERDİVEN KARARI — GAUSSIAN TAVAN KIRILDI: (λ=0.12, β=−2) hücresi
+D = 0.928/0.862/0.886 (gerçek 0.946/0.892/0.838; tavan 0.967/0.933/
+0.900) — model gerçeği iki yandan sarıyor (%79-133), sistematik %70
+eksiği YOK; aynı hücrenin R₃'ü (−1.24/−1.11/−1.01) gerçek aralıkta.
+λ tek başına perdelemez: PERDE = NEFES × ÇARPIKLIK etkileşimi.
+
+HÜKÜM — KÖPRÜ (1. yaklaşımda) KAPANDI: perde iki kanalın toplamı:
+  (1) varyans-nefesi (~%70; Gaussian; R_p = πτcotπτ + βcosπτ,
+      D = 1−0.111|β|τ kapalı formları),
+  (2) çarpıklık-doğrultması (~%30; gap-düzeyi itme asimetrisi;
+      β-modülasyonunun λ üzerinden 3. momente yayılması).
+Mekanizma cümlesi: "gaz kendi aritmetik dalgasının fazında hem
+varyansını hem çarpıklığını ters-modüle eder; bu iki doğrultma birlikte
+koheran gap-okumasının 1−0.36τ'sunu üretir." AÇIK inceltmeler: ortak
+(β,λ) ince-ayarı; lag-deseni; çarpıklık-katsayısının analitik türetimi;
+orta-τ R_p payı. SIRADAKİ BÜYÜK İŞ: NOT 5. Scriptler: 114, 115.
