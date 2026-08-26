@@ -2653,3 +2653,32 @@ sıradaki basamak), (b) determinizm/spektral yapı (ζ örgüsü Gibbs
 2.-mertebe yapısı olabilir — derin teori). Script: 123.
 Kalem arkının bugünkü bilançosu: dört no-go/RET, iki kapalı form,
 bir involüsyon, bir sektör haritası — soru tarihinin en dar hâlinde.
+
+## 125: ÇOKLU-MOD MCMC — Ç3: H-ÇOKLU ÖLDÜ, BEŞİNCİ DARALMA (26 Ağu gecesi)
+
+Ayarlı MCMC (Opus): çoklu-mod mıhlama CAMSI çıktı (ilk geçiş R̂ 2.58!);
+üç karışma mekanizması (katmanlı başlangıç + λ-tavlama + ışınlanma
+önerisi) sonrası G1-G3 kapıları ✓ (kabul %34, R̂ ≤1.06, n_eff 40-1500).
+124'ün karışık işaretleri TERMALLEŞME ARTEFAKTIYMIŞ ("sonuçsuz" kaydı
+doğru). Pozitif kontrol: tek-mod +0.962±0.031 (123 ✓). Yapısal
+ön-teşhis: tam-sayı mod zorunluluğu ortak-fazlı tayfta fiziksel-dışı
+koherans sivrisi yaratıyor (min ρ −2.9) → kesik-tayf (τ≤0.25, 9 çizgi,
+fiziksel hedef) kontrol çifti eklendi.
+
+KARAR: A-kesik +0.808±0.029, B-kesik +0.805±0.032 — A−B = +0.003±0.043:
+FAZ TUTARLILIĞININ ETKİSİ SIFIR (Ç1 RET, kesin). Hiçbir hücre negatif
+değil; ζ'ya yol en çok %15 (o da karışık fazda) (Ç2 RET). Ç3 KABUL:
+gaz 1/9/46 modda da adyabatik dalda. H-ÇOKLU ÖLDÜ — BEŞİNCİ DARALMA.
+Post-hoc referans düzeltmesi: mıhlı dengenin adyabatik dalı düz +1
+değil ≈1.14−1.60τ (bond ≈1.20−4.09τ); gerçek gazın −2cos(πτ)'siyle
+HİÇBİR τ'da örtüşmüyor. Dürüst sınır: ölçülemez-oranlı gerçek faz
+örgüsü periyodik-olmayan gaz ister (açık).
+
+BÜYÜK KAPANIŞ — "NEDEN −2"NİN SON HALİ: beş bağımsız daralma
+(evrensel + denge-dışı + sektör-seçici + tek-mod-mıhlamaya bağışık +
+çoklu-mod-ve-faz-mıhlamaya bağışık) ve altı no-go/RET sonrası KALAN
+TEK ADAY: DETERMİNİZM / İZ-FORMÜLÜ — ζ örgüsü hiçbir istatistiksel
+topluluk değil; mikroskobik gürültünün aritmetik faza karşı-örgütlenmesi
+deterministik tayf özdeşliğinin (belki o operatörün) 2.-mertebe imzası.
+Sayısal deneyin sınırına gelindi; kapı teoriye açılıyor. Scriptler:
+125a, 125b (+png, npz). NOT 6/7 malzemesi TAMAM.
