@@ -2727,3 +2727,20 @@ kusur çağı kapandı (%98.7 yer-gerçeği; adlı kusurların hepsi aletsel);
 taç sonuçlar keskin; ω_yarı düzeltmesi (~%1); log3-%11-erken GERÇEK;
 χ₃ çukuru fiziksel şıkta. Scriptler: 127; commit 657e234 (127 scripti,
 mesajı 118'i anar — kozmetik not).
+
+## 128: ODLYZKO VERİ EDİNİMİ (26 Ağustos gecesi, Opus)
+
+Resmî sayfanın TAM envanteri çıkarıldı (6 set; 404 denemeleri kayıtlı).
+KRİTİK BULGU: derin bloklar (L 24.5/44.6/46.8) halka açık YALNIZ 10⁴
+uzunlukta — "L≥30 × 10⁵ sıfır" kombinasyonu Odlyzko'da YOK (127'nin
+derin sınırı yayımlanmamış veriden, indirme eksiğinden değil).
+ASIL KAZANIM: zeros6 = İLK 2.001.052 SIFIR (L→12.10) — çözülür-rejim
+testi artık 10⁵-10⁶ sıfırla koşulabilir; aletin çözünürlük sınırının
+başladığı yer doğrudan ölçülebilir. Dört-kapı doğrulama ✓ (satır/uç/
+ardışıklık/N'-oranı; var(ds) 0.16-0.18 bandında; zeros1 ≡ zeros6-öneki
+çapraz ✓). npz önbellekler tek konvansiyonda (128_odl_*_zeros.npz;
+taban_str ile — 10²¹⁺ tabanları float64'e sığmaz, ofsetle çalışılır);
+derin üçlü de aynı arayüze döküldü. Ham dosyalar veri_odlyzko/
+(git-dışı; SHA-256'lar KAYNAK.txt'de). GELECEK UCU: Platt/LMFDB
+sertifikalı sıfırları daha derin uzun bloklar sunuyor — ayrı görev.
+SONRAKİ OTURUMUN İLK YELKENİ: 127'yi zeros6 pencereleriyle koşmak.

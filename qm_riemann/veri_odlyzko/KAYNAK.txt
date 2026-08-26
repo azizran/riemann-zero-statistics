@@ -1,0 +1,30 @@
+ODLYZKO SIFIR TABLOLARI — KAYNAK VE KÖKEN (indirme: 26 Ağustos 2026)
+=====================================================================
+Resmî kaynak (tek kaynak):
+  https://www-users.cse.umn.edu/~odlyzko/zeta_tables/
+  (eski adres https://www.dtc.umn.edu/~odlyzko/zeta_tables/ 301 ile buraya yönlenir)
+  Sayfa Last-Modified: Fri, 09 Aug 2024 22:30:12 GMT
+
+RESMÎ SAYFADAKİ TÜM TABLOLAR (tam envanter, 6 veri seti / 8 bağlantı):
+  zeros1     1,800,000 B  ilk 100,000 sıfır, ±3e-9        [INDIRILDI]
+  zeros1.gz    733,392 B  yukarıdakinin gzip'i
+  zeros2       105,979 B  ilk 100 sıfır, 1000+ ondalık    [gerekmedi]
+  zeros3       180,287 B  10^12+1 .. 10^12+10^4           [zaten elde]
+  zeros4       160,319 B  10^21+1 .. 10^21+10^4           [zaten elde]
+  zeros5       170,318 B  10^22+1 .. 10^22+10^4           [zaten elde]
+  zeros6    36,018,936 B  ilk 2,001,052 sıfır, ±4e-9      [INDIRILDI]
+  zeros6.gz 14,369,780 B  yukarıdakinin gzip'i            [INDIRILDI]
+  Başka dosya YOK (zeros7/zeros8/zeros0/*.gz varyantları = HTTP 404).
+  ~odlyzko/tables/ altında sıfır tablosu yok (yalnız artan-altdizi tabloları).
+
+INDIRILENLER + SHA-256:
+  zeros1     3436c916a7878261ac183fd7b9448c9a4736b8bbccf1356874a6ce1788541632
+  zeros6.gz  6acacb4707c429bf368f32823a8eef0e0737b6318d3e144c78975a4986d155da
+  zeros6     = gunzip zeros6.gz (36,018,936 B, satır 2,001,052 — belgelenenle birebir)
+
+FORMAT: zeros1 ve zeros6 MUTLAK γ değerleridir (taban = 0, başlık yok,
+satır başına bir sayı, 9 ondalık). zeros3/4/5 ise BAŞLIK + OFSET
+biçimindedir (γ - taban; taban başlıkta yazılı, 9 satırlık başlık).
+
+DOĞRULAMA: 128_odlyzko_edinme.py (dört kapı + unfold var(ds)).
+zeros1, zeros6'nın ilk 100,000 satırıyla BİREBİR AYNI (max|Δ| = 0).
