@@ -2774,3 +2774,19 @@ tanır — kuyruğu, taşıdığı her dalgayla cos-kilitli konuştuğu için."
 KALAN HESAP sınırlı/iyi-tanımlı: tek kuyruk çizgisinin p-dalgalı
 öz-tutarlı pertürbasyonu, ayna ağırlıklı kuyruk toplamı → hedef
 −2cosπτ·(1+δ(τ)), δ≈−0.10 @ 0.26-0.30 (129 eğrisi). Script: 130.
+
+## 131: İTERASYON MERDİVENİ — KALEMİN NİHAİ NESNESİ: S'·S (27 Ağustos)
+
+I2 kazandı: naif süperpozisyon (n_iter=1) yasayı üretmiyor (R_nn
+−0.33..−0.84; 916 kesişme; σ_η şişkin); n_iter=2 yarı-yol; n_iter=5
+YAKINSADI (≈ n_iter=40 ≈ −2cosπτ) — etki ilk birkaç öz-tutarlı
+düzeltmede doğuyor (pertürbatif). 130'un üç sınır koşuluyla birleşince
+kalemin nihai nesnesi tek: 2. iterasyon çapraz terimi δu = S'S/ρ̄² —
+ARİTMETİK ALANIN, SAYIM-ÖZDEŞLİĞİ NONLİNEERLİĞİ ÜZERİNDEN KENDİSİYLE
+ETKİLEŞİMİ (çift-yapı faz-duyarlı ✓F2; yakınsak ✓I2; t₀-kararlı ✓F1).
+Kalan hesap tek ve sınırlı: S'S çift-toplamı → gap-fark + η²-regresyon
+zinciri → ayna-ağırlıklı kuyruk toplamı → −2cosπτ(1+δ). Şiirsel:
+"tanıma S'·S'tir — gaz, alanının kendi türeviyle çarpımını taşır."
+İlginç akrabalık notu: 100'ün kuvvet-açığı türetimi de aynı S(t+u)
+mekaniğindendi — kuvvet-açığı ve nefes aynı nonlineerliğin iki
+gölgesi olabilir (birleşik türetim adayı). Script: 131.
