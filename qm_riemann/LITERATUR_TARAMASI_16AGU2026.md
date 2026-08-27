@@ -2858,3 +2858,22 @@ GÜNÜN BİLANÇOSU (129-134): yasa ±%3-4 (milyon istatistik) + çözünürlük
 tanısı ölçüldü + üç kapı kapandı (pertürbatif seri, statik beat, kule)
 + kesin özdeşlik (ds=ΔS, korelasyon 0.975) + κ=−2.00±0.09 çarpanlaştı
 + emilim kanıtı + AYRIŞIM SENTEZİ. Kalem tek terime indi.
+
+## 135: ÇEKİRDEĞİN KAPALI FORMU — SON TERİM TÜRETİLDİ (27 Ağustos akşamı)
+
+Kalem, kesin özdeşlikten (ds=ΔS) çekirdeği kapalı forma indirdi:
+kuyruk çizgisinin p-dalgasına iki modülasyonu — genlik (yarım-gap fazı
+→ πτcotπτ; ÜÇ KEZ sahneye çıkan geometri fonksiyonunun KAYNAĞI bulundu)
+ve lag-fazı (→ −2πτsin2πτ) — trigonometrik sadeleşmeyle birleşiyor:
+   πτ[cot(πτ)cos(2πτ) − sin(2πτ)] = πτ·cos(3πτ)/sin(πτ)
+   κ_çekirdek = Σ A_Q²πτcos(3πτ)/sin(πτ) / Σ A_Q²cos(2πτ)  [kuyruk]
+Ölçü mucizesi: sürekli limitte a²ρdω = dτ/τ. DEĞER: ayrık toplam
+(D3 kuyruğu) κ = −3.182 — 132c'nin sıfır-parametre −3.22'sinin %1.2
+İÇİNDE ✓✓✓. YASANIN TAM MONTAJI:
+   R_nn = cos(πτ_p)·[κ_ad(+1.2) + κ_çekirdek(−3.18)] = −1.98·cos(πτ_p)
+DÜRÜST: sürekli-limit kesim-duyarlı (bu derinlikte ayrık toplam ilk
+çizgilerce domine); SON İKİ AÇIK: κ_çekirdek'in DW-ağırlıklı kuyrukta
+L-değişmezliği (evrensel −2'nin kesim-kararlılığı; yarının testi) ve
+κ_ad'ın kendi türetimi. Script: 135. — "−2cosπτ" ARTIK ÜÇ PARÇADA
+KÂĞITTA: cos(πτ_p) kinematik ✓, κ_çekirdek kapalı-form ✓ (%1.2),
+κ_ad ölçülü (+1.2, türetimi açık).
