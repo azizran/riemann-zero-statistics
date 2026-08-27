@@ -2823,3 +2823,19 @@ KALEMİN YAZACAĞI TOPLAM (net):
 "≈" ölçüsünün (yakın-rezonans aritmetik artığı) daraltılması. DÜRÜST:
 lab δ(τ) gerçekle işaret-zıt (kuyruk budalı) — δ veriden alınacak.
 Scriptler: 132a/b/c + png.
+
+## 133: "≈" ÖLÇÜSÜ DARALTILDI — VE KAPI BOŞ ÇIKTI (27 Ağustos)
+
+Kâğıt formülü tam açık yazıldı (Φ(δ)=cos(δt_c)sinc(δT/2) pencere-
+transferi; c₁ = ½ΣA²cos2πτ kapalı formu) ve doğrudan değerlendirildi.
+N1 KESİN RET: statik çift-vuruş toplamı ≈ 0 (+0.05 vs lab −1.7) —
+132c'nin "≈"-toplamı boş kapıymış (130 kule-retiyle tutarlı; kapı
+kapandı). İKİ İMZA: (1) EMİLİM KANITI — kapalı-form σ_η² 0.074,
+koheran lab 0.027, karışık-fazlı lab 0.059 ≈ kapalı form → öz-tutarlı
+örgü cos-kilitli kuyruğun ~2/3'ünü emiyor; (2) mekanizmanın adresi:
+KONUM-FAZ MODÜLASYONU — kuyruk, p-dalgasınca oynatılmış noktalarda
+örnekleniyor: Σ_Q A_Q²·(ω_Q a_p/ρ̄)·(geometri) TEK-TOPLAMI (132b-C4,
+%66-92) − faz-duyarlı KARŞIT-KANAL (iptal; seçicilik = iptalin
+aritmetik bozulması). KALEMİN SIRADAKİ NESNESİ: tek-toplam + iptal
+muhasebesi — çift enumerasyonsuz, kapalı-form yazılabilir.
+"−2 = kinematik tek-toplamın iptalden artakalanı." Script: 133.
