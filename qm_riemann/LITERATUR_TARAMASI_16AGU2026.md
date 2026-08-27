@@ -2839,3 +2839,22 @@ KONUM-FAZ MODÜLASYONU — kuyruk, p-dalgasınca oynatılmış noktalarda
 aritmetik bozulması). KALEMİN SIRADAKİ NESNESİ: tek-toplam + iptal
 muhasebesi — çift enumerasyonsuz, kapalı-form yazılabilir.
 "−2 = kinematik tek-toplamın iptalden artakalanı." Script: 133.
+
+## 134: İPTALİN KİMLİĞİ — İPTAL DEĞİL AYRIŞIM; GÜNÜN SENTEZİ (27 Ağu)
+
+Eş-frekans boyalı-katkı deneyi: taban R=−1.713; 2×-sürücü R=−0.542;
+çizgi-dışı boyalı R=+0.898. OKUMA: frekans-bekçisi YOK — iki yanıt
+yasası genlik-ağırlıklı SÜPERPOZE oluyor: boyalı sürücü yalnız
+ADYABATİK (+~1) terimi taşır; aritmetik (öz-kaynaklı) sürücü ayrıca
+KORELASYON-ÇEKİRDEĞİNİ. BÜYÜK SENTEZ:
+   −2cosπτ = [+1.2 adyabatik kinematik] + [−3.2 kuyruk-korelasyon
+   çekirdeği (132c'de SIFIR-PARAMETRE ölçülü: κ_kuram=−3.22)]
+   → −3.22 + 1.2 = −2.02 ✓✓
+F2 oturur (karıştırma çekirdeği öldürür → kalan adyabatik +0.3..+0.6 ✓);
+seçicilik yeniden adlandı (boyalıya korelasyon terimi yok). AYRIŞIM
+ÖLÇÜLMÜŞ BİLEŞENLERLE KAPALI; kalan tek kalem: çekirdek −3.2'nin
+analitik türetimi (emilim-renormalize kuyruk tek-toplamı). Script: 134.
+GÜNÜN BİLANÇOSU (129-134): yasa ±%3-4 (milyon istatistik) + çözünürlük
+tanısı ölçüldü + üç kapı kapandı (pertürbatif seri, statik beat, kule)
++ kesin özdeşlik (ds=ΔS, korelasyon 0.975) + κ=−2.00±0.09 çarpanlaştı
++ emilim kanıtı + AYRIŞIM SENTEZİ. Kalem tek terime indi.
