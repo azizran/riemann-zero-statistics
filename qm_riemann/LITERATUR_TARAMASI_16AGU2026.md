@@ -2744,3 +2744,16 @@ derin üçlü de aynı arayüze döküldü. Ham dosyalar veri_odlyzko/
 (git-dışı; SHA-256'lar KAYNAK.txt'de). GELECEK UCU: Platt/LMFDB
 sertifikalı sıfırları daha derin uzun bloklar sunuyor — ayrı görev.
 SONRAKİ OTURUMUN İLK YELKENİ: 127'yi zeros6 pencereleriyle koşmak.
+
+## 129: ZEROS6 SINAVI — YASA ±%3-4, TANI ÖLÇÜLDÜ (27 Ağustos sabahı)
+
+Milyonluk pencere ilk kez suda. Y1 ✓: τ≤0.24'te R_nn/(−2cosπτ) =
+0.97-1.04 (üç pencere tutarlı) — yasa ±%3-4 düzeyinde. YENİ İNCE YAPI:
+τ≳0.26'da sistematik %8-12 eksik (126-D3 lab'ıyla aynı desen) —
+bir-üst-mertebe düzeltme; kalem-cilası hedefi artık hassas:
+−2cosπτ·(1+δ(τ)), δ(0.26-0.30) ≈ −0.10. Y2 ✓: sabit L≈12'de n-merdiveni
+(3·10⁵→10⁴) tanı bayraklarını temiz tuttu (σ_η/c₁ sabit; yalnız
+istatistik saçılması) → 127'nin derin-blok bozulması KESİN L-işi
+(orman yoğunluğu), n-işi değil — tanı ölçülmüş gerçek oldu. Y3 ✓:
+R_p dar hatalarla −0.67..−0.90. Script: 129. SIRADAKİ: kalem cilası
+(çift-toplam analitiği; hedef eğri δ(τ)'lu) veya yazım masası.
