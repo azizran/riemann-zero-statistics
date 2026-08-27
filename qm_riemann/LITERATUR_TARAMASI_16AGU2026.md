@@ -2790,3 +2790,36 @@ zinciri → ayna-ağırlıklı kuyruk toplamı → −2cosπτ(1+δ). Şiirsel:
 İlginç akrabalık notu: 100'ün kuvvet-açığı türetimi de aynı S(t+u)
 mekaniğindendi — kuvvet-açığı ve nefes aynı nonlineerliğin iki
 gölgesi olabilir (birleşik türetim adayı). Script: 131.
+
+## 132: S'S DİSEKSİYONU — KESİN ÖZDEŞLİK BULUNDU, −2 ÇARPANLAŞTI (27 Ağu)
+
+DEFTER DÜZELTMESİ (132a): pertürbatif δu₂ açılımı IRAKSAK —
+rms(S'/ρ̄)=1.17>1, Lagrange yakınsama yarıçapı dışı; A1 (kesin 2. mert.)
+naiften KÖTÜ (3429 kesişme). 131'in "kalem δu₂'yi yazsın" hükmü revize:
+n_iter=5 yakınsaması sabit-nokta iterasyonudur, seri değil.
+
+BLOK ATFI (132b): C1 (yalnız kuyruk yer değiştirir) yasanın %79-120'sini
+taşıyor; C2 (yalnız taban) ölü/ters. Faz çaprazı inceliği: kinematik
+kanal (C4) karıştırmada %55-65 sağ kalıyor → F2'nin öldürdüğü şey kanal
+değil İPTALDİR.
+
+HAZİNE (132c) — KESİN ÖZDEŞLİK (pertürbasyon değil):
+   ds_n = S(z_n) − S(z_{n+1}) = Σ_Q 2a_Q sin(ω_Q g_n/2)·cos(ω_Q m_n)
+gerçek ds ile korelasyon 0.9753, rms oranı 1.024 (%2.4!). Buradan:
+(1) genlik yasası çizgi çizgi %84-108, sıfır parametre;
+(2) ÇARPANLAŞMA: κ = R_nn/cos(πτ) = −1.996 ± 0.086 (asal, τ≤0.25) —
+    "−2" cos'tan AYRIŞTIRILMIŞ ölçülü sabit; cos(πτ_p) kinematik
+    (m_n = mm ∓ ḡ/2 ortak yarım-gap fazı);
+(3) sıfır-parametre kuyruk-çekirdeği: R_p = −0.813 [ölçüm −0.86..−0.94],
+    c₁/σ² = −0.443 [−0.572]; saf çekirdek κ'yı aşıyor (−3.22) — iptal
+    inceltiyor;
+(4) SEÇİCİLİK MEKANİZMASI RAFİNE: kinematik kanal boyalı dalgayla da
+    çalışıyor — seçicilik kanalda değil, KARŞIT-İŞARETLİ İKİNCİ KANALIN
+    İPTALİNDE; iptali bozan şey aritmetik-destekli frekanslardaki
+    yakın-rezonans artığı. "Seçicilik = iptalin aritmetik bozulması."
+KALEMİN YAZACAĞI TOPLAM (net):
+   Σ_{Q,Q'∈kuyruk, ω_Q−ω_Q'≈ω_p} 4a_Q a_Q' sin(πτ_Q)sin(πτ_Q')cos(π(τ_Q+τ_Q'))
+— iki-nokta çekirdeğinin ω_p bileşeni; −2 = bunun c₁'e oranı. AÇIK UÇ:
+"≈" ölçüsünün (yakın-rezonans aritmetik artığı) daraltılması. DÜRÜST:
+lab δ(τ) gerçekle işaret-zıt (kuyruk budalı) — δ veriden alınacak.
+Scriptler: 132a/b/c + png.
