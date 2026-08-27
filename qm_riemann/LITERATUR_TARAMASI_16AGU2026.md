@@ -2757,3 +2757,20 @@ istatistik saçılması) → 127'nin derin-blok bozulması KESİN L-işi
 (orman yoğunluğu), n-işi değil — tanı ölçülmüş gerçek oldu. Y3 ✓:
 R_p dar hatalarla −0.67..−0.90. Script: 129. SIRADAKİ: kalem cilası
 (çift-toplam analitiği; hedef eğri δ(τ)'lu) veya yazım masası.
+
+## 130: CİLA ÇATALI — KOHERANS ESASLI, KULE İHMAL, t₀-DEĞİŞMEZ (27 Ağu)
+
+Kalem düzeltmesi + çatal deneyi. KULE-RETİ: keskin rezonans çiftleri
+yalnız aynı-taban kuleleri ve ihmal (R_kule(2)~0.007) — 126'nın
+"vuruşlar çizgilere düşer" anlatısı yön doğru/defter yanlış olarak
+REVİZE. ÇATAL: F1 t₀-kaydırma → R ±%5 aynı (donmuş-gürültü öldü);
+F2 kuyruk-fazı karıştırma → ETKİ ÖLÜYOR (R_p +0.3..+0.6, R_nn≈0) ve
+σ_η 0.163→0.243 (cos-kilitli kuyruk örgüce kısmen emiliyormuş).
+ÜÇ SINIR KOŞULU birden: koherans-esaslı + t₀-değişmez + kule-ihmal →
+tek aday yapı: KUYRUK × p-DALGASI öz-tutarlı 2.-mertebe etkileşimi
+(u_p ω_p-kilitli → t₀-değişmez; işaret çizgi-dalga göreli fazından →
+karıştırma öldürür). Kapanış cümlesi güncel: "gaz kendi aritmetiğini
+tanır — kuyruğu, taşıdığı her dalgayla cos-kilitli konuştuğu için."
+KALAN HESAP sınırlı/iyi-tanımlı: tek kuyruk çizgisinin p-dalgalı
+öz-tutarlı pertürbasyonu, ayna ağırlıklı kuyruk toplamı → hedef
+−2cosπτ·(1+δ(τ)), δ≈−0.10 @ 0.26-0.30 (129 eğrisi). Script: 130.
