@@ -2877,3 +2877,16 @@ L-değişmezliği (evrensel −2'nin kesim-kararlılığı; yarının testi) ve
 κ_ad'ın kendi türetimi. Script: 135. — "−2cosπτ" ARTIK ÜÇ PARÇADA
 KÂĞITTA: cos(πτ_p) kinematik ✓, κ_çekirdek kapalı-form ✓ (%1.2),
 κ_ad ölçülü (+1.2, türetimi açık).
+
+## 136: κ'NIN L-DEĞİŞMEZLİĞİ — EVRENSELLİĞİN SIRRI (28 Ağustos sabahı)
+
+DW-ağırlıklı kapalı-form çekirdek L=8→12.45'te DÜZ (±%3): κ_DW =
+−2.12..−2.26 — R_nn=−2cosπτ'nin L/ada evrenselliğinin açıklaması bu
+(DW-kesilmiş kuyruk toplamı fiziksel rejimde sabit). DEĞER SÜRPRİZİ:
+κ_DW ≈ −2.15, ölçülen −2.00±0.09'a TEK BAŞINA %6-10 yakın →
+gerçek-gaz ayrışımı κ ≈ κ_DW + küçük adyabatik artık (+~0.15);
+lab'ın (−3.18+1.2)'si keskin-kesim eseri. "−2" sihirli tamsayı değil,
+DW-toplamın rejim değeri — TAM −2 mi ≈−2.1 mi: adyabatik artığın
+hassas ölçümüne kalan SON ince soru. Script: 136. — SÖZLÜK yeniden
+tonlandı (basit: hikâye→açıklama→sayı; hafızaya kural yazıldı),
+örnek maddeler kaptanın onayında.
