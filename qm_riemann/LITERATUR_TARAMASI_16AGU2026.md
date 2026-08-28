@@ -2890,3 +2890,21 @@ DW-toplamın rejim değeri — TAM −2 mi ≈−2.1 mi: adyabatik artığın
 hassas ölçümüne kalan SON ince soru. Script: 136. — SÖZLÜK yeniden
 tonlandı (basit: hikâye→açıklama→sayı; hafızaya kural yazıldı),
 örnek maddeler kaptanın onayında.
+
+---
+
+## 28 Ağustos 2026 — 137: Adyabatik artık, zeros6 hassasiyetiyle (SON İNCE SORU CEVAPLANDI)
+
+**Soru:** −2 tam mı, ≈−2.15 mi? (136'nın değer sürprizi: κ_DW≈−2.15 ≈ ölçülen −2.00 tek başına → "artık küçük" okuması.)
+
+**Deney (137):** zeros6 son-300k (L=12.03), üç ayak: (A1) gerçek çizgilerde κ_arit=R_nn/cosπτ; (A2) gerçek verinin üstüne boyalı çizgi-dışı dalgalar (A_ds=0.1, dört τ*) → κ_ad doğrudan; (A3) kapalı-form κ_DW pencerenin kendi σ_u'suyla.
+
+**Sonuç — üçüncü kapı:**
+- κ_arit = **−1.975 ± 0.04** (yedi çizgi, düz) → **tam −2 ile uyumlu (%1.3); ≈−2.15 kapısı kapandı.**
+- κ_ad = **+1.0 tam boy** (+0.89→+1.34, τ ile yükselen; lab 109b eğrisi) — gerçek veride ilk doğrudan adyabatik ölçüm. "Küçük artık" yok.
+- fark = κ_arit − κ_ad = −3.05 (ort) ≈ lab keskin-kesim çekirdeği −3.18 (%4); DW'nin −1.85'i DEĞİL. **Gerçek gazın ayrışımı lab'ın orijinali: (−3.05) + (+1.05) = −2.00.** 136'nın değer-okuması reddedildi.
+- Fizik: gazın kendi titreşimi büyük ölçüde koherent (dalgaların kendisi) — koherent yer değiştirme dalgayı kendinden dekorele edemez; DW Gauss-sönümü fazla agresif.
+- Model uyarısı: kapalı-form oranın paydası derin kuyrukta near-cancel → oran kesime aşırı duyarlı (σ_u taraması −0.6..−2.65 savruluyor). Çekirdek modelinin L=12 inceltmesi ayrı av. 136'nın L-düzlüğü (mekanizma olarak) açık soru haline geldi: κ_kernel(L)+κ_ad(L)=−2 düzlüğünü ne sağlıyor?
+- Fark'ın τ-kayması (−2.84→−3.24): çekirdek tam düz değil, δ(τ) ince yapısıyla tutarlı.
+
+**Durum:** Ana sayı mühürlü: **evrensel sabit tam −2 ile uyumlu, ayrışımı (çekirdek −3.05) + (adyabatik +1.05)**. Açık: çekirdeğin kesim-duyarlılığı ve L-düzlük mekanizması; δ(τ).

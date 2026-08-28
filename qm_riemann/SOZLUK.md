@@ -80,12 +80,13 @@ geometrisinde ve nefes kinematiğinde üç kez belirdi; kaynağı, kesin
 (88, 102c, 110c → kaynak: 135).
 
 **−2'nin anatomisi.** Denizin en inatçı sayısını sonunda parçalarına
-ayırdık: bir parça herkesin, bir parça yalnız bu denizin. *Aslında:*
-−2cos(πτ) = (adyabatik kinematik, her sürücüde) + (kuyruk-korelasyon
-çekirdeği, yalnız gazın kendi dalgasında); çekirdek kapalı formda
-yazıldı ve ölçümü %1.2 ile vurdu; DW-ağırlıklı hali her derinlikte
-düz — evrenselliğin sırrı bu. *Sayı:* κ_çekirdek = −3.18 (keskin kesim)
-/ −2.15 (DW); κ_DW(L) düz ±%3 (134, 135, 136).
+ayırdık: bir parça herkesin, bir parça yalnız bu denizin — ve gerçek
+denizde tartıp doğruladık. *Aslında:* −2cos(πτ) = (adyabatik kinematik,
+her sürücüde, +1) + (kuyruk-korelasyon çekirdeği, yalnız gazın kendi
+dalgasında, −3); adyabatik parçayı gerçek sıfırların üstüne boyalı
+dalga bindirerek doğrudan ölçtük, çıkan toplam tam −2'ye oturdu —
+"≈−2.15" kapısı kapandı. *Sayı:* −3.05 + 1.05 = −2.00; toplam
+−1.975 ± 0.04 (134, 135, 137).
 
 **Dört fener.** Limana dört fener diktik; artık hiçbir kayalık gizli
 değil. *Aslında:* veri-doğrulama kültürü dört kapıya oturdu — sayım
