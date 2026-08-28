@@ -2908,3 +2908,20 @@ tonlandı (basit: hikâye→açıklama→sayı; hafızaya kural yazıldı),
 - Fark'ın τ-kayması (−2.84→−3.24): çekirdek tam düz değil, δ(τ) ince yapısıyla tutarlı.
 
 **Durum:** Ana sayı mühürlü: **evrensel sabit tam −2 ile uyumlu, ayrışımı (çekirdek −3.05) + (adyabatik +1.05)**. Açık: çekirdeğin kesim-duyarlılığı ve L-düzlük mekanizması; δ(τ).
+
+---
+
+## 28 Ağustos 2026 — 138: −2'nin L-düzlük mekanizması (MÜHÜRLENDİ)
+
+**Soru:** κ_çekirdek(L) + κ_ad(L) = −2'yi her derinlikte düz tutan ne? Konspirasyon mu (parçalar kayar, toplam telafi), yoksa parçalar tek tek L-değişmez mi?
+
+**Kalem (iki L-iptali):** (i) PNT öz-benzerliği — Σ_{q≤x}Λ(q)²/q ~ ½log²x, log q = τL koyunca kuyruk gücünün ölçüsü **dτ/τ** çıkar, L düşer; (ii) regülatör argümanı ωσ_t = τL·σ_u·2π/L = **2πσ_u·τ**, L kendini iptal eder. Ölçü de kesici de yalnız τ ⇒ çekirdek L-değişmez τ-fonksiyonu; κ_ad yerel kinematik ⇒ toplam yasa L-değişmez.
+
+**Sınav (138, üç zeros6 penceresi L=10.51/11.47/12.03):**
+- B3 ölçü kontrolü: ΣA²/PNT-süreklisi = 0.97-1.00, iki L'de aynı ✓
+- κ_ad ortak ızgara: üç pencerede ±%4 çakışık (+0.92..+1.36, τ ile yükselen tek eğri) ✓
+- fark(τ) = çekirdek: üç pencerede tek eğri K(τ) = −2.87 (τ=0.06) → −3.25 (τ=0.25); τ-eşleşmeli çapraz okumalar ±%2 ✓
+
+**Hüküm: M1 — düzlük konspirasyon değil; mekanizma = PNT öz-benzerliği + τ-yalnız regülatör.** Düzlük Gauss-DW'ye özgü değil, her τ-yalnız kesicide çıkar (136'nın düzlüğü doğruydu, değeri yanlıştı — 137 ile tutarlı). **Bonus:** K(τ) ince yapısı artık ölçülü evrensel eğri — kapalı formun derin-L inceltmesinin hedefi.
+
+**Açık kalanlar:** K(τ) eğrisinin kapalı formdan türetimi (payda near-cancel sorunuyla birlikte); δ(τ); log3 kervanı; χ₃ orta-τ çukuru.

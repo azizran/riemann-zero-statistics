@@ -88,6 +88,15 @@ dalga bindirerek doğrudan ölçtük, çıkan toplam tam −2'ye oturdu —
 "≈−2.15" kapısı kapandı. *Sayı:* −3.05 + 1.05 = −2.00; toplam
 −1.975 ± 0.04 (134, 135, 137).
 
+**Haritanın ölçeği.** Hangi derinliğe dalarsak dalalım hep aynı harita
+çıkıyordu; meğer denizin cetveli derinliği hiç duymuyormuş. *Aslında:*
+asal merdiveninin gücü, ölçekten bağımsız evrensel bir yoğunluğa oturur
+(asal sayı teoreminin öz-benzerliği) ve kuyruğu kesen titreşim de aynı
+ölçekten bağımsız orana bakar — derinlik iki kez kendini iptal eder;
+bu yüzden −2 yasasının iki parçası da her derinlikte aynı eğrilerdir,
+gizli bir telafi oyunu yoktur. *Sayı:* üç derinlikte eğriler ±%2-4
+çakışık; ölçü oranı 0.97-1.00 (138).
+
 **Dört fener.** Limana dört fener diktik; artık hiçbir kayalık gizli
 değil. *Aslında:* veri-doğrulama kültürü dört kapıya oturdu — sayım
 sertifikası, düzlük segmentasyonu, sıçrama kapısı, kısa-çukur kapısı;
