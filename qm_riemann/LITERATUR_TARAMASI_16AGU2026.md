@@ -2985,3 +2985,14 @@ Dört ölçüm (son-300k):
 4. **Mekanizma Gram'da yakalandı:** çarpımsal çiftlerde (q₂=q₁·q₃, üçü örgüde) ⟨|G|⟩ kontrolün **9.6 katı**; en güçlü bağlar kule basamakları (3↔9, 2↔4, 5↔25, 49↔343) — aracı hep aynı asalın dalgası. 141 kule-güçlenmesi aynı makine.
 
 **Birleşik resim:** ekran + soğurma + kule-anomalisi + taban-akışı = TEK mekanizma: örgünün kendi modlarına **çarpım tablosu üstünden** kurduğu üç-dalga bağlaşımı (Hecke dejenerasyonu; MHBH'nin dışladığı, BK95'in HL ile beslediği yapı; K(τ)'nin aday kaynağı). Fazlar süreç boyunca sıfır — bağlaşım salt genlik, faz-bükümsüz (teori ipucu). **Açık:** G'nin nicel teorisi (aracı-dalga genliğinden öngörü), ρ_tail(τ) profili, çukur genliğinin kolektif hesabı.
+
+---
+
+## 29 Ağustos 2026 — 143: ÜÇ-DALGA YASASI TÜRETİLDİ VE MÜHÜRLENDİ (19/19)
+
+**Kalem (KALEM_UC_DALGA_G):** orta-nokta kayması δ(m̄)=ḡ_tΣa_c cos(πτ_c)sin(ω_c m̄); birinci-mertebe Gram açılımında yalnız FARK (ω₃ ⇔ çarpımsal çift) ve TOPLAM (Σ ⇔ kule çifti) frekansları hayatta kalır. **Yasa (sıfır parametre):**
+G_cc = −π[τ₃a₃cos(πτ₃) + (τ₁+τ₂)a_Σcos(πτ_Σ)·𝟙{q₁q₂ örgüde}];  G_ss = aynı, Σ-terimi ters işaret;  G_cs = 0.
+
+**Sınav (143, son-300k, 19 çift):** işaret 19/19; değer oranı 0.91-0.98 (tekdüze ~%5 açık — ikinci mertebe, kayıt); aracı kuralı ±%1 ((5,10)(7,14)(11,22)(13,26) → −.0384/−.0382/−.0382/−.0382); kule merdiveni sıralaması birebir (562>442>393, öngörü 575>464>416); kanal yarılması kulede tam boy ((2,4): −562/−236 vs öngörü −575/−226) ve yarılma işareti (25,125)'te cos(πτ_Σ) ile birlikte dönüyor; G_cs ≤ 1e-4 — **faz-bükümsüzlük artık türetilmiş bir teorem.** Kayıt: eş-asal cc/ss ~0.0025 asimetri (öngörü eşit; ikinci mertebe).
+
+**Anlam:** 142'nin bütün fenomenolojisi (taban-akışı, %37 çapraz-güç, kule-güçlenmesi, soğurma) tek mikro-yasadan akıyor. **Sıradaki büyük kalem:** G'yi topluca ilerletip ρ_tail(τ), C(n) çukur genliği ve K(τ) çekirdeğinin kolektif hesabı — makine artık elimizde.
