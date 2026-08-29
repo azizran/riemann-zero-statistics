@@ -2925,3 +2925,15 @@ tonlandı (basit: hikâye→açıklama→sayı; hafızaya kural yazıldı),
 **Hüküm: M1 — düzlük konspirasyon değil; mekanizma = PNT öz-benzerliği + τ-yalnız regülatör.** Düzlük Gauss-DW'ye özgü değil, her τ-yalnız kesicide çıkar (136'nın düzlüğü doğruydu, değeri yanlıştı — 137 ile tutarlı). **Bonus:** K(τ) ince yapısı artık ölçülü evrensel eğri — kapalı formun derin-L inceltmesinin hedefi.
 
 **Açık kalanlar:** K(τ) eğrisinin kapalı formdan türetimi (payda near-cancel sorunuyla birlikte); δ(τ); log3 kervanı; χ₃ orta-τ çukuru.
+
+---
+
+## 29 Ağustos 2026 — KEŞİF SEFERİ DÖNÜŞÜ: kuantum kaos literatürü haritalandı
+
+Filo raporu: KESIF_SEFERI_KUANTUM_KAOS_29AGU2026.md (denetlendi, cebir kontrolleri tutuyor). Ana hükümler:
+- **BİLİNEN:** özdeşliğin varyansı = Berry 1988 sayım-varyansının δ=1 terimi (terim terim; a_q²=Λ²/π²q log²q eşlemesi); dτ/τ ölçüsü = Hannay–Ozorio de Almeida toplam kuralı; L-değişmezliğin gerekçesi = ölçekleyici dinamik (λ_p=1, H=XP dilatasyon; BK99 2.14/6.7-6.8); aile-evrenselliği = her L-fonksiyonu XP'nin farklı öz-eşlenik genişlemesi (BK99 6.9); penceremiz τ∈[0.06,0.25] tam evrensellik-kırılma bölgesi (T₀=log2).
+- **AKRABA:** R_nn'in cos(πτ) şekli — BK99 (4.20) evrensel-olmayan çift-korelasyon düzeltmesi, x=½'de tam cos(πτ); −2 önçarpanı literatürde türetilmemiş. K(τ) için Hardy–Littlewood/BK köşegen-dışı makinesi mevcut. Erfc-kesim ailesi (BK99 5.24) koherans sorusunu tek K parametresine indirger. Chavez–Allawala 2021: asal-dalga alanının öz-kovaryansı negatif (komşu bulgu).
+- **YENİ GÖRÜNÜYOR:** örnek-yolu koheransı (0.975); R_nn'in koşullu-varyans/TEPKİ okuması; ölçülü ayrışım (+1.05/−3.05); K(τ) eğrisinin kendisi.
+- **EN DEĞERLİ ÇERÇEVE:** köşegen yaklaşımında asal fazları bağımsız ⇒ R_nn ≡ 0 (BK99 s.248). Yani R_nn = −2cosπτ ≠ 0, KÖŞEGEN-DIŞI (K_off) asal-asal korelasyonlarının doğrudan, faz-çözünürlüklü ölçümüdür. arXiv notunun tek-cümlelik çerçevesi bu.
+- **UYARILAR:** MHBH evrensellik ispatı Hecke-tipi eylem-dejenerasyonlu sistemleri açıkça dışlıyor (biz o sınıftayız — "denge üretemiyor" ile uyumlu). N_eff=L+c vs BBLM N_eff=L/√(12Λ) çapraz kontrol gerek. GUE ardışık-aralık kovaryans taban değeri literatürde yok — kendimiz üretmeliyiz. "Keating resummation" başlığı bulunamadı, atıf yapılmayacak.
+- Sıradaki kalem: BK99 (4.20)'yi x=½'de açıp katsayıyı −2 ile karşılaştırmak (Y1'in ilk somut adımı; KALEM_KTAU_HAZIRLIK'a ek).
