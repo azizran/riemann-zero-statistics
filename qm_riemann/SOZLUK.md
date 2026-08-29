@@ -123,6 +123,17 @@ soğuktur — iletkenden, pariteden, gammadan bağımsız. GL(2)'de yasa
 çarpımsal hale gelir. *Sayı:* ölü-2 üçlüsü −%20, birbirine %1 içinde
 (97, 105, 117).
 
+**Gaz alçak sıfırlarını tanır.** İki milyonuncu teknenin güvertesinden
+ufka bakınca, denizin İLK teknelerinin silüeti hâlâ görünüyor — deniz
+kendi başlangıcını unutmuyor. *Aslında:* aralıkların uzun-mesafe
+kovaryansında, gecikme tam ilk sıfırların hizasına (γ·L/2π) gelince
+yerel çukurlar açılıyor; çünkü asal dalgalarının toplamı zeta'nın
+kendisini — dolayısıyla kendi sıfırlarını — yeniden üretir (fizikçiler
+buna "resurgence" der). Pürüzsüz bir asal yoğunluğu bunu yapamaz;
+imza, merdivenin aritmetik inceliğindedir. *Sayı:* altı çukur, iki
+pencere, konumlar γ₁,γ₂,γ₃·L/2π'de birebir (L ile kayarak), her biri
+~4σ, sıfır serbest parametre (140).
+
 **Gaz kendi aritmetiğini tanır.** Bütün seferlerin tek cümlesi: bu deniz,
 kendi şarkısını başka her sesten ayırt eder. *Aslında:* sıfırların
 gürültüsü, kendi asal dalgalarının fazına karşı örgütlüdür — çünkü

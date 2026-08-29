@@ -2947,3 +2947,13 @@ Filo raporu: KESIF_SEFERI_KUANTUM_KAOS_29AGU2026.md (denetlendi, cebir kontrolle
 **Kalem (KALEM_BK420_29AGU2026.md):** (4.20) bizim birimlerde R_c¹(x)=Σ_q 2π²τ²a_q²cos(2πxτ_q) — köşegen katman, özdeşliğin ikinci momenti. x=½ sözlüğü: onların yarım-aralık ayrımı = bizim mm∓ḡ/2 yarım-gap fazı → cos(πτ) ŞEKLİ çift çapalı (134/135 + BK420), türetilmiş sayılır. **Teorem cümlesi: şekil köşegen-kinematik; −2 KATSAYISI tamamen köşegen-dışı** (köşegen dünyada R_nn≡0, BK99 s.248; tam-taban regresyonu köşegen katmanı zaten söküyor — η-dünyası yalnız köşegen-dışını görür). Ayrışım defteri: R_nn = 0(köşegen) + κ_ad·cosπτ (adyabatik) + K(τ)·cosπτ (çekirdek). Sonraki kalem hedefi: (4.23) resurgence terimi (−∂²Re log ζ(1−iξ)) → K(τ) kayışının adayı.
 
 **Ölçüm (139):** Berry-88 SABİT-ARALIK nesnesi zeros6'da: öngörü 0.3333 (asal 0.2320 + 1/π²), ölçülen V_sabit=0.3295 — **sapma −%1.1, DOĞRULANDI** (veri hattına bağımsız literatür onayı). Karşıt: V_sıfır(ds)=0.1674 — koşullama/örnekleme farkı 0.162 gerçek ve büyük (Berry'nin kendi uyarısı; ekran ailemizin toplam hali; τ-çözünürlüğü açık iş). Kayıt: C1_asal öngörü −0.0910 vs ölçülen lag-1 cov −0.0581 (evrensel taban bilinmiyor — kendimiz üreteceğiz). Dürüstlük notu: 139'un SONUÇ bloğu ilk taslakta koşudan önce yazılmıştı — ihlal not edildi, gerçek sayılarla değiştirildi.
+
+---
+
+## 29 Ağustos 2026 — 140: RESURGENCE GAP DİLİNDE ÖLÇÜLDÜ ("gaz alçak sıfırlarını tanır")
+
+**Kalem (KALEM_BK423):** (4.23) motoru kendi türetimimizle ele geçirildi: F(ξ) = (ζ'/ζ)'(1−iξ) − Σ_p log²p/(p^{1−iξ}−1)² (sayısal doğrulama Re s=2'de 7e-6; 1.05'teki %15 kesme kuyruğu). Her alçak sıfır ξ=γ'da derinlik-4/genişlik-½ çukur kazar. Kapı haritası: bağ ölçeği (n=1) rezonanslardan uzak — K(τ) kayışı resurgence işi DEĞİL (kayış adayları: m≥2/tam-merdiven inceltmesi, 135 τ_p-terimleri); rezonanslar uzun gecikmede n* = γ_k·L/2π.
+
+**Ölçüm (140):** C(n)=⟨ds₀ds_n⟩, iki pencere. SONUÇ — altı çukur, altısı yerinde: son-300k (L=12.03) n=27/40/48 (−4.3/−4.1/−4.4σ; öngörü 27.1/40.2/47.9); orta-300k (L=11.46) n=26/38/46 (−4.7/−4.2/−4.1σ; öngörü 25.8/38.4/45.6) — **γ_k·L/2π izlemesi birebir**. Tam-merdiven öngörüsü yer/işaret/omuz şekliyle uyumlu; pürüzsüz (PNT-sürekli) merdiven kör (≤3e-3) — imza aritmetik. Genlik oranı ölçüm/öngörü altı çukurda tekdüze 0.76±0.03 (koşullama/ekran çarpanının uzun-gecikme hali — açık). Sıfır serbest parametre.
+
+**Anlam:** γ₁=14.13, γ₂=21.02, γ₃=25.01 — iki milyon tekne ötede, aralık kovaryansında rezonans olarak görünüyor. Literatür bunu ξ-çözünürlüklü iki-nokta istatistiğinde biliyordu (Snaith Şek.3, Lu–Sridhar); gap-gecikme dilinde, kapalı-form karşılaştırmalı ve L-izlemeli ölçüm bizim. Sözlüğe girdi: "Gaz alçak sıfırlarını tanır".
