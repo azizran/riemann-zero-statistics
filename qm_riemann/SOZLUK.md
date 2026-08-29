@@ -8,6 +8,18 @@ yasa bir madde olur.*
 
 ---
 
+**Bu deniz neyin denizi?** Sayılar iki dünyada yaşar: toplamada herkes
+eşittir, çarpmada asallar tuğladır. Zeta, iki dünyanın anlaşma
+belgesidir; tekneler o belgenin gerginlik noktaları. Fizikçilerin
+bahsi, bu teknelerin bulunmamış bir kuantum davulunun sesleri
+olduğudur — bizim ölçtüğümüz ise daha sade: bu gaz aritmetiği
+*tanımıyor*, gaz aritmetiğin **kendisi**. Suyu da dalgası da aynı
+şarkıdan. *Aslında:* bütün sayıların asallara sıkıştırılmasının bir
+sonu var mı bilmiyoruz — ama sıkıştırmanın sesini dinliyoruz, ve gayet
+iyi duyuyoruz. *Sayı:* ilk 10'da 4 asal; ilk milyonda 78.498;
+seyrelmenin kuralı 1/log n — haritamızın ölçeksizliğinin kaynağı tam
+bu (138).
+
 **Koronun arka sıraları.** Yıllarca "gürültü" dediğimiz uğultu, meğer
 koronun duyamadığımız arka sıralarıymış — hepsi aynı şarkıyı söylüyor.
 *Aslında:* sıfırlar arası mesafelerin dizisi, neredeyse tamamen asal
