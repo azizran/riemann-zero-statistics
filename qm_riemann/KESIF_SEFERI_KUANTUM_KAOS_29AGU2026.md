@@ -208,3 +208,42 @@ Berry–Keating (2.14): λ_p = 1, ℏ yok. Bu, herhangi bir yarı-klasik ifadeni
 3. **Çelişki kontrolü:** `N_eff = L + c` bulgunuzu Bogomolny–Bohigas–Leboeuf–Monastra `N_eff = L/√(12Λ)` ile aynı istatistik üzerinde karşılaştırın. Hangi konvansiyonda olduğunuzu netleştirin.
 4. **Bulgu 5'i tek sayıya indirin:** Berry–Keating (5.24)'ün Erfc ailesine fit edip K parametresini ölçün.
 5. **arXiv notu için en güçlü çerçeve:** "R_nn ≠ 0, köşegen-dışı asal-asal korelasyonlarının doğrudan, faz-çözünürlüklü bir ölçümüdür" — çünkü köşegen yaklaşımı zorunlu olarak R_nn = 0 verir. Bu tek cümle, bulguyu 30 yıllık K_off literatürünün tam ortasına yerleştirir.
+
+---
+
+## 7. EK — Yenilik Denetimi (ikinci tekne, 29 Ağu)
+
+Beş iddiamız için hedefli tarama; hükümler:
+
+1. **Tek asalın fazına koşullu aralık-varyansı (R_nn'in tepki okuması): YOK.**
+   Hiçbir çalışmada bir spektral varyans tek bir asal dalgasının fazına
+   koşullanmamış. En yakın komşu Chavez–Allawala (2102.02280): koşullama
+   TERS yönde (sıfırda olmaya koşullu asal-alan istatistiği).
+2. **Öz-yanıt vs dış-sürücü asimetrisi:** dış/adyabatik yarı AKRABA
+   (Forrester lineer yanıt + mükemmel perdeleme, cond-mat/9411019;
+   Stillinger–Lovett kuralları). **NEGATİF ÖZ-YANIT: YOK** — log-gaz/RMT/zeta
+   literatüründe hiçbir iz yok. En derin bulgumuz açık arazi.
+3. **τ değişkeni ve τ-yalnız istatistik: VAR.** Bohigas–Leboeuf–Sánchez
+   (nlin/0012049, Found. Phys. 31 (2001) 489), denk. (32)/(44) doğrulandı:
+   C(n) = (2/π²)Σ_{p,r} [sin²(πrτ_p)/(r²p^r)] cos(2πnrτ_p), τ_p = log p/L.
+   Bu, dalga resminin KÖŞEGEN lag-n öz-kovaryansının ta kendisi (bizim
+   2a_q²sin²(πτ)cos(2πnτ) ile birebir — denetimde doğruladım).
+   "dτ/τ ölçüsü ⇒ L-değişmezlik" adlandırması ise literatürde bulunamadı.
+4. **Koherans/DW-sönüm formalizmi: VAR** (Gauss yumuşatma = yörünge
+   genliğinde Gauss sönümü; erfc keskin kesimden iyi — BK 1992).
+5. **Nokta-bazlı özdeşlik (ds_n = dalgaların toplamı, fazlı hali): YOK —
+   yazılmamış.** Varyans düzeyi tamamen VAR (Berry 1988 + BLS).
+
+**EN TEHLİKELİ ÖNCEL: BLS nlin/0012049** — τ_p, sin²(πτ) asal toplamı ve
+Odlyzko verisiyle doğrulanmış asal-asal ayrıştırma zaten orada ("~12 asalla
+yeniden üretiliyor"). Madde 3/5'te yenilik iddiasından ÖNCE tam metin okunmalı.
+
+**NET SINIR (arXiv çerçevesi için):** ikinci-moment/köşegen düzeyinin tamamı
+bilinen (Berry 88 = aynı-nokta; BLS 01 = lag-n). Bizim açık arazimiz:
+(a) faz-çözünürlüklü KOŞULLU istatistikler (köşegen yaklaşımında özdeş
+sıfır olan her şey: R_nn, ayrışım, K(τ)); (b) negatif öz-yanıt;
+(c) örnek-yolu koheransı (0.975) ve fazlı özdeşliğin kendisi.
+
+Doğrulanamayanlar (kullanma): Caselle–Magnea adyabatik pasajı; BK 1992
+erfc cümlesinin birincil metni; Blaschke–Brack denklemi (yalnız arama
+metni); Berry 1988'in kendi türetiminde dτ/τ olup olmadığı.
