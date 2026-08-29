@@ -98,7 +98,10 @@ her sürücüde, +1) + (kuyruk-korelasyon çekirdeği, yalnız gazın kendi
 dalgasında, −3); adyabatik parçayı gerçek sıfırların üstüne boyalı
 dalga bindirerek doğrudan ölçtük, çıkan toplam tam −2'ye oturdu —
 "≈−2.15" kapısı kapandı. *Sayı:* −3.05 + 1.05 = −2.00; toplam
-−1.975 ± 0.04 (134, 135, 137).
+−1.975 ± 0.04 (134, 135, 137). Sonra çekirdeğin sırrı da çözüldü:
+τ ile kayıyor sandığımız eğri, aslında SABİT bir sayının (−2.87)
+orkestra-ekranındaki gölgesiymiş — gölgeyi kaldırınca çekirdek dümdüz
+(145).
 
 **Haritanın ölçeği.** Hangi derinliğe dalarsak dalalım hep aynı harita
 çıkıyordu; meğer denizin cetveli derinliği hiç duymuyormuş. *Aslında:*

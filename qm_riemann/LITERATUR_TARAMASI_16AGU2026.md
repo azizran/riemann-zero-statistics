@@ -3010,3 +3010,13 @@ G_cc = −π[τ₃a₃cos(πτ₃) + (τ₁+τ₂)a_Σcos(πτ_Σ)·𝟙{q₁q�
 - **Ampirik yasalar:** K(τ) = −2.786 − 1.897τ (21 nokta, rms 0.041); C(τ) = K − κ_B = −0.94 − 1.90τ (türetilecek ikinci kanal); κ_ad = −2−K = +0.79+1.90τ ölçülen adyabatik eğriyi %0-8 ile vuruyor (toplam-kısıt sağlaması ✓).
 
 **Açık:** ρ'nun τ/u kimliği; C(τ)'nin üç-dalga türetimi (τ-yalnız normalizasyon — kalemin bir sonraki hedefi); c₁ %30.
+
+---
+
+## 29 Ağustos 2026 — 145: İKİ BÜYÜK MÜHÜR — çekirdek SABİT (K₀=−2.87); ρ τ-yasası (e^{−2πτ} adayı)
+
+**H1 — "kayma, ekranın gölgesi" DOĞRULANDI:** R_nn tahmincisinin paydası ölçülen A1'i (r·çıplak; Gram-atfetme, 142) kullanır, süren konum alanı çıplaktır ⇒ K_meas = K₀/r(τ). Test: 21 noktada K·r (her pencerenin KENDİ ölçülen ekranıyla): eğim −1.896 → +0.320 (6×), sabit-etraf rms 0.131 → 0.048. **K₀ = −2.87 ± 0.03** (20/21; aykırı erken-p17 zaten şüpheliydi). Üç günlük "δ(τ) ince yapısı" çözüldü — kayma yoktu. **Türetme hedefi tek sayı: K₀ = κ_B(−1.845) + C₀(−1.03).**
+
+**H2 — ρ kimliği: τ-YASASI.** Orta bantları (0.379/0.264/0.156/0.078) son ile (0.381/0.266/0.159/0.080) binde-birkaç çakışık; u-yasasının +%16'sı red. ρ(τ) = L-değişmez τ-regülatörü — 138 düzlük mekanizmasının istediği sınıf, ölçüldü. **Kapalı-form adayı (mühürsüz):** eğim 6.20±0.15 ≈ 2π ⇒ ρ ∝ e^{−2πτ} = e^{−ωḡ} — kuyruk dalgasının sağkalımı, tek ortalama aralıktaki faz ilerlemesiyle cezalı ("alt-Nyquist dekohersans" okuması).
+
+**Açık:** boyalı-κ_ad vs öz-adyabatik defteri yüksek τ'da ~%15 gerilim (boyalı≠öz adayı); C₀ türetimi; e^{−2πτ}'nin mühürlü testi ve A katsayısı.
