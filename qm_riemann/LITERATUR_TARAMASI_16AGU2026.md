@@ -2939,3 +2939,11 @@ Filo raporu: KESIF_SEFERI_KUANTUM_KAOS_29AGU2026.md (denetlendi, cebir kontrolle
 - Sıradaki kalem: BK99 (4.20)'yi x=½'de açıp katsayıyı −2 ile karşılaştırmak (Y1'in ilk somut adımı; KALEM_KTAU_HAZIRLIK'a ek).
 
 **EK (aynı gün, yenilik denetimi):** Koşullu-faz istatistiği YOK; negatif öz-yanıt YOK (açık arazi). τ_p ve köşegen lag-n öz-kovaryansı VAR: Bohigas–Leboeuf–Sánchez nlin/0012049 denk. (44) — bizim köşegen öngörümüzle birebir (denetlendi). Nokta-bazlı fazlı özdeşlik yazılmamış. NET SINIR: köşegen/ikinci-moment düzeyi bilinen; faz-çözünürlüklü koşullu düzey + öz-yanıt bizim. BLS tam metni yenilik iddiasından önce okunacak.
+
+---
+
+## 29 Ağustos 2026 — KALEM OTURUMU: BK(4.20) x=½ + Berry-88 doğrulaması (139)
+
+**Kalem (KALEM_BK420_29AGU2026.md):** (4.20) bizim birimlerde R_c¹(x)=Σ_q 2π²τ²a_q²cos(2πxτ_q) — köşegen katman, özdeşliğin ikinci momenti. x=½ sözlüğü: onların yarım-aralık ayrımı = bizim mm∓ḡ/2 yarım-gap fazı → cos(πτ) ŞEKLİ çift çapalı (134/135 + BK420), türetilmiş sayılır. **Teorem cümlesi: şekil köşegen-kinematik; −2 KATSAYISI tamamen köşegen-dışı** (köşegen dünyada R_nn≡0, BK99 s.248; tam-taban regresyonu köşegen katmanı zaten söküyor — η-dünyası yalnız köşegen-dışını görür). Ayrışım defteri: R_nn = 0(köşegen) + κ_ad·cosπτ (adyabatik) + K(τ)·cosπτ (çekirdek). Sonraki kalem hedefi: (4.23) resurgence terimi (−∂²Re log ζ(1−iξ)) → K(τ) kayışının adayı.
+
+**Ölçüm (139):** Berry-88 SABİT-ARALIK nesnesi zeros6'da: öngörü 0.3333 (asal 0.2320 + 1/π²), ölçülen V_sabit=0.3295 — **sapma −%1.1, DOĞRULANDI** (veri hattına bağımsız literatür onayı). Karşıt: V_sıfır(ds)=0.1674 — koşullama/örnekleme farkı 0.162 gerçek ve büyük (Berry'nin kendi uyarısı; ekran ailemizin toplam hali; τ-çözünürlüğü açık iş). Kayıt: C1_asal öngörü −0.0910 vs ölçülen lag-1 cov −0.0581 (evrensel taban bilinmiyor — kendimiz üreteceğiz). Dürüstlük notu: 139'un SONUÇ bloğu ilk taslakta koşudan önce yazılmıştı — ihlal not edildi, gerçek sayılarla değiştirildi.
