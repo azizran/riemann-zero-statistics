@@ -2957,3 +2957,17 @@ Filo raporu: KESIF_SEFERI_KUANTUM_KAOS_29AGU2026.md (denetlendi, cebir kontrolle
 **Ölçüm (140):** C(n)=⟨ds₀ds_n⟩, iki pencere. SONUÇ — altı çukur, altısı yerinde: son-300k (L=12.03) n=27/40/48 (−4.3/−4.1/−4.4σ; öngörü 27.1/40.2/47.9); orta-300k (L=11.46) n=26/38/46 (−4.7/−4.2/−4.1σ; öngörü 25.8/38.4/45.6) — **γ_k·L/2π izlemesi birebir**. Tam-merdiven öngörüsü yer/işaret/omuz şekliyle uyumlu; pürüzsüz (PNT-sürekli) merdiven kör (≤3e-3) — imza aritmetik. Genlik oranı ölçüm/öngörü altı çukurda tekdüze 0.76±0.03 (koşullama/ekran çarpanının uzun-gecikme hali — açık). Sıfır serbest parametre.
 
 **Anlam:** γ₁=14.13, γ₂=21.02, γ₃=25.01 — iki milyon tekne ötede, aralık kovaryansında rezonans olarak görünüyor. Literatür bunu ξ-çözünürlüklü iki-nokta istatistiğinde biliyordu (Snaith Şek.3, Lu–Sridhar); gap-gecikme dilinde, kapalı-form karşılaştırmalı ve L-izlemeli ölçüm bizim. Sözlüğe girdi: "Gaz alçak sıfırlarını tanır".
+
+---
+
+## 29 Ağustos 2026 — 141: 0.76 çarpanının anatomisi (ekran yeniden ölçüldü; faz milirad doğrulandı)
+
+**Kalem:** resurgence çukurunu kazan ağırlık f(u)=sin²(πu/L)e^{−u/2}/u (e^{−u/2} kritik doğrunun ½'sinden) → ⟨u⟩=2.82, τ̄=0.235 — **çukurları küçük asallar (p≈3-150) kazıyor**; kuyruk kesimi ilgisiz. H-S: 0.76 = ekranın kovaryans (kare) gölgesi.
+
+**Sonuç katmanları (altı çukur):** naif 0.756±0.023 → eski ekran D²(1−0.36τ): 0.883 → **yerinde ölçülen r(τ)²: 0.932±0.026** (parametresiz).
+
+**Ekran ilk kez çizgi çizgi, kesişim serbest ölçüldü (son-300k):** asallar r ≈ **1.033 − 0.642·τ** (τ=0.06-0.37) — kesişim ≈1 (düz gizemli çarpan yok), eğim eski küresel 0.36'dan belirgin dik (108'le uzlaşma AÇIK — kanal/L farkı olabilir; ekranın tüm-τ haritası yeniden çıkarılmalı). **Kuleler güçlendirilmiş:** r(4)=1.03, r(8)=1.05, r(16)=1.06 sırayla artan — harmonik sızıntı adayı (AÇIK).
+
+**İki kapı tek koşuda kapandı:** (1) per-line fazlar ≤0.002 rad — **kesin özdeşliğin faz yapısı miliradyan hassasiyetle doğrulandı** (faz-gecikme kapısı kapalı; okuma faz-doğru, yalnız genlik ekranlanıyor); (2) kule-düzeltmeli öngörü farksız (kule şişirmesi kapalı).
+
+**Kalan kalıntı 0.93±0.03:** genlik tam, faz kusursuz → kalan ~%7 kolektif aday: çapraz-çizgi koherent desenin (resurgence deseninin kendisinin) okunuşunda soğurma. AÇIK KAPI — soğurma programıyla (⅔-koherent-emilim) birleştirilecek. E3 varyans defterinin +%13.5'i de dik ekranla aynı yönde; kapanışı r(τ) tüm-τ haritasını bekliyor.
