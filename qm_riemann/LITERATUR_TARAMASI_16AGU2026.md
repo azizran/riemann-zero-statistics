@@ -3020,3 +3020,11 @@ G_cc = −π[τ₃a₃cos(πτ₃) + (τ₁+τ₂)a_Σcos(πτ_Σ)·𝟙{q₁q�
 **H2 — ρ kimliği: τ-YASASI.** Orta bantları (0.379/0.264/0.156/0.078) son ile (0.381/0.266/0.159/0.080) binde-birkaç çakışık; u-yasasının +%16'sı red. ρ(τ) = L-değişmez τ-regülatörü — 138 düzlük mekanizmasının istediği sınıf, ölçüldü. **Kapalı-form adayı (mühürsüz):** eğim 6.20±0.15 ≈ 2π ⇒ ρ ∝ e^{−2πτ} = e^{−ωḡ} — kuyruk dalgasının sağkalımı, tek ortalama aralıktaki faz ilerlemesiyle cezalı ("alt-Nyquist dekohersans" okuması).
 
 **Açık:** boyalı-κ_ad vs öz-adyabatik defteri yüksek τ'da ~%15 gerilim (boyalı≠öz adayı); C₀ türetimi; e^{−2πτ}'nin mühürlü testi ve A katsayısı.
+
+---
+
+## 29 Ağustos 2026 — 146+147: e^{−2πτ} sınavı (düştü, öğretici) ve C₀ kalemi (varyans kanalı %3 ile kapandı; C₀'ın adresi bond)
+
+**146 — e^{−2πτ}:** E1 eğim 6.03±0.43 (2π ile tutarlı ama mühürsüz). **E2 DÜŞTÜ:** ρ taban-bağımlı çıktı ((0.55,0.70] bandı 0.40-tabanda 0.56/0.43 vs 0.52-tabanda 0.38/0.27 — çarpımsal Gram-ortaklıkları güç taşıyor). ρ da r gibi atıf-gölgesi; eğim konvansiyona bağlı (~6.0 vs ~2.6) ⇒ kapalı-form adayı bu haliyle düştü. GEÇERLİ: 145'in L-değişmezliği (aynı konvansiyonda) ve 144/145 hesapları (K ile aynı 0.52-konvansiyonu). **DERS: fizik ancak Gram-tam (konvansiyonsuz) nesnelerde — C(n) çukurları, toplam yasalar, kanal toplamları; nihai teori Gram-tam dille yazılmalı.**
+
+**147 — C₀ kalemi:** V1 ✓ iki yeni harita: varyans kanalı gerçek R0 (ekran-düzeltmeli plato −0.79±0.02) + boyalı ad0 ≈ +0.85 DÜZ (bond kontrolleri 137'yi birebir üretti). **BÜYÜK MÜHÜR: varyans kanalı çekirdeği PARAMETRESİZ kapandı** — ölçülen R0·r − ad0 = −1.63±0.04 vs κ_B0 = Σρw·2πτcot(πτ)/Σρw = −1.578 (%3; soğurma-nefesi katkısı yok, R_lag0≈0.01). **Tek-R modeli RED** (bond R=0.286 vs lag-0 ≈0) — ayrıştırıcı sonuç: **C₀ = −1.03 yalnız BOND/lag yapısında yaşıyor**: gap-aşırı koherans cezası γ₁'in nefes modülasyonu adayı; ipucu 144'ün c₁ 0.77 çarpanı ≈ γ₁. **Sıradaki: bant-çözünürlüklü BOND spektroskopisi → γ₁(τ) → C₀ kapalı formu (Gram-tam dille).**
