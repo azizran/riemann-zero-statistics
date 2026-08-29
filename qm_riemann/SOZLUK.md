@@ -123,6 +123,19 @@ soğuktur — iletkenden, pariteden, gammadan bağımsız. GL(2)'de yasa
 çarpımsal hale gelir. *Sayı:* ölü-2 üçlüsü −%20, birbirine %1 içinde
 (97, 105, 117).
 
+**Tek çalgı yok, orkestra var.** Bir çalgının sesini tek başına ölçmek
+istedik; çıkan sayı, orkestranın ne kadarını birlikte dinlediğimize
+bağlı çıktı — çünkü çalgılar birbirine akortlu. *Aslında:* örgüde bir
+asal dalgasının genliği tek başına iyi tanımlı değildir: çizgiler
+birbirine çarpım tablosu üstünden bağlıdır (2 ile 4'ü 2 bağlar, 3 ile
+9'u 3, 5 ile 25'i 5) ve bu bağlar sıradan çiftlerden on kat güçlüdür;
+gücün üçte birden fazlası tek çizgilere değil çizgi-çiftlerine
+yazılıdır; derin kuyruk ise neredeyse tamamen örgüye yutulur. "Ekran"
+ve "soğurma" iki ayrı olgu değil, bu tek orkestra-bağlaşımının iki
+yüzüdür — ve bütün bunlar olurken fazlar kılını kıpırdatmaz. *Sayı:*
+çarpımsal bağ / sıradan bağ = 9.6; kuyruk sağkalımı 0.127; fazlar
+≤0.002 radyan (142).
+
 **Gaz alçak sıfırlarını tanır.** İki milyonuncu teknenin güvertesinden
 ufka bakınca, denizin İLK teknelerinin silüeti hâlâ görünüyor — deniz
 kendi başlangıcını unutmuyor. *Aslında:* aralıkların uzun-mesafe

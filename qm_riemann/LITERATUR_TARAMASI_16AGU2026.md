@@ -2971,3 +2971,17 @@ Filo raporu: KESIF_SEFERI_KUANTUM_KAOS_29AGU2026.md (denetlendi, cebir kontrolle
 **İki kapı tek koşuda kapandı:** (1) per-line fazlar ≤0.002 rad — **kesin özdeşliğin faz yapısı miliradyan hassasiyetle doğrulandı** (faz-gecikme kapısı kapalı; okuma faz-doğru, yalnız genlik ekranlanıyor); (2) kule-düzeltmeli öngörü farksız (kule şişirmesi kapalı).
 
 **Kalan kalıntı 0.93±0.03:** genlik tam, faz kusursuz → kalan ~%7 kolektif aday: çapraz-çizgi koherent desenin (resurgence deseninin kendisinin) okunuşunda soğurma. AÇIK KAPI — soğurma programıyla (⅔-koherent-emilim) birleştirilecek. E3 varyans defterinin +%13.5'i de dik ekranla aynı yönde; kapanışı r(τ) tüm-τ haritasını bekliyor.
+
+---
+
+## 29 Ağustos 2026 — 142: Kolektif soğurma kapısı → ÇARPIMSAL ORKESTRA-BAĞLAŞIMI mühürlendi
+
+**Hedef:** 0.93 kalıntısını ⅔-soğurmayla birleştirmek ("tek perde" hipotezi: soğurma = ekranın derin ucu). **Hüküm: S1 düştü; yerine çok daha derin bir mekanizma mühürlendi.**
+
+Dört ölçüm (son-300k):
+1. **Taban-akışı:** r(2) = 1.001/0.950/0.899 (taban τ≤0.52/0.60/0.70) — bütün çizgiler tekdüze ~0.897 ile iniyor, fazlar ≤0.002 sabit. Tek-çizgi genliği örgüde iyi-tanımlı değil; 141'in 0.93'ü konvansiyon eseri (çıplak 0.756 sağlam), asıl nesne kolektif.
+2. **Gram çapraz-gücü:** fit varyansının %23→%37'si çizgi çiftlerinde (ΣA1²/2=0.101 vs V_fit=0.160).
+3. **Temiz kuyruk spektroskopisi** (çözünür bant 0.70-0.78, 822 çizgi, ara-nokta referans): **ρ_tail = 0.127** — doğrusal ekran-uzatması 0.31'in ve lab ⅓'ün çok altında; derin kuyruk örgüye yutuluyor. (İlk tasarımın çözünürlük hatası — τ>0.79'da çizgiler pencere çözünürlüğü altında — teşhis edilip düzeltildi.)
+4. **Mekanizma Gram'da yakalandı:** çarpımsal çiftlerde (q₂=q₁·q₃, üçü örgüde) ⟨|G|⟩ kontrolün **9.6 katı**; en güçlü bağlar kule basamakları (3↔9, 2↔4, 5↔25, 49↔343) — aracı hep aynı asalın dalgası. 141 kule-güçlenmesi aynı makine.
+
+**Birleşik resim:** ekran + soğurma + kule-anomalisi + taban-akışı = TEK mekanizma: örgünün kendi modlarına **çarpım tablosu üstünden** kurduğu üç-dalga bağlaşımı (Hecke dejenerasyonu; MHBH'nin dışladığı, BK95'in HL ile beslediği yapı; K(τ)'nin aday kaynağı). Fazlar süreç boyunca sıfır — bağlaşım salt genlik, faz-bükümsüz (teori ipucu). **Açık:** G'nin nicel teorisi (aracı-dalga genliğinden öngörü), ρ_tail(τ) profili, çukur genliğinin kolektif hesabı.
