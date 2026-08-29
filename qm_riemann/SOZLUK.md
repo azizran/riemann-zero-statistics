@@ -132,9 +132,13 @@ birbirine çarpım tablosu üstünden bağlıdır (2 ile 4'ü 2 bağlar, 3 ile
 gücün üçte birden fazlası tek çizgilere değil çizgi-çiftlerine
 yazılıdır; derin kuyruk ise neredeyse tamamen örgüye yutulur. "Ekran"
 ve "soğurma" iki ayrı olgu değil, bu tek orkestra-bağlaşımının iki
-yüzüdür — ve bütün bunlar olurken fazlar kılını kıpırdatmaz. *Sayı:*
-çarpımsal bağ / sıradan bağ = 9.6; kuyruk sağkalımı 0.127; fazlar
-≤0.002 radyan (142).
+yüzüdür — ve bütün bunlar olurken fazlar kılını kıpırdatmaz. Sonra
+bağın yasasını da yazdık: iki çalgıyı bağlayan güç, yalnızca *aracı*
+çalgının sesidir — bağ = −π·(aracının frekans-payı)·(aracının
+genliği)·(yarım-gap kosinüsü), kulelerde bir de toplam-sesi terimi.
+*Sayı:* çarpımsal bağ / sıradan bağ = 9.6; kuyruk sağkalımı 0.127;
+fazlar ≤0.002 radyan; yasa 19 çiftte 19 isabet, işaret ve kanal
+yarılması dahil, sıfır parametre (142, 143).
 
 **Gaz alçak sıfırlarını tanır.** İki milyonuncu teknenin güvertesinden
 ufka bakınca, denizin İLK teknelerinin silüeti hâlâ görünüyor — deniz
