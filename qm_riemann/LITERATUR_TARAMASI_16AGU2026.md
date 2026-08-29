@@ -2996,3 +2996,17 @@ G_cc = −π[τ₃a₃cos(πτ₃) + (τ₁+τ₂)a_Σcos(πτ_Σ)·𝟙{q₁q�
 **Sınav (143, son-300k, 19 çift):** işaret 19/19; değer oranı 0.91-0.98 (tekdüze ~%5 açık — ikinci mertebe, kayıt); aracı kuralı ±%1 ((5,10)(7,14)(11,22)(13,26) → −.0384/−.0382/−.0382/−.0382); kule merdiveni sıralaması birebir (562>442>393, öngörü 575>464>416); kanal yarılması kulede tam boy ((2,4): −562/−236 vs öngörü −575/−226) ve yarılma işareti (25,125)'te cos(πτ_Σ) ile birlikte dönüyor; G_cs ≤ 1e-4 — **faz-bükümsüzlük artık türetilmiş bir teorem.** Kayıt: eş-asal cc/ss ~0.0025 asimetri (öngörü eşit; ikinci mertebe).
 
 **Anlam:** 142'nin bütün fenomenolojisi (taban-akışı, %37 çapraz-güç, kule-güçlenmesi, soğurma) tek mikro-yasadan akıyor. **Sıradaki büyük kalem:** G'yi topluca ilerletip ρ_tail(τ), C(n) çukur genliği ve K(τ) çekirdeğinin kolektif hesabı — makine artık elimizde.
+
+---
+
+## 29 Ağustos 2026 — 144: Kolektif K(τ) kalemi — payda şifası, ρ-haritası, ve sirenini kendi yakalayan test
+
+**Zincir:** standart 0.52-taban η'sı → η'nın soğurma profili ρ(τ) bant spektroskopisiyle İLK KEZ haritalandı: **ρ(τ) = exp(2.62 − 6.20τ)** (0.381/0.266/0.159/0.080; L=12.03'te üs = −u/2 — kritik ½ yine sahnede; τ-mı-u-mu kimliği ikinci pencere işi, AÇIK) → kolektif çekirdek oranı.
+
+**Hükümler:**
+- **Payda ŞİFALI** (Ö1 kısmi ✓): ρ-ağırlıkla iptal yok (−7.5e-3 sağlam); 135/137'nin kesim-aşırı-duyarlılığı kolektif ağırlıkla çözüldü. Payda sağlaması: 2Σρw·cos2πτ = −0.0150 vs ölçülen c₁ = −0.0116 (%30 — ikinci mertebe kaydı).
+- **Ö2 düştü:** κ_B(pozisyon-modülasyon, ρ-ağırlıklı) = −1.845 — çekirdeğin tamamı değil. (136'nın κ_DW=−1.850'siyle çakışma kaza değil: iki ağırlık etkin bantta benzer.)
+- **Ö3 siren dersi:** pencere-içi kalıntı q^{-1/2}'ye r=0.986 oturdu; AMA eş-τ/farklı-q çapraz tanıklar q-modelini üç kez yanlış işaretle reddetti, τ-modeli üçünü de vurdu. **K yalnız τ'nun fonksiyonu** (138 ile tutarlı); q^{-1/2} tek-pencere taklidiydi — protokol çapraz testle yakaladı.
+- **Ampirik yasalar:** K(τ) = −2.786 − 1.897τ (21 nokta, rms 0.041); C(τ) = K − κ_B = −0.94 − 1.90τ (türetilecek ikinci kanal); κ_ad = −2−K = +0.79+1.90τ ölçülen adyabatik eğriyi %0-8 ile vuruyor (toplam-kısıt sağlaması ✓).
+
+**Açık:** ρ'nun τ/u kimliği; C(τ)'nin üç-dalga türetimi (τ-yalnız normalizasyon — kalemin bir sonraki hedefi); c₁ %30.
