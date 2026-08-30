@@ -3083,3 +3083,14 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **FAZ KATI:** anormal faz TÜM konfigürasyonlarda gerçeğin 1.3-1.45 katı (bant-başına %5'ten dar tekrarlanabilirlik); kesim şekli ve konum titreşimi fazı YÖNETMİYOR. S3 ile faz TERS yönde hareket ediyor → ortak sebepleri yok.
 - **Eksik malzeme adayı (tayfanın önerisi, mantıklı):** birinci-mertebe saf-merdiven gazında olmayan GUE SEVİYE İTMESİ — bağımsız titreşimle taklit edilemez oluşu tam bunu işaret ediyor. Sıradaki soru (gelecek kota dönemi): itme/yüksek-mertebe öz-tutarlılık eklenmiş gazda faz.
 - Tayfa ayrıca A2-konfigürasyonunun sahte-iyi skorunu yakaladı (payda patlaması; |Γ|>1.5 elemesi + bant-başına skor düzeltmesi).
+
+---
+
+## 30 Ağu gece — 154 (Opus tayfası): R(τ) kapalı-form avı — mühürlenmedi ama YENİ İNCE SABİT bulundu
+
+- R tayfı iki pencerede %0.5-2 aynı → **R gerçek, L-değişmez τ-fonksiyonu** (0.39/1.08/1.87/2.13).
+- **Sıfır-parametreli adaylar ÖLDÜ:** erfc-türevi ve ölçülmüş-ρ türevi ailesi reddedildi (χ²/dof 14.7+). **Sentetik tanık kesti:** keskin gazda ρ DÜZ iken R yine tırmanıyor → R'nin şekli soğurmadan değil, Γ-tahmincisinin KENDİ yapısından (makineden). Kapalı form orada aranacak.
+- Taban taraması: "kenar artefaktı" şüphesi çürüdü (ilk bandın düşük R'si gerçek); taban sistematiği %12-27 ölçülüp hata bütçesine kondu.
+- **YENİ SAYI: R'nin sıfır-geçişi τ₀ = 0.5153 ± 0.0008(ist) ± 0.002(sist)** — taban ve L'den bağımsız, **½ DEĞİL (~7σ)**; τ<0.52'de R ve φ NEGATİF. Yeni ince sabit — kimliği açık soru.
+- Yarış: iki 2-parametreli form eşdeğer hayatta: **(g) R = c(τ−τ₀)/τ²** (χ²/dof 0.33; bağımsız destek: fit-τ₀ ölçülen 0.5153'ü kuşatıyor; yorum: φ_Γ derinlikte doğrusal, eğrilik saf kinematik A⁻²) ve (c) doyum formu (0.34). Sabit/doğrusal/A²σ²/erfc/ρ-türevi hepsi elendi.
+- Yeni kayıtlar: yüksek-τ doygunluğu (n_eff %6) fiziksel mi tahminci mi; A4 kesimi S3'ü oturtuyor ama ρ profilini OTURTMUYOR. HÜKÜM: kapalı form AÇIK; en güçlü iz: φ_Γ ∝ (τ−0.5153) doğrusallığı.
