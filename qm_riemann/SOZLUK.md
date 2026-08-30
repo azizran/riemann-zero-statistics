@@ -162,7 +162,11 @@ kendisini — dolayısıyla kendi sıfırlarını — yeniden üretir (fizikçil
 buna "resurgence" der). Pürüzsüz bir asal yoğunluğu bunu yapamaz;
 imza, merdivenin aritmetik inceliğindedir. *Sayı:* altı çukur, iki
 pencere, konumlar γ₁,γ₂,γ₃·L/2π'de birebir (L ile kayarak), her biri
-~4σ, sıfır serbest parametre (140).
+~4σ, sıfır serbest parametre (140). Dürüstlük mührü: çukurların
+yerini önce başkaları öngörmüştü (Bohigas–Leboeuf–Sánchez 2001; R₂'de
+Berry–Keating) — ama veriyle nicel karşılaşmayı, L-izlemesini ve
+kapalı-form sınavını ilk biz yaptık; bayrağın öngörü yarısı onların,
+ölçüm yarısı bizim.
 
 **Gaz kendi aritmetiğini tanır.** Bütün seferlerin tek cümlesi: bu deniz,
 kendi şarkısını başka her sesten ayırt eder. *Aslında:* sıfırların

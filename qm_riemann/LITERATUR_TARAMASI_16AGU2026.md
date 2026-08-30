@@ -3064,3 +3064,11 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 **Kalem notu (R-teorisi):** en yalın aday R = −dlnρ/dA = 6.20/2π ≈ 0.99 sabit — ölçeği vuruyor (R~1 ✓), şekli değil (0.40→2.12); ilk bandın düşüklüğü taban-kenarı seyrelmesi adayı; hakem sentetik gaz.
 
 **151b (aynı gün):** derin merdiven (15450 çizgi) + 40 iterasyon → bantlar 151'le özdeş (±0.03): **sentetik gazın ~1.45× dik dispersiyonu iki çözücüde KARARLI — gerçek bir fark: saf-merdiven gazı ζ gazından daha dispersif.** Eksik malzeme adayları: (a) gerçek S'nin ERFC-yumuşak kesimi (BK 5.24 — alet çantası E!) vs sentetik keskin merdiven; (b) gerçek gazın inkoherent payının sağkalım-korelasyonunu seyreltmesi (sentetik R×0.65 ≈ gerçek R, kaba tutarlı). Sıradaki: erfc-kesimli sentetik gaz → nicel kapanış.
+
+---
+
+## 30 Ağustos 2026 — BLS TAM OKUMA (rapor: BLS_TAM_OKUMA_30AGU2026.md) — bir bayrak teslim, sınır netleşti
+
+- **DÜZELTME (öncelik teslimi):** C(n)'de n* = γL/2π rezonansları **BLS'in manşetiymiş** (denk. 49-50; R₂ önceliği de BK'de). 140'ın çerçevesi güncellendi: **öngörü onların; ilk NİCEL, veri-doğrulamalı, L-izlemeli, kapalı-form-karşılaştırmalı ölçüm bizim** (BLS veriyle hiç karşılaştırmamış — yalnız ~40 nokta, nicel uyum ölçütü yok; "~12 asal" nitel ve kendi toplamına karşı).
+- Sağlamlaşan sınırlar: (a) koşullu/faz-çözünürlüklü R_nn — metinde kavram olarak dahi YOK (köşegen formül ilkece üretemez); (b) örnek-yolu özdeşliği YOK (ikinci momenti = denk. 44; ikinci moment sin(πτ)'nin İŞARETİNE KÖR — faz-çözünürlüklü savunmamızın belkemiği); (d) dispersiyon YOK (denk. 42'deki kompleks n_μ transfer değil — yanlış-akraba uyarısı); (e) −2 YOK (ama BLS'in iki ayrı negatifliğiyle karıştırılma riski — notta ayrım paragrafı şart). **BLS tam n=1'de en zayıf** (C(1) kendi toplam kuralını ihlal ediyor) — bond kanalı açık arazi.
+- Aletler: Σ²→C(n) köprüsü (K(τ)→gap dili çevirici), kesme reçetesi (denk. 29), n_c ≈ L·e^{2π} penceresi; unfolding konvansiyonu bizimkiyle AYNI (log(t/2π)). Kaynakta dizgi hatası bulundu: denk. (46) ↔ Tablo I üstel işareti.
