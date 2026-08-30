@@ -3054,3 +3054,11 @@ Gram-tam tasarım (ζ, ζ₊ izdüşümleri, 2πτ rotoru): transfer KOMPLEKS �
 **Sınav (150):** T1 ✓ |Γ|=|M_emp| ±%12 (bant-5 önyargılı, kayıt). T2 ✓ aşırı-belirleme: fazı eşleyen tek R, ampirik dağılımla Re'yi de vurdu (Δ ≤ 0.06; 4/5, biri sınırda). **T3: R(τ) tayfı = 0.40/1.07/1.85/2.12/(1.50) — O(1), derinlikle artan.**
 
 **Durum:** Γ'nin yapısı çözüldü; teorinin kalan tek serbest nesnesi kompleks transferden TEK REEL FONKSİYONA indi: R(τ) — soğurmanın yerel-adım tepki tayfı. Sonraki (son) kalem: R(τ)'yi soğurma/kolektif teoriden türetmek → o gün zincirde ölçümden alınan hiçbir şey kalmaz.
+
+---
+
+## 30 Ağustos 2026 — 151: TAÇ SINAV (sentetik gaz) — ilk deneme: fenomen asallardan ÜREDİ; nicelik kalibrasyonda
+
+Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastgelelik/parametre/ölçüm girdisi yok) gerçek zincirden geçirildi. **NİTEL ZAFER: anormal dispersiyon kendiliğinden üredi** — işaret +, τ-yükselişi, yapı aynı (fazlar sent. 0.54/1.04/1.86/2.68 vs gerçek 0.26/0.73/1.38/1.86). Dispersiyon + sağkalım-nefesi = merdiven + örnekleme geometrisinin zorunlu sonucu, parametresiz gösterildi. **NİCEL: ±%30 dışında** (fazlar ~1.4-1.5× dik; R tayfı taşıyor). Şüpheliler: çözücü |F|=0.16'da takıldı; merdiven τ≤0.90 kesik; σ_η² 0.061 vs 0.023 (yakınsama artığı η'da). → 151b: derin merdiven (τ≤1.0) + 40-iterasyon gevşek çözücü, koşuda.
+
+**Kalem notu (R-teorisi):** en yalın aday R = −dlnρ/dA = 6.20/2π ≈ 0.99 sabit — ölçeği vuruyor (R~1 ✓), şekli değil (0.40→2.12); ilk bandın düşüklüğü taban-kenarı seyrelmesi adayı; hakem sentetik gaz.
