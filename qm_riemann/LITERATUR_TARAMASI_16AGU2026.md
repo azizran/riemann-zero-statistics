@@ -3094,3 +3094,12 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **YENİ SAYI: R'nin sıfır-geçişi τ₀ = 0.5153 ± 0.0008(ist) ± 0.002(sist)** — taban ve L'den bağımsız, **½ DEĞİL (~7σ)**; τ<0.52'de R ve φ NEGATİF. Yeni ince sabit — kimliği açık soru.
 - Yarış: iki 2-parametreli form eşdeğer hayatta: **(g) R = c(τ−τ₀)/τ²** (χ²/dof 0.33; bağımsız destek: fit-τ₀ ölçülen 0.5153'ü kuşatıyor; yorum: φ_Γ derinlikte doğrusal, eğrilik saf kinematik A⁻²) ve (c) doyum formu (0.34). Sabit/doğrusal/A²σ²/erfc/ρ-türevi hepsi elendi.
 - Yeni kayıtlar: yüksek-τ doygunluğu (n_eff %6) fiziksel mi tahminci mi; A4 kesimi S3'ü oturtuyor ama ρ profilini OTURTMUYOR. HÜKÜM: kapalı form AÇIK; en güçlü iz: φ_Γ ∝ (τ−0.5153) doğrusallığı.
+
+---
+
+## 30 Ağu gece — 153 (Opus tayfası): itmeli gaz — ÖNCÜL TERS ÇIKTI, kazanç kısmi, ×1.4 hâlâ açık
+
+- **Öncül ölçümle çürüdü:** sentetik gaz itmeden yoksun değil — kısa menzilde gerçeğin ~190 KATI KATI (P(s<0.3): 0.00013 vs gerçek 0.02420). Doğru yön itme eklemek değil YUMUŞATMAKMIŞ (İ1b, ε<0).
+- İ1b (gerçek P(s) kuyruğuna kalibre): faz 1.72→1.55; doz artınca 1.42-1.46'da DOYGUN — fazlalığın ~¼'ü kapanıyor, 1.00'e yol yok. J-kontrolü: kazanç varyans değil kısa-menzil YAPISI (152'nin titreşim-etkisiz bulgusu da doğrulandı). İ2 (Wigner-taban+boya) 1.36 ama kirli (sıra-bozulması yapay küçük aralıklar üretiyor).
+- Taban kontrolü 152'yi bit-bit üretti; kelepçe-bağlanan koşular fizik-hükümsüz işaretlendi (dürüstlük kayıtları tam).
+- **DURUM: sentetik faz ×1.4 açığı kesim/titreşim/kısa-menzil-yapı ÜÇÜYLE DE kapanmıyor** (en iyi ~1.42-1.45). 154 ile birleşik işaret: eksik malzeme birinci-mertebe çözümün ötesinde — gerçek sıfırların TAM doğrusal-olmayan öz-tutarlılığı (N(z)=n'nin tam çözümü vs lineerize Newton) / φ_Γ ∝ (τ−0.5153) doğrusallığının kaynağı. GELECEK DÖNEMİN ANA SORUSU.
