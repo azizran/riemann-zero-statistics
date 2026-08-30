@@ -35,6 +35,18 @@ SONUÇ-REF (151 ilk koşu) — NİTEL ZAFER, NİCEL EKSİK (dürüst):
   S3 kayıt ✓. HÜKÜM: taç sınav İLK DENEMEDE fenomeni üretti;
   kalibrasyon çözücü+kesme iyileştirmesi istiyor → 151b (daha çok
   iterasyon, τ≤1.0 merdiven) ile yeniden.
+
+SONUÇ (30 Ağustos, 151b koşusu) — NİCEL FARK GERÇEK:
+  Derin merdiven (15450 çizgi, τ≤1.0) + 40 iterasyon: bantlar 151'le
+  özdeş (±0.03; R_sent 1.58/2.70/3.00/3.00) — iki çözücü/kesmede
+  KARARLI ⇒ saf-merdiven gazı ζ gazından ~1.45× daha dispersif; fark
+  gerçek, artefakt değil. (maks|F|≈1.3 yalnız birkaç yapışkan noktada
+  salınım; kütle yakınsak — sonuçlar değişmedi.)
+  EKSİK MALZEME ADAYLARI: (a) gerçek S(t)'nin ERFC-yumuşak kesimi
+  (BK 5.24 — alet çantası E) vs sentetik keskin merdiven; (b) gerçek
+  gazın inkoherent payının sağkalım-korelasyonunu seyreltmesi
+  (R_sent×0.65 ≈ R_ger, kaba tutarlı). SIRADAKİ: erfc-kesimli sentetik
+  gaz → nicel kapanış denemesi.
 """
 
 import numpy as np
