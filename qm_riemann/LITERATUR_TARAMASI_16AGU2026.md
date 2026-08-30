@@ -3072,3 +3072,14 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **DÜZELTME (öncelik teslimi):** C(n)'de n* = γL/2π rezonansları **BLS'in manşetiymiş** (denk. 49-50; R₂ önceliği de BK'de). 140'ın çerçevesi güncellendi: **öngörü onların; ilk NİCEL, veri-doğrulamalı, L-izlemeli, kapalı-form-karşılaştırmalı ölçüm bizim** (BLS veriyle hiç karşılaştırmamış — yalnız ~40 nokta, nicel uyum ölçütü yok; "~12 asal" nitel ve kendi toplamına karşı).
 - Sağlamlaşan sınırlar: (a) koşullu/faz-çözünürlüklü R_nn — metinde kavram olarak dahi YOK (köşegen formül ilkece üretemez); (b) örnek-yolu özdeşliği YOK (ikinci momenti = denk. 44; ikinci moment sin(πτ)'nin İŞARETİNE KÖR — faz-çözünürlüklü savunmamızın belkemiği); (d) dispersiyon YOK (denk. 42'deki kompleks n_μ transfer değil — yanlış-akraba uyarısı); (e) −2 YOK (ama BLS'in iki ayrı negatifliğiyle karıştırılma riski — notta ayrım paragrafı şart). **BLS tam n=1'de en zayıf** (C(1) kendi toplam kuralını ihlal ediyor) — bond kanalı açık arazi.
 - Aletler: Σ²→C(n) köprüsü (K(τ)→gap dili çevirici), kesme reçetesi (denk. 29), n_c ≈ L·e^{2π} penceresi; unfolding konvansiyonu bizimkiyle AYNI (log(t/2π)). Kaynakta dizgi hatası bulundu: denk. (46) ↔ Tablo I üstel işareti.
+
+---
+
+## 30 Ağustos 2026 — 152 (Opus tayfası): erfc-gaz taraması — S3 defteri KAPANDI, faz KATI; eksik malzeme adayı: itme
+
+8 koşu (kontrol + 3 erfc + 2 titreşim + 2 türetilmiş; rapor: 152_erfc_gaz_taramasi_RAPOR.md).
+- **KAZANÇ: gerçek gazın etkin merdiven kesimi ÖLÇÜLDÜ** — erfc(τ_c=0.68, Δ=0.125): σ_η² = 0.0230 (gerçek 0.0227!), c₁ = −0.0092 (−0.0116) — S3 defteri bu kesimle kapanıyor. Gerçek S(t)'nin kuyruğu keskin değil, ~τ=0.68 merkezli erfc-yumuşak.
+- **H-B (bağımsız titreşim) ÖLÜ:** σ_j=0.10'da bile faz kıpırdamadı (%1) — seyreltme hipotezim (R×0.65) reddedildi.
+- **FAZ KATI:** anormal faz TÜM konfigürasyonlarda gerçeğin 1.3-1.45 katı (bant-başına %5'ten dar tekrarlanabilirlik); kesim şekli ve konum titreşimi fazı YÖNETMİYOR. S3 ile faz TERS yönde hareket ediyor → ortak sebepleri yok.
+- **Eksik malzeme adayı (tayfanın önerisi, mantıklı):** birinci-mertebe saf-merdiven gazında olmayan GUE SEVİYE İTMESİ — bağımsız titreşimle taklit edilemez oluşu tam bunu işaret ediyor. Sıradaki soru (gelecek kota dönemi): itme/yüksek-mertebe öz-tutarlılık eklenmiş gazda faz.
+- Tayfa ayrıca A2-konfigürasyonunun sahte-iyi skorunu yakaladı (payda patlaması; |Γ|>1.5 elemesi + bant-başına skor düzeltmesi).
