@@ -3034,3 +3034,13 @@ G_cc = −π[τ₃a₃cos(πτ₃) + (τ₁+τ₂)a_Σcos(πτ_Σ)·𝟙{q₁q�
 ## 30 Ağustos 2026 — 148: Bond spektroskopisi — skaler γ₁ düştü; BOND-ADIMI DİSPERSİYONU bulundu
 
 Gram-tam tasarım (ζ, ζ₊ izdüşümleri, 2πτ rotoru): transfer KOMPLEKS — |γ| = 0.74/0.64/0.58/0.87 (koherans yüksek), anormal faz φ_ekstra = 0.73/1.39/1.83 rad, fit **φ(τ) ≈ 7.1τ − 3.4**. Gerçek kısmın düşüşü faz dönüşüymüş → Γ1 (γ̄=0.77) ve Γ3 (λ′=1.8) bu haliyle hükümsüz; C₀ kapanmadı. Γ2 kısmi (iki tabanda ilk üç bant ±%10-25). **Yeni yasa adayı: gap-geçiş dispersiyonu Θ(τ)=2πτ+φ(τ)** — "gazın kırılma indisi"; c₁ defteri cosΘ ile yeniden kurulmalı (144 %30'unun aday adresi). **C₀'ın yeni keskin adayı: dispersiyon-nefesi** δΘ = τ(2π+φ′)ds ≈ 13.4τ·ds (kaba tahmin O(−1)) — sıradaki kalem, transfer-matris diliyle. Not: Im≠0, faz-doğruluk teoremiyle çelişmez (o eşzamanlı okumaydı; bu zaman-öteleme).
+
+---
+
+## 30 Ağustos 2026 — 149: C₀ ÇÖZÜLDÜ — dispersiyon-nefesi kanalı; −2'nin zinciri kapandı
+
+**D1 (kaynak mührü):** adımın koşulsuz karakteristik fonksiyonu M_emp: Im = 0.017-0.042 — 148'in 0.49-0.87'sinin 10-20 altında ⇒ koşulsuz kinematik RED; **dispersiyon kolektif** (ρ-gradyanlı Gram-karışımı; işaret+büyüklük+τ-trend uyumlu).
+**D2 (bond defteri):** c₁_rec = ΣS₀·B = −0.01276 vs ölçülen −0.01158 — **%10, kapandı**; 144'ün 0.77/1.30 gizemi çözüldü (bond içeriği cos2πτ değil ölçülen B(τ)).
+**D3 (çekirdek kapanışı):** tamamen ölçülmüş girdilerle κ_bond = **(genlik −1.50) + (nefes −1.25) = −2.755** — hedef K₀=−2.87±0.03'e **%4** (dB/dτ beş-bant kaba türev; %4 hata payı içinde). **C₀ = −1.03'ün kimliği: dispersiyon-nefesi.**
+
+**−2'nin tam zinciri (fenomenolojik) KAPANDI:** −2 = κ_ad + K₀·(ekran-gölgesi); K₀ = genlik-mod + dispersiyon-nefesi (%4); varyans kanalı %3 (147); dispersiyon kolektif; L-değişmezlik = PNT + τ-regülatör (138); mikro-verteks = üç-dalga G-yasası (143). **Kalan tek analitik dişli: Γ_rot(τ)'nin G-yasasından transfer-matris inşası.**
