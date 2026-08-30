@@ -3044,3 +3044,13 @@ Gram-tam tasarım (ζ, ζ₊ izdüşümleri, 2πτ rotoru): transfer KOMPLEKS �
 **D3 (çekirdek kapanışı):** tamamen ölçülmüş girdilerle κ_bond = **(genlik −1.50) + (nefes −1.25) = −2.755** — hedef K₀=−2.87±0.03'e **%4** (dB/dτ beş-bant kaba türev; %4 hata payı içinde). **C₀ = −1.03'ün kimliği: dispersiyon-nefesi.**
 
 **−2'nin tam zinciri (fenomenolojik) KAPANDI:** −2 = κ_ad + K₀·(ekran-gölgesi); K₀ = genlik-mod + dispersiyon-nefesi (%4); varyans kanalı %3 (147); dispersiyon kolektif; L-değişmezlik = PNT + τ-regülatör (138); mikro-verteks = üç-dalga G-yasası (143). **Kalan tek analitik dişli: Γ_rot(τ)'nin G-yasasından transfer-matris inşası.**
+
+---
+
+## 30 Ağustos 2026 — 150: Γ_rot inşa edildi — yerel sağkalım-ağırlık mekanizması (kalan dişli tek fonksiyona indi)
+
+**Kalem:** transfer-matrisin çizgi-karışım kanalı aritmetikçe ölü (asal çizginin alt çarpımsal komşusu yok; kule <1e-4; ikinci-mertebe ~1e-9) — 149-D1'in "Gram-karışımı" etiketi düzeltildi. Kalan mekanizma: **yerel sağkalım-ağırlık korelasyonu** — çizginin yerel gücü yerel adımla w = e^{−A·R·dsΔ} korelasyonlu ⇒ **Γ_rot = ⟨w·e^{−iA·dsΔ}⟩/⟨w⟩** (Gauss limitinde M(A)·e^{iA²RσΔ²}: genlik koşulsuz sönüm, faz R ile).
+
+**Sınav (150):** T1 ✓ |Γ|=|M_emp| ±%12 (bant-5 önyargılı, kayıt). T2 ✓ aşırı-belirleme: fazı eşleyen tek R, ampirik dağılımla Re'yi de vurdu (Δ ≤ 0.06; 4/5, biri sınırda). **T3: R(τ) tayfı = 0.40/1.07/1.85/2.12/(1.50) — O(1), derinlikle artan.**
+
+**Durum:** Γ'nin yapısı çözüldü; teorinin kalan tek serbest nesnesi kompleks transferden TEK REEL FONKSİYONA indi: R(τ) — soğurmanın yerel-adım tepki tayfı. Sonraki (son) kalem: R(τ)'yi soğurma/kolektif teoriden türetmek → o gün zincirde ölçümden alınan hiçbir şey kalmaz.
