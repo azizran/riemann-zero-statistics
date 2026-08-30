@@ -112,6 +112,16 @@ bu yüzden −2 yasasının iki parçası da her derinlikte aynı eğrilerdir,
 gizli bir telafi oyunu yoktur. *Sayı:* üç derinlikte eğriler ±%2-4
 çakışık; ölçü oranı 0.97-1.00 (138).
 
+**Nefesin son dişlisi.** Defterde açık kalan son sayının kimliğini
+arıyorduk; meğer gürültünün bir aralığı geçerken uğradığı fazın
+nefesiymiş — dalga denizi gerince, o faz da geriliyor. *Aslında:*
+çekirdek iki ölçülmüş kanalın toplamıdır: genlik-modülasyonu artı
+dispersiyon-nefesi; ve dispersiyonun kendisi tek çalgının değil
+orkestranın işidir — adım-dağılımının kendi çarpıklığı bu fazın onda
+birini bile veremez. Böylece −2'nin defterindeki her satır ya ölçüme
+ya asal sayı teoremine bağlandı. *Sayı:* bağ defteri %10, çekirdek
+(−1.50) + (−1.25) = −2.76 ≈ −2.87 (%4), kaynak ayrımı 10-20 kat (149).
+
 **Dört fener.** Limana dört fener diktik; artık hiçbir kayalık gizli
 değil. *Aslında:* veri-doğrulama kültürü dört kapıya oturdu — sayım
 sertifikası, düzlük segmentasyonu, sıçrama kapısı, kısa-çukur kapısı;
