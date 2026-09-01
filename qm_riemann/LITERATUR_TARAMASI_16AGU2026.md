@@ -3103,3 +3103,15 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - İ1b (gerçek P(s) kuyruğuna kalibre): faz 1.72→1.55; doz artınca 1.42-1.46'da DOYGUN — fazlalığın ~¼'ü kapanıyor, 1.00'e yol yok. J-kontrolü: kazanç varyans değil kısa-menzil YAPISI (152'nin titreşim-etkisiz bulgusu da doğrulandı). İ2 (Wigner-taban+boya) 1.36 ama kirli (sıra-bozulması yapay küçük aralıklar üretiyor).
 - Taban kontrolü 152'yi bit-bit üretti; kelepçe-bağlanan koşular fizik-hükümsüz işaretlendi (dürüstlük kayıtları tam).
 - **DURUM: sentetik faz ×1.4 açığı kesim/titreşim/kısa-menzil-yapı ÜÇÜYLE DE kapanmıyor** (en iyi ~1.42-1.45). 154 ile birleşik işaret: eksik malzeme birinci-mertebe çözümün ötesinde — gerçek sıfırların TAM doğrusal-olmayan öz-tutarlılığı (N(z)=n'nin tam çözümü vs lineerize Newton) / φ_Γ ∝ (τ−0.5153) doğrusallığının kaynağı. GELECEK DÖNEMİN ANA SORUSU.
+
+---
+
+## 1 Eylül 2026 — 155 (Opus tayfası): τ₀ kampanyası — H-L ve H-N ÖLDÜ; τ₀ "sabit" değil KORELASYON PROBU
+
+- Zincir denetimi: 154, 9e-16 ile yeniden üretildi. **Metodoloji düzeltmesi:** apsis, güç-ağırlıklı τ_eff olmalı (τ̄ değil) — 154'ün görünür L-eğilimi bu yüzden sahteymiş; τ_eff ile üç pencere 0.5127±0.0002.
+- **H-L (½+c/L) ÖLDÜ:** düşük-L penceresi (L=10.48) dahil Δ = +0.0001±0.0002 vs öngörü +0.0022 (8.6-10.6σ).
+- **H-N (Nyquist+moment) ÖLDÜ:** sentetik gazlar τ₀ = 0.4885-0.4891 (½'nin ALTINDA), gerçek 0.5091 (üstünde) — ters yaka; moment modelleri işaretten reddedildi (doz-doygun).
+- **POZİTİF BULGU:** τ₀, momentin değil KISA-MENZİL ÇİFT YAPISININ fonksiyonu — eşleşmiş-moment kontrollü çift (N5 korelasyonlu vs J14 yapısız): 11σ ayrık. Merdiven: katı-örgü 0.489 → yumuşatılmış 0.494 → GUE-tabanlı 0.4994 (yolun %52'si) → gerçek 0.5091. **τ₀ = kısa-menzil korelasyon derinliğinin (GUE'luğun) probu.**
+- **YENİ baskın sistematik (yalnız gerçekte):** τ₀ = 0.519 − 0.19·σ_η² (üç pencerede eğim %3, kesişim ±0.0005) — regresyon tabanıyla kayıyor; sahte-regresör kontrolü temiz (kayma serbestlikten değil, gerçek çizgi gücünün çıkarılmasından). Sentetiklerde eğim 10-30× küçük.
+- **HÜKÜM:** "τ₀ = 0.5153 ≠ ½ (7σ)" konvansiyona bağlıymış → iki okuma AÇIK: (R1) τ₀ ∈ [0.4995, 0.5125] aralık; (R2) yanlılık-düzeltmeli τ₀ ≈ 0.519 (154'ün (g)-fiti 0.5187 ile 0.5σ!). Çifte-kapı gözlemi (Nyquist=RS=½) bağlam olarak ayakta: bütün değerler ½ civarında; ½'den sapma korelasyon yapısını ölçüyor.
+- Kayıt: φ hafif eğrilikli (b≈−6.5, üç pencere tutarlı); derin negatif dalda ilkel nesne φ (R doyuyor); Poisson gazı tahminci sınırı dışında.
