@@ -3184,3 +3184,14 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **b:** %56.6 → %85.7 → **%99.9** (K1+K2). **A4 karşı-örneği ÇÖZÜLDÜ:** dışbükeyliği tek başına kuadratür üretiyor (+7.37 katkı); 5/5 işaret doğru. İşareti taşıyan nesne: **⟨σX̃²⟩**.
 - Denetim: 115 bantta 159 ile 0.000e+00; sentetik kontrol 2.7e-13.
 - **KALAN DERİN KATMAN:** ρ ve σ istatistiklerinin (C_n'in) merdivenden ilk-ilke türetimi — ×1.4/rejim sorusuyla aynı oda; anatomi düzeyi KAPALI.
+
+---
+
+## 1-2 Eylül 2026 — 162 (Opus tayfası): GAZIN BELLEĞİ — TAYFTA DEĞİL, FAZLARDA (T2 reddi = keşif)
+
+- **T1 ✓ Kimlik:** C_n = −S(z_n) doğrudan doğrulandı (r=0.973/0.976, eğim 0.996; artık = kesik merdiven üst ucu). Temiz ayrışım: yoğunluk-sürüklenmesi ↔ aritmetik bellek Ĉ (Var 0.0726); corr(Ĉ,dsΔ) = −0.434, kalemin −½√(σΔ²/VarĈ) öngörüsüyle beş basamak; Ĉ ⊥ η.
+- **T2 REDDEDİLDİ — VE BU KEŞİF:** aynı çizgi güçleri/çapraz-tayf/süreklilik, yalnız fazlar rastgele → δ vekilde ~6.4× küçük; ±%15'te 0/17 bant; **δ'nın yalnız %16'sı ikinci momentlerden — Gauss-ötesi pay %536.** Taşıyıcı cerrahi yalıtıldı: süreklilik karıştır → δ değişmez (0.82-1.63); **çizgi fazlarını karıştır → çöker (7.27). δ'yı asalların birbirine kilitli fazları taşıyor.**
+- **T3: ×1.4 tayf farkı DEĞİL** — üç gazın vekilleri aynı kinematik noktaya yakınsıyor (a→4π, b→0, τ₀→½). **b'nin işareti tamamen Gauss-ötesi:** A4'ün pozitif ⟨σX̃²⟩'si vekilde işaret değiştiriyor; b, aritmetik belleğin saf imzası — "(−,−,−) yalnız gerçeğin" bulgusunun derin sebebi.
+- **Yan bulgu (yeni faz-kilidi ölçüsü, φ'den bağımsız):** η, çizgilerinin uyumsuz toplamından **%29 daha sessiz** (Σ|c|²/2 / Var(η) = 1.288; kontrol yansız 1.0045) — yıkıcı girişim = faz kilidi.
+- Denetim: 160 zinciri 63 bantta 0.000e+00; V0 kontrol 1.00000; üç vekil reçetesi denendi, ikisi ölçülüp elendi; kısıtlar kayıtlı.
+- **BÜYÜK SENTEZ:** a, b, τ₀, parmak-izi üçlüsü — hepsi asal fazlarının kilidinde yaşıyor; ikinci-moment dünyası (literatürün tamamı — Berry88/BLS köşegen katmanı) bu bilginin %16'sını görebiliyor. "İkinci moment sin işaretine kör" savunması artık ölçülü bir oran: %84 fazlarda. ARK KAPANIŞI: "gaz kendi aritmetiğini tanır" → "gazın belleği, asalların kilitli fazlarıdır."

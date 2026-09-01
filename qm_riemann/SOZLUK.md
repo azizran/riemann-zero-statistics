@@ -137,6 +137,17 @@ kinematikmiş (zincirdeki bir rotor hatası fazı ikiye katlıyormuş, 159
 yakaladı); parmak izi asıl δ-payında yaşıyor (gerçek −1.85, gazlar
 farklı) ve eğriliğin işaret mührü fizik olarak ayakta (159).
 
+**Bellek tayfta değil, fazlarda.** Gazın belleğini kopyalamayı
+denedik: bütün seslerin şiddetini aynen verdik, yalnız fazlarını
+karıştırdık — bellek buhar oldu. *Aslında:* denizin kırılma indisi de,
+parmak-izi üçlüsü de ancak altıda-biriyle tayftan gelir; gerisi
+asalların birbirine kilitli fazlarında yaşar. Sürekliliği karıştır,
+hiçbir şey olmaz; çizgi fazlarını karıştır, gaz kimliğini kaybeder —
+saf kinematiğe (4π'ye, sıfıra, yarıma) çöker. Eğriliğin işareti bile
+fazların malıdır. Ve gürültü dediğimiz artık bile korosundan yıkıcı
+girişimle %29 sessizdir — kilit her yerdedir. *Sayı:* Gauss-ötesi pay
+%536; taşıyıcı yalıtımı 0.8-1.6'ya karşı 7.3; b vekilde ölür (162).
+
 **Dört fener.** Limana dört fener diktik; artık hiçbir kayalık gizli
 değil. *Aslında:* veri-doğrulama kültürü dört kapıya oturdu — sayım
 sertifikası, düzlük segmentasyonu, sıçrama kapısı, kısa-çukur kapısı;
