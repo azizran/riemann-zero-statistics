@@ -3115,3 +3115,13 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **YENİ baskın sistematik (yalnız gerçekte):** τ₀ = 0.519 − 0.19·σ_η² (üç pencerede eğim %3, kesişim ±0.0005) — regresyon tabanıyla kayıyor; sahte-regresör kontrolü temiz (kayma serbestlikten değil, gerçek çizgi gücünün çıkarılmasından). Sentetiklerde eğim 10-30× küçük.
 - **HÜKÜM:** "τ₀ = 0.5153 ≠ ½ (7σ)" konvansiyona bağlıymış → iki okuma AÇIK: (R1) τ₀ ∈ [0.4995, 0.5125] aralık; (R2) yanlılık-düzeltmeli τ₀ ≈ 0.519 (154'ün (g)-fiti 0.5187 ile 0.5σ!). Çifte-kapı gözlemi (Nyquist=RS=½) bağlam olarak ayakta: bütün değerler ½ civarında; ½'den sapma korelasyon yapısını ölçüyor.
 - Kayıt: φ hafif eğrilikli (b≈−6.5, üç pencere tutarlı); derin negatif dalda ilkel nesne φ (R doyuyor); Poisson gazı tahminci sınırı dışında.
+
+---
+
+## 1 Eylül 2026 — 156 (Opus tayfası): bağlaşımın kaynağı — MERDİVEN kanalında; ×1.4 pay-yapısı değil BAĞLAŞIM GÜCÜ
+
+- Pay yapısı ölçüldü: bond adımı gerçekte %95.3 merdiven / %4.7 η (A4: 85/15; keskin: 45/55).
+- **HÜKÜM (i): sağkalım-bağlaşımı MERDİVENDE yaşıyor; η ELENDİ** — η-ağırlığı ölçülen fazın ancak %8-15'ine erişebiliyor (hiçbir R kökü yok). İki-kanallı en iyi çift (R_l,R_e) ≈ (1.05, −0.6): η katkısı sıfırla uyumlu. **R_lad taban-DAYANIKLI (±%3; R_tam %6-10 kayıyor) — aranan konvansiyonsuz nesne adayı.**
+- **HÜKÜM (ii): ×1.4 pay-yapısı DEĞİL** — nakil sınavı: pay farkları sentetik fazı DÜŞÜRMELİYDİ (0.64-0.92×), ölçülen 1.3-2.3×. Açık, bağlaşımın kendisinde: R_lad(sent)/R_lad(gerçek) = 1.9-3.3; sıralama keskin > A4 > gerçek (yüksek-τ çizgi gücü söndükçe R gerçeğe iniyor).
+- **Yeni olgu:** sentetiğin istediği bağlaşım mekanizmayı kırıyor — n_eff 28564 (gerçek) → 309 (A4) → 109 (keskin): gerçek gaz fazını YUMUŞAK rejimde üretiyor, sentetik uç-değer rejiminde. ×1.4 sorusu artık "bağlaşım rejimi" sorusu.
+- Kayıtlı sınırlar: 0.70-0.78 bandında sentetik kıyas yapılamadı; lad-vs-tam ayrımı gerçekte zayıf (%95 aynı değişken) — kesin olan η'nın elenmesi. **İşaret edilen sıradaki adım: 154'ün kapalı-form yarışını taban-bağımsız R_lad(τ) üstünde tekrarlamak (→157).**
