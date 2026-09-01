@@ -3173,3 +3173,14 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **Gerçek parmak izi (64 fit):** δ(½) = −0.0692±0.0508; dδ/dτ|½ = −1.796±0.056; b = −6.02±1.23. Merdiven δ(½)'de duruyor; dδ/dτ = a'nın kendisi, δ(½) ≈ τ₀'ın a-ölçekli hali (korel −0.997) — eksenler yeniden-adlandırma, yeni bilgi yok.
 - **N5z ayrışıyor:** δ(½)'de 2.7σ, tek-tek fitlerde ÖRTÜŞME YOK (a'da vardı); 2B/3B 2.9σ. **ÜÇLÜ (δ(½), dδ/dτ, b) gerçeği YEDİ sentetiğin hepsinden ayırıyor** (2.9–11.1σ); hiçbir tek eksen/ikili yapamıyor — güç ortogonal başarısızlıklardan (dδ/dτ beşini, δ(½) N5z'yi, b P1'i yakalıyor); b-işareti dört sınıf; **(−,−,−) yalnız gerçek.**
 - **Nitelendirme (mühürsüz):** δ(½) en kırılgan ayak — konvansiyon bütçesinin %83'ü taban ekseni; ayrım 155'in taban sorununa asılı. Yan kazançlar: δ, φ'den 2.6-5× hassas; L-değişmezlik ≤0.08σ. **Yeni sınanmamış eksen adayı: δ(½)'nin taban-DUYARLILIĞININ kendisi** (gerçek 0.134 vs sentetikler 0.006-0.065 — gerçeğe özgü kayma bir ayırıcı olabilir; 155 bulgusuyla tutarlı).
+
+---
+
+## 1 Eylül 2026 — 160 (Opus tayfası): KUADRATÜR KALEMİ — δ'nın muhasebesi KAPANDI; a 0.6σ'ya, b %99.9'a; A4 çözüldü
+
+- **δ = K1 + K2, K3 ≡ 0 (özdeş):** 5 gazın 35 sağlıklı bandının 35'i ±%10 içinde (en kötü %0.068!); çizgi düzeyi 2.1e-13. Üçüncü kanal yok. İki çarpan ölçüldü: kesme 1.524 × kuadratür 1.299 = 1.940 (159'un tahmini doğrulandı); kuadratür çarpanı toplam açıktan DAHA taban-dayanıklı — artefakt değil.
+- **σ'NIN KİMLİĞİ:** (ρ+iσ)e^{iA(n+1)} = η_{n+1}·e^{−iA·C_n}·K, C_n = birikmiş adım sapması (1.2e-8) — **σ = çizginin biriktirdiği fazın kuadratür izi (yerel frekans kayması)**; komşu-kaçağı öldü; σ, A'da İKİNCİ mertebe girer (K2'yi ⟨σX̃²⟩ taşır — reel-ağırlık ansatzının onu görememe sebebi). İki kapalı-form adayı dürüstçe öldü (kümülant serisi aşırı-düzeltiyor; tan(A/2) ansatzı R²≤0.24).
+- **a merdiveni:** çıplak 4π +31.4σ → A·S +13.0σ → K1 +6.2σ → **K1+K2 −0.61σ (ağırlık-eşleşmiş +0.04σ)** — hedef tuttu. Dürüstlük: tam-muhasebe düzeyinde bu bir ÖZDEŞLİK; öngörü içeriği ara satırlarda (σ kanalı 6.2σ→0.6σ'yı yapıyor).
+- **b:** %56.6 → %85.7 → **%99.9** (K1+K2). **A4 karşı-örneği ÇÖZÜLDÜ:** dışbükeyliği tek başına kuadratür üretiyor (+7.37 katkı); 5/5 işaret doğru. İşareti taşıyan nesne: **⟨σX̃²⟩**.
+- Denetim: 115 bantta 159 ile 0.000e+00; sentetik kontrol 2.7e-13.
+- **KALAN DERİN KATMAN:** ρ ve σ istatistiklerinin (C_n'in) merdivenden ilk-ilke türetimi — ×1.4/rejim sorusuyla aynı oda; anatomi düzeyi KAPALI.
