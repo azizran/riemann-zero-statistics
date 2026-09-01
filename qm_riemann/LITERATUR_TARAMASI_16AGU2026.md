@@ -3125,3 +3125,13 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **HÜKÜM (ii): ×1.4 pay-yapısı DEĞİL** — nakil sınavı: pay farkları sentetik fazı DÜŞÜRMELİYDİ (0.64-0.92×), ölçülen 1.3-2.3×. Açık, bağlaşımın kendisinde: R_lad(sent)/R_lad(gerçek) = 1.9-3.3; sıralama keskin > A4 > gerçek (yüksek-τ çizgi gücü söndükçe R gerçeğe iniyor).
 - **Yeni olgu:** sentetiğin istediği bağlaşım mekanizmayı kırıyor — n_eff 28564 (gerçek) → 309 (A4) → 109 (keskin): gerçek gaz fazını YUMUŞAK rejimde üretiyor, sentetik uç-değer rejiminde. ×1.4 sorusu artık "bağlaşım rejimi" sorusu.
 - Kayıtlı sınırlar: 0.70-0.78 bandında sentetik kıyas yapılamadı; lad-vs-tam ayrımı gerçekte zayıf (%95 aynı değişken) — kesin olan η'nın elenmesi. **İşaret edilen sıradaki adım: 154'ün kapalı-form yarışını taban-bağımsız R_lad(τ) üstünde tekrarlamak (→157).**
+
+---
+
+## 1 Eylül 2026 — 157 (Opus tayfası): R_lad yarışı — iki yanılsama söküldü; İLKEL NESNE φ_Γ ve İLK KONVANSİYONSUZ SAYI: a = 10.759
+
+- **156'nın "R_lad taban-dayanıklı" bulgusu durağan-nokta yanılsamasıymış:** {0.46-0.58} penceresi R_lad(taban) eğrisinin tam minimumu; eksen açılınca (6 taban, 0.28-0.58) R_lad yayılımı %99, R_tam %17. Konvansiyonsuz τ₀ TANIMLANAMADI — τ₀_lad ≡ τ₀_φ kimliği bit düzeyinde gösterildi (R_k=0 ⇔ arg M_emp = 0, kanal-bağımsız); 155'in 0.19σ_η² kayması kalıyor.
+- **Kapalı form MÜHÜRLENMEDİ:** istatistik hassasiyette hiçbir ≤2-parametreli form ayakta değil; konvansiyon bütçesiyle hepsi uyuyor. (c)↔(g) ayrımı kanala bağlı (nitelendirmeli). φ-DOĞRUSALLIĞI ÖLDÜ; **φ eğriliği MÜHÜRLENDİ: b = −7.12 ± 0.78** (9/10 koşu).
+- **TEK GERÇEK KAZANIM:** taban konvansiyonu ilkel φ_Γ'yı %7 içinde salt ÖTELİYOR — şekline dokunmuyor. Dolayısıyla **a = dφ_Γ/dτ|_{τ₀} = 10.759 ± 0.114** (10 koşu, yayılım %3.7, L-değişmez) **tabandan bağımsız — programın ilk konvansiyonsuz ince sayısı.** τ₀'ın YERİ konvansiyona asılı; φ'nin ŞEKLİ değil.
+- Denetimler: 155/156 zincirleri 1e-15 düzeyinde yeniden üretildi; η özdeşliği 3.3e-16.
+- **SIRADAKİ:** hedef nesne artık R değil **a** — (i) sentetik gazların a'sı (155'in kayıtlı φ tablolarından, ucuz) → makine-evrenseli mi korelasyon-duyarlı mı; (ii) a ≈ 10.76 ve b ≈ −7.1'in türetimi (Γ-tahmincisinin yapısından). Siren protokolü yürürlükte: a için kapalı-form tahmini ancak türetme yoluyla.
