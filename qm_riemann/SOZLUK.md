@@ -122,6 +122,17 @@ birini bile veremez. Böylece −2'nin defterindeki her satır ya ölçüme
 ya asal sayı teoremine bağlandı. *Sayı:* bağ defteri %10, çekirdek
 (−1.50) + (−1.25) = −2.76 ≈ −2.87 (%4), kaynak ayrımı 10-20 kat (149).
 
+**Kırılma indisinin parmak izi.** Gazın kırılma indisini hangi
+cetvelle ölçersek ölçelim, eğrinin *eğimi* hep aynı çıktı — ve o eğimi
+sentetik denizlerin neredeyse hiçbiri tutturamıyor. *Aslında:* ilkel
+nesne, gürültünün aralık-geçiş fazı φ'dir; ölçüm konvansiyonu bu
+eğriyi yalnız öteler, şeklini değiştiremez. Sıfır-geçişindeki eğim
+gazın konvansiyonsuz yeni sayısıdır ve makineden değil, denizin kendi
+korelasyon dokusundan gelir; eğriliğin işareti bile taraf tutar —
+gerçek denizde hep aşağı, GUE-boyalı denizde hep yukarı. *Sayı:*
+a = 10.713 ± 0.059 (L-değişmez, taban-bağımsız); b = −7.2 ± 0.8,
+işaret 16/16; sentetiklerin 6/7'si 2.3-10.8σ ayrık (155-158).
+
 **Dört fener.** Limana dört fener diktik; artık hiçbir kayalık gizli
 değil. *Aslında:* veri-doğrulama kültürü dört kapıya oturdu — sayım
 sertifikası, düzlük segmentasyonu, sıçrama kapısı, kısa-çukur kapısı;

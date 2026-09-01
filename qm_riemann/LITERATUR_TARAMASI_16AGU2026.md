@@ -3135,3 +3135,15 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **TEK GERÇEK KAZANIM:** taban konvansiyonu ilkel φ_Γ'yı %7 içinde salt ÖTELİYOR — şekline dokunmuyor. Dolayısıyla **a = dφ_Γ/dτ|_{τ₀} = 10.759 ± 0.114** (10 koşu, yayılım %3.7, L-değişmez) **tabandan bağımsız — programın ilk konvansiyonsuz ince sayısı.** τ₀'ın YERİ konvansiyona asılı; φ'nin ŞEKLİ değil.
 - Denetimler: 155/156 zincirleri 1e-15 düzeyinde yeniden üretildi; η özdeşliği 3.3e-16.
 - **SIRADAKİ:** hedef nesne artık R değil **a** — (i) sentetik gazların a'sı (155'in kayıtlı φ tablolarından, ucuz) → makine-evrenseli mi korelasyon-duyarlı mı; (ii) a ≈ 10.76 ve b ≈ −7.1'in türetimi (Γ-tahmincisinin yapısından). Siren protokolü yürürlükte: a için kapalı-form tahmini ancak türetme yoluyla.
+
+---
+
+## 1 Eylül 2026 — 158 (Opus tayfası): a'nın kimliği — MAKİNE DEĞİL, YENİ FİZİK (ikinci yapı probu)
+
+- 46 yeni koşu; 155/157 zincirleri bit düzeyinde yeniden üretildi (0.0e+00 / ≤2.2e-16).
+- **(H-M) MAKİNE-EVRENSELLİĞİ ÖLDÜ:** aynı makine/L/konvansiyonda a = 10.71…13.07; yedi sentetiğin altısı gerçekten 2.3-10.8σ ayrık.
+- **(H-K) kısmen doğru + (H-?):** a korelasyon merdivenini τ₀ ile aynı yönde izliyor (eşleşmiş-moment çifti 3.7σ; merdiven kesirleri aynı şekil; korel(a,τ₀)=−0.76) AMA özdeş değil: titreşim dozu a'yı gerçeğe iterken τ₀'ı ters yöne itiyor; a doymuyor, τ₀ doyuyor. **a, τ₀'la örtüşen ama bağımsız bilgi taşıyan İKİNCİ YAPI PROBU.**
+- Dürüst karşı-örnek: N5z gerçekten ayırt edilemiyor (1.1σ) — tek başına a her sentetiği elemez; (a, τ₀, b-işareti) ÜÇLÜSÜ birlikte parmak izi.
+- **Rafine değerler:** a = 10.713 ± 0.059 (32 fit; 157'nin 10.759±0.114'ünü iyileştirir — pencere-dışı taban satırları ayıklandı). a'nın ayırıcılığı konvansiyon-bağımsız (Δa %6.4 oynarken Δτ₀ %84).
+- **b işaret-mührü:** gerçek 16/16 NEGATİF (b = −7.22±0.79); GUE-tabanlı boyalı gaz 16/16 POZİTİF — dispersiyonun eğrilik yönü, gerçek denizi GUE-boyalıdan niteliksel ayırıyor. Boyutsuz oranlar sabitleşmiyor (kapalı-form iddiası yok — siren protokolü).
+- SIRADAKİ: a ve b-işaretinin TÜRETİMİ artık fizik hedefi (gerçek gazın dispersiyon-eğimi teorisi; ×1.4/rejim sorusuyla aynı oda).
