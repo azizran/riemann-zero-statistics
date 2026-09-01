@@ -3164,3 +3164,12 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - T3: düzeltilmiş öngörücü **4π + dM1/dτ: hata %0.7-3.6, korel 0.975, beş gazın SIRALAMASI birebir**; gerçekte 10.956 vs 10.713±0.059 (3.2σ — mertebe+sıra tamam, hassasiyet değil).
 - **H-b GEÇTİ (işaret):** b öngörüsü gerçek −, GUE-boyalı + (ölçülenle aynı); büyüklük %50-80 eksik; A4 karşı-örneği kayıtlı.
 - Bağlaşım BOND ölçeğinde (32-128 bond pencerelemesi S'yi öldürüyor); P_loc tanım dersleri kayıtlı.
+
+---
+
+## 1 Eylül 2026 — 161 (Opus tayfası): δ-probunun yeni-kimlik haritası — ÜÇLÜ, GERÇEĞİ YEDİ SENTETİĞİN HEPSİNDEN AYIRIYOR
+
+- Tümü 158'in 45 kayıtlı koşusundan yeniden türetildi (yeni ölçüm yok). **Rotor düzeltmesi saf koordinat değişimi çıktı:** c_φ = c_δ + (0, 4π, −2π) (1.6e-10); a ve b her iki çerçevede ÖZDEŞ (159'un gördüğü b-farkı kendi ağırlık konvansiyonuymuş). Tutarlılık: τ₀* = ½ − δ(½)/a, 40 satırda maks 0.00015.
+- **Gerçek parmak izi (64 fit):** δ(½) = −0.0692±0.0508; dδ/dτ|½ = −1.796±0.056; b = −6.02±1.23. Merdiven δ(½)'de duruyor; dδ/dτ = a'nın kendisi, δ(½) ≈ τ₀'ın a-ölçekli hali (korel −0.997) — eksenler yeniden-adlandırma, yeni bilgi yok.
+- **N5z ayrışıyor:** δ(½)'de 2.7σ, tek-tek fitlerde ÖRTÜŞME YOK (a'da vardı); 2B/3B 2.9σ. **ÜÇLÜ (δ(½), dδ/dτ, b) gerçeği YEDİ sentetiğin hepsinden ayırıyor** (2.9–11.1σ); hiçbir tek eksen/ikili yapamıyor — güç ortogonal başarısızlıklardan (dδ/dτ beşini, δ(½) N5z'yi, b P1'i yakalıyor); b-işareti dört sınıf; **(−,−,−) yalnız gerçek.**
+- **Nitelendirme (mühürsüz):** δ(½) en kırılgan ayak — konvansiyon bütçesinin %83'ü taban ekseni; ayrım 155'in taban sorununa asılı. Yan kazançlar: δ, φ'den 2.6-5× hassas; L-değişmezlik ≤0.08σ. **Yeni sınanmamış eksen adayı: δ(½)'nin taban-DUYARLILIĞININ kendisi** (gerçek 0.134 vs sentetikler 0.006-0.065 — gerçeğe özgü kayma bir ayırıcı olabilir; 155 bulgusuyla tutarlı).
