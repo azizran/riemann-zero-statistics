@@ -132,6 +132,10 @@ korelasyon dokusundan gelir; eğriliğin işareti bile taraf tutar —
 gerçek denizde hep aşağı, GUE-boyalı denizde hep yukarı. *Sayı:*
 a = 10.713 ± 0.059 (L-değişmez, taban-bağımsız); b = −7.2 ± 0.8,
 işaret 16/16; sentetiklerin 6/7'si 2.3-10.8σ ayrık (155-158).
+Dürüstlük mührü: sonra a'nın anatomisi çözüldü — 12.566'sı (4π) saf
+kinematikmiş (zincirdeki bir rotor hatası fazı ikiye katlıyormuş, 159
+yakaladı); parmak izi asıl δ-payında yaşıyor (gerçek −1.85, gazlar
+farklı) ve eğriliğin işaret mührü fizik olarak ayakta (159).
 
 **Dört fener.** Limana dört fener diktik; artık hiçbir kayalık gizli
 değil. *Aslında:* veri-doğrulama kültürü dört kapıya oturdu — sayım

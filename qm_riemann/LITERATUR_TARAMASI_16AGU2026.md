@@ -3147,3 +3147,20 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **Rafine değerler:** a = 10.713 ± 0.059 (32 fit; 157'nin 10.759±0.114'ünü iyileştirir — pencere-dışı taban satırları ayıklandı). a'nın ayırıcılığı konvansiyon-bağımsız (Δa %6.4 oynarken Δτ₀ %84).
 - **b işaret-mührü:** gerçek 16/16 NEGATİF (b = −7.22±0.79); GUE-tabanlı boyalı gaz 16/16 POZİTİF — dispersiyonun eğrilik yönü, gerçek denizi GUE-boyalıdan niteliksel ayırıyor. Boyutsuz oranlar sabitleşmiyor (kapalı-form iddiası yok — siren protokolü).
 - SIRADAKİ: a ve b-işaretinin TÜRETİMİ artık fizik hedefi (gerçek gazın dispersiyon-eğimi teorisi; ×1.4/rejim sorusuyla aynı oda).
+
+---
+
+## 1 Eylül 2026 — 159 (Opus tayfası): ROTOR HATASI YAKALANDI — a'nın anatomisi çözüldü: a = 4π + dδ/dτ
+
+**HATA (148'den beri, 11 dosyada):** Γ rotoru e^{+iA} yazılmış (niyet e^{−iA}) → faz ilerlemesi çıkarılacağına İKİYE KATLANMIŞ. Cebirsel özdeşlik 7.8e-9 + sentetik kontrolle kanıtlandı. **Sonuçların yeniden-kimliği (ölçülü, kesin):**
+- **a = 4π + dδ/dτ** (5 gazda hata ≤0.10, korel 0.9999): 10.713'ün 12.566'sı KİNEMATİK; fizik payı dδ/dτ(gerçek) ≈ −1.85, gazlar arası değişken → **korelasyon-probu içeriği δ'da yaşıyor, ayakta.** τ₀ merdiveni = ½ + δ(½)/a.
+- **b SAF MEKANİZMA** (omurga doğrusal) — 158'in işaret mührü fizik olarak geçerli.
+- **148'in "dispersiyon yasası" (φ≈7.1τ−3.4) omurgası kinematikmiş**; gerçek anomali δ mütevazı. 150'nin R(τ) değerleri katlanmış faza fitmiş (ölçek artefaktlı).
+- **149'un C₀ kapanışı HAYATTA:** B = Re[e^{−iA}·Γ_rot]'ta rotor iptal oluyor (B = Re[ham transfer]) — c₁ %10 ve çekirdek %4 kapanışları rotordan bağımsız. 148-öncesi tüm fizik (çukurlar, çekirdek, G-yasası...) zaten dokunulmamış.
+
+**159'un yapıcı sonuçları:**
+- T1 (birebir) düştü; kinematik-arındırılmış hali: δ/(A·S) = 1.82-2.47 — açık iki ÖLÇÜLMÜŞ çarpana ayrıldı: sonlu-kesme ×1.32-1.80 + **KUADRATÜR (σ) KANALI ×1.27-1.38 — reel-ağırlık ansatzında olmayan yeni nesne (sıradaki kalem hedefi).**
+- T2 ✓ 156 doğrulandı (kovaryans ayrışımıyla, R-fitsiz: merdiven %97-106). **YENİ:** gerçekte S'nin işaret dönüşünü MERDİVEN kanalı yapıyor, sentetiklerde η — gerçek↔sentetik farkının ilk mekanizma-düzeyi ölçümü.
+- T3: düzeltilmiş öngörücü **4π + dM1/dτ: hata %0.7-3.6, korel 0.975, beş gazın SIRALAMASI birebir**; gerçekte 10.956 vs 10.713±0.059 (3.2σ — mertebe+sıra tamam, hassasiyet değil).
+- **H-b GEÇTİ (işaret):** b öngörüsü gerçek −, GUE-boyalı + (ölçülenle aynı); büyüklük %50-80 eksik; A4 karşı-örneği kayıtlı.
+- Bağlaşım BOND ölçeğinde (32-128 bond pencerelemesi S'yi öldürüyor); P_loc tanım dersleri kayıtlı.
