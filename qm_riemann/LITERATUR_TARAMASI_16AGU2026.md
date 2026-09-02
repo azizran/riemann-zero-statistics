@@ -3228,3 +3228,14 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **T4 — MANŞET:** gerçek gaz iki saf-merdiven gazının ARASINDA (6/6 bant) ⇒ **Hardy–Littlewood payının üst sınırı ⟨σX̃²⟩'nin %1.4'ü. Gaz, bu nesnede HL'yi DUYMUYOR** — üçüncü-moment katmanı için saf merdiven + tarak geometrisi yetiyor.
 - Denetimler: 160'a 0.0e+00; 163 çıplak-formuna 4.8e-6; V1-V7 tam.
 - SENTEZ: faz-kilidi katmanının ilk-ilke modeli ayakta: üçüncü moment = G-verteksi tarak-rezonansı (%66-78) + çift-iptal koherent (%21-41) + HL (≤%1.4). 143'ün yasası programın her katının verteksi çıktı.
+
+---
+
+## 2 Eylül 2026 — 166 (Opus tayfası): kalibrasyonun türetimi — BANT ŞEKLİ ÇÖZÜLDÜ; teori TEK SAYIYA kilitlendi
+
+- T1: 165'e karşı 27 bant × 13 büyüklükte 0.0e+00; ρ üç gazda ölçüldü (144 doğrulandı: 0.3806/0.2664/0.1589/0.0796).
+- **H-K2 (kalib=ρ) DÜŞTÜ** — katil kanıt HA4: erfc penceresi merdiveni τ>0.68'de sıfırlarken (ρ→0) kalibrasyon 0.15-0.19'da duruyor; bant-şekli artığı %44-73.
+- **H-K1 (bacak-sönümü) KAZANDI ve TÜRETİLDİ:** E-bacağı A=πτ ile W_amp=⟨cos(πτ·ds)⟩, X-bacağı ayrıca A=2πτ ile W_X taşır (taşıyıcı aynı sitede — çarpansız). Kalem formu çıplak limitte 165 §2a'yı veriyor; h′/b = W_amp gerçekte τ∈0.42-0.60'ta ±%2.5. **Galip yasa: kalib(τ) = c·W_amp·W_X** — 20 bantta log-artık rms %11.4; kardeş üyeler (%9.8-10.8) ayırt edilemiyor (dürüstçe kayıtlı).
+- **T3: 12/20 → 13/20** (sağlıklı pencerede 13/15): 165'in yirmi ayrı normalizasyonu TEK SAYIYA indi: **c = 0.5647** (üç gazda −%12…+%8; W_X üyesinde gerçek↔sadakatli-keskin %0.06 içinde AYNI — serbest parametresiz taşınıyor; HA4 −%17.5). DÜRÜST ÇERÇEVE: "tek evrensel ölçek + parametresiz bant şekli" — henüz tam parametresiz DEĞİL.
+- **T4 ÇÖZÜLDÜ ve 1/ρ DEĞİL:** şişmenin kimliği = **Gram sızıntısı × Gram atfetmesi** — özdeşlik Var(X_mod)/Var(X̃) = Λ_X·Γ_X üç gazda üç hanede tam (1.585/1.562/1.520).
+- **KALAN BORÇ TEK SAYI:** c ≈ 0.565'in (Ç4 ortak-kazanç) kapalı formu. Kayıt (siren protokolü — mühür DEĞİL): 1/√π = 0.5642 Gauss-integral kökenli doğal aday; ama mevcut hassasiyet (çapraz-gaz ±%10-17) herhangi bir eşleşmeyi mühürlemeye YETERSİZ — ancak türetim yoluyla sınanır.
