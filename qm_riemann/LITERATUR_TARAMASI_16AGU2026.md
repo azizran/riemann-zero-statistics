@@ -3195,3 +3195,13 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **Yan bulgu (yeni faz-kilidi ölçüsü, φ'den bağımsız):** η, çizgilerinin uyumsuz toplamından **%29 daha sessiz** (Σ|c|²/2 / Var(η) = 1.288; kontrol yansız 1.0045) — yıkıcı girişim = faz kilidi.
 - Denetim: 160 zinciri 63 bantta 0.000e+00; V0 kontrol 1.00000; üç vekil reçetesi denendi, ikisi ölçülüp elendi; kısıtlar kayıtlı.
 - **BÜYÜK SENTEZ:** a, b, τ₀, parmak-izi üçlüsü — hepsi asal fazlarının kilidinde yaşıyor; ikinci-moment dünyası (literatürün tamamı — Berry88/BLS köşegen katmanı) bu bilginin %16'sını görebiliyor. "İkinci moment sin işaretine kör" savunması artık ölçülü bir oran: %84 fazlarda. ARK KAPANIŞI: "gaz kendi aritmetiğini tanır" → "gazın belleği, asalların kilitli fazlarıdır."
+
+---
+
+## 2 Eylül 2026 — 163 (Opus tayfası): faz-kilidi üçlü-toplam sınavı — naif üçüncü kat YETMEDİ; taşıyıcı ve iki kesin yapı bulundu
+
+- **İki kesin yapısal sonuç (kalem ispatı):** (a) çizginin öz-terimi ⟨σX̃ᵏ⟩'ye ÖZDEŞ SIFIR katkı — köşegen/Gauss payın ölülüğünün ispatı; (b) tam-çarpımsal üçlü toplamı tek boyuta çöker: s2 = −½sin(2πτ_Q)·Σa²sin²(2πτ).
+- **T1 TUTMADI (4/27 bant ±%25; yalnız 0.62-0.70 penceresi).** **A4 işareti 0/9 — analitik sebeple:** çıplak toplamın işareti yalnız −½sin(2πτ_Q)'da, üç gazda özdeş ⇒ "b'nin işaretini tam üçlüler taşıyor" hipotezi ELENDİ.
+- **Taşıyıcı yalıtıldı (T4):** üçüncü momenti TARAK-ARACILI katman taşıyor (düzgün tarakta ×10-40 çöküş); işaret, X̃'nin τ≤0.4 çift-bloğunda doğuyor (gerçek +0.056 ↔ A4 −0.201, aynı hücre). **143'ün seçim kuralı üçüncü momentte İŞLEMİYOR:** πτ_q faz-kilidi bütün çiftlere aynı fazı verip toplamı GENİŞ-BANT koherent yapıyor — her şey tek nesneye bağlanıyor: σ'nın tayfı Ŝ(ν). T2: aynı sebeple kutu-pencere yakın-rezonans toplamı patlıyor (HL payı bu yöntemle ölçülemez; doğru nesne Ψ⋆κ konvolüsyonu).
+- **T3 (gerçek):** işaret 7/7 (τ≥0.54); 0.62-0.70'te öngörü K2'nin %71-103'ü, δ'nın %15-24'ü — serbest parametresiz, kapanış iddiasız.
+- **KRİTİK YAN KAYIT:** 152 Newton'u merdiveni EKSİK kuruyor — gerçekleşen/nominal genlik: gerçek 1.00-1.04, **keskin 0.54, A4 0.85** (162 kaydıyla birebir). TÜM sentetik kıyasları etkileyen sistematik — düzeltilmeden sentetik-gerçek farkları (×1.4, τ₀ merdiveni, δ) yeniden yorumlanmamalı. SIRADAKİ ÖNCELİK ADAYI: sentetik inşanın genlik-sadakatli onarımı; sonra Ψ⋆κ formülasyonu.
