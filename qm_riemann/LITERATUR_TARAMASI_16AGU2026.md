@@ -3215,3 +3215,16 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **×1.4 KAPANDI:** faz oranı 1.571 → 1.129 (kök) → **0.948** (konvansiyon); A4: 1.717→1.121. **Gerçek, iki sadakatli gazın ARASINDA** (keskin %8-15 aşıyor, A4 %15-25 altında — kalan iş kesim-şekli incelticisi). **|Γ| gerçek↔sadakatli-keskin 12 bantta maks fark 0.0042.** TAÇ SINAVIN NİCEL KAPANIŞI fiilen gerçekleşti: asallar + geometri + doğru konvansiyon, gerçek dispersiyonu üretiyor.
 - **Düşen hükümler (dürüstlük kaskadı):** 156'nın "uç-değer vs yumuşak rejim" farkı (n_eff 58→19337 ≈ gerçek 17361) ve 161'in "üçlü 7/7 ayırıyor / (−,−,−) yalnız gerçek" iddiası — sadakatli aritmetik klonlar gerçeğin bulutunun İÇİNDE (2.3/1.4; eski 16.1/47.9). YENİDEN-YORUM: parmak izi "gerçeklik" değil **ARİTMETİK FAZ-KİLİDİ** imzası — sadakatli aritmetik klonlar onu paylaşır (162'nin Gauss-vekil keşfi AYAKTA: fazlar bozulunca imza ölür). τ₀* sadakatlilerde 0.5112/0.5049 (gerçek 0.5087); S3: HA4 σ_η²=0.0229 (gerçek 0.0227).
 - Meşruiyet: eski inşa bit-düzeyi yeniden üretildi (maks|Δz|=0); V1-V11 denetimleri ≤3.3e-16. Kalan borç: dokuz-gaz merdiveninin yedi basamağı yeniden kurulmadı — 158/161 sıralama hükümleri yeniden ölçülene dek KULLANILMAZ; σ_ds² %11-13 yüksek (açık); sıradaki: kütüphaneyi c=−½+ilk-kök ile yeniden kurmak, 163 üçlü-toplamını İLK KEZ ADİL koşmak.
+
+---
+
+## 2 Eylül 2026 — 165 (Opus tayfası): Ψ⋆κ sınavı — T1 TUTTU (12/20); taşıyıcı DÖRDÜNCÜ kanal: TARAK-REZONANSI = G-VERTEKSİ; HL ÜST SINIRI %1.4
+
+- **Hesap devrimi:** tek-site indirgeme + κ(Δ)=⟨e^{iΔs}⟩ özdeşliği → 5.8×10¹² kombinasyon budamasız O(N·n)'de (doğrulama 2.4e-9).
+- **T1 TUTTU:** öngörü/ölçüm 12/20 bant ±%25 (163: 4/27); orta bantlar 0.98-1.15. (Dürüstlük: normalizasyon ikinci-momentle sabitlenmiş — "sıfır parametre" değil; kalibrasyon 0.15-0.31 = Ç4 ortak kazancı, τ≳0.57 gösterim sistematiği kayıtlı.)
+- **KALEM'in H-Ç hiyerarşisi DÜŞTÜ:** Ç1 (çift-iptal) baskın değil (%21-41); Ç2 ölü (≤4e-4); **Ç3 (benim Ψ⋆κ yakın-rezonans adayım) da ölü (%0.2-1.4).** Payın %66-78'i hiyerarşide olmayan **Ç4: TARAK-REZONANSI** — κ'nın Δ≈±ω_r tepeleri. Ve mücevher: **κ(ω_q) ölçüldü, 143'ün G-yasası 𝒢=−πτ·a·cos(πτ) ile %0.3-6 uyuştu** — ikinci momentin verteksi, üçüncü momentin de taşıyıcısı. "Taşıyıcı taraktır" (163) nicelendi.
+- **T3:** 163'ün gerçek↔A4 işaret anomalisi sadakatli gazlarda YOK OLDU (152 inşa kusuruymuş); işaret alçak-τ çift-bloğunda, gaz-bağımsız.
+- **T2:** Ç1 yoğunluğu kapalı formda F=Re[h′ȳ], bant-bağımsız; yarı-analitik F/a² = 0.546·sin²(2πτ) + 0.666·sin⁴(πτ) (artık %44→%3.9; ikinci üye yarım-gap açılımından türetildi).
+- **T4 — MANŞET:** gerçek gaz iki saf-merdiven gazının ARASINDA (6/6 bant) ⇒ **Hardy–Littlewood payının üst sınırı ⟨σX̃²⟩'nin %1.4'ü. Gaz, bu nesnede HL'yi DUYMUYOR** — üçüncü-moment katmanı için saf merdiven + tarak geometrisi yetiyor.
+- Denetimler: 160'a 0.0e+00; 163 çıplak-formuna 4.8e-6; V1-V7 tam.
+- SENTEZ: faz-kilidi katmanının ilk-ilke modeli ayakta: üçüncü moment = G-verteksi tarak-rezonansı (%66-78) + çift-iptal koherent (%21-41) + HL (≤%1.4). 143'ün yasası programın her katının verteksi çıktı.
