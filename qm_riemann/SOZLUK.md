@@ -135,7 +135,10 @@ işaret 16/16; sentetiklerin 6/7'si 2.3-10.8σ ayrık (155-158).
 Dürüstlük mührü: sonra a'nın anatomisi çözüldü — 12.566'sı (4π) saf
 kinematikmiş (zincirdeki bir rotor hatası fazı ikiye katlıyormuş, 159
 yakaladı); parmak izi asıl δ-payında yaşıyor (gerçek −1.85, gazlar
-farklı) ve eğriliğin işaret mührü fizik olarak ayakta (159).
+farklı) ve eğriliğin işaret mührü fizik olarak ayakta (159). İkinci
+dürüstlük mührü: sadakatli inşa (164) gösterdi ki bu imza "gerçeklik"
+değil ARİTMETİK FAZ-KİLİDİ imzasıdır — asallardan doğru kurulan klon
+da aynı parmak izini taşır; imzayı öldüren tek şey fazları bozmaktır.
 
 **Bellek tayfta değil, fazlarda.** Gazın belleğini kopyalamayı
 denedik: bütün seslerin şiddetini aynen verdik, yalnız fazlarını
@@ -147,6 +150,17 @@ saf kinematiğe (4π'ye, sıfıra, yarıma) çöker. Eğriliğin işareti bile
 fazların malıdır. Ve gürültü dediğimiz artık bile korosundan yıkıcı
 girişimle %29 sessizdir — kilit her yerdedir. *Sayı:* Gauss-ötesi pay
 %536; taşıyıcı yalıtımı 0.8-1.6'ya karşı 7.3; b vekilde ölür (162).
+
+**Yarım basamak.** Sentetik denizler günlerce gerçeğe bir buçuk kat
+uzak durdu; meğer iki küçük kusur varmış — dalgalı denizde yanlış köke
+sapmak, ve merdiveni yarım basamak yanlış saymak. İkisi düzelince,
+yalnız asallardan kurulan deniz gerçeğin kırılma indisini binde-dörtle
+tutturdu. *Aslında:* sayım fonksiyonu her teknenin tam üstünde yarım
+atlar — doğru denklem n değil n−½'dir; o yarım basamak fazın
+omurgasıdır. Taç sınav böylece nicel olarak da kapandı: asallar +
+örnekleme geometrisi + doğru sayım, gerçek denizin dispersiyonunu
+üretir. *Sayı:* |Γ| farkı ≤0.0042 (12 bant); faz oranı 1.571→0.948;
+n_eff 58→19337 ≈ gerçek 17361; c = −½ kör ölçümle −0.0003 (164).
 
 **Dört fener.** Limana dört fener diktik; artık hiçbir kayalık gizli
 değil. *Aslında:* veri-doğrulama kültürü dört kapıya oturdu — sayım
