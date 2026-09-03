@@ -77,3 +77,14 @@ ortak çapaya kilitli fazlarının belleğidir — bu belleğin her ölçülür 
 ya asallardan türetildi ya asallardan kurulan gazda yeniden üretildi; sayım
 teknenin tam üstünde yarım basamak atar ve derin doyumun iskelet sabiti
 4/π²'dir.
+
+## DÜZELTME (aynı gece, 170 sonrası — dürüstlük şerhi)
+
+Y1'deki "4/π² doymuş-limit iskeleti" okuması ve yukarıdaki Tek Cümle'nin son
+yan cümlesi 170'te ÖN-KAYITLI, örneklem-dışı ölçümle DÜŞTÜ: c(λ=1.15) =
+0.4312±0.0053 = 4/π² + 4.9σ — c, 4/π²'yi λ=1.00'de hiçbir özellik
+göstermeden kesip geçiyor. **4/π², λ=1.00'in değeridir; doyum limiti
+değildir** (169'un φ→0 kesişimi λ=1.00 gazlarına kilitliymiş). Define
+haritasındaki "4/π² Burnu" etiketi de bu şerhle okunmalı. Ejderhanın 170'te
+bulunan adresi: c(λ) = üye üssü ν(λ) eğrisi; kalan borç ν'nün türetimi.
+Ayrıntı: 170_sonlu_doyum_RAPOR.md.
