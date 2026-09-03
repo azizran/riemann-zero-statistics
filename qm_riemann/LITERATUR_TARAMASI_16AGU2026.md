@@ -3258,3 +3258,13 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **c'nin eksenleri kimlik kazandı:** (i) **pencere ekseni FİZİK DEĞİL** — tamamı g_cal = g_E·g_X²'de (sonlu-örneklem çizgi-uyum sızıntısı, (1+2n/N)⁻¹ mertebesi); (ii) **kesim ekseni YASALAŞTI: θ/θ₀ = 1 − 0.2175·φ** (φ = boş-çizgi kesri) — dört gazda ±%0.75, **E060 örneklem-dışı: öngörü 0.7908 → ölçüm 0.7945 (%0.5)**; yasa çizgi SAYISIYLA gidiyor, genlikle değil; (iii) **λ ekseni NULL** (+%1.4 vs pertürbatif +%12) — üçüncü doyum imzası.
 - **c'nin üye kimliği çözüldü:** c, W_X üyesinin sayısı — türetim gerekçesiyle (W_amp ölçülen genliklerde zaten var → çift sayım; W_X = tek-gap site-kayması DW çarpanı) ve ampirik teyitle (W_X bant-düz, eğim +0.09). **c = 0.4053 (gerçek) / 0.4051 (H-keskin)**; 0.5647 aynı sayının fazla-bölünmüş hali.
 - **YENİ HÜKÜM:** c bir rezonans integrali değil, **DOYMUŞ Gram/DW çarpanı** (G_qq' = κ(ω_q−ω_q') ailesi). AÇIK: doymuş integralin kapalı formu; β=0.2175'in türetimi; T/4 +%8-11 artığı; L070/L115.
+
+---
+
+## 3 Eylül 2026 — 169 (Opus tayfası): kırpılmış-faz sınavı — MEKANİZMA DOĞRULANDI, EVRENSELLİK ÇÜRÜTÜLDÜ (mühürsüz)
+
+- **K2a — SARILMA ARTIK ÖLÇÜLMÜŞ OLGU:** Ç4 rejiminde birikmiş faz mod-2π TAM DÜZGÜN (Kuiper 1.10-1.68, eşik 2.0; tek çizgilerde 78-500 — beş mertebe kontrast).
+- **K2b — KIRPILMA AKTARIMI DOĞRULANDI (muhasebe düzeltmesiyle):** bölünmüş-merdivende 1/2/3 kırpık bacak → 0.829/0.659/0.528 ↔ (2/π)^{n/2} (+%3.8 sabit kayma): **bacak başına √(2/π); 4/π², Ç4'ün DÖRT frekans-bacağında.** Arcsine ara-değer eğrisi beş bantta %0.8-3.5.
+- **K1b — EN GÜÇLÜ TEK SONUÇ:** kesim yasasının mutlak φ→0 kesişimi **c₀ = 0.4057±0.0016 = 4/π² + 0.23σ** (eğim 0.2143 ↔ 168'in 0.2175, 0.6σ). K1a: H-keskin −0.97σ; GERÇEK +3.06σ (gerilim).
+- **K3 DÜŞTÜ:** β türetimleri düştü (boş-çizgi hipotezi doğrudan çürütüldü); ve λ=0.70 gazında ÖN-KAYITLI öngörüler (zaman damgalı!) ikisi de reddedildi: ölçüm c=0.3690±0.0058 — H-C1 evrenselliği −5.9σ, 168 λ-yasası +3.6σ. **c, λ ile tekdüze iniyor (0.4035→0.3817→0.3690)** — 168'in λ-null'u ham-KALİB düzeyindeydi; W_X-üyesi c λ'ya bağlı. K1d: hiçbir DW üyesi iki ölçütü birden sağlamıyor (τ-eğimi W_X'i, λ-değişmezliği √W_X'i seçiyor).
+- **DURUM:** 4/π² = doymuş-limitin İSKELETİ (φ→0 kesişimi 0.23σ!); gerçek gazın +3σ'sı ve c(λ) düşüşü = sonlu-doyum düzeltmesi — kapalı formun kalan tek borcu bu düzeltme yasası. Ajan kendi hesap hatasını da yakalayıp düzeltti (çift-kırpma); 168'in yedi satırı bağımsız koddan dört hanede yeniden üretildi.
