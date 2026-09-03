@@ -3249,3 +3249,12 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - T1: W_X üyesinde gerçek = 0.4053 ↔ sadakatli-keskin = 0.4051 (%0.05) — gerçek gaz bu fonksiyonelde tam-derinlik keskin merdiven gibi; HA4 0.3345 (sığ etkin kesim — −%17.5'in adresi kısmen bulundu).
 - T4: tek küresel c = 0.5647 (W_amp·W_X) → 13/20 (13/15 sağlıklı) — 165'in bant-bant normalizasyonunu tek sayıyla geçiyor; 166 doğrulandı.
 - Açık: λ-ablasyonu ölçümü; T3 analitik rezonans-integrali. Ders (yönetim): ajanın sessiz-bekleme tuzağı iki bekçi kesintisi yedi — uzun koşular ya arka-plan+kısa yoklama ya Fable-denetimli parçalı teslim.
+
+---
+
+## 3 Eylül 2026 — 168 (Opus tayfası): T3 rezonans-integrali — NAİF İNTEGRAL ÖLDÜ (teşhisle); c'nin yasaları ayrıştı
+
+- **A1/★ DÜŞTÜ:** pertürbatif rezonans-integrali ölçülen Ç4'ün yalnız %1.5-5.5'i; iki ölçek yasasını da TERS yönde öngörüyor. İç uyarısı doğruydu: u-açılımı τ≤0.573'te biter, Ç4 ise τ_etkin≈2-3'te yaşıyor — **DOYMUŞ REJİM.** (w_eff = 1.039·2π/T sinc-sabiti %4'le doğrulandı — pencere-profil parçası sağlam.)
+- **c'nin eksenleri kimlik kazandı:** (i) **pencere ekseni FİZİK DEĞİL** — tamamı g_cal = g_E·g_X²'de (sonlu-örneklem çizgi-uyum sızıntısı, (1+2n/N)⁻¹ mertebesi); (ii) **kesim ekseni YASALAŞTI: θ/θ₀ = 1 − 0.2175·φ** (φ = boş-çizgi kesri) — dört gazda ±%0.75, **E060 örneklem-dışı: öngörü 0.7908 → ölçüm 0.7945 (%0.5)**; yasa çizgi SAYISIYLA gidiyor, genlikle değil; (iii) **λ ekseni NULL** (+%1.4 vs pertürbatif +%12) — üçüncü doyum imzası.
+- **c'nin üye kimliği çözüldü:** c, W_X üyesinin sayısı — türetim gerekçesiyle (W_amp ölçülen genliklerde zaten var → çift sayım; W_X = tek-gap site-kayması DW çarpanı) ve ampirik teyitle (W_X bant-düz, eğim +0.09). **c = 0.4053 (gerçek) / 0.4051 (H-keskin)**; 0.5647 aynı sayının fazla-bölünmüş hali.
+- **YENİ HÜKÜM:** c bir rezonans integrali değil, **DOYMUŞ Gram/DW çarpanı** (G_qq' = κ(ω_q−ω_q') ailesi). AÇIK: doymuş integralin kapalı formu; β=0.2175'in türetimi; T/4 +%8-11 artığı; L070/L115.
