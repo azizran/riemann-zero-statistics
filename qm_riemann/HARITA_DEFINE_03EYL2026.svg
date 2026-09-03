@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 860" role="img">
+<title>Aralık Denizi define haritası</title>
+<desc>16 Ağustos - 3 Eylül 2026 seferinin dokuz duraklı define haritası: 14 mühürlü yasa, 1 yarım mühür ve adı konmuş açık soru c(λ) ejderhası.</desc>
+<rect x="4" y="4" width="672" height="852" rx="6" fill="#f0e3c0" stroke="#6b5233" stroke-width="2"/>
+<rect x="16" y="16" width="648" height="828" rx="3" fill="none" stroke="#8a6f47" stroke-width="1" stroke-dasharray="5 4" opacity="0.7"/>
+<line x1="52" y1="60" x2="664" y2="380" stroke="#6b5233" stroke-width="1" opacity="0.07"/>
+<line x1="52" y1="60" x2="420" y2="838" stroke="#6b5233" stroke-width="1" opacity="0.07"/>
+<g font-family="Georgia, 'Palatino Linotype', 'Book Antiqua', serif" fill="#4a3820">
+<rect x="158" y="24" width="364" height="52" rx="4" fill="#f5ecd2" stroke="#6b5233" stroke-width="1.5"/>
+<rect x="163" y="29" width="354" height="42" rx="2" fill="none" stroke="#8a6f47" stroke-width="0.8"/>
+<text x="340" y="46" text-anchor="middle" font-size="17" font-weight="500">Aralık Denizi — define haritası</text>
+<text x="340" y="64" text-anchor="middle" font-size="11" fill="#7d6844">16 Ağustos → 3 Eylül 2026 · dokuz durak · 14 mühür + 1 yarım</text>
+<line x1="146" y1="85" x2="154" y2="93" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="154" y1="85" x2="146" y2="93" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<text x="161" y="93" font-size="11">mühürlü yasa</text>
+<line x1="252" y1="85" x2="260" y2="93" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="260" y1="85" x2="252" y2="93" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="2 2"/>
+<text x="267" y="93" font-size="11">yarım mühür</text>
+<path d="M348 91 q4 -7 8 0 q4 7 8 0" fill="none" stroke="#55684f" stroke-width="2"/>
+<text x="372" y="93" font-size="11">adı konmuş açık soru</text>
+<circle cx="52" cy="60" r="24" fill="#f5ecd2" stroke="#4a3820" stroke-width="1.2"/>
+<polygon points="52,40 56,56 72,60 56,64 52,80 48,64 32,60 48,56" fill="#b0432c" opacity="0.9"/>
+<polygon points="52,48 55,57 63,60 55,63 52,72 49,63 41,60 49,57" fill="#4a3820"/>
+<text x="52" y="32" text-anchor="middle" font-size="11" font-weight="500">K</text>
+<text x="82" y="64" font-size="11" font-weight="500">D</text>
+<text x="18" y="64" font-size="11" font-weight="500">B</text>
+<text x="52" y="96" text-anchor="middle" font-size="11" font-weight="500">G</text>
+<path d="M200 118 Q240 108 280 118 Q320 128 360 118 Q400 108 432 118" fill="none" stroke="#8a6f47" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="316" y="137" text-anchor="middle" font-size="11" font-style="italic" fill="#7d6844">sisli kıyılar: GL(2) · Platt · log3 · χ₃</text>
+<text x="560" y="96" text-anchor="middle" font-size="12" font-weight="500">Sonlu-Doyum Akıntısı</text>
+<text x="560" y="110" text-anchor="middle" font-size="11" fill="#7d6844">c(λ) ejderhası: düşüşün yasası yok</text>
+<path d="M476 152 Q470 160 475 166" fill="none" stroke="#55684f" stroke-width="3" stroke-linecap="round"/>
+<path d="M476 152 Q492 128 508 152 Q524 176 540 152 Q556 128 572 152 Q588 176 604 152" fill="none" stroke="#55684f" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="613" cy="148" r="8" fill="#55684f"/>
+<circle cx="616" cy="146" r="1.7" fill="#f0e3c0"/>
+<line x1="609" y1="141" x2="605" y2="133" stroke="#55684f" stroke-width="2" stroke-linecap="round"/>
+<line x1="616" y1="140" x2="619" y2="132" stroke="#55684f" stroke-width="2" stroke-linecap="round"/>
+<path d="M621 150 q9 3 11 -3" fill="none" stroke="#b0432c" stroke-width="1.5"/>
+<text x="556" y="188" text-anchor="middle" font-size="11" font-style="italic" fill="#7d6844">— burada ejderhalar var —</text>
+<path d="M132 676 Q166 708 215 736 Q252 714 310 744 Q364 770 410 748 Q500 738 564 682 Q540 624 556 568 Q520 512 476 458 Q436 462 404 424 Q382 396 384 346 Q300 398 236 414 Q226 316 272 244 Q248 252 234 252" fill="none" stroke="#b0432c" stroke-width="2" stroke-dasharray="7 5" opacity="0.85"/>
+<path d="M55 696 Q58 678 80 672 Q102 664 124 672 Q142 670 148 684 Q152 698 140 708 Q120 718 96 716 Q68 718 58 706 Q52 700 55 696 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<line x1="138" y1="700" x2="170" y2="700" stroke="#4a3820" stroke-width="1.4"/>
+<line x1="138" y1="706" x2="170" y2="706" stroke="#4a3820" stroke-width="1.4"/>
+<line x1="148" y1="706" x2="148" y2="714" stroke="#4a3820" stroke-width="1.2"/>
+<line x1="162" y1="706" x2="162" y2="714" stroke="#4a3820" stroke-width="1.2"/>
+<line x1="81" y1="686" x2="89" y2="694" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="89" y1="686" x2="81" y2="694" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="106" y1="693" x2="114" y2="701" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="114" y1="693" x2="106" y2="701" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<text x="100" y="648" text-anchor="middle" font-size="12.5" font-weight="500">Gaz Limanı</text>
+<text x="100" y="662" text-anchor="middle" font-size="11" fill="#7d6844">ds = asal korosu (0.975)</text>
+<text x="100" y="736" text-anchor="middle" font-size="11" fill="#7d6844">N_eff = L + c</text>
+<text x="100" y="750" text-anchor="middle" font-size="11" font-style="italic" fill="#7d6844">16 Ağustos: yola çıkış</text>
+<path d="M195 758 Q198 738 222 732 Q248 722 276 730 Q300 726 308 744 Q314 760 300 770 Q276 782 246 780 Q214 782 200 770 Q192 764 195 758 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<line x1="234" y1="748" x2="242" y2="756" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="242" y1="748" x2="234" y2="756" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="256" y1="756" x2="264" y2="764" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="264" y1="756" x2="256" y2="764" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="278" y1="744" x2="286" y2="752" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="286" y1="744" x2="278" y2="752" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<text x="252" y="702" text-anchor="middle" font-size="12.5" font-weight="500">−2 Adası</text>
+<text x="252" y="716" text-anchor="middle" font-size="11" fill="#7d6844">nefes yasası: tam −2</text>
+<path d="M398 766 Q401 753 420 749 Q440 744 452 754 Q459 763 449 771 Q433 779 415 777 Q402 774 398 766 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<path d="M450 752 Q453 742 468 739 Q484 736 492 744 Q497 751 489 757 Q476 763 462 761 Q452 758 450 752 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<path d="M484 774 Q487 766 500 764 Q513 762 519 769 Q523 775 516 780 Q505 785 493 783 Q485 780 484 774 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<path d="M433 764 q-2 -8 -1 -13" fill="none" stroke="#6b5233" stroke-width="1.6"/>
+<path d="M432 750 q-8 -4 -13 0" fill="none" stroke="#55684f" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M432 750 q8 -4 13 0" fill="none" stroke="#55684f" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M432 750 q-2 -8 3 -11" fill="none" stroke="#55684f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="411" y1="760" x2="419" y2="768" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="419" y1="760" x2="411" y2="768" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<text x="462" y="704" text-anchor="middle" font-size="12.5" font-weight="500">Orkestra Takımadaları</text>
+<text x="462" y="719" text-anchor="middle" font-size="11" fill="#7d6844">G yasası 19/19 · aracı-dalga</text>
+<path d="M566 694 Q570 682 590 679 Q612 675 626 686 Q634 694 624 702 Q606 709 586 707 Q570 704 566 694 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<polygon points="607,643 649,631 649,657" fill="#d9a53f" opacity="0.25"/>
+<polygon points="593,643 551,631 551,657" fill="#d9a53f" opacity="0.25"/>
+<rect x="594" y="650" width="12" height="31" fill="#f5ecd2" stroke="#4a3820" stroke-width="1.2"/>
+<rect x="594" y="656" width="12" height="6" fill="#b0432c"/>
+<rect x="594" y="669" width="12" height="6" fill="#b0432c"/>
+<path d="M592 650 Q600 640 608 650 Z" fill="#4a3820"/>
+<rect x="597" y="644" width="6" height="5" fill="#d9a53f"/>
+<line x1="574" y1="688" x2="582" y2="696" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="582" y1="688" x2="574" y2="696" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<text x="590" y="727" text-anchor="middle" font-size="12.5" font-weight="500">Alçak Sıfırlar Feneri</text>
+<text x="590" y="741" text-anchor="middle" font-size="11" fill="#7d6844">6 çukur: n* = γₖ·L/2π</text>
+<path d="M560 574 Q563 556 585 549 Q607 540 630 548 Q648 545 653 561 Q658 576 645 586 Q625 596 602 594 Q575 596 565 584 Q557 578 560 574 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<line x1="588" y1="564" x2="596" y2="572" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="596" y1="564" x2="588" y2="572" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="618" y1="572" x2="626" y2="580" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="626" y1="572" x2="618" y2="580" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<text x="602" y="514" text-anchor="middle" font-size="12.5" font-weight="500">δ Yarımadası</text>
+<text x="602" y="528" text-anchor="middle" font-size="11" fill="#7d6844">a = 4π + dδ/dτ</text>
+<text x="602" y="541" text-anchor="middle" font-size="11" fill="#7d6844">δ = K1 + K2 (35/35)</text>
+<path d="M435 434 Q438 414 462 407 Q486 398 510 407 Q526 403 530 419 Q534 435 520 446 Q500 456 478 454 Q450 456 440 444 Q432 438 435 434 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<ellipse cx="482" cy="429" rx="17" ry="8" fill="#9fbcb2" stroke="#6e8f86" stroke-width="1"/>
+<line x1="448" y1="428" x2="456" y2="436" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="456" y1="428" x2="448" y2="436" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<text x="480" y="382" text-anchor="middle" font-size="12.5" font-weight="500">Bellek Lagünü</text>
+<text x="480" y="396" text-anchor="middle" font-size="11" fill="#7d6844">belleğin %84'ü kilitli fazlarda</text>
+<path d="M267 352 Q270 332 296 326 Q322 318 348 326 Q372 322 378 340 Q384 356 368 366 Q352 374 336 370 Q328 380 316 370 Q296 376 280 366 Q264 360 267 352 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<polygon points="346,352 352,342 358,352" fill="#b4a077" stroke="#6b5233" stroke-width="0.8"/>
+<polygon points="356,346 361,338 366,346" fill="#b4a077" stroke="#6b5233" stroke-width="0.8"/>
+<line x1="294" y1="342" x2="302" y2="350" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="302" y1="342" x2="294" y2="350" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="322" y1="336" x2="330" y2="344" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="330" y1="336" x2="322" y2="344" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<text x="322" y="304" text-anchor="middle" font-size="12.5" font-weight="500">Yarım Basamak Koyu</text>
+<text x="322" y="318" text-anchor="middle" font-size="11" fill="#7d6844">sayım n−½ atar · Γ binde-4</text>
+<path d="M145 434 Q148 414 172 407 Q196 398 220 407 Q238 403 244 420 Q250 436 236 448 Q214 458 190 456 Q160 458 150 446 Q142 440 145 434 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<polygon points="170,432 185,405 200,432" fill="#b4a077" stroke="#6b5233" stroke-width="1"/>
+<polygon points="195,434 211,410 226,434" fill="#b4a077" stroke="#6b5233" stroke-width="1"/>
+<polygon points="180,414 185,405 190,414" fill="#f5ecd2"/>
+<polygon points="206,418 211,410 216,418" fill="#f5ecd2"/>
+<line x1="154" y1="436" x2="162" y2="444" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="162" y1="436" x2="154" y2="444" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<text x="192" y="478" text-anchor="middle" font-size="12.5" font-weight="500">Üçüncü Moment Dağı</text>
+<text x="192" y="492" text-anchor="middle" font-size="11" fill="#7d6844">taşıyıcı = G düğümleri · HL ≤ %1.4</text>
+<path d="M250 216 Q252 200 272 195 Q292 188 316 194 Q340 190 350 206 Q357 220 344 230 Q324 240 298 238 Q268 240 254 228 Q246 222 250 216 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<line x1="286" y1="208" x2="294" y2="216" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="294" y1="208" x2="286" y2="216" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="314" y1="214" x2="322" y2="222" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="322" y1="214" x2="314" y2="222" stroke="#b0432c" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="2 2"/>
+<text x="300" y="170" text-anchor="middle" font-size="12.5" font-weight="500">4/π² Burnu</text>
+<text x="300" y="185" text-anchor="middle" font-size="11" fill="#7d6844">doymuş limitin iskeleti: c₀ = 4/π² (0.23σ)</text>
+<path d="M168 258 L216 258 L207 272 L177 272 Z" fill="#7a5c38" stroke="#4a3820" stroke-width="1.2"/>
+<line x1="192" y1="258" x2="192" y2="222" stroke="#4a3820" stroke-width="2"/>
+<path d="M192 226 Q215 239 192 254 Z" fill="#f5ecd2" stroke="#4a3820" stroke-width="1"/>
+<polygon points="192,222 206,226 192,231" fill="#b0432c"/>
+<circle cx="228" cy="254" r="2.6" fill="none" stroke="#4a3820" stroke-width="1.5"/>
+<line x1="228" y1="257" x2="228" y2="275" stroke="#4a3820" stroke-width="2"/>
+<line x1="221" y1="261" x2="235" y2="261" stroke="#4a3820" stroke-width="1.5"/>
+<path d="M220 268 Q228 279 236 268" fill="none" stroke="#4a3820" stroke-width="2"/>
+<path d="M162 277 q7 4 14 0 q7 4 14 0 q7 4 14 0 q7 4 14 0" fill="none" stroke="#6e8f86" stroke-width="1.4"/>
+<text x="196" y="298" text-anchor="middle" font-size="12" font-weight="500" fill="#b0432c">Demir — 3 Eylül</text>
+<line x1="70" y1="182" x2="120" y2="182" stroke="#4a3820" stroke-width="1.4"/>
+<line x1="70" y1="188" x2="120" y2="188" stroke="#4a3820" stroke-width="1.4"/>
+<line x1="78" y1="188" x2="78" y2="196" stroke="#4a3820" stroke-width="1.2"/>
+<line x1="95" y1="188" x2="95" y2="196" stroke="#4a3820" stroke-width="1.2"/>
+<line x1="112" y1="188" x2="112" y2="196" stroke="#4a3820" stroke-width="1.2"/>
+<line x1="124" y1="182" x2="124" y2="150" stroke="#4a3820" stroke-width="1.4"/>
+<polygon points="124,150 152,157 124,164" fill="#b0432c"/>
+<text x="102" y="212" text-anchor="middle" font-size="12" font-weight="500">arXiv Limanı</text>
+<text x="102" y="226" text-anchor="middle" font-size="11" fill="#7d6844">dört not hazır — kaptan kapısı</text>
+<path d="M180 244 Q152 228 130 198" fill="none" stroke="#b0432c" stroke-width="1.3" stroke-dasharray="2 4"/>
+<text x="128" y="246" font-size="11" font-style="italic" fill="#7d6844">sıradaki sefer?</text>
+<path d="M46 588 Q50 578 66 576 Q84 572 94 582 Q100 590 90 596 Q76 600 60 598 Q48 594 46 588 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<polygon points="79,549 124,538 124,562" fill="#d9a53f" opacity="0.25"/>
+<rect x="66" y="548" width="12" height="31" fill="#f5ecd2" stroke="#4a3820" stroke-width="1.2"/>
+<rect x="66" y="554" width="12" height="6" fill="#b0432c"/>
+<rect x="66" y="566" width="12" height="6" fill="#b0432c"/>
+<path d="M64 548 Q72 539 80 548 Z" fill="#4a3820"/>
+<rect x="69" y="542" width="6" height="5" fill="#d9a53f"/>
+<text x="86" y="616" text-anchor="middle" font-size="12" font-weight="500">Sözlük Feneri</text>
+<text x="86" y="630" text-anchor="middle" font-size="11" fill="#7d6844">21 madde ışığı</text>
+<g transform="rotate(18 185 608)">
+<rect x="178" y="596" width="14" height="24" rx="5" fill="#9fbcb2" stroke="#6e8f86" stroke-width="1.2"/>
+<rect x="182" y="588" width="6" height="9" fill="#9fbcb2" stroke="#6e8f86" stroke-width="1.2"/>
+<rect x="181" y="584" width="8" height="4" rx="1" fill="#b4a077" stroke="#6b5233" stroke-width="0.8"/>
+<line x1="181" y1="612" x2="189" y2="604" stroke="#f5ecd2" stroke-width="2.5"/>
+</g>
+<text x="188" y="644" text-anchor="middle" font-size="11" fill="#7d6844">A394396 şişesi</text>
+<path d="M600 814 Q604 802 622 800 Q642 798 654 808 Q660 816 650 822 Q634 828 616 826 Q602 822 600 814 Z" fill="#e6cf9c" stroke="#6b5233" stroke-width="1.5"/>
+<rect x="612" y="800" width="8" height="13" rx="3" fill="#b4a077" stroke="#4a3820" stroke-width="0.8"/>
+<rect x="628" y="803" width="7" height="10" rx="3" fill="#b4a077" stroke="#4a3820" stroke-width="0.8"/>
+<circle cx="646" cy="808" r="4" fill="#f5ecd2" stroke="#4a3820" stroke-width="0.8"/>
+<circle cx="644.6" cy="807" r="0.8" fill="#4a3820"/>
+<circle cx="647.6" cy="807" r="0.8" fill="#4a3820"/>
+<line x1="640" y1="814" x2="652" y2="818" stroke="#4a3820" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="652" y1="814" x2="640" y2="818" stroke="#4a3820" stroke-width="1.2" stroke-linecap="round"/>
+<text x="616" y="788" text-anchor="middle" font-size="11" font-weight="500">Mühürlü Mezarlık</text>
+<text x="430" y="642" text-anchor="middle" font-size="20" font-style="italic" fill="#7d6844" opacity="0.4">Aralık denizi</text>
+<path d="M240 610 q5 -4 10 0 q5 4 10 0" fill="none" stroke="#6e8f86" stroke-width="1.3" opacity="0.7"/>
+<path d="M385 552 q5 -4 10 0 q5 4 10 0" fill="none" stroke="#6e8f86" stroke-width="1.3" opacity="0.7"/>
+<path d="M110 390 q5 -4 10 0 q5 4 10 0" fill="none" stroke="#6e8f86" stroke-width="1.3" opacity="0.7"/>
+<path d="M590 302 q5 -4 10 0 q5 4 10 0" fill="none" stroke="#6e8f86" stroke-width="1.3" opacity="0.7"/>
+<path d="M420 252 q5 -4 10 0 q5 4 10 0" fill="none" stroke="#6e8f86" stroke-width="1.3" opacity="0.7"/>
+<path d="M565 626 q5 -4 10 0 q5 4 10 0" fill="none" stroke="#6e8f86" stroke-width="1.3" opacity="0.7"/>
+<path d="M140 332 q5 -4 10 0 q5 4 10 0" fill="none" stroke="#6e8f86" stroke-width="1.3" opacity="0.7"/>
+<path d="M320 462 q5 -4 10 0 q5 4 10 0" fill="none" stroke="#6e8f86" stroke-width="1.3" opacity="0.7"/>
+<g font-size="11" font-weight="500">
+<circle cx="132" cy="676" r="9" fill="#b0432c" stroke="#f0e3c0" stroke-width="1.5"/>
+<text x="132" y="676" text-anchor="middle" dominant-baseline="central" fill="#f5ecd2">1</text>
+<circle cx="215" cy="736" r="9" fill="#b0432c" stroke="#f0e3c0" stroke-width="1.5"/>
+<text x="215" y="736" text-anchor="middle" dominant-baseline="central" fill="#f5ecd2">2</text>
+<circle cx="410" cy="748" r="9" fill="#b0432c" stroke="#f0e3c0" stroke-width="1.5"/>
+<text x="410" y="748" text-anchor="middle" dominant-baseline="central" fill="#f5ecd2">3</text>
+<circle cx="564" cy="682" r="9" fill="#b0432c" stroke="#f0e3c0" stroke-width="1.5"/>
+<text x="564" y="682" text-anchor="middle" dominant-baseline="central" fill="#f5ecd2">4</text>
+<circle cx="556" cy="566" r="9" fill="#b0432c" stroke="#f0e3c0" stroke-width="1.5"/>
+<text x="556" y="566" text-anchor="middle" dominant-baseline="central" fill="#f5ecd2">5</text>
+<circle cx="476" cy="460" r="9" fill="#b0432c" stroke="#f0e3c0" stroke-width="1.5"/>
+<text x="476" y="460" text-anchor="middle" dominant-baseline="central" fill="#f5ecd2">6</text>
+<circle cx="386" cy="344" r="9" fill="#b0432c" stroke="#f0e3c0" stroke-width="1.5"/>
+<text x="386" y="344" text-anchor="middle" dominant-baseline="central" fill="#f5ecd2">7</text>
+<circle cx="238" cy="412" r="9" fill="#b0432c" stroke="#f0e3c0" stroke-width="1.5"/>
+<text x="238" y="412" text-anchor="middle" dominant-baseline="central" fill="#f5ecd2">8</text>
+<circle cx="272" cy="242" r="9" fill="#b0432c" stroke="#f0e3c0" stroke-width="1.5"/>
+<text x="272" y="242" text-anchor="middle" dominant-baseline="central" fill="#f5ecd2">9</text>
+</g>
+</g>
+</svg>
