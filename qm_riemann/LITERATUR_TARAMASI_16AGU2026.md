@@ -3239,3 +3239,13 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **T3: 12/20 → 13/20** (sağlıklı pencerede 13/15): 165'in yirmi ayrı normalizasyonu TEK SAYIYA indi: **c = 0.5647** (üç gazda −%12…+%8; W_X üyesinde gerçek↔sadakatli-keskin %0.06 içinde AYNI — serbest parametresiz taşınıyor; HA4 −%17.5). DÜRÜST ÇERÇEVE: "tek evrensel ölçek + parametresiz bant şekli" — henüz tam parametresiz DEĞİL.
 - **T4 ÇÖZÜLDÜ ve 1/ρ DEĞİL:** şişmenin kimliği = **Gram sızıntısı × Gram atfetmesi** — özdeşlik Var(X_mod)/Var(X̃) = Λ_X·Γ_X üç gazda üç hanede tam (1.585/1.562/1.520).
 - **KALAN BORÇ TEK SAYI:** c ≈ 0.565'in (Ç4 ortak-kazanç) kapalı formu. Kayıt (siren protokolü — mühür DEĞİL): 1/√π = 0.5642 Gauss-integral kökenli doğal aday; ama mevcut hassasiyet (çapraz-gaz ±%10-17) herhangi bir eşleşmeyi mühürlemeye YETERSİZ — ancak türetim yoluyla sınanır.
+
+---
+
+## 3 Eylül 2026 — 167 (Opus ölçümleri + Fable derlemesi): c'nin ablasyon haritası — SAF SABİT DEĞİL
+
+- (Ajan iki kez bekçiye takıldı; ölçümler bitmişti, derleme/hüküm Fable tarafından 167_analiz.py yeniden koşusuyla tamamlandı — rapor kısmi-teslim işaretli.)
+- **H1 HÜKMÜ: c saf geometrik sabit DEĞİL** — iki eksene ölçülü bağımlılık: kesim (keskin≤0.7→≤1.0: +%10-14) ve pencere (T/2: −%10, T/4: −%25). **1/√π ve 9/16 adayları ÖLDÜ.** c = (pencere × merdiven-yoğunluğu) rezonans-sayım fonksiyoneli; gelecek T3 türetimi bu iki ölçek yasasını üretmek zorunda (iki sert kısıt kazanıldı).
+- T1: W_X üyesinde gerçek = 0.4053 ↔ sadakatli-keskin = 0.4051 (%0.05) — gerçek gaz bu fonksiyonelde tam-derinlik keskin merdiven gibi; HA4 0.3345 (sığ etkin kesim — −%17.5'in adresi kısmen bulundu).
+- T4: tek küresel c = 0.5647 (W_amp·W_X) → 13/20 (13/15 sağlıklı) — 165'in bant-bant normalizasyonunu tek sayıyla geçiyor; 166 doğrulandı.
+- Açık: λ-ablasyonu ölçümü; T3 analitik rezonans-integrali. Ders (yönetim): ajanın sessiz-bekleme tuzağı iki bekçi kesintisi yedi — uzun koşular ya arka-plan+kısa yoklama ya Fable-denetimli parçalı teslim.
