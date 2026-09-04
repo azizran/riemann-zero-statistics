@@ -3326,3 +3326,10 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - **H-F2 öldü + sahte-isabet uyarısı:** kaba kalem 0.61'i rastlantıyla vuruyormuş — τ>0.70 açığının %61.5'i GENLİK, %13.5 κ, %25 faz.
 - **NİHAİ AYRIŞIM (parametresiz):** ΔM = +0.057542 = KESİM +0.004929 (%8.6) + KİLİT +0.052612 (**%91.4**); E-kanalı %37.1/%62.9 (175 ile tutarlı); θ satırı −0.0047/+0.0362.
 - Iskalar kurtarmasız: R_bant≥0.98 alt-kapısı vekillerde ıskaladı (yön kapının koruduğunun tersi; hiçbir mühür ona dayanmadı); F9 literal metni dejenere; F4/F6 öldü; 176f düzeltmesi hükmü zayıflattı.
+
+## 177 (4 Eyl gece, Opus — dar kapsam): H-F1b KALICI HÜKÜMSÜZ; "%91.4 kilit" desteksiz kaldı (çürütülmedi)
+- Metod pırıl: F7'nin n-tohumlu biçimi ön-kayıtla SAÇ_n = 2s/√n olarak sayısallaştı ve n=2'de 176'nın literaline TAM indirgendiği kanıtlandı (fark 0.0; tutmasa betik ön-kaydı yazmayı reddedecekti). 177b, θ₃ doğmadan n=3 penceresinin hiçbir θ₃ için kesinleşemeyeceğini kanıtladı — dördüncü tohum kararı veriye değil kurala bağlı. İnşa/ölçüm 176'nın dosyalarıyla değiştirilmeden (VF3/VF4; kapılar 4/4 tam; zarf sha256 dördünde de aynı).
+- Sayılar: θ = 0.8667/0.8321/0.8797/0.8917 (4/4 ikizin ALTINDA; kilit θ-taşıması fazlanın %94'ü) ama ω_θ = 0.716→0.932→1.2235 bant (0,1]'in dışına süründü, dışlanması da kıl payı ⇒ H-F1b n=4 tavanında KALICI HÜKÜMSÜZ (ω≤1 için n≈82 gerekir; beşinci tohum koşulmadı, eşik gevşetilmedi).
+- Tanı (177e): θ ≡ M/(g_E·g_X²); tohum varyansının %92.4'ü g_X böleninden (vekilde tek-bant; 176'nın R_bant olgusu) — hükümsüzlük θ'nin fiziği değil bölenin gürültüsü.
+- DEFTER: %8.6/%91.4 ayrışımının RAKAMLARI değişmedi (yalnız çapalardan çıkar; vekilden bağımsız) ama 176'nın bıraktığı tek nedensel dayanak (ω_θ = 0.716) kalktı ⇒ atıf DESTEKSİZ (çürütülmemiş). Kilidin varlığı/devasalığı sarsılmadı (Q_E %0.8, μ̂²_E %3.3, g_E %0.2 tohum-tutarlılığı; F2 ölümü sağlam).
+- EN UCUZ KARAR YOLU (178 adayı): g_X'in bant-ağırlıklı okuması — θ gürültüsünün %92'si oradan; mevcut DÖRT tohumla, yeni koşusuz, YENİ ön-kayıtla (kestirici değişikliği açıkça beyan edilerek) H-F1b karara bağlanabilir.
