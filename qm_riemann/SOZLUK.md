@@ -147,9 +147,17 @@ parmak-izi üçlüsü de ancak altıda-biriyle tayftan gelir; gerisi
 asalların birbirine kilitli fazlarında yaşar. Sürekliliği karıştır,
 hiçbir şey olmaz; çizgi fazlarını karıştır, gaz kimliğini kaybeder —
 saf kinematiğe (4π'ye, sıfıra, yarıma) çöker. Eğriliğin işareti bile
-fazların malıdır. Ve gürültü dediğimiz artık bile korosundan yıkıcı
-girişimle %29 sessizdir — kilit her yerdedir. *Sayı:* Gauss-ötesi pay
+fazların malıdır. Ve gürültü dediğimiz artık bile korosundan %29
+sessizdir — kilit her yerdedir. *Sayı:* Gauss-ötesi pay
 %536; taşıyıcı yalıtımı 0.8-1.6'ya karşı 7.3; b vekilde ölür (162).
+Dürüstlük mührü: sessizliğin mekanizması sonradan inceldi (174-176) —
+"yıkıcı girişim" dediğimiz şey çizgilerin kendi arasında değilmiş
+(onlar YAPICI toplanır); susturan, çizgi korosu ile artık-alan
+arasındaki ters kilittir (kovaryans −0.0435). Üstelik bu oran,
+kalibrasyon makinesinin projeksiyon kusurunun ta kendisi çıktı
+(g_E ≡ R_η/ρ_E — iki ayrı seferin defteri tek özdeşlikte, 174) ve
+nedensel terazisi kuruldu: fazları karıştırınca girişim oranı
+1.265'ten 0.809'a çöker (ikiz zarfında, 176; gerçekte oran 1.288).
 
 **Yarım basamak.** Sentetik denizler günlerce gerçeğe bir buçuk kat
 uzak durdu; meğer iki küçük kusur varmış — dalgalı denizde yanlış köke
@@ -208,6 +216,59 @@ Berry–Keating) — ama veriyle nicel karşılaşmayı, L-izlemesini ve
 kapalı-form sınavını ilk biz yaptık; bayrağın öngörü yarısı onların,
 ölçüm yarısı bizim.
 
+**Denizin sesini kısınca.** Sentetik denizin bütün çalgılarını aynı
+oranda kısıp açtık; makinenin tek sabiti ne düz durdu ne düz indi —
+bir vadi çizdi, dibini de kalemle bulduk. *Aslında:* üçüncü-moment
+kalibrasyonunun ses-şiddeti (λ) eğrisi bir vadi çizer — ve derin uçta
+bir tepesi de vardır (U artı tepe, 173); dip, payın kendi eğiminin
+paydanın sabit eğimini kestiği yerdir. Ve λ-penceresinde (0.50-1.15)
+hangi gaza bakarsak bakalım — gerçek gaz dahil — bant-şekli GERÇEK
+merdivenin sıcaklığını (σ_X̃'ini) taşır (şekil merdivenin malı,
+seviye gazın). Asıl ders alçakgönüllü: bu eksen
+aritmetiğin değil kestirim makinesinin anatomisi çıktı; 4/π² diye
+sevdiğimiz sayı bile λ=1'in tesadüfüymüş. *Sayı:* vadi λ* = 0.6486
+(türetim) ↔ 0.6487 (ölçüm, dört hane); A(τ) = e^{−2π²τ²σ(λ=1)²} sıfır
+parametre; M log-kuadratik, rms %0.73 < ölçüm hatası; iki makine
+ölçeği λ_c = 1.011 ve λ_sad ≈ 1.4; tepe λ ≈ 1.28; c(1.15) = 4/π² +
+4.9σ (169-173).
+
+**Köşe taşı üçüncü evinde.** Aynı yapı taşını önce duvarda, sonra
+çatıda, şimdi temelde bulduk — üçünde de aynı işçilik. *Aslında:*
+orkestra yasasının köşesi (−π · pay · genlik · yarım-gap kosinüsü)
+önce ikinci momentin bağ yasasında, sonra üçüncü momentin tepe
+yüksekliklerinde, şimdi de seviye-denkleminin çizgi-tayfında çıktı —
+üstelik sönümsüz; kulelerdeki fazlalık da aynı denklemin ikinci
+mertebesinden gelir: etkin genlik (1+τ) katına çıkar. *Sayı:*
+κ = −πAτcos(πτ), 7000+ asal çizgide ±%10 (τ = 0.60-0.95 penceresi;
+medyan 0.965); kule düzeltmesi A^eff/A = 1+τ, aşım 1.97 → 1.07
+(143, 165, 175).
+
+**Notadan yüksek çalmak.** Kilitli koro, notasında yazandan gür çalar;
+fazları karıştırınca herkes notasına döner — böylece elimize bir
+kilit-metre geçti. *Aslında:* çizgi gücünün nominale oranı fazların
+kilidini ölçer; ve karıştırma sınavı kilidin terazisini ilk kez
+nedensel kurdu — girişim oranı, DC kaçağı ve çizgi-momentler hep
+birlikte çöker. Gerçeğin ikizinden fazlasının muhasebesi de bölündü:
+küçük pay kesim şeklinin, büyük pay kilidin — ama dürüstlük şerhiyle:
+o büyük payın nedensel dayanağı şimdilik askıda (θ hakemliği tohum
+gürültüsüne takıldı; rakam duruyor, mühür bekliyor). *Sayı:* R_bant
+kilitli gazlarda 1.16-1.40 (erfc-ikizde 6.48'e dek), fazlar karışınca
+0.84-1.01; R_η 1.265 → 0.809 (gereğin 77 katı); DC kaçağı −%86;
+ΔM = %8.6 kesim + %91.4 kilit (175-177).
+
+**Artık nedir?** Mükemmel daireyi çokgenlerle kucaklarsın; hiçbiri tam
+saramaz, ve saramamaların toplamı sonlu bir sayı bırakır — işte bütün
+denizlerimizin ortak tuğlası: artık. *Aslında:* sonlu olanı idealiyle
+yüzleştirip farkı toplamak, matematiğin en soylu sabitlerini üretir
+(harmonik merdivenin γ'sı böyle doğar); bizim denizin her nesnesi de
+bir artıktır — aralık eksi ideal aralık, sayım eksi pürüzsüz sayım —
+ve bellek, artıkta yaşar. Bazı artıklar tam kapanır (bir dışbükey
+çokyüzlünün açık toplamı hep 720°), bazıları vahşi kalır (γ gibi,
+bizimkiler gibi); vahşilik kusur değil, sonsuz bilginin imzasıdır.
+*Sayı:* γ = 0.5772…, üç yüzyıldır kapalı formsuz — irrasyonelliği bile
+açık; ekvatora yaklaşan kürede −log L ≈ c·ε², yani c bir yay sabitidir
+(3 Eylül çay sohbeti; sabitler/SOHBET_SABITLER_03EYL2026.md).
+
 **Gaz kendi aritmetiğini tanır.** Bütün seferlerin tek cümlesi: bu deniz,
 kendi şarkısını başka her sesten ayırt eder. *Aslında:* sıfırların
 gürültüsü, kendi asal dalgalarının fazına karşı örgütlüdür — çünkü
@@ -217,5 +278,5 @@ fazından öndekilerle konuşur; dışarıdan gelen ses bu konuşmaya giremez.
 
 ---
 
-*Son güncelleme: 28 Ağustos 2026 — her yeni yasa bir madde olarak
+*Son güncelleme: 5 Eylül 2026 — her yeni yasa bir madde olarak
 buraya eklenir; ton kuralı: hikâye → aslında → sayı.*
