@@ -218,7 +218,7 @@ kapalı-form sınavını ilk biz yaptık; bayrağın öngörü yarısı onların
 
 **Denizin sesini kısınca.** Sentetik denizin bütün çalgılarını aynı
 oranda kısıp açtık; makinenin tek sabiti ne düz durdu ne düz indi —
-bir vadi çizdi, dibini de kalemle bulduk. *Aslında:* üçüncü-moment
+bir vadi çizdi. *Aslında:* üçüncü-moment
 kalibrasyonunun ses-şiddeti (λ) eğrisi bir vadi çizer — ve derin uçta
 bir tepesi de vardır (U artı tepe, 173); dip, payın kendi eğiminin
 paydanın sabit eğimini kestiği yerdir. Ve λ-penceresinde (0.50-1.15)
@@ -226,11 +226,17 @@ hangi gaza bakarsak bakalım — gerçek gaz dahil — bant-şekli GERÇEK
 merdivenin sıcaklığını (σ_X̃'ini) taşır (şekil merdivenin malı,
 seviye gazın). Asıl ders alçakgönüllü: bu eksen
 aritmetiğin değil kestirim makinesinin anatomisi çıktı; 4/π² diye
-sevdiğimiz sayı bile λ=1'in tesadüfüymüş. *Sayı:* vadi λ* = 0.6486
-(türetim) ↔ 0.6487 (ölçüm, dört hane); A(τ) = e^{−2π²τ²σ(λ=1)²} sıfır
-parametre; M log-kuadratik, rms %0.73 < ölçüm hatası; iki makine
-ölçeği λ_c = 1.011 ve λ_sad ≈ 1.4; tepe λ ≈ 1.28; c(1.15) = 4/π² +
-4.9σ (169-173).
+sevdiğimiz sayı bile λ=1'in tesadüfüymüş. *Sayı:* vadi λ* ≈ 0.65
+(varlığı örneklem-dışı sağlam: iki uçtan +3.4σ / −7.7σ); A(τ) ~Gauss,
+λ-değişmez, genişliği λ_eff = 0.99 ± 0.035; M log-kuadratik, rms
+%0.73 < ölçüm hatası; c(1.15) = 4/π² + 4.9σ (169-173).
+Dürüstlük mührü (teftiş, 179): "dibi kalemle türettik ↔ bağımsız
+ölçümle dört hanede tuttu" dediğimiz şey bir CEBİRSEL ÖZDEŞLİKMİŞ —
+üç noktanın eğim-kesişmesi, aynı üç noktanın parabol tepesidir; iki
+sayı aynı verinin iki adıydı, dört-hane iddiası da aşırıydı (gerçek
+çözünürlük ±0.01-0.1). "λ_sad" ve "tepe" etiketleri de R_bant'ın
+kilit-metre çıkmasıyla (176) şüphe altında — vadi gerçek, süsleri
+gitti.
 
 **Köşe taşı üçüncü evinde.** Aynı yapı taşını önce duvarda, sonra
 çatıda, şimdi temelde bulduk — üçünde de aynı işçilik. *Aslında:*
@@ -239,9 +245,13 @@ orkestra yasasının köşesi (−π · pay · genlik · yarım-gap kosinüsü)
 yüksekliklerinde, şimdi de seviye-denkleminin çizgi-tayfında çıktı —
 üstelik sönümsüz; kulelerdeki fazlalık da aynı denklemin ikinci
 mertebesinden gelir: etkin genlik (1+τ) katına çıkar. *Sayı:*
-κ = −πAτcos(πτ), 7000+ asal çizgide ±%10 (τ = 0.60-0.95 penceresi;
-medyan 0.965); kule düzeltmesi A^eff/A = 1+τ, aşım 1.97 → 1.07
-(143, 165, 175).
+κ = −πAτcos(πτ); bant-medyanları ±%10 (τ = 0.60-0.95; çizgi düzeyinde
+dağılım geniş — yarısı ±%10 içinde); kule düzeltmesi A^eff/A = 1+τ,
+≈2 katlık aşım ~1.07'ye iner (143, 165, 175). Güç mührü (teftiş, 179):
+yasa, zincirin hiç görmediği TAZE pencerede (1.1-1.4 milyonuncu
+sıfırlar) örneklem-dışı yeniden üredi; ve sıfır-site ölçümü cos(πτ)'nin
+tam olarak orta-nokta kinematiği olduğunu, çıplak tepkinin gerçekten
+SÖNÜMSÜZ olduğunu gösterdi (yedi bantta 1.000 ± 0.011).
 
 **Notadan yüksek çalmak.** Kilitli koro, notasında yazandan gür çalar;
 fazları karıştırınca herkes notasına döner — böylece elimize bir
@@ -250,11 +260,14 @@ kilidini ölçer; ve karıştırma sınavı kilidin terazisini ilk kez
 nedensel kurdu — girişim oranı, DC kaçağı ve çizgi-momentler hep
 birlikte çöker. Gerçeğin ikizinden fazlasının muhasebesi de bölündü:
 küçük pay kesim şeklinin, büyük pay kilidin — ama dürüstlük şerhiyle:
-o büyük payın nedensel dayanağı şimdilik askıda (θ hakemliği tohum
-gürültüsüne takıldı; rakam duruyor, mühür bekliyor). *Sayı:* R_bant
-kilitli gazlarda 1.16-1.40 (erfc-ikizde 6.48'e dek), fazlar karışınca
-0.84-1.01; R_η 1.265 → 0.809 (gereğin 77 katı); DC kaçağı −%86;
-ΔM = %8.6 kesim + %91.4 kilit (175-177).
+teftiş (179) pay SAYILARININ çapa-gazına ve defter-konvansiyonuna
+bağıl olduğunu gösterdi (E-kesim payı çapa seçimine göre %21-50
+oynuyor; "%8.6/%91.4" ters işaretli iki terimin kırılgan artığı) ve
+θ satırının nedensel hakemliği dört tohumla aranamaz çıktı (177, 178).
+Mühürlü olan ayrışımın sayısı değil, KİLİDİN VARLIĞIDIR. *Sayı:*
+R_bant kilitli gazlarda 1.16-1.40 (erfc-ikizde 6.48'e dek), fazlar
+karışınca 0.84-1.01; R_η 1.265 → 0.809 (çöküş, tohum saçılımının
+~160 katı); DC kaçağı −%86 (175-179).
 
 **Artık nedir?** Mükemmel daireyi çokgenlerle kucaklarsın; hiçbiri tam
 saramaz, ve saramamaların toplamı sonlu bir sayı bırakır — işte bütün
