@@ -3392,3 +3392,14 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - K4 — olumsuz-net: zarf, A(τ)'nun λ_eff=0.99 Gauss-DW fiziğini PAYLAŞMIYOR (iki ayrı nesne).
 - Süreç: 183 dersi uygulandı (nohup + kısa yoklama; paralel inşa thrashing'i yakalanıp tek-thread BLAS'la çözüldü) — takılma sıfır.
 - NOT 6 DURUMU: manşet artık İKİ kimlikli ve TAM — "gerçeğin ikiz-fazlası = ~%80 nazik güç-yasası zarfı (1−0.149τ^1.30) + ~%20 ortak-mod kilit." Akraba nesne notu: bu w(τ), Not 2'nin w-kanalı iletim ölçümleriyle (w₀<1 kalıcı tutma) aynı ailenin ds-kimlik dilindeki yüzü — köprü paragrafı Not 6'ya.
+
+## 185 (9 Eyl; KALEM_W_TURETIMI; commit 44d9ad0): ZARFIN TÜRETİMİ — öz-muhasebe MÜHÜR, tek-çizgi türetimi ÖLDÜ; zarfın taşıyıcısı = KARIŞIM-İLETİMİ M(τ)
+- K0 ön-kayıt (sha d49a52a4, 14:20:47, ölçümden önce): â^öz tanımı (kesin beklenen-değer; Taylor YASAK — πτσ_ε~1), üç-faktör ayrışımı r = F_ANOMALİ×F_KİNEMATİK×F_KOMŞU⁻¹, Ĝ, bant/jackknife 184 AYNEN, H-W0..W3 formları + ölüm eşikleri, iki ileri-hesap adayı ve mekanizma-eşleme kuralı donduruldu.
+- H-W1 MÜHÜR: ayrışım yapısal 2.2e-16 kapanır; çizgi-lehçesi sınavı 184'ün 8 bandını PARAMETRESİZ üretti (χ²/dof = 0.197 ≤ 2).
+- YAPISAL SÜRPRİZ: F_KOMŞU 1'e yakın DEĞİL (1.52→2.42) — ikizin ds'i TAM nominal merdivenken bile ölçülü çizgi genliği öz-teriminin 1.5-2.4 katı ⇒ w>1 mühürlerinin (184: w_Hk=1.39) kaynağı komşu-çizgi KARIŞIMI; öz-terim tek başına w^öz<1 (gerçek 0.83→0.66, ikiz 0.81→0.58).
+- H-W2 ÖLDÜ (kurtarmasız): iki parametresiz ileri-hesap da zarfın TERS yönünde (r_pred>1; χ²/dof A=1321, B=922); türetilmiş (c,α) = (−0.21, 3.1) / (−0.07, 2.2) — hedef (0.149, 1.30)'un işaretçe karşısında. F_KİNEMATİK zarfın TERSİNE çalışıyor (1.02→1.14; gerçeğin aralık-saçılımı ikizden DAR, Δσ_ε² = −0.019); κ-tipi uyumlu geri-besleme farkı ΔT1 ihmal edilebilir (≤0.0008) — kalemin cos(πτ)-kinematiği beklentisi ölçümle düştü.
+- ZARFIN TAŞIYICISI (doğrudan ölçüm): karışım-iletim profili M(τ) = m_g/m_Hk (m = w_ölçülü − w^öz) = 0.796±0.004 → 0.721±0.021 — gerçek gaz, ikizin uyumlu karışım genliğinin %80→%72'sini iletiyor. Not 2 w-kanalının (w₂=0.91 @ τ=0.028; v-doyumu ~0.55-0.60 @ τ≈0.4) τ∈[0.45,0.86]'daki keşfedilmemiş devamının İLK doğrudan ölçümü → Not 6 köprü paragrafının ölçülü ayağı.
+- H-W0 KAPANDI (L-akışı net katkı %0.54 < %1). H-W3 ÖLDÜ/erişilemedi (en-iyi-ölçekle bile χ²/dof=70; τ^3.3 şekli değil).
+- K4 (HA4, bonus): ÇATLAK ama öğretici — toplamsal öz-değişim HA4'ün kuyruk-çöküşünü (0.87) parametresiz yakaladı (son iki bant −2.4σ/−0.6σ); kıran, orta-τ'da ikizler-arası karışım-eşitliğinin ~%8-10 kırık olması (χ²/dof=648). Çarpımsal taşıma −295σ ile gömüldü ⇒ komşu payı TOPLAMSAL.
+- Kontrol mührü: 185 muhasebesi 184'ün fitini bit-bit buldu (0.1492, 1.304, χ²/dof 0.34).
+- AÇIK (adresi netleşti): "neden α=1.30?" artık M(τ)'nin türetimi sorusu (karışım-genliği iletimi); tek-çizgi kinematiği aday listesinden ÇIKTI. Süreç: 183 reçetesi, takılma sıfır, tek dalga.
