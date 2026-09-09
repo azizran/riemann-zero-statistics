@@ -267,7 +267,9 @@ oynuyor; "%8.6/%91.4" ters işaretli iki terimin kırılgan artığı) ve
 Mühürlü olan ayrışımın sayısı değil, KİLİDİN VARLIĞIDIR. *Sayı:*
 R_bant kilitli gazlarda 1.16-1.40 (erfc-ikizde 6.48'e dek), fazlar
 karışınca 0.84-1.01; R_η 1.265 → 0.809 (çöküş, tohum saçılımının
-~160 katı); DC kaçağı −%86 (175-179).
+~160 katı); DC kaçağı −%86 (175-179). Çözüm sonradan geldi: çapasız
+defter (180-184) ayrışımı nihaileştirdi — bkz. "Ortak rüzgâr" ve
+"Zarfın yüzü".
 
 **Artık nedir?** Mükemmel daireyi çokgenlerle kucaklarsın; hiçbiri tam
 saramaz, ve saramamaların toplamı sonlu bir sayı bırakır — işte bütün
@@ -282,6 +284,41 @@ bizimkiler gibi); vahşilik kusur değil, sonsuz bilginin imzasıdır.
 açık; ekvatora yaklaşan kürede −log L ≈ c·ε², yani c bir yay sabitidir
 (3 Eylül çay sohbeti; sabitler/SOHBET_SABITLER_03EYL2026.md).
 
+**Ortak rüzgâr.** Kilidin gücünü ölçtük ve şaşırdık: her sadakatli
+denizde aynı şiddette esiyordu — gerçekte de, ikizinde de. O zaman
+gerçeği ikizinden ayıran şey rüzgârın kendisi olamazdı; rüzgâr, farkta
+sadeleşiyordu. *Aslında:* fazları karıştırınca üçüncü-moment dünyası
+çöker — kilit nedensel ve devasadır; ama iki zarfta neredeyse aynı
+olduğu için ORTAK-MOD'dur: gerçek−ikiz farkının çoğunu zarf taşır,
+kilit payı küçüktür. Ve çifte-sayım korkusu da öldü: "kırpma" ile
+"kilit" iki ayrı bileşen değilmiş. *Sayı:* çöküş R_η 1.265 → 0.809
+(saçılımın ~160 katı); kilit iki zarfta ±%2 aynı; çapasız defter:
+zarf %81.5 ± 11.3 / kilit %18.5 (Q_E dilinde %79/%21); "ayrı bileşen"
+dalı 4/4 tohumda öldü (176, 180-181).
+
+**İnşa-kilidi.** Kilidi söktüğümüz denizde bile zayıf bir kilit
+esiyordu; katili aradık — çıka çıka kendi çözücümüzün ilk adımı çıktı.
+*Aslında:* sadakatli inşanın ilk-kök braketi, fazlar tamamen rastgele
+bile olsa zayıf, sabit ve gerçek kilidin TERS işaretli bir taban kilit
+üretir; Newton yinelemesi buna zerre eklemez (derinlik merdiveni taş
+gibi sabit). Ana kilit ölçülerinde payı küçük olduğundan 176-182'nin
+bulguları sağlamdır; ama küçük gözlenebilirlerde baskındır — o
+sinyaller artık [alt sınır, üst kol] çatalıyla okunur. *Sayı:*
+korr(Xa,Xb) derinlik-0'da 0.10433 ↔ yakınsamışta 0.10440; inşa payı
+R_η'da %7.8, korr'da %57; iki karışık ailede ortak (0.093 ≈ 0.101) —
+çapasız defter ondan etkilenmez (182-183).
+
+**Zarfın yüzü.** Farkın %80'ini taşıyan zarfa yüzünü sorduk: ne balta
+çıktı (keskin kesim) ne sis (Gauss sönümü) — usul bir soluş çıktı.
+*Aslında:* gerçeğin çizgi genlikleri, nominal merdivene göre kuyruğa
+doğru nazik bir güç yasasıyla soluyor; doğrudan çizgi-genliğinden
+ölçülen bu profil, dolaylı yoldan (bant-gücünden) türetilenle binde-altı
+özdeş çıkınca %80 defteri nihaileşti. Ve zarf, kalibrasyonun bant-şekli
+A(τ) ile akraba çıkmadı — iki ayrı nesne. *Sayı:*
+w(τ) = 1 − 0.149·τ^1.30 (χ²/dof = 0.34); kuyrukta genlik %10 / güç %19
+bastırma; erfc ancak τ_c ≈ 1.84'le yaşar (152'nin 0.68'i genlik
+düzeyinde red); doğrudan↔dolaylı zarf farkı < %0.6 (184).
+
 **Gaz kendi aritmetiğini tanır.** Bütün seferlerin tek cümlesi: bu deniz,
 kendi şarkısını başka her sesten ayırt eder. *Aslında:* sıfırların
 gürültüsü, kendi asal dalgalarının fazına karşı örgütlüdür — çünkü
@@ -291,5 +328,5 @@ fazından öndekilerle konuşur; dışarıdan gelen ses bu konuşmaya giremez.
 
 ---
 
-*Son güncelleme: 5 Eylül 2026 — her yeni yasa bir madde olarak
+*Son güncelleme: 9 Eylül 2026 — her yeni yasa bir madde olarak
 buraya eklenir; ton kuralı: hikâye → aslında → sayı.*
