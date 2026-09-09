@@ -75,3 +75,28 @@ denizde aynı ortak rüzgârdır, gerçeği ikizinden ayıran ise yüzü artık
 bilinen nazik bir zarftır (1 − 0.149·τ^1.30'a %80, rüzgâr farkına %20) —
 ve bu cümlenin her parçası, kendi çürütücüsünden sağ çıkmış ölçümlerle
 yazılmıştır.
+
+---
+
+## ŞERH (9 Eyl akşamı; 185-186 sonrası — ortak teftişle basıldı)
+
+Açık defterin "w(τ)'nin TÜRETİMİ" kalemi iki seferde kovalandı ve DÖNÜŞTÜ:
+
+- **185:** zarf, özdeşlik-makinesinin İÇİNDE eksiksiz muhasebeleşiyor
+  (öz-izdüşüm ayrışımı, χ²/dof=0.197) ama tek-çizgi kinematiğinden
+  türetilemiyor (iki parametresiz ileri-hesap ters yönde, öldü). Taşıyıcı
+  bulundu: karışım-iletimi **M(τ) = 0.80→0.72** — Not 2 w-kanalının
+  yüksek-τ devamının ilk doğrudan ölçümü. w>1'lerin kaynağı komşu-çizgi
+  karışımı (F_KOMŞU 1.5-2.4).
+- **186:** M de türetilemedi — öz-tutarlılık sabit-noktası ANTİ-ZARF
+  (r*=1.11→1.20; α=1.30 o denklemin çözümü değil); V≡r dejenerasyonu
+  (aralık serisinin modül-kestirimcisi w-kanalıyla cebirsel özdeş — bu
+  lehçede iki kanal TEK; kaptanın kalem-tasarım hatası, dürüst kayıt).
+  M(τ) = 1 − 0.277·τ^0.42 kendi (sığ) üssünü taşıyan AYRI ilkel nesne.
+- **YENİ AÇIK KALEM — 187, PENCERE-ÖTESİ FAZ-İPTAL DEFTERİ (kullanıcı
+  onaylı):** gerçek deniz, pencere-içi merdiven karışımının ~üçte birini
+  τ>0.86 içerikle FAZ-UYUMLU iptal ediyor (m^kesik/m_ölç 1.46-1.58;
+  ikizde 1.04-1.10; HA4 yön-teyidi: kuyruğu ölünce karışım artar,
+  M_HA4=1.26→1.02). Bastırma genlik değil, çizgiler-arası faz-örgüsü.
+  "Neden 1.30?" sorusunun güncel adresi budur: iptalin τ'-derinlik
+  profili, faz-örgüsünün doğrudan ölçümü, HA4 %26'sının nicel açıklaması.
