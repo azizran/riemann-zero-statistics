@@ -276,3 +276,16 @@ o sinyaller [alt, üst] çatalıyla okunmalıdır.
   tarafından elle koşuldu, silinen ara-önbellekler (z_keskin, G_VF1..4,
   K1_VF1/2) yeniden üretildi — K1_son.eta.R = 1.28829, 176'nın değeriyle
   BİT-BİT aynı (zincir bütünlüğü doğrulandı).
+
+## K4 SONUÇ — İNŞA-KİLİDİ İKİ KARIŞIK AİLEDE ORTAK (180 payları dayanıklı)
+
+VS (gerçek-zarflı karışık) korr(Xa,Xb): VS1 +0.10077, VS2 +0.08604,
+ort +0.09341 ± ~0.0074 (2 tohum). VF (ikiz-zarflı karışık) korr = +0.10056.
+İki aile **istatistiksel olarak aynı** (fark tohum saçılımı içinde).
+
+**HÜKÜM (K4): inşa-kilidi son-zarflı ve Hkeskin-zarflı karışık ailelerde
+ORTAKTIR.** Dolayısıyla 180'in çapasız ayrışımı — zarf payını iki KARIŞIK
+ailenin farkından (VS − VF) ölçüyordu — inşa-kilidine karşı DAYANIKLIDIR:
+ortak inşa-kilidi bu farkta sadeleşir. 180'in "zarf ~%80 / kilit ~%20"
+defteri inşa-kilidi düzeltmesiyle değişmez; kilit-payı gerçek kilittir.
+Bu, K3'ün "ana ölçülerde inşa payı %8" hükmüyle tutarlıdır.
