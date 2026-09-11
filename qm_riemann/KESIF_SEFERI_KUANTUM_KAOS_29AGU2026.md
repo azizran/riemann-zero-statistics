@@ -111,7 +111,7 @@ Yani aynı nesnenin (asal-asal / yörünge-yörünge korelasyonları) iki zıt �
 
 ### 3.8 Bogomolny, Bohigas, Leboeuf, Monastra, *J. Phys. A* **39** (2006) 10743 (arXiv math/0602270)
 **Ne yapıyor.** Riemann sıfırlarının **en yakın komşu aralık dağılımının** GUE'den sonlu-E sapmalarını, sonlu boyutlu üniter matrislerin sapmalarıyla açıklıyor:
-`N_eff = log(E/2π)/√(12Λ)`, `Λ ≡ γ₀² + 2γ₁ + c₀ = 1.57314…`, `c₀ = Σ_p (log p)⁴ Σ_{r≥1} (r−1)r²/p^r`, ayrıca `Q = Σ_p log³p/(p−1)²`.
+`N_eff = log(E/2π)/√(12Λ)`, `Λ ≡ γ₀² + 2γ₁ + c₀ = 1.57314…`, `c₀ = Σ_p (log p)²/(p−1)²` (düzeltme 11 Eyl 2026: BBLM tanımı `c_n = [(−1)ⁿ/(2n)!] Σ_p (log p)^{2(n+1)} Σ_r (r−1)r^{2n}/p^r`; n=0'da `c₀ = Σ_p (log p)²/(p−1)² = 1.3855389…` — eski yazımdaki `(log p)⁴` ve `r²` transkripsiyon hatasıydı, 33.81 veriyordu; Λ = 1.573085 ve C = Q/Λ = 1.47161 doğrulandı), ayrıca `Q = Σ_p log³p/(p−1)²`.
 **Bizimkiyle ilişki — DİKKAT.** Bu `N_eff` ile Keating–Snaith'in `N = L`'si aynı şey değil (biri yoğunluğa, diğeri aralık dağılımına kalibre). Programın `N_eff = L + c` bulgusu ikincisiyle *doğrudan çelişmez* ama **aynı veriden iki farklı efektif boyut çıkarmak, hangi istatistiğin kalibre edildiğine bağlıdır**. Bu iki tanımın uzlaştırılması ayrı bir çapraz kontrol maddesi olmalı. Λ ve Q'nun asal toplamları olması ayrıca ilginç: sonlu-boyut düzeltmesinin katsayısı bile aritmetiktir.
 
 ### 3.9 Bogomolny, Georgeot, Giannoni, Schmit, "Arithmetical chaos", *Phys. Rep.* **291** (1997) 219–326

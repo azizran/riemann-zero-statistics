@@ -1,0 +1,196 @@
+{
+ "tarih": "2026-09-11 15:26",
+ "satirlar": [
+  {
+   "grup": "A",
+   "kontrol": "Conrey–Ghosh eğimi (A=1.19453)",
+   "olculen": 1.1951235143211645,
+   "beklenen": 1.1945280494653248,
+   "tolerans": 0.006,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "A",
+   "kontrol": "HLPC sabit terimi (2.758)",
+   "olculen": 2.7541928734265593,
+   "beklenen": 2.758001209262635,
+   "tolerans": 0.055,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "A",
+   "kontrol": "r (L=9.86)",
+   "olculen": 0.7944936791439257,
+   "beklenen": 0.7947,
+   "tolerans": 0.005,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "A",
+   "kontrol": "r (L=11.98)",
+   "olculen": 0.7588361040841239,
+   "beklenen": 0.7589,
+   "tolerans": 0.005,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "B",
+   "kontrol": "zeta r (aynı ızgara)",
+   "olculen": 0.79431491295685,
+   "beklenen": 0.7943,
+   "tolerans": 0.005,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "B",
+   "kontrol": "Gaussian null seviyesi",
+   "olculen": 0.491805414868708,
+   "beklenen": 0.494,
+   "tolerans": 0.01,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "B",
+   "kontrol": "fazlalık (sigma)",
+   "olculen": 56.75687534975313,
+   "beklenen": 43.0,
+   "tolerans": 15.0,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "C",
+   "kontrol": "toplam kural u(p=2)",
+   "olculen": 1.0006365699831317,
+   "beklenen": 1.0,
+   "tolerans": 0.02,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "C",
+   "kontrol": "toplam kural u(p=3)",
+   "olculen": 1.00378906543399,
+   "beklenen": 1.0,
+   "tolerans": 0.02,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "C",
+   "kontrol": "toplam kural u(p=5)",
+   "olculen": 1.0031997697528807,
+   "beklenen": 1.0,
+   "tolerans": 0.02,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "C",
+   "kontrol": "toplam kural u(p=7)",
+   "olculen": 1.002669544907253,
+   "beklenen": 1.0,
+   "tolerans": 0.02,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "C",
+   "kontrol": "kuadratür/kosinüs (p=2)",
+   "olculen": 0.00018569501538697158,
+   "beklenen": 0.0,
+   "tolerans": 0.05,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "C",
+   "kontrol": "v(p=2) L=9.86",
+   "olculen": 0.1383018186625309,
+   "beklenen": 0.11,
+   "tolerans": 0.03,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "C",
+   "kontrol": "v(p=13) L=9.86",
+   "olculen": 0.4340540572706546,
+   "beklenen": 0.37,
+   "tolerans": 0.07,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "C",
+   "kontrol": "u·k ortalaması (tüm satırlar)",
+   "olculen": 0.9373125137785318,
+   "beklenen": 1.0,
+   "tolerans": 0.1,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "D",
+   "kontrol": "v(10^12)/v(10^5) eşleşen τ'lerde",
+   "olculen": 1.068812581195782,
+   "beklenen": 1.0,
+   "tolerans": 0.15,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "D2",
+   "kontrol": "v(10^21)/v(10^12), eşleşen τ (n=126)",
+   "olculen": 0.9953849818703556,
+   "beklenen": 1.0,
+   "tolerans": 0.2,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "D2",
+   "kontrol": "v(10^22)/v(10^12), eşleşen τ (n=126)",
+   "olculen": 1.0004975890256997,
+   "beklenen": 1.0,
+   "tolerans": 0.2,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "E",
+   "kontrol": "maks |faz − 180°| (18 satır)",
+   "olculen": 0.299666386696515,
+   "beklenen": 0.0,
+   "tolerans": 1.0,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "F",
+   "kontrol": "Λ = γ₀²+2γ₁+c₀",
+   "olculen": 1.573085100949669,
+   "beklenen": 1.57314,
+   "tolerans": 0.001,
+   "birim": "",
+   "sonuc": "PASS"
+  },
+  {
+   "grup": "F",
+   "kontrol": "C = Q/Λ",
+   "olculen": 1.4716115171085464,
+   "beklenen": 1.472,
+   "tolerans": 0.001,
+   "birim": "",
+   "sonuc": "PASS"
+  }
+ ],
+ "pass_": 21,
+ "toplam": 21
+}
