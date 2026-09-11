@@ -117,9 +117,39 @@ Kesim üç değere çekildi (τ_c = 0.70, 0.86, 1.00; sırasıyla 246 / 1332 / 6
 | **T1** faz-rastgele denizde ζ | ✅ **yapıldı** | iptal **aritmetik**; 8 vekilin hiçbiri \|ζ\| ≈ 0.33 vermiyor (§5-bis) |
 | **T2** bant/kesim taraması | ✅ **yapıldı** (bant ekseni) | plato **yapılı eğri**; 1/π hipotezi düştü; faz kilidi bant-bağımsız (§5-ter) |
 | **T3** kesim taraması | ✅ **yapıldı** | minimum kesimden bağımsız; yükseliş kesime-yakınlığı izliyor (§5-quater) |
-| **T4** ikinci pencerede 1/π | ✅ gereksizleşti | 1/π zaten minimuma denk gelen tesadüf olarak çözüldü |
+| **T4** kapalı form | ✅ **yapıldı** | |ζ|(τ) = A + B·e^{−(τ_c−τ)/x₀}, A=0.321, x₀=0.049, RMS 0.0052 (§5-quinquies) |
 
 **Kalan tek soru (nicel):** |ζ|(τ) ≈ taban + kesime-yakınlık artışı biçiminin **kapalı formu**. Nitel yapı T3 ile çıktı; nicel ifade (ör. tabanın τ_c'ye ve pencere genişliğine bağlılığı) hâlâ açık.
+
+## 5-quinquies. ✅ T4/KAPALI FORM — |ζ|(τ) üstel yaklaşma (11 Eylül 2026)
+
+T2/T3 verisi (τ_c = 0.86, 39 pencere) altı aday forma fit edildi (`28_kapali_form.py`).
+En iyi form **üstel yaklaşma**:
+
+```
+|ζ|(τ) = A + B · exp( −(τ_c − τ) / x₀ ),      τ_c = 0.86
+        A  = 0.3210 ± 0.0016      (bootstrap)
+        B  = 0.129  ± 0.035
+        x₀ = 0.0494 ± 0.0059      (τ birimi)
+        RMS = 0.0052   (ölçüm hataları ±0.003–0.008)      χ²/dof = 1.81
+```
+
+Yani: **ζ uzakta bir tabana (A ≈ 0.321) oturuyor ve kesime yaklaşırken üstel olarak yükseliyor**,
+sönüm uzunluğu **x₀ ≈ 0.05** — kesimin yalnız son ~0.15 τ'si (3x₀) etkileniyor.
+
+**Sıralama (RMS):** üstel 0.0052 ≲ `A + B/x` 0.0068 < `x^{−1/2}` 0.0076 < `B·ln(1/x)` 0.0095.
+Serbest üslü form `A + B·x^{−p}` → **p = 0.986 ± ~0**, yani 1/x ailesi de neredeyse eşdeğer;
+veri ikisini ayırt etmiyor (dürüstlük notu: x₀ ≈ 0.05 ile `B/x` biçimi arasında karar için
+τ_c'ye 0.02'den daha yakın pencereler gerekir).
+
+**Uyarı — form evrensel değil:** aynı form τ_c = 1.00 verisine **uymuyor** (RMS 0.034).
+O evrende eğri τ ≈ 0.90'da tepe yapıp düşüyor; yani kapalı form **standart kesim (0.86) için**
+geçerli, kesim evreni değişince nesne değişiyor (T3'ün sonucuyla tutarlı).
+
+**1/π hakkında son söz:** fitin uzak-asimptotu A = 0.3210; 1/π = 0.3183 (≈ %1 uzakta). T2
+minimumu ise 0.3164. Yani 1/π, *üç ayrı* karakteristik değere (minimum, asimptot) %1
+mesafede duruyor — bu, 0.318 civarının eğrinin doğal "taban bölgesi" olduğunu ve 1/π'nin
+oraya **tesadüfen** düştüğünü gösterir. Yapısal bir sabit iddiası için dayanak yok.
 
 ## 6. Durum (11 Eylül 2026 akşamı)
 
