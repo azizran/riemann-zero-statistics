@@ -100,3 +100,24 @@ Açık defterin "w(τ)'nin TÜRETİMİ" kalemi iki seferde kovalandı ve DÖNÜ�
   M_HA4=1.26→1.02). Bastırma genlik değil, çizgiler-arası faz-örgüsü.
   "Neden 1.30?" sorusunun güncel adresi budur: iptalin τ'-derinlik
   profili, faz-örgüsünün doğrudan ölçümü, HA4 %26'sının nicel açıklaması.
+
+---
+
+## ŞERH-2 (23 Eylül; 188-189 sonrası — ortak teftişle basıldı)
+
+Bu demirin manşetindeki "%80 zarf" bileşeni YENİDEN OKUNUR:
+
+- 188: iptal çekirdeği iki denizde aynı; derinlik-eşli ζ iki denizde eşit ⇒
+  ikizle gerçeğin farkı, ikizin merdiveninin kurgu gereği τ=1'de (q = t/2π)
+  bitmesinden.
+- 189: ikiz derinleştirilince (τ≤1.10, 1.20) zarf düzenli kapanır: ölçülen
+  EN AZ YARISI (%51) merdiven derinliği; D→∞ modellerine göre TAMAMI.
+  Zarfın üssü derinlikle kayar (α 1.30 → 1.68 → 2.22): **w(τ) = 1 − 0.149·τ^1.30
+  gerçek sıfırların yasası değil, τ≤1.00 ikiziyle kıyasın parmak izidir.**
+- Yani manşet şöyle düzeltilir: "gerçeğin sadakatli ikizinden fazlasının büyük
+  kısmı, ikizin q = t/2π'de kesilen asal merdiveninin eksikliğidir; gerçek
+  sıfırlar o ötedeki asal kuvvetlerini sıfır örgüsünün tarağı üzerinden duyar
+  ve bu, aralıklarını ölçülebilir biçimde sıkılaştırır (σ_ε, 189 H-189c)."
+- %20 ortak-mod kilit bileşeni bu şerhle DEĞİŞMEDİ ama derin ikizle de
+  sınanmadı — açık kalem.
+- Ders: "ölçtüğümüzün ne kadarı kıyas tabanının?" — her manşette sorulacak.
