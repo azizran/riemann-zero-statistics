@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+qm_riemann/scratchpad/
+_gelen/
+_yedek_*/
+*.zip

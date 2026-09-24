@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Riemann zero statistics — an experimental research program"
+authors:
+  - family-names: "Sezen"
+    given-names: "Uğur"
+repository-code: "https://github.com/azizran/riemann-zero-statistics"
+license: MIT
+keywords:
+  - Riemann zeta function
+  - zeros of the zeta function
+  - Dirichlet L-functions
+  - explicit formula
+  - random matrix theory
+  - experimental mathematics

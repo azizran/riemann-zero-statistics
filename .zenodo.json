@@ -1,0 +1,11 @@
+{
+  "title": "Riemann zero statistics — an experimental research program",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Sezen, Uğur"}
+  ],
+  "description": "A numerical, pre-registered research program on the local statistics of the nontrivial zeros of the Riemann zeta function and of Dirichlet L-functions. Contains four research notes (PDF + LaTeX), all measurement scripts, pre-registration files with sha256 timestamps, the research ledger, and an independent replication package. The notes have not been peer reviewed; nothing here claims to bear on a proof of the Riemann Hypothesis. Produced with extensive AI assistance (Claude, Anthropic; replication package with DeepSeek); the author takes responsibility for all content.",
+  "license": "MIT",
+  "keywords": ["Riemann zeta function", "zeros of the zeta function", "Dirichlet L-functions", "explicit formula", "random matrix theory", "experimental mathematics"],
+  "language": "eng"
+}
