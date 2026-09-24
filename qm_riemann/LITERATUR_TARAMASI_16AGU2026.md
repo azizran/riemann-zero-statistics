@@ -3477,3 +3477,12 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - KONTRAST: σ kapanışı g/Δz = 4.18, 4.05, 3.93 → g_∞ ≈ 1.01: aralık saçılımı derinlikle TAM yakınsar; genlikte ~%10 kalıntı kalır.
 - K4 KİLİT GÜÇ ANALİZİ: ayrım M 1.64σ, Q_E 2.94σ < 3σ → "GÜÇ YETERSİZ", ölçüm yapılmadı (kurtarma yok). %20 kilit sorusu açık; kesin sınav karıştırılmış derin-ikiz aileleri ister (pahalı). Not: 166-183 önbellekleri bu makinede yok.
 - AÇIK: kalıntının kimliği (kilidin genlikteki izi mi?).
+
+## 193 (24 Eyl; KALEM_SINIF_YASASI fe2fa49 — türetim teftişinden geçti; ORTAK TEFTİŞLE mühür): KALINTI-SINIFI YASASI — uydular çizginin kalıntı sınıfını okuyor (KÖR MÜHÜR)
+- TÜRETİM TEFTİŞİ (ilk uygulama, Sonnet ~100k): 4. hatayı mühürden önce yakaladı (192 türetiminde eksik durağan-faz −π/4 → φ0 ≡ 0 TÜRETİLDİ), körlük ihlali (+log5 → KAYIT), kirlilik (5/2, 5/3 çıkarıldı; δ=0.03). Ölçüm ajanı SONNET.
+- K0 komşu raporu (yalnız aritmetik): beş hedefin beşinin de 0.06 içinde a,b≤20 rasyonel komşusu var (+log10↔19/2, +log7↔20/3, +log5↔19/4, ±log3↔20/7,19/6,17/6) — "kirlenme riskli" etiketi. Makine mührü: 188/192 ile bit-bit; tam/alt örneklem 0.83 se.
+- H-193a MÜHÜR (birincil, KÖR, +log10): r1 +0.899±0.023, r9 +0.902±0.017 (öng. +0.809); r3 −0.416±0.035, r7 −0.386±0.035 (öng. −0.309) — işaret-değiştiren sınıflar dahil dördü doğru yönde, ±0.25 bandında, 10σ+.
+- H-193b KAYIT (ikincil, KÖR, +log7): yön 4/4 doğru ve 5-6σ (r1 −1.44, r6 −1.52, r3 +1.71, r4 +1.66; r2,r5 ≈ +0.33/+0.26) ama büyüklük öngörünün 1.5-1.9 katı → ±0.30 nicel bandı aşıldı (ölüm koşulu tetiklenmedi).
+- Kontroller: +log3 0.462/0.538, −log3 0.499/0.501 (sıfır-yapı kusursuz). +log5 doğrulayıcı: 4/4 işaret, büyüklük 1.3-1.8×.
+- KAPTAN ÖN-TEFTİŞ GÖZLEMİ (veri-sonrası, hipotez): (1) göreli desen cos yasasına %2 içinde uyuyor — (s3−s2)/(s3−s1) = 0.437 ve (s4−s5)/(s4−s6) = 0.440 vs öngörü 0.445; sapma ORTAK bir germe çarpanı. (2) germe k = 1.16 (log10), 1.40 (log5), 2.07 (log7) — uydu söndükçe büyür; toplamdan eksilen miktar κ_top·(k−1) ≈ 0.0023 / 0.0024 / 0.0027 ≈ SABİT ⇒ her δ-penceresinde sınıftan bağımsız ~−0.0025'lik EKSİ TABAN hipotezi; 192'nin μ=0 çukurları bu tabanın uydusuz görünümü olabilir. Çekince: komşu sızıntısı da olabilir (K0 bayrağı). → 194.
+- Anlam: "tarak uydusu çizgiye 'a'ya bölününce kaç kalıyorsun?' diye sorar ve cevaba göre cos(2πrb/a) ağırlığıyla işaret değiştirir" — veri-öncesi türetim + kör sınavla MÜHÜRLÜ (ilk mertebe teorinin göreli deseni).
