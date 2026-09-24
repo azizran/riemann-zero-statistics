@@ -1,5 +1,7 @@
 # Riemann zero statistics — an experimental research program
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22942475.svg)](https://doi.org/10.5281/zenodo.22942475)
+
 A numerical, pre-registered research program on the local statistics of the
 nontrivial zeros of the Riemann zeta function and of Dirichlet L-functions:
 how prime (power) waves are transmitted into zero gaps and amplitudes, and how
@@ -24,11 +26,13 @@ LaTeX sources sit next to the PDFs.
 ## How the work is done
 
 - **Pre-registration.** Measurement tasks are numbered (scripts `qm_riemann/NNN_*.py`,
-  tasks 1–195). In the later part of the program each task has a pencil file
-  (`qm_riemann/KALEM_*.md`, 32 of them) that freezes hypotheses, thresholds and
-  death conditions *before* the data are looked at, together with a sha256 +
-  timestamp file; the git history of this repository (original commit dates
-  preserved) is the public record of that order.
+  tasks 1–196). In the later part of the program the measurement tasks have a
+  pencil file (`qm_riemann/KALEM_*.md`, 32 of them) that freezes hypotheses,
+  thresholds and death conditions *before* the data are looked at, together
+  with a sha256 + timestamp file; the git history of this repository (original
+  commit dates preserved) is the public record of that order. Exploratory,
+  post-hoc comparisons (e.g. task 196) are labelled as such and are not counted
+  as tests.
 - **No rescue.** Refuted hypotheses are recorded as refuted; the research log
   keeps the failures next to the successes.
 - **Adversarial audits.** Results are audited by independent agents before being
@@ -67,4 +71,12 @@ Code: MIT (see `LICENSE`). Notes, figures and text: CC BY 4.0.
 
 ## Citation
 
-See `CITATION.cff`.
+Releases are archived at Zenodo. To cite the program as a whole (all
+versions), use
+
+> Uğur Sezen, *Riemann zero statistics — an experimental research program*,
+> Zenodo, [doi:10.5281/zenodo.22942475](https://doi.org/10.5281/zenodo.22942475).
+
+Each release also has its own DOI, listed on the Zenodo page (v1.0:
+[10.5281/zenodo.22942476](https://doi.org/10.5281/zenodo.22942476)). See also
+`CITATION.cff`.

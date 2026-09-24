@@ -4,6 +4,7 @@ title: "Riemann zero statistics — an experimental research program"
 authors:
   - family-names: "Sezen"
     given-names: "Uğur"
+doi: "10.5281/zenodo.22942475"
 repository-code: "https://github.com/azizran/riemann-zero-statistics"
 license: MIT
 keywords:
