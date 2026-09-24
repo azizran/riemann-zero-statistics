@@ -3486,3 +3486,11 @@ Girdisi YALNIZ asal merdiveni olan gaz (z_n: N̄+S=n öz-tutarlılığı; rastge
 - Kontroller: +log3 0.462/0.538, −log3 0.499/0.501 (sıfır-yapı kusursuz). +log5 doğrulayıcı: 4/4 işaret, büyüklük 1.3-1.8×.
 - KAPTAN ÖN-TEFTİŞ GÖZLEMİ (veri-sonrası, hipotez): (1) göreli desen cos yasasına %2 içinde uyuyor — (s3−s2)/(s3−s1) = 0.437 ve (s4−s5)/(s4−s6) = 0.440 vs öngörü 0.445; sapma ORTAK bir germe çarpanı. (2) germe k = 1.16 (log10), 1.40 (log5), 2.07 (log7) — uydu söndükçe büyür; toplamdan eksilen miktar κ_top·(k−1) ≈ 0.0023 / 0.0024 / 0.0027 ≈ SABİT ⇒ her δ-penceresinde sınıftan bağımsız ~−0.0025'lik EKSİ TABAN hipotezi; 192'nin μ=0 çukurları bu tabanın uydusuz görünümü olabilir. Çekince: komşu sızıntısı da olabilir (K0 bayrağı). → 194.
 - Anlam: "tarak uydusu çizgiye 'a'ya bölününce kaç kalıyorsun?' diye sorar ve cevaba göre cos(2πrb/a) ağırlığıyla işaret değiştirir" — veri-öncesi türetim + kör sınavla MÜHÜRLÜ (ilk mertebe teorinin göreli deseni).
+
+## 194 (24 Eyl; KALEM_BOS_PENCERE_TABANI 9e74e4a; ORTAK TEFTİŞLE mühür): BOŞ PENCERE — "tek açıklama" hipotezi ÖLDÜ; μ=0 çukurları AYRI, LOKAL bir olgu
+- K0: katalog o kadar yoğun ki a,b≤12'de 2, a,b≤10'da 4 boş pencere (1.320, 1.701, 1.869, 2.013) — hedef 6'ya ulaşılamadı; kural daha fazla gevşetilmedi (doğru). Makine mührü: +log10 κ_top 193 ile bit-bit.
+- H-194a ÖLDÜ: κ̄_boş = +0.00024±0.00017 (sıfır) — öngörülen −0.0025'ten ~16σ uzak; "her yerde eksi taban" yok.
+- H-194d ÖLDÜ (öğretici): μ=0 pencereleri κ̄_μ0 = −0.00168±0.00012, 8/8 negatif, boş pencerelerden −9.4σ daha derin ⇒ μ=0 çukurları genel taban DEĞİL, o konumlara bağlı LOKAL bir işaret. Birinci-mertebe teori orada (kalıntı ortalaması μ(a)=0) kesin sıfır der — teoride gerçek bir açık.
+- H-194b KAYIT (boş pencerelerde eğilim yok), H-194c KISMEN (mod5/mod10 eşit; mod3 hafif asimetri, sınanmadı), H-194e KAYIT (κ̄_boş≈0 ⇒ düzeltme ihmal edilebilir; 193 germesi AÇIK).
+- KAPTAN TEFTİŞ ŞERHİ: raporun "rakip (komşu sızıntısı) kazandı" cümlesi fazla güçlü — boş pencerelerin sıfır çıkması sızıntıyla TUTARLI ama sızıntının germeyi açıkladığı GÖSTERİLMEDİ: "sızıntı dışlanmadı, kanıtlanmadı". Kaptanın 193'teki birleştirici hipotezi yanlıştı (dürüst kayıt).
+- DURUM: uydu teorisinin çekirdeği sağlam (konum 190, seçim kuralı 192, sınıf deseni 193); iki açık uç: μ=0 çukurları, 193 germesi.
