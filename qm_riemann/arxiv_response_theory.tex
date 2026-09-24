@@ -98,7 +98,8 @@ amplitude windows spanning $t = 1.2\times10^5$ to $2.7\times10^{11}$
 10^3$ for the extended-$\tau$ measurements; channels are measured by
 linear regression of $\log$(unfolded maxima) and $\log$(unfolded gaps)
 on $\cos(t_n \log p), \sin(t_n \log p)$ at gap midpoints, with own-gap
-controls for $w$. All channel coefficients are measured with
+controls for $w$ (the unfolded gap $\tilde\delta_n = g_n L/2\pi$ and
+$\tilde\delta_n^2$ as covariates). All channel coefficients are measured with
 \emph{complete} regression bases (Section~\ref{sec:grid}).
 
 \section{The sampling-grid systematic}\label{sec:grid}
@@ -218,7 +219,13 @@ complete-basis) shows that the amplitude channel does not merely shrink
 (statistical, from a window-block bootstrap of the linear fit over the
 $\tau \in [0.30, 0.58]$ points; the linear-fit-zero definition carries
 a fit-range systematic of $\pm 0.009$, which a quadratic-fit zero
-removes --- stable at $0.447$--$0.448$ across ranges) and settles on a
+removes --- stable at $0.447$--$0.448$ across ranges; the crossing
+position is convention-sensitive at the $0.05$ level: in the
+restricted-basis convention of the earlier version it appeared near
+$0.40$, and an independent re-implementation with a single
+$\log\tilde\delta$ control likewise finds $\approx 0.40$ --- the value
+$0.447$ refers to the complete basis with the $(\tilde\delta,
+\tilde\delta^2)$ controls) and settles on a
 shallow negative plateau: beyond the crossing, peaks are
 slightly \emph{low} where the prime wave is high. The plateau depth is
 $-0.04$ to $-0.09$ depending on how far the covariate basis is extended
@@ -426,7 +433,13 @@ failed intermediate models alongside the results.
 \section*{Acknowledgements}
 
 Computational assistance, literature search and drafting: Claude
-(Anthropic). Errors are the author's.
+(Anthropic). An independent re-implementation of the core measurements, written from
+scratch with a different AI assistant (DeepSeek) and run on the raw
+Odlyzko tables (repository folder \texttt{bagimsiz\_dogrulama/}) reproduced the direct $|Z|^2$ channel
+($r = 0.9989$ over 21 primes below the fold), the sign change of $w$
+without rotation (quadrature $\le 5\%$), and --- once the $q^{-1/2}$
+normalization is matched --- the $2(1-\tau)$ tent family to within
+$1$--$8\%$. Errors are the author's.
 
 \begin{thebibliography}{9}
 
