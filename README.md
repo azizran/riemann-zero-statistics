@@ -21,7 +21,7 @@ and their failed alternatives.
 | 2 | The prime-wave anatomy of the gap–amplitude law | [`qm_riemann/arxiv_prime_wave_anatomy.pdf`](qm_riemann/arxiv_prime_wave_anatomy.pdf) |
 | 3 | A response theory for the Riemann zero gas | [`qm_riemann/arxiv_response_theory.pdf`](qm_riemann/arxiv_response_theory.pdf) |
 | 4 | The Riemann zero lattice as a warm crystal | [`qm_riemann/arxiv_warm_crystal.pdf`](qm_riemann/arxiv_warm_crystal.pdf) |
-| 7 | Arithmetic satellites of the Bragg comb of the Riemann zero lattice: residue classes, characters, and a blind test of the Bogomolny–Keating mirror law | [`qm_riemann/arxiv_comb_satellites.pdf`](qm_riemann/arxiv_comb_satellites.pdf) |
+| 7 | Arithmetic satellites of the Bragg comb of the Riemann zero lattice: residue classes, characters, and a blind test of the Bogomolny–Keating mirror law | [`qm_riemann/arxiv_comb_satellites.pdf`](qm_riemann/arxiv_comb_satellites.pdf) — preprint [doi:10.5281/zenodo.22960606](https://doi.org/10.5281/zenodo.22960606) |
 
 LaTeX sources sit next to the PDFs.
 
@@ -80,5 +80,11 @@ versions), use
 > Zenodo, [doi:10.5281/zenodo.22942475](https://doi.org/10.5281/zenodo.22942475).
 
 Each release also has its own DOI, listed on the Zenodo page (v1.0:
-[10.5281/zenodo.22942476](https://doi.org/10.5281/zenodo.22942476)). See also
+[10.5281/zenodo.22942476](https://doi.org/10.5281/zenodo.22942476)). Note 7 has its own preprint record:
+
+> Uğur Sezen, *Arithmetic satellites of the Bragg comb of the Riemann zero lattice: residue
+> classes, characters, and a blind test of the Bogomolny–Keating mirror law*, Zenodo (2026),
+> [doi:10.5281/zenodo.22960606](https://doi.org/10.5281/zenodo.22960606).
+
+See also
 `CITATION.cff`.
