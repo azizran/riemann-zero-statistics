@@ -1,0 +1,30 @@
+{
+ "kapi": "M1: W_düşük (197 geometrisi) → HUKUM_197 İKİNCİL genlikleri ve s ≤ 1e-10",
+ "s_maks_bagil": 0.0,
+ "IKINCIL_A_maks_bagil": 0.0,
+ "n_konum": 19,
+ "profil_maks_bagil_vs_197": 7.690152413893765e-18,
+ "cizgi_bicimi_g_vs_197b_maks_fark": 0.0,
+ "kappa_d": {
+  "2": {
+   "deger": 0.7952614881862714,
+   "se": 0.009235114245907936
+  },
+  "3": {
+   "deger": 0.7204716185045511,
+   "se": 0.011872273936893642
+  },
+  "5": {
+   "deger": 0.6084416558030232,
+   "se": 0.020009153874492678
+  },
+  "7": {
+   "deger": 0.5296069426946808,
+   "se": 0.03117712449888312
+  }
+ },
+ "gecti": true,
+ "kod_sha256": "89bc6f10fd8f6c740d1cf07bb7595c311f84dc7af272bcd33e5d4e00bbb56931",
+ "harita_sha256": "6d97aa7f0a8e7b5c9a4f0da29455740f44237f1545ad5b29dd3108b33bb22fef",
+ "zaman": "2026-09-25 13:37:24 +0300"
+}

@@ -1,0 +1,66 @@
+{
+ "gecti": true,
+ "H198b_guc_min": 0.33,
+ "H198b_yalniz_KAYIT": true,
+ "f_gamma": 1.2421589831126092,
+ "f_Lambda": 1.164975558250194,
+ "maske": "tam",
+ "dogrular": {
+  "HS": {
+   "H198a": {
+    "H_S TUTAR": 0.93,
+    "belirsiz": 0.055,
+    "İKİSİ DE ÖLÜR": 0.005,
+    "H_C TUTAR": 0.01
+   },
+   "H198a_dogru": 0.93,
+   "H198a_yanlis": 0.01,
+   "H198a_gecti": true,
+   "H198b": {
+    "belirsiz": 0.635,
+    "H_S TUTAR": 0.33,
+    "İKİSİ DE ÖLÜR": 0.005,
+    "H_C TUTAR": 0.03
+   },
+   "H198b_dogru": 0.33,
+   "H198b_yanlis": 0.03,
+   "sigma_eff_gamma_medyan": 0.2784629175732259,
+   "sigma_eff_Lambda_medyan": 0.06877690208075604,
+   "M4_gecme": 0.905
+  },
+  "HC": {
+   "H198a": {
+    "H_C TUTAR": 0.935,
+    "belirsiz": 0.055,
+    "H_S TUTAR": 0.01
+   },
+   "H198a_dogru": 0.935,
+   "H198a_yanlis": 0.01,
+   "H198a_gecti": true,
+   "H198b": {
+    "H_C TUTAR": 0.395,
+    "belirsiz": 0.595,
+    "H_S TUTAR": 0.005,
+    "İKİSİ DE ÖLÜR": 0.005
+   },
+   "H198b_dogru": 0.395,
+   "H198b_yanlis": 0.005,
+   "sigma_eff_gamma_medyan": 0.2798579192693129,
+   "sigma_eff_Lambda_medyan": 0.0700907841801208,
+   "M4_gecme": 0.875
+  }
+ },
+ "tohumlar": {
+  "HS": [
+   1982000,
+   1982199
+  ],
+  "HC": [
+   1983000,
+   1983199
+  ]
+ },
+ "F_198_sha256": "8f03c7d81d15aba07e15e25d38dbb46fe940e4f4d7829a0ff6d8ae7e1f5777c5",
+ "kod_sha256": "89bc6f10fd8f6c740d1cf07bb7595c311f84dc7af272bcd33e5d4e00bbb56931",
+ "zaman": "2026-09-25 13:37:30 +0300"
+}
