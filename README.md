@@ -26,7 +26,7 @@ LaTeX sources sit next to the PDFs.
 ## How the work is done
 
 - **Pre-registration.** Measurement tasks are numbered (scripts `qm_riemann/NNN_*.py`,
-  tasks 1–196). In the later part of the program the measurement tasks have a
+  tasks 1–197). In the later part of the program the measurement tasks have a
   pencil file (`qm_riemann/KALEM_*.md`, 32 of them) that freezes hypotheses,
   thresholds and death conditions *before* the data are looked at, together
   with a sha256 + timestamp file; the git history of this repository (original

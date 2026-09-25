@@ -1,0 +1,1222 @@
+{
+ "gorev": "197 — AYNA YASASI: BK ayna-yanı uydularının kör profil sınavı (düşük pencere)",
+ "kalem": "KALEM_AYNA_YASASI_25EYL2026.md AYNEN",
+ "kalem_sha256": "df6d9dcb440109e8c313556e771d2aeb9af86c39ff8fd018491ed8d18304a47d",
+ "girdi_sha256": {
+  "scratchpad/190/zincir_dusuk/G1_proj_gercek_dusuk.npz": "e621ef5373c6904f30e8c7bd6fbbf029d8188f6fd6fbb514a7971914fc1e8ed1",
+  "scratchpad/190/zincir_dusuk/K1_gercek_dusuk.npz": "8b66a1d20653a9b9586523b2f014a6aa15f66fbe67c0f8c9ea565bdb8bf9ee6e",
+  "scratchpad/190/zincir_dusuk/OZ_gercek_dusuk.npz": "622438161336c9001175ebbc034804d7f90f81dab50b5c85b8e2bb8a64c76269",
+  "scratchpad/190/zincir_dusuk/eta_dusuk_t0.4_c4000.npz": "db2a0800003cfe4a89acb1ff7212629e3de4f88c4b46d51505be215ed14475aa",
+  "scratchpad/190/zincir_dusuk/zincir_gercek_dusuk.json": "38c7ea4e79a352409739dabfe3e297d12e462f09dfa308a77d4484d8e28eb45f",
+  "scratchpad/190/zincir_dusuk/zincir_gercek_dusuk.npz": "3167a8edbbb7feb01bcfe7885cac2737a7d27e2aacab75a856534c722fa79647",
+  "scratchpad/190/dilim_0.npz": "c20dac23f058173be3aedbdedeb340ce1b16158e10492b706288c100072103a0",
+  "scratchpad/190/dilim_1.npz": "38c924c7edd455487dfab4c697e06391c2ac74d3a74e8f8653a23aef74e2bb88",
+  "scratchpad/190/dilim_2.npz": "3cfd70cbf4d8f94a469806ac2570f21b1932a1fe0970a0c3ad86f4a47c2f3d1c",
+  "scratchpad/190/dilim_3.npz": "d1094dc94c7619270f8b98f83b87e9bd8c4b3bf9405ad1a906b87b6b8db9be09",
+  "scratchpad/190/dilim_4.npz": "2474608c3c91569bf5128ec3e5f8dc332cb9e4b46cbed560b7c9c19cd213523e",
+  "scratchpad/190/dilim_5.npz": "b795c3c7af37a3e0e6e62fc2a04993338a6a9da9c778316371c10bff1649a308",
+  "scratchpad/190/dilim_6.npz": "f933a0936c945cd9c98e302c7bfd175cd6e0999ea6132715956d70e95b574bb0",
+  "scratchpad/190/dilim_7.npz": "dd17e28c31bf9d120718c4f46b60560278aae604ab2221c2311d172437debd29",
+  "scratchpad/190/dilim_8.npz": "d403b9b2f7763b3055011f4d1e9406da6fdcbf88b0e0ffa6a7235e587c016650",
+  "scratchpad/190/dilim_9.npz": "9587494e26305f51830291e8543fb8351cd1d712502ec94223397c348b52d9c5",
+  "scratchpad/190/dilim_10.npz": "4e25adfd969ccd30902c9eda7712eea3feefeb323868aefd67d05b68d87c6752",
+  "scratchpad/190/dilim_11.npz": "dbbccfa2b3dd6072b910f09df887a05ab20fed594750d6acef6c6b365279cc86",
+  "scratchpad/190/dilim_12.npz": "3c70305ffe0f38cb0d8664e6caf2a970150382ac2adc2382bf5529463bdb74ab",
+  "scratchpad/190/dilim_13.npz": "8865642c15e297759c2548f46c084c8094d958bf66abafccef42c9a5ce7d7334",
+  "scratchpad/190/dilim_14.npz": "ddca7aed87edee68abf6b4ed90edf6812b51f70423b0f6dd6905f80f8af17b45",
+  "scratchpad/190/dilim_15.npz": "6034e847dccb003ce15b3854a3c8f0d53e4e3caba85a00193f4bd05cf51f42a2",
+  "scratchpad/190/dilim_16.npz": "3ff9825a43ffd5486e3a9a2438a86352c981185eca0547d97b8d9cbc22ef21ec",
+  "scratchpad/190/dilim_17.npz": "d0760b46929c610b8368344c63aa4831639448a9c6dc984789869c21cc42d77b",
+  "scratchpad/190/dilim_18.npz": "b2fe44673643566f531e5ebe01c3d4eab8ee1f1f9b82be6450404b3bc6652dc0",
+  "scratchpad/190/dilim_19.npz": "f797bab5db689a74be6f2c52f5d7cab59b8ee8aed34b37d1d3ae7e28326d2ef7",
+  "scratchpad/190/dilim_20.npz": "60ea6efba5da6d1c48edbd7359d73cb896ba8fcba54cdfade22f220a5027db26",
+  "scratchpad/190/dilim_21.npz": "a4d42b443d4dd255ad9d5f54fddf152fee8954b10d0736062d4e483f1ba24eb0",
+  "scratchpad/190/dilim_22.npz": "eab708ef3e723125a3122d301537edfe4fa32829847eaec04a078ee5b0b66e8e",
+  "scratchpad/190/dilim_23.npz": "414df6ae1147d6135ba3cfe9fbdc23ad6b64dada07b52754032ee329cc43ec6e",
+  "scratchpad/190/dilim_24.npz": "227cf2420c0a7ef1c399c7a9ac7feb5460b075abc68492c515b019c8d6b422e2",
+  "scratchpad/190/dilim_25.npz": "43243bc782a7df8431b4512ee36eb8c61c97d93c4ec083b4b4f953cc53eb8322",
+  "scratchpad/190/dilim_26.npz": "a7d377ae5eb1dc4235390ded83c86f116c32a25c736b8b9ac3763ddb9b849037",
+  "scratchpad/190/dilim_27.npz": "de863a8106ab7de8737166b15b5ec4e031393697697610e22453040f7b8eb6dc",
+  "scratchpad/190/dilim_28.npz": "5dff9e22eb6ef7ab947b138624d60531c2f76bd9003f041109dfe61bdbec90c3",
+  "scratchpad/190/dilim_29.npz": "349d1fca0536655f7212a787cc126ac6d66746a32d2c02605666d94b7e50eb00",
+  "scratchpad/190/dilim_30.npz": "0556e9950e4f96db6304259564b9d526e36419c499e454e1154210d87998c55c",
+  "scratchpad/190/dilim_31.npz": "0ca6d406522f8160e749fbb4cc4e9283db81f716cbd555f6a2bf9689c3485902",
+  "scratchpad/190/dilim_32.npz": "04bf871df71cfb3efe6bfa56bf3ea532c4c76affbeb7bbd848d5c91cb48d24da",
+  "scratchpad/190/dilim_33.npz": "60f3f40674801b1c2243a8b02df1f0b63bf1b92b77a862965f8000088967786e",
+  "scratchpad/190/dilim_34.npz": "1cde7745b02eb8b7f747d9e8028e47001ef93491f634d97d5c71652c23c2eaaf",
+  "scratchpad/190/dilim_35.npz": "20d238048c75d65d6a62321ec1bf34559aef732292b2e43e9d2b01cf64388df6",
+  "scratchpad/190/dilim_36.npz": "a2ba8ab46440b09757516533cc10d805ff34c093574ce93cf3ee2f30bb0a6a16",
+  "scratchpad/190/dilim_37.npz": "fedbd7e619d2eb7c6632dfda16ce70bfcea4d0d13f2408c52c4ae9bf7636e41f",
+  "scratchpad/190/dilim_38.npz": "a70cffe797884341683b9928e5d60885db9b77b8317a3899aad4ad6e66661491",
+  "scratchpad/190/dilim_39.npz": "27a905f528e7de4918517753f501db9a37dc12f20045c45aba7aed1c668753d2",
+  "scratchpad/190/dilim_40.npz": "02706c41a2f9016c118e8274ddb21e5d3f0795a3032bbb688076bfe6db5afa64",
+  "scratchpad/190/dilim_41.npz": "2d4d6be2e00ee9cff30a8042d944822c827ccac82a995366af039ee9782c899f",
+  "scratchpad/190/dilim_42.npz": "6bc70d7ff917ac05dac94f04d04ab42052284b59d4af41963cfd16182d64c1fc",
+  "scratchpad/190/dilim_43.npz": "5320db2d954b2c59317841c1017292573d6a991b61ce06a916bb8c4d1581d71e",
+  "scratchpad/190/dilim_44.npz": "685148f68ba835e633eb0712effeb1b2da896edd432dce9e9771ce3f063d81d2",
+  "scratchpad/190/dilim_45.npz": "465e881a775c0cf5b0cd37b76e93f9c52af407991c0b75001fa77af01f4010de",
+  "scratchpad/190/dilim_46.npz": "f19e8bdf65222029b5cf4cecb10654a1b8afc51db2e24b2b5cdc0afe019f6eba",
+  "scratchpad/190/dilim_47.npz": "f17bea31a98f77f27510364336c8eeefa416960a5fae17bfe80de201f6fda76e",
+  "scratchpad/190/dilim_48.npz": "432a0aeed77386e5ad7d7225dfb638484fa33cfc148c5cb0c9ea3b6f79d58ac9",
+  "scratchpad/190/dilim_49.npz": "289d2ff9ade881c4968f4684a9fc8d93f6f61cc7fec366faa9665a736abb0291",
+  "scratchpad/190/dilim_50.npz": "fb4610304154126bea601abda0e7a2f503696bb78c0cc096e4ccc19c398ce753",
+  "scratchpad/190/dilim_51.npz": "52e0254d4ebfe79dea81ee727922a3c2633cd53223c11a6d0312cc48e0f9c543",
+  "scratchpad/190/dilim_52.npz": "420b0edc41b91d50bc9246f95c8f0b7318c62fc649834a42f81df4e65a718972",
+  "scratchpad/190/dilim_53.npz": "d21800d1d12ab68db63aaba6bb5fd0931046c29139ca7d22308aeb764a2d7d8d",
+  "scratchpad/190/dilim_54.npz": "bde113e0036c9401f5cb588c9144771aa55a9ca6ae31756e2f4943fd3a8ac0a9",
+  "scratchpad/190/dilim_55.npz": "2a1428684eb3bfd96e5c38599862970a9d0a221595ead007d3eab9e3bff9737c",
+  "scratchpad/190/dilim_56.npz": "9702e8c1f73c3ae8b998188cfcc784e94f5d6457ad3c6528d8c892a677d6b858",
+  "scratchpad/190/dilim_57.npz": "f1ae0eb00d841ad45eaa1372b8dd84bbca3ba5e2dd2afe111875e29fb002bde2",
+  "scratchpad/190/dilim_58.npz": "3b77ae2758ab29044b5d56cb54d35f629f9a906bde6ce5192a24a3b54da6ab5a",
+  "scratchpad/190/dilim_59.npz": "3afecc340a1023038e916a3f96faa471d548e9381708e7370a26cff3602e13f0",
+  "scratchpad/190/dilim_60.npz": "71a168f73704a328c297915d4c4bf1a92098b8a0df1804e0093662581c1c2986",
+  "scratchpad/190/dilim_61.npz": "eab8764363c9bbbbd613888b5be7579754307ac99040ec6be9e6968400ba9e12",
+  "scratchpad/190/dilim_62.npz": "408aff08be0af0dbac40d014a34201b50958471926706acf6dc578d89caabed3",
+  "scratchpad/190/dilim_63.npz": "b3d2143f422ef4616f85a1705e017c69c59da7d3165fcbb6218ac79165b58378",
+  "scratchpad/190/dilim_64.npz": "a71373eff28012698489762c47f481c69f5e770f622e4c8ed7e5d97991e6d530",
+  "scratchpad/190/dilim_65.npz": "7a9a02b53270839c872e804a5ee2bd87fec788e140e0f648e35b0801745cb28d",
+  "scratchpad/190/dilim_66.npz": "52cdbde07fccbcee884308b585964eed370c3c7afa843d0157e0a491a6b32b56",
+  "scratchpad/190/dilim_67.npz": "8a10e73068b67da9a75b556b13cc759fff986cf4829e307305578b5c01282562",
+  "scratchpad/190/dilim_68.npz": "0a167022dc7b69032109d3a017f9fc292efaf09e123577ef77ef93ac2d3c5831",
+  "scratchpad/190/dilim_69.npz": "324dc0dff868534d11e763c747ac2e72b469dd85af78dc1d3bb17d5fd5ee7b2d",
+  "scratchpad/190/dilim_70.npz": "502f57d4741941e5027ca732b3dc2682f5ece35b6e8919ed3bf2b7da4711decb",
+  "scratchpad/190/dilim_71.npz": "51b78317e50fd7fbaa142cf5ef62a88afa603d4a08bbed63d8c9360a63a564e1",
+  "scratchpad/190/dilim_72.npz": "8c10fc57f389ee38a6ae31e963e0415af27fc921768b372b5f641fcab6411b02",
+  "scratchpad/190/dilim_73.npz": "13f10e0878ae752741c0a8a2ca2f27a04e3a91a1c0f214a61169b4055bb46774",
+  "scratchpad/190/dilim_74.npz": "a1f88cf868011a18d75733358e940dbdd9f5a6af87bc92f79b6ef25feebf16a8",
+  "scratchpad/190/dilim_75.npz": "1081207db089623d0bd826210add8a4f3a5574ba134a772ab96966df9207f2b1",
+  "scratchpad/190/dilim_76.npz": "15c4d2419e60d90c6bd26dd591004b9851d3200975c6cd5956682a3be4ef5f7b",
+  "scratchpad/190/dilim_77.npz": "0762740225a47884a1499826d41986d80b5c7e1db41f2f0388c818ffe36d11c1",
+  "scratchpad/190/dilim_78.npz": "3b002700ad76815308d2dc054e21e06f47b661a5161674c0eb9484ca06d4c36e",
+  "scratchpad/190/dilim_79.npz": "01d6fac9ec15c4a8f2df09514ee3158b8cdc1d5e5672304cbae9e6c3ac479327",
+  "scratchpad/190/dilim_80.npz": "b99a7b8a4fd0b92fa65ee2755c80d0db1b6181413e6095396b124c2f77a50609",
+  "scratchpad/190/dilim_81.npz": "3ec50dd4b34b0c78e3fc11bfbb1c8a51e75749ee31a9cdd1b9d68d2d81c95f64",
+  "scratchpad/190/dilim_82.npz": "3da99c7350074ac1e25a8e620489d57e89c413d0693188b6fd7ca680c416d67c",
+  "scratchpad/190/dilim_83.npz": "f7e851ba777579d6e9b9d627183aea25b1b4d0b3b76168ffb06ae34c7d5279b5",
+  "scratchpad/190/dilim_84.npz": "1c66410e94beacb20a211339ea9b1ae4ec6e5d4c31b04afdbf97b1cf8e789985",
+  "scratchpad/190/dilim_85.npz": "2aecca60f4be11ddc3ffb0663219a9c07d6c9d8b2126cc77b6a15a50a79f6833",
+  "scratchpad/190/dilim_86.npz": "43f2de63993ebf0d9be865c1347e24f0cbce9e47a5a8dc635d0bf8507e3a808c",
+  "scratchpad/190/dilim_87.npz": "5fa732e5adebac3225c17a49c7fa2045165cf190f4827ab1e42ebc4c553d107d",
+  "scratchpad/190/ONKAYIT_190.json": "155ffe0bbc0b96c1fd7b0f5c54e4a766946ed611947e5b756fad17051d1a7899",
+  "scratchpad/188/ONKAYIT_188.json": "3184af23c16df37319bef62989d5622c5b715d4efc99a8f5c359ec999f6cc905",
+  "scratchpad/190/harita_omega_dusuk.npz": "7e0c7ec7f10d1adfefaddb5de4f95cc36dd6cff148f8250243c755456186582b",
+  "scratchpad/192/ONKAYIT_192.json": "9538b405b53b73ec75562bcefc76d2bce4258653735b6efb8cc07f5c9798dff3",
+  "scratchpad/192/HUKUM_192.json": "b3f880b4ae63a0da09a42265ff0ff2eba809131767875a988609451c3af5a219",
+  "185_configs/185b_oz_muhasebe.py": "160058d4c210173e877d23252004fd5aa2b25e2931582ed15ec66a4355050182",
+  "187_configs/187b_katman_defteri.py": "606717638f4ae09d3fd92e06de4b627d811d264a726722099baf46647881c359",
+  "188_configs/188b_harita.py": "055c9954440a4aa226e25925bc8f44e8f69c24f1bc152b17ebb0fd4631223fa5",
+  "190_configs/190b_harita.py": "09ea546ad1de6625a67f85d9c18d53fe47441909026fa7e5e207211f36cf8f7c",
+  "190_configs/190a_onkayit.py": "38d122a260bf5f78c6fbfa9b85fa45a88e5843b881d781cc48c79b94d5beb1f4",
+  "197_configs/197b_harita.py": "1f3678dbe6fc51677e666714d624419334048d1dbe39c27edc5f598f1e6598ab",
+  "197_configs/197c_hukum.py": "62859f233245279260b3b0fee531da1ae86ed97ee8877d832c94ab5c44e4bcb5",
+  "scratchpad/197/F_KALIBRASYON.json": "b67828fffd153a2aa979ef55b84a708d183afd911b15a5c8b09490c31d48f414",
+  "scratchpad/197/M6_on_deneme.json": "6d67be389ed759701ea8e4a09660528229dbcd958c682b18ac98114cd6e04534",
+  "scratchpad/197/m1/M1_sonuc.json": "4de6421b8783c59221602837af9c501b00fd7c5d5a8610a7d6da74fd58cc67b9"
+ },
+ "pencere": {
+  "ad": "dusuk",
+  "L": 10.48392954102207,
+  "N": 299999,
+  "L_min": 10.00796392505015,
+  "L_max": 10.836281672044533
+ },
+ "kalem_baslik": "# KALEM — 197: AYNA YASASI — Bogomolny–Keating'in ayna-yanı uydularının kör profil sınavı\n(25 Eylül 2026 — kullanıcı onaylı. TÜRETİM TEFTİŞİNDEN GEÇTİ (Sonnet): cebir p=2..11\niçin 1e-15 ile doğrulandı; işaret sözleşmesi görülmüş veriyle zaten ayrışmış; makine\nsapmaları sağlam (32 blokta blok-içi L yayılımı 0.017-0.041, mix çizgi başına ⇒ havuz alt\nkümesi geçerli, jk kenarları birebir). Teftişin KRİTİK bulgusu (ilk taslakta R-g'nin\nöngördüğü medyan R = 0.68, TUTAR alt sınırı 0.70'in hemen altında ⇒ sınav ayırt etmiyordu)\nve iki UYARI (pencere sızıntısı; kalibrasyon şemaları farklı) bu sürümde giderildi:\nprofil düzeyi uyum + BK/R-g ayrım kuralı + güç kapısı.\nMAKİNE RAPORU SONRASI (ölçümden önce, kör veri görülmeden): M1 bit-bit geçti (0.0 fark,\n70 650 karşılaştırma); iki düzeltme: (1) taranan pencere-içi çizgiler karışım serisinde\nzaten var ⇒ dilimin kendi katkısı K'ya pozitif sapma sokuyordu (kör hedeflerde 22-32/32 blok,\nkalibrasyonda 0-4/32) ⇒ BİRİNCİL K = K_düz (dilim j'nin katkısı mix'ten çıkarılır; 190'ın\npencere-ötesi düzenine denk); (2) HAVUZ' sınırı 0.62 → 0.74 (104 → ~320 çizgi; kör bant\ntüm bloklarda yine kapsanır).\nİKİNCİ MAKİNE RAPORU (sentetik; kör veri görülmeden): kör pencerede serbest taban ile sıkışık\ntarak (7 ana + 13-16 çeyrek tepe) dejenere ⇒ serbest q_f ile σ_Z ≈ 0.35 (M4 hep kalır);\nçeyreksiz model BK-doğruyken R̄_Z'yi 0.73'e çeker (tehlikeli). KARAR: çeyrek aile ölçeği\nKALİBRASYON penceresinden taşınır (orada tepeler seyrek, q_f iyi belirli) ve karar İKİ MODELİN\nÖZ-TUTARLILIĞI ile verilir (M_BK / M_Rg); M6 iki-doğrulu güç sınavına çevrildi. Havuz 341\nçizgi, 24 yeni τ'-dilimi (703 çizgi), [−2.2, +2.4]'te tüm dilimlerde B_j = 32; M1 (K_ham ve\nK_düz) 190 ile bit-bit.\nÜÇÜNCÜ MAKİNE RAPORU (M6 ön-deneme, 2×200 sentetik replika; kör veri görülmeden): M6 KALDI —\nBK-doğruda doğru kazanma 0.715 < 0.80 (yanlış kazanma 0.005 / 0.000 — ayırıcılık sağlam);\nnedenler: 8-grup jk σ gerçek saçılımı düşük tahmin ediyor; β penceresi σ_β ≈ 0.24 için fazla\ndar. KARAR: (1) tüm karar σ'ları σ_eff = f·σ_jk, f (R̄_Z için f_Z, ρ için f_ρ) = M6 KALİBRASYON replikalarında (güç\nreplikalarından AYRI tohumlar) z = (tahmin − doğru)/σ_jk'nın standart sapması, iki doğrunun\nbüyüğü; f ÖN-KAYDA yazılır; (2) β karar koşulundan çıkarıldı (KAYIT).\nDÖRDÜNCÜ MAKİNE RAPORU (M6, ayrı tohumlarla; kör veri görülmeden): f_Z = 1.565, f_ρ = 1.374\n(K_KAL tohumları, 2×200); güç (K_GUC, 2×200): doğru kazanır 0.930 / 0.860, yanlış kazanır\n0.000 / 0.005 ✓; (ii) tek başarısızlık R-g-doğruda KARARA GİRMEYEN kalibrasyon bileşeni\nA(7/2) kapsaması 0.875 < 0.88 (binom sd ≈ 0.023; R-g altında kalibrasyon modeli bilerek\nyanlış belirli). KARAR: (ii) yalnız KARARA GİREN niceliklerde, kararda kullanılan σ ile\nsınanır (aşağıda M6).)",
+ "kalem_metni": {
+  "Kalem cebiri": "## Kalem cebiri (kaptan, veri-öncesi; teftişte doğrulandı)\n\n1. BK (Bogomolny 2007, arXiv:0708.4223, eş. 7.5-7.6): R₂^off(ε) ∝ e^{iLε} f(ε) + c.c.,\n   f(ε) = |ζ(1+iε)|² Φ_off(ε) = Π_p g_p(ε log p),\n   g_p(θ) = |1 − e^{−iθ}/p|^{−2} · [1 − (1 − e^{iθ})²/(p−1)²].\n2. g_p'nin Fourier katsayıları (e^{ikθ}): ilk çarpan A_k = p^{−|k|}/(1 − p^{−2});\n   ikinci çarpan B_0 = 1 − 1/(p−1)², B_1 = 2/(p−1)², B_2 = −1/(p−1)² (e^{0, iθ, 2iθ}).\n   ĝ_p(k) = Σ_j B_j A_{k−j}:\n   - k ≤ 0: ĝ_p(k)/ĝ_p(0) = p^{k};\n   - k = 1: ĝ_p(1)/ĝ_p(0) = p/(p−1)²;\n   - k ≥ 2: ĝ_p(k) ∝ p^{−k}(B_0 + pB_1 + p²B_2) = p^{−k}[1 − (p−1)²/(p−1)²] = 0.\n3. Uydu Δω = log r'nin göreli genliği c(r) = Π_p f_p(k_p), r = Π p^{k_p} (sade kesir);\n   f_p(k<0) = p^{k}, f_p(1) = p/(p−1)², f_p(k≥2) = 0. İşaret sözleşmesi: f'nin +log r\n   Bohr bileşeni ölçüm ekseninde Δω = +log r'ye düşer (görülmüş veride +log2 en parlak\n   ↔ c(2) = 2; ters sözleşme orada bastırma öngörürdü).\n4. AYNA YANI (r = 1/x, Δω = −log x), kesirler sade:\n   - x = n tam sayı: c = 1/n (asal kuvvetleri DAHİL: c(1/8) = 1/8);\n   - x = m/2, m tek: c(2/m) = 2/m = 1/x;\n   - x = b/3 (3∤b): c = 0.75/b = 0.25/x; x = b/6 (gcd(b,6)=1): c = 1.5/b = 0.25/x;\n     x = b/5 (5∤b): 0.0625/x; x = b/4 (b TEK): 0 (pay 4 ⇒ f_2(2) = 0).\n   ⇒ Ayna yanında baskın tarak x ∈ ½ℕ'de, zarf TAM 1/x; aralarda çeyrek zarflı\n   (0.25/x) küçük tepeler.\n5. EŞLEME VARSAYIMI (sınanan): ölçülen parlaklık κ ∝ c(r) ÇIPLAK. RAKİP R-g:\n   κ ∝ c(r)·g(ω'), g(ω') = e^{ω'/2}/ω' (dilimdeki çizgi sayısı × a_q' ∝ √q'/log q'),\n   ω' = L + Δω, L = 10.48393.",
+  "Kör bant": "## Kör bant ve görülmüşlük beyanı (teftişle düzeltildi)\n\n- 190b haritası Δω ∈ [−1.775, +3.55] HESAPLANDI (bloğa göre). GÖRÜNTÜLENEN/ARANAN en alt\n  Δω: 190d figürü ARALIK = (−1.3, 2.3); 192e (−1.35, 2.35); 190c/190e arama pencereleri\n  ≥ −1.249; 192 kataloğu ≥ −1.099; log'larda Δω < −1.6 bandına ait κ yok (yalnız\n  sayaçlar). Δω < −1.35 hiç görüntülenmedi; Δω < −1.775 HİÇ HESAPLANMADI. (Statik denetim\n  kayıt dışı etkileşimli incelemeyi dışlayamaz; kaptanın bilgisi dahilinde yok.)\n- SINAV BANDI: Δω ∈ [−2.12, −1.58] (x ∈ [4.86, 8.33]).\n  Tam sayı hedefleri x = 5, 6, 7, 8 (Δω = −1.609, −1.792, −1.946, −2.079);\n  buçuklu hedefler x = 5.5, 6.5, 7.5 (Δω = −1.705, −1.872, −2.015).",
+  "Ölçüm tanımı": "## Ölçüm tanımı (190b/188b makinesi; ÜÇ BEYANLI SAPMA, gerisi AYNEN)\n\n- S1 HAVUZ' = pencere çizgileri τ ∈ [0.45, 0.74) (190'ın HAVUZ'unun alt kümesi; mix =\n  188b.karisim AYNEN — çizgi başına hesaplanır, havuz filtresi sonradan).\n- S1b K_düz (BİRİNCİL): her ω-dilimi j için mix, j dilimindeki çizgilerin kesik seriye\n  katkısı ÇIKARILMIŞ seriden alınır (190'da τ' > 0.86 çizgileri seride hiç yoktu ⇒ orada\n  K_düz ≡ K; M1 bunu sınar). K_ham (çıkarmasız) KAYIT.\n- S2 Tarama: τ' ∈ [0.74, 0.86) için YENİ τ'-dilimleri (0.005 ızgarası,\n  188b.dilimleri_kur AYNEN) + mevcut (0.86, 1.30] dilimleri. Δω blok-yerel:\n  j = floor((log q' − L_b)/0.025 + 0.5).\n- S3 Bloklar: 32 eşit bitişik blok (kenar = linspace(0, N, 33).astype(int); L_b = blok\n  içi mean log(m_n/2π)). Jackknife: 8 grup × 4 ardışık blok (grup kenarları 190'ın 8-blok\n  kenarlarıyla birebir); mix loo 188b AYNEN.\n- Profil: κ_Σ(j) = Σ_{b ∈ B_j} κ_b(j)·n_b / Σ_{b∈B_j} n_b, B_j = j dilimini TAM kapsayan\n  bloklar (192 AYNEN).\n- ÇİZGİ BİÇİMİ (parametresiz, veriden): Δω = log r'deki bir uydu için\n  h(j; r) = Σ_{b∈B_j} n_b·h_b(j; r) / Σ_{b∈B_j} n_b,\n  h_b(j; r) = (1/n_b)·#{n ∈ b : floor((L_n − L_b + log r)/0.025 + 0.5) = j},\n  L_n = log(m_n/2π). (Uydunun blok b'deki konumu, gap n'in yerel L'sine göre kayar.)\n- PROFİL UYUMU (doğrusal en küçük kareler, jk-loo ile se):\n  κ_Σ(j) = Σ_k A_k·h(j; r_k) + q_f·Σ_{çeyrek} (0.25/x_i)·h(j; r_i) + a + b·Δω_j.\n  (Ayna yanında BK tepeleri İKİ zarf düzeyinde: ana 1/x (x ∈ ½ℕ) ve çeyrek 0.25/x\n  (x = b/3, b/6); diğer aileler c < 0.03 — kapalı biçimle tarandı.)\n  - KÖR uyum penceresi Δω ∈ [−2.12, −1.58]: serbest A_k — 7 ana hedef x = 5, 11/2, 6,\n    13/2, 7, 15/2, 8; doğrusal taban a + bΔω (serbest); çeyrek aile x = 31/6, 16/3,\n    17/3, 35/6, 37/6, 19/3, 20/3, 41/6, 43/6, 22/3, 23/3, 47/6, 49/6 (+ kenar: 29/6,\n    14/3, 25/3) SABİT genlikle, iki modelde ayrı:\n      M_BK: genlik_i = q_f^cal · 0.25/x_i;\n      M_Rg: genlik_i = q_f^cal · 0.25/x_i · g(L + Δω_i)/ḡ_cal,\n    q_f^cal = kalibrasyon penceresinde serbest uydurulan q_f; ḡ_cal = kalibrasyon\n    penceresindeki çeyrek tepelerde g'nin (0.25/x ağırlıklı) ortalaması. Kenardan taşan\n    ana tepeler (9/2, 17/2, 9) kör pencerede ağırlık taşımıyor (çizgi genişliği ≈ 0.01) ⇒\n    modelden düşer.\n  - KALİBRASYON uyum penceresi Δω ∈ [−1.30, −0.55] (görülmüş bant): serbest A_k — ana\n    x = 2, 5/2, 3, 7/2; çeyrek aile x = 11/6, 13/6, 7/3, 8/3, 17/6, 19/6, 10/3, 11/3\n    (+ kenar: 5/3, 23/6) ortak q_f ile; taban a + bΔω.\n  - s = ters-varyans ağırlıklı ortalama {A(−log2)/(1/2), A(−log3)/(1/3)} (ağırlıklar\n    jk se'lerinden). R_x = A_x/(s/x).\n- RAKİP R-g'nin öngörüsü AYNI ağırlıklarla: R^g_x = g(L − log x) / ḡ,\n  ḡ = Σ_a w_a g(L − log x_a)/Σ_a w_a (a ∈ {2, 3}, w_a = s tahminindeki ağırlıklar).\n  (Eşit ağırlıkta R^g = 0.754, 0.702, 0.662, 0.629 (x = 5..8); ağırlık −log2'ye kaydıkça\n  daha da küçülür.)",
+  "Kapılar": "## Kapılar (K0 — ölçümden ÖNCE tanımlı, hepsi zorunlu)\n\n- M1 (kod yolu): S1-S3 kapalıyken yeni kod 190'ın `harita_omega_dusuk.npz` K'sını\n  ≤ 1e-10 bağıl farkla üretir (tam harita ya da Δω ∈ [−1.3, 3.5]'e yayılmış ≥ 12 ω-dilimi,\n  50 K sütununun tümü).\n- M2 (kontrol bandı, yeni konfig): 192'nin ana-6'sı (+log2, +log3, +log6, +log(3/2),\n  −log2, −log3) yanar (P = Σ_{|c−h|≤0.03} κ_Σ > 3se) ve oranlar +log3/+log2, +log6/+log2,\n  −log2/+log2, −log3/+log3 192 A2 değerlerinden (0.310, 0.602, 0.240, 0.466) ±%30 içinde.\n  BAŞARISIZSA SINAV GEÇERSİZ (BK ölümü değil).\n- M3 (öz-terim): tarama çizgileri ∩ HAVUZ' = ∅ (assert).\n- M4 (güç): tam sayı ailesinin ağırlıklı ortalaması R̄_Z'nin σ_eff'i ≤ 0.10 (M_BK ve M_Rg) (BK 1.0 ile\n  R-g ~0.68 arasını ≥ 3σ ayırmak için). Değilse tüm kör hükümler \"belirsiz\".\n- M6 (uyum makinesi + güç, sentetik; ölçümden ÖNCE M1-tabanlı gürültü ölçeğiyle, hükümde\n  ölçülen jk gürültüsüyle yeniden): sentetik profiller (aynı h(j; r), taban, 192 sinyal\n  ölçeği) İKİ doğruyla üretilir — BK-doğru ve R-g-doğru — her biri ≥ 100 replika.\n  Geçme: (i) gürültüsüz geri kazanım A_k, q_f %5 içinde; (ii) KARARA GİREN niceliklerde —\n  R̄_Z ve ρ (σ_eff = f_Z·σ_jk, f_ρ·σ_jk; |Â − A| ≤ 2σ_eff) ile kalibrasyon çapaları\n  A(−log2), A(−log3), q_f^cal ve kör ana genlikler A_x (x = 5..8, 11/2, 13/2, 15/2)\n  (|Â − A| ≤ 2.36σ_jk, t₇) — kapsama ≥ %88; (iii) doğru hipotezin kazanma oranı ≥ %80 ve YANLIŞ\n  hipotezin kazanma oranı ≤ %5 (her iki doğru için; f kalibrasyon replikalarından AYRI\n  ≥ 200'er güç replikasında, σ_eff ile). Ölçüm-öncesi M6 kalırsa sınav\n  YAPILMAZ (tasarım yeniden); hüküm-anı M6 kalırsa hüküm yalnız KAYIT.\n- M5 (çizgi biçimi): kalibrasyon penceresinde uyum artığı rms'si ≤ 0.35 × κ_Σ'nin\n  pencere-içi std'si VE −log2 tepesinin ölçülen/model profil korelasyonu (|Δω+log2| ≤ 0.06\n  dilimleri) ≥ 0.85. Başarısızsa çizgi-biçimi modeli GEÇERSİZ ⇒ hüküm yalnız KAYIT.",
+  "Hipotezler": "## Hipotezler (eşikler DONMUŞ; kurtarma yok)\n\nR̄_Z = x = 5, 6, 7, 8 için R_x'in ters-varyans ağırlıklı ortalaması (ağırlık 1/se_x²,\nse'ler 8-grup jk; σ_Z = R̄_Z'nin jk se'si); R̄^g aynı ağırlıklarla R^g_x ortalaması.\nβ: A_x = C·x^{−β} ağırlıklı doğrusal-olmayan en küçük kareler (ağırlık 1/se_x², x = 5..8;\nse jk). BK 1, R-g ≈ 1.4-1.5. Uyum penceresi üyeliği: dilim MERKEZİ pencere içindeyse.\n\n- H-197a (zarf düzeyi, BK vs R-g; iki modelin öz-tutarlılığı): R̄_Z^BK, σ^BK ← M_BK uyumu;\n  R̄_Z^Rg, σ^Rg ← M_Rg uyumu (σ'lar σ_eff = f·σ_jk). BK öz-tutarlı ⇔ |R̄_Z^BK − 1| ≤\n  2σ^BK; R-g öz-tutarlı ⇔ |R̄_Z^Rg − R̄^g| ≤ 2σ^Rg.\n  - BK TUTAR: BK öz-tutarlı, R-g DEĞİL. (β^BK ve se'si KAYIT.)\n  - R-g KAZANIR (BK'nın çıplak eşlemesi ÖLÜR): R-g öz-tutarlı, BK DEĞİL.\n  - İKİSİ DE ÖLÜR: |R̄_Z^BK − 1| > 3σ^BK VE |R̄_Z^Rg − R̄^g| > 3σ^Rg.\n  - Diğer (ikisi de öz-tutarlı ya da ara durum): belirsiz (KAYIT).\n  H-197b ve H-197c M_BK uyumundan hesaplanır; M_Rg ile aynı hükümler KAYIT.\n- H-197b (buçuklu aile aynı zarfta; kalibrasyondan bağımsız): ρ = R̄_H/R̄_Z, R̄_H = x = 5.5,\n  6.5, 7.5 ağırlıklı ortalaması; se jk. TUTAR: |ρ − 1| ≤ max(0.25, 2σ_ρ) (σ_ρ = f·σ_jk). ÖLÜM: ρ < 0.50\n  (a = 2 ailesi bastırılmış, μ-benzeri koherens) ya da üç hedeften ikisinde A < 0.\n- H-197c (asal kuvveti aynada bastırılmaz; kalibrasyondan bağımsız): ψ = A_8/Â_8,\n  Â_8 = x = 5, 6, 7'ye uydurulan A ∝ x^{−β} zarfının x = 8'deki değeri. TUTAR:\n  ψ ∈ [0.60, 1.60]. ÖLÜM: ψ < 0.30 (μ(8) = 0 sönmesinin aynaya uygulanması).",
+  "KAYIT kalemleri": "## KAYIT kalemleri\n\n- q_f / R̄_Z (BK: 1 — çeyrek ailelerin zarfı ana zarfın ¼'ü).\n- χ²(BK) vs χ²(R-g) kör hedeflerde; β ve se'si.\n- İKİNCİL (görülmüş bant, HÜKÜM DIŞI): 32 bloklu dar çizgi-biçimiyle 192'nin 23 konumu aynı\n  profil uyumuyla yeniden okunur (+ yan için pencere Δω ∈ [0.15, 2.35], tepeler BK c ≥ 0.05\n  + μ=0 konumları serbest). 196 şerhinin (ii) okuması: karışık oranlar (+log(5/3),\n  +log(5/2), −log(4/3), +log(5/4)) ve μ=0 çukurları BK'ya yaklaşıyor mu? Yaklaşmıyorsa\n  (i) okuması (çekirdek ≠ R₂ Bohr katsayıları) güçlenir.",
+  "Ölçüm notları": "## Ölçüm notları\n\n- Girdi: 190k0 'dusuk' zinciri (scratchpad/190/zincir_dusuk), zeros6 Z[200000:500000],\n  L = 10.48393, N = 299 999. 190'ın τ' > 0.86 dilim serileri (scratchpad/190/dilim_*.npz)\n  yeniden kullanılır; yeni dilimler ayrı dizine (scratchpad/197).\n- Hesap: yeni τ'-dilimleri (q' ∈ (~2340, 8250)); 32 bloklu ω-dilim izdüşümü\n  Δω ∈ [−2.2, +2.4]; tam koşu ~dakikalar (makine raporu).\n- Ajanlar git'e dokunmaz; K0 (ONKAYIT_197.json: KALEM sha256 + girdi sha256'ları + damga)\n  push edilmeden ölçüm başlamaz."
+ },
+ "olcum_parametreleri": {
+  "havuz": [
+   0.45,
+   0.74
+  ],
+  "tau_yeni": [
+   0.74,
+   0.86
+  ],
+  "dtau": 0.005,
+  "n_blok": 32,
+  "dw": 0.025,
+  "om_chunk": 8000,
+  "dw_aralik": [
+   -2.2,
+   2.4
+  ]
+ },
+ "S1": {
+  "havuz": [
+   0.45,
+   0.74
+  ],
+  "n_cizgi": 341,
+  "tanim": "HAVUZ' = K1 pencere çizgileri τ = w/L ∈ [0.45, 0.74); mix = 188b.karisim(P, OZ, aq, loo)[HAVUZ'] AYNEN (çizgi başına; 'dusuk' zinciri, tam örneklem); tek maske (HAVUZ'); K_b(j) = Σ C conj(mix)/Σ|mix|²."
+ },
+ "S1b": {
+  "birincil": "K_duz",
+  "tanim": "ω-dilimi (b, j) için mix_j = mix − m_{S_bj}; m_S = S dilimindeki c^kesik evreni çizgilerinin (K1: q ≤ e^{0.86L}) kesik seri terimi 2a·sin(ωg/2)·cos(ωm)'nin HAVUZ' çizgilerine TAM-örneklem izdüşümü (çizgi başına, 8-grup loo, 188b.c_proj deseni); K_düz = K_matris(C_j, mix_j). τ'-haritasında aynı kural τ'-dilimi başına. K_ham (çıkarmasız) KAYIT.",
+  "denetim": "M1b: 190 düzeninde K_düz ≡ K bit-bit; M1c/M-kesik: Σ_{tüm K1} katkı ≡ c^kesik (≤ 1e-10 bağıl, tam + 8 loo)"
+ },
+ "S2": {
+  "kenar_yeni": [
+   0.74,
+   0.745,
+   0.75,
+   0.755,
+   0.76,
+   0.765,
+   0.77,
+   0.775,
+   0.78,
+   0.785,
+   0.79,
+   0.795,
+   0.8,
+   0.805,
+   0.81,
+   0.815,
+   0.82,
+   0.825,
+   0.83,
+   0.835,
+   0.84,
+   0.845,
+   0.85,
+   0.855,
+   0.86
+  ],
+  "kenar_eski": [
+   0.86,
+   0.865,
+   0.87,
+   0.875,
+   0.88,
+   0.885,
+   0.89,
+   0.895,
+   0.9,
+   0.905,
+   0.91,
+   0.915,
+   0.92,
+   0.925,
+   0.93,
+   0.935,
+   0.94,
+   0.945,
+   0.95,
+   0.955,
+   0.96,
+   0.965,
+   0.97,
+   0.975,
+   0.98,
+   0.985,
+   0.99,
+   0.995,
+   1.0,
+   1.005,
+   1.01,
+   1.015,
+   1.02,
+   1.025,
+   1.03,
+   1.035,
+   1.04,
+   1.045,
+   1.05,
+   1.055,
+   1.06,
+   1.065,
+   1.07,
+   1.075,
+   1.08,
+   1.085,
+   1.09,
+   1.095,
+   1.1,
+   1.105,
+   1.11,
+   1.115,
+   1.12,
+   1.125,
+   1.13,
+   1.135,
+   1.14,
+   1.145,
+   1.15,
+   1.155,
+   1.16,
+   1.165,
+   1.17,
+   1.175,
+   1.18,
+   1.185,
+   1.19,
+   1.195,
+   1.2,
+   1.205,
+   1.21,
+   1.215,
+   1.22,
+   1.225,
+   1.23,
+   1.235,
+   1.24,
+   1.245,
+   1.25,
+   1.255,
+   1.26,
+   1.265,
+   1.27,
+   1.275,
+   1.28,
+   1.285,
+   1.29,
+   1.295,
+   1.3
+  ],
+  "tanim": "τ'-dilim s = (e_s, e_{s+1}] (188 AYNEN); yeni 24 dilim (0.74, 0.86] 188b.dilimleri_kur AYNEN → scratchpad/197/dilim_<i>.npz; 190'ın 88 dilimi (0.86, 1.30] yeniden kullanılır. ω-dilim: j = floor((log q' − L_b)/0.025 + 0.5); dilim serisi YALNIZ blok noktalarında 188b.seri_ve_G (190b D AYNEN, b190._om_is).",
+  "dw_aralik": [
+   -2.2,
+   2.4
+  ],
+  "j_tam": [
+   -88,
+   96
+  ],
+  "tarama_kurali": "blok b için [(jlo−½)DW, (jhi+½)DW)'ya değen τ'-dilimlerinin TÜM çizgileri taranır (doğrusallık denetimi kesin); aralık dışındaki uç ω-dilimleri kısmi olabilir, kapsamaya girmez."
+ },
+ "S3": {
+  "n_blok": 32,
+  "kenar": [
+   0,
+   9374,
+   18749,
+   28124,
+   37499,
+   46874,
+   56249,
+   65624,
+   74999,
+   84374,
+   93749,
+   103124,
+   112499,
+   121874,
+   131249,
+   140624,
+   149999,
+   159374,
+   168749,
+   178124,
+   187499,
+   196874,
+   206249,
+   215624,
+   224999,
+   234374,
+   243749,
+   253124,
+   262499,
+   271874,
+   281249,
+   290624,
+   299999
+  ],
+  "L_b": [
+   10.028736464542815,
+   10.069068214622197,
+   10.1076891898606,
+   10.144737308330988,
+   10.180336158549919,
+   10.2145952888388,
+   10.2476122618726,
+   10.279474339455499,
+   10.310259886940926,
+   10.34003954229468,
+   10.36887720412981,
+   10.396830857356541,
+   10.423953287739643,
+   10.450292682832293,
+   10.475893149745792,
+   10.500795168820204,
+   10.525035975890715,
+   10.548649902238045,
+   10.571668669736185,
+   10.594121649574955,
+   10.616036085374427,
+   10.637437298760346,
+   10.658348862992922,
+   10.678792762577665,
+   10.698789529695073,
+   10.718358374721287,
+   10.737517290747325,
+   10.756283160943793,
+   10.774671843092962,
+   10.792698254181698,
+   10.810376441746472,
+   10.82771965057089
+  ],
+  "blok_ici_L_yayilimi": [
+   0.041231178879927555,
+   0.039447791708433044,
+   0.03781014091691759,
+   0.036301690457740676,
+   0.034907054233061174,
+   0.03361889387253392,
+   0.03242326664434536,
+   0.03130676749869643,
+   0.030267048144644093,
+   0.029294218555957485,
+   0.028383582230480542,
+   0.027526667293910734,
+   0.02671969878000091,
+   0.025960297019890888,
+   0.025242655169437356,
+   0.02456288943825058,
+   0.02392137622861945,
+   0.023307527133892947,
+   0.02272864162800481,
+   0.022177165014987565,
+   0.02165143143971271,
+   0.02115018004202973,
+   0.020672596837085777,
+   0.020215200067084993,
+   0.019777206901389732,
+   0.019358987126697258,
+   0.018957616038880687,
+   0.018571962207669657,
+   0.018203294774018275,
+   0.017848091411185152,
+   0.017506733106468886,
+   0.017178560028915157
+  ],
+  "jk_gruplar": [
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   [
+    4,
+    5,
+    6,
+    7
+   ],
+   [
+    8,
+    9,
+    10,
+    11
+   ],
+   [
+    12,
+    13,
+    14,
+    15
+   ],
+   [
+    16,
+    17,
+    18,
+    19
+   ],
+   [
+    20,
+    21,
+    22,
+    23
+   ],
+   [
+    24,
+    25,
+    26,
+    27
+   ],
+   [
+    28,
+    29,
+    30,
+    31
+   ]
+  ],
+  "jk_grup_kenar": [
+   0,
+   37499,
+   74999,
+   112499,
+   149999,
+   187499,
+   224999,
+   262499,
+   299999
+  ],
+  "tanim": "kenar = linspace(0, N, 33).astype(int); L_b = blok içi mean log(m_n/2π); jk: 8 grup × 4 ardışık blok (grup kenarı = 190 8-blok kenarı); replika i: grup i blokları B_j'den çıkar + mix loo-i (188b)."
+ },
+ "profil": {
+  "kappa_b": "κ_b(j) = −Re K_b(j) (192b AYNEN)",
+  "kappa_sigma": "κ_Σ(j) = Σ_{b∈B_j} κ_b(j)·n_b / Σ_{b∈B_j} n_b; B_j = j dilimini TAM kapsayan bloklar: [c−½DW, c+½DW] ⊂ [0.74L − L_b, 1.30L − L_b] ve j ∈ [jlo, jhi] (192 kuralı, tarama alt ucu 0.74); 185 tam dilimin hepsinde B_j = 32 (197b assert)",
+  "cizgi_bicimi": "h_b(j; r) = (1/n_b)#{n∈b: floor((L_n − L_b + log r)/0.025 + 0.5) = j}; h = Σ_{B_j} n_b h_b/Σ n_b (197b.cizgi_bicimi)",
+  "uyum": "doğrusal EKK, pencere = dilim merkezi ∈ [lo, hi]; her jk replikası baştan (197b.profil_uyumu)",
+  "M2_P": "P(h) = Σ_{|c−h| ≤ 0.03 (+1e-9)} κ_Σ(c); se: 8-grup loo jk (197b.parlaklik)"
+ },
+ "hedefler": {
+  "kor_uyum": {
+   "pencere": [
+    -2.12,
+    -1.58
+   ],
+   "ana": {
+    "x=5": {
+     "x": "5",
+     "x_ondalik": 5.0,
+     "delta_omega": -1.6094379124341003,
+     "log_r": -1.6094379124341003,
+     "c_BK": 0.2,
+     "rol": "ana (serbest A_k)"
+    },
+    "x=11/2": {
+     "x": "11/2",
+     "x_ondalik": 5.5,
+     "delta_omega": -1.7047480922384253,
+     "log_r": -1.7047480922384253,
+     "c_BK": 0.18181818181818182,
+     "rol": "ana (serbest A_k)"
+    },
+    "x=6": {
+     "x": "6",
+     "x_ondalik": 6.0,
+     "delta_omega": -1.791759469228055,
+     "log_r": -1.791759469228055,
+     "c_BK": 0.16666666666666666,
+     "rol": "ana (serbest A_k)"
+    },
+    "x=13/2": {
+     "x": "13/2",
+     "x_ondalik": 6.5,
+     "delta_omega": -1.8718021769015913,
+     "log_r": -1.8718021769015913,
+     "c_BK": 0.15384615384615385,
+     "rol": "ana (serbest A_k)"
+    },
+    "x=7": {
+     "x": "7",
+     "x_ondalik": 7.0,
+     "delta_omega": -1.9459101490553132,
+     "log_r": -1.9459101490553132,
+     "c_BK": 0.14285714285714285,
+     "rol": "ana (serbest A_k)"
+    },
+    "x=15/2": {
+     "x": "15/2",
+     "x_ondalik": 7.5,
+     "delta_omega": -2.0149030205422647,
+     "log_r": -2.0149030205422647,
+     "c_BK": 0.13333333333333333,
+     "rol": "ana (serbest A_k)"
+    },
+    "x=8": {
+     "x": "8",
+     "x_ondalik": 8.0,
+     "delta_omega": -2.0794415416798357,
+     "log_r": -2.0794415416798357,
+     "c_BK": 0.125,
+     "rol": "ana (serbest A_k)"
+    }
+   },
+   "sikinti_dusen": [
+    "9/2",
+    "17/2",
+    "9"
+   ],
+   "ceyrek": {
+    "x=31/6": {
+     "x": "31/6",
+     "x_ondalik": 5.166666666666667,
+     "delta_omega": -1.6422277352570913,
+     "log_r": -1.6422277352570913,
+     "c_BK": 0.04838709677419355,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=16/3": {
+     "x": "16/3",
+     "x_ondalik": 5.333333333333333,
+     "delta_omega": -1.6739764335716716,
+     "log_r": -1.6739764335716716,
+     "c_BK": 0.046875,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=17/3": {
+     "x": "17/3",
+     "x_ondalik": 5.666666666666667,
+     "delta_omega": -1.7346010553881064,
+     "log_r": -1.7346010553881064,
+     "c_BK": 0.04411764705882353,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=35/6": {
+     "x": "35/6",
+     "x_ondalik": 5.833333333333333,
+     "delta_omega": -1.7635885922613586,
+     "log_r": -1.7635885922613586,
+     "c_BK": 0.04285714285714286,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=37/6": {
+     "x": "37/6",
+     "x_ondalik": 6.166666666666667,
+     "delta_omega": -1.8191584434161694,
+     "log_r": -1.8191584434161694,
+     "c_BK": 0.04054054054054054,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=19/3": {
+     "x": "19/3",
+     "x_ondalik": 6.333333333333333,
+     "delta_omega": -1.8458266904983307,
+     "log_r": -1.8458266904983307,
+     "c_BK": 0.039473684210526314,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=20/3": {
+     "x": "20/3",
+     "x_ondalik": 6.666666666666667,
+     "delta_omega": -1.8971199848858813,
+     "log_r": -1.8971199848858813,
+     "c_BK": 0.0375,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=41/6": {
+     "x": "41/6",
+     "x_ondalik": 6.833333333333333,
+     "delta_omega": -1.9218125974762528,
+     "log_r": -1.9218125974762528,
+     "c_BK": 0.036585365853658534,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=43/6": {
+     "x": "43/6",
+     "x_ondalik": 7.166666666666667,
+     "delta_omega": -1.9694406464655074,
+     "log_r": -1.9694406464655074,
+     "c_BK": 0.03488372093023256,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=22/3": {
+     "x": "22/3",
+     "x_ondalik": 7.333333333333333,
+     "delta_omega": -1.992430164690206,
+     "log_r": -1.992430164690206,
+     "c_BK": 0.03409090909090909,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=23/3": {
+     "x": "23/3",
+     "x_ondalik": 7.666666666666667,
+     "delta_omega": -2.03688192726104,
+     "log_r": -2.03688192726104,
+     "c_BK": 0.03260869565217391,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=47/6": {
+     "x": "47/6",
+     "x_ondalik": 7.833333333333333,
+     "delta_omega": -2.0583881324820035,
+     "log_r": -2.0583881324820035,
+     "c_BK": 0.031914893617021274,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    },
+    "x=49/6": {
+     "x": "49/6",
+     "x_ondalik": 8.166666666666666,
+     "delta_omega": -2.1000608288825715,
+     "log_r": -2.1000608288825715,
+     "c_BK": 0.030612244897959183,
+     "rol": "çeyrek (SABİT: q_f^cal·0.25/x [·g/ḡ_cal M_Rg'de])"
+    }
+   },
+   "ceyrek_kenar": {
+    "x=29/6": {
+     "x": "29/6",
+     "x_ondalik": 4.833333333333333,
+     "delta_omega": -1.575536360758419,
+     "log_r": -1.575536360758419,
+     "c_BK": 0.05172413793103448,
+     "rol": "çeyrek kenar (SABİT)"
+    },
+    "x=14/3": {
+     "x": "14/3",
+     "x_ondalik": 4.666666666666667,
+     "delta_omega": -1.540445040947149,
+     "log_r": -1.540445040947149,
+     "c_BK": 0.05357142857142857,
+     "rol": "çeyrek kenar (SABİT)"
+    },
+    "x=25/3": {
+     "x": "25/3",
+     "x_ondalik": 8.333333333333334,
+     "delta_omega": -2.120263536200091,
+     "log_r": -2.120263536200091,
+     "c_BK": 0.03,
+     "rol": "çeyrek kenar (SABİT)"
+    }
+   },
+   "taban": "a + bΔω serbest",
+   "modeller": {
+    "M_BK": "genlik_i = q_f^cal·0.25/x_i",
+    "M_Rg": "genlik_i = q_f^cal·0.25/x_i·g(L + Δω_i)/ḡ_cal"
+   },
+   "g_cal": 12.656262711038494,
+   "g_cal_tanim": "kalibrasyon çeyrek tepelerinde (listelenen 10) 0.25/x ağırlıklı g(L − log x) ortalaması",
+   "qf_cal_jk": "replika v'de q_f^cal^{(v)} aynı grupla kalibrasyonda yeniden uydurulur ve kör uyuma taşınır",
+   "Z_ailesi": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "H_ailesi": [
+    "11/2",
+    "13/2",
+    "15/2"
+   ]
+  },
+  "kalibrasyon_uyum": {
+   "pencere": [
+    -1.3,
+    -0.55
+   ],
+   "ana": {
+    "x=2": {
+     "x": "2",
+     "x_ondalik": 2.0,
+     "delta_omega": -0.6931471805599453,
+     "log_r": -0.6931471805599453,
+     "c_BK": 0.5,
+     "rol": "ana (serbest A_k)"
+    },
+    "x=5/2": {
+     "x": "5/2",
+     "x_ondalik": 2.5,
+     "delta_omega": -0.9162907318741551,
+     "log_r": -0.9162907318741551,
+     "c_BK": 0.4,
+     "rol": "ana (serbest A_k)"
+    },
+    "x=3": {
+     "x": "3",
+     "x_ondalik": 3.0,
+     "delta_omega": -1.0986122886681098,
+     "log_r": -1.0986122886681098,
+     "c_BK": 0.3333333333333333,
+     "rol": "ana (serbest A_k)"
+    },
+    "x=7/2": {
+     "x": "7/2",
+     "x_ondalik": 3.5,
+     "delta_omega": -1.252762968495368,
+     "log_r": -1.252762968495368,
+     "c_BK": 0.2857142857142857,
+     "rol": "ana (serbest A_k)"
+    }
+   },
+   "ceyrek": {
+    "x=11/6": {
+     "x": "11/6",
+     "x_ondalik": 1.8333333333333333,
+     "delta_omega": -0.6061358035703155,
+     "log_r": -0.6061358035703155,
+     "c_BK": 0.13636363636363635,
+     "rol": "çeyrek (ortak q_f)"
+    },
+    "x=13/6": {
+     "x": "13/6",
+     "x_ondalik": 2.1666666666666665,
+     "delta_omega": -0.7731898882334817,
+     "log_r": -0.7731898882334817,
+     "c_BK": 0.11538461538461539,
+     "rol": "çeyrek (ortak q_f)"
+    },
+    "x=7/3": {
+     "x": "7/3",
+     "x_ondalik": 2.3333333333333335,
+     "delta_omega": -0.8472978603872037,
+     "log_r": -0.8472978603872037,
+     "c_BK": 0.10714285714285714,
+     "rol": "çeyrek (ortak q_f)"
+    },
+    "x=8/3": {
+     "x": "8/3",
+     "x_ondalik": 2.6666666666666665,
+     "delta_omega": -0.9808292530117262,
+     "log_r": -0.9808292530117262,
+     "c_BK": 0.09375,
+     "rol": "çeyrek (ortak q_f)"
+    },
+    "x=17/6": {
+     "x": "17/6",
+     "x_ondalik": 2.8333333333333335,
+     "delta_omega": -1.0414538748281612,
+     "log_r": -1.0414538748281612,
+     "c_BK": 0.08823529411764706,
+     "rol": "çeyrek (ortak q_f)"
+    },
+    "x=19/6": {
+     "x": "19/6",
+     "x_ondalik": 3.1666666666666665,
+     "delta_omega": -1.1526795099383853,
+     "log_r": -1.1526795099383853,
+     "c_BK": 0.07894736842105263,
+     "rol": "çeyrek (ortak q_f)"
+    },
+    "x=10/3": {
+     "x": "10/3",
+     "x_ondalik": 3.3333333333333335,
+     "delta_omega": -1.2039728043259361,
+     "log_r": -1.2039728043259361,
+     "c_BK": 0.075,
+     "rol": "çeyrek (ortak q_f)"
+    },
+    "x=11/3": {
+     "x": "11/3",
+     "x_ondalik": 3.6666666666666665,
+     "delta_omega": -1.2992829841302609,
+     "log_r": -1.2992829841302609,
+     "c_BK": 0.06818181818181818,
+     "rol": "çeyrek (ortak q_f)"
+    }
+   },
+   "ceyrek_kenar": {
+    "x=5/3": {
+     "x": "5/3",
+     "x_ondalik": 1.6666666666666667,
+     "delta_omega": -0.5108256237659907,
+     "log_r": -0.5108256237659907,
+     "c_BK": 0.15,
+     "rol": "çeyrek kenar (ortak q_f)"
+    },
+    "x=23/6": {
+     "x": "23/6",
+     "x_ondalik": 3.8333333333333335,
+     "delta_omega": -1.3437347467010947,
+     "log_r": -1.3437347467010947,
+     "c_BK": 0.06521739130434782,
+     "rol": "çeyrek kenar (ortak q_f)"
+    }
+   },
+   "s_hedefleri": [
+    "2",
+    "3"
+   ]
+  },
+  "M2_ana6": {
+   "+log2": {
+    "delta_omega": 0.6931471805599453,
+    "P_pencere_j": [
+     27,
+     28
+    ]
+   },
+   "+log3": {
+    "delta_omega": 1.0986122886681098,
+    "P_pencere_j": [
+     43,
+     44,
+     45
+    ]
+   },
+   "+log6": {
+    "delta_omega": 1.791759469228055,
+    "P_pencere_j": [
+     71,
+     72
+    ]
+   },
+   "+log(3/2)": {
+    "delta_omega": 0.4054651081081644,
+    "P_pencere_j": [
+     16,
+     17
+    ]
+   },
+   "-log2": {
+    "delta_omega": -0.6931471805599453,
+    "P_pencere_j": [
+     -28,
+     -27
+    ]
+   },
+   "-log3": {
+    "delta_omega": -1.0986122886681098,
+    "P_pencere_j": [
+     -45,
+     -44,
+     -43
+    ]
+   }
+  },
+  "ikincil_192_23": {
+   "yan_pencere": [
+    0.15,
+    2.35
+   ],
+   "konumlar": {
+    "+log2": {
+     "delta_omega": 0.6931471805599453,
+     "liste": "yanmali"
+    },
+    "+log3": {
+     "delta_omega": 1.0986122886681098,
+     "liste": "yanmali"
+    },
+    "+log5": {
+     "delta_omega": 1.6094379124341003,
+     "liste": "yanmali"
+    },
+    "+log6": {
+     "delta_omega": 1.791759469228055,
+     "liste": "yanmali"
+    },
+    "+log7": {
+     "delta_omega": 1.9459101490553132,
+     "liste": "yanmali"
+    },
+    "+log10": {
+     "delta_omega": 2.302585092994046,
+     "liste": "yanmali"
+    },
+    "+log(3/2)": {
+     "delta_omega": 0.4054651081081645,
+     "liste": "yanmali"
+    },
+    "+log(5/3)": {
+     "delta_omega": 0.5108256237659905,
+     "liste": "yanmali"
+    },
+    "+log(5/2)": {
+     "delta_omega": 0.916290731874155,
+     "liste": "yanmali"
+    },
+    "+log(5/4)": {
+     "delta_omega": 0.2231435513142097,
+     "liste": "yanmali"
+    },
+    "-log2": {
+     "delta_omega": -0.6931471805599453,
+     "liste": "yanmali"
+    },
+    "-log3": {
+     "delta_omega": -1.0986122886681098,
+     "liste": "yanmali"
+    },
+    "-log(3/2)": {
+     "delta_omega": -0.4054651081081645,
+     "liste": "yanmali"
+    },
+    "-log(4/3)": {
+     "delta_omega": -0.2876820724517808,
+     "liste": "yanmali"
+    },
+    "+log4": {
+     "delta_omega": 1.3862943611198906,
+     "liste": "sonmeli"
+    },
+    "+log8": {
+     "delta_omega": 2.0794415416798357,
+     "liste": "sonmeli"
+    },
+    "+log9": {
+     "delta_omega": 2.1972245773362196,
+     "liste": "sonmeli"
+    },
+    "+log(4/3)": {
+     "delta_omega": 0.2876820724517808,
+     "liste": "sonmeli"
+    },
+    "+log(8/3)": {
+     "delta_omega": 0.980829253011726,
+     "liste": "sonmeli"
+    },
+    "+log(8/5)": {
+     "delta_omega": 0.47000362924573547,
+     "liste": "sonmeli"
+    },
+    "+log(9/2)": {
+     "delta_omega": 1.5040773967762742,
+     "liste": "sonmeli"
+    },
+    "+log(9/4)": {
+     "delta_omega": 0.810930216216329,
+     "liste": "sonmeli"
+    },
+    "+log(9/5)": {
+     "delta_omega": 0.5877866649021193,
+     "liste": "sonmeli"
+    }
+   },
+   "tepe_kurali": "BK c ≥ 0.05 + μ=0 konumları serbest (KALEM)"
+  },
+  "rakip_Rg": {
+   "g": "g(ω') = e^{ω'/2}/ω', ω' = L + Δω, L = 10.48393",
+   "R_g": "R^g_x = g(L − log x)/ḡ, ḡ = Σ_a w_a g(L − log x_a)/Σ_a w_a, a ∈ {2,3}, w_a = s tahminindeki ağırlıklar",
+   "esit_agirlik_KALEM": {
+    "5": 0.754,
+    "6": 0.702,
+    "7": 0.662,
+    "8": 0.629
+   }
+  }
+ },
+ "esikler": {
+  "M1": {
+   "bagil_fark_maks": 1e-10,
+   "kapsam": "tam harita ya da Δω ∈ [−1.3, 3.5]'e yayılmış ≥ 12 ω-dilimi, 50 K"
+  },
+  "M2": {
+   "ana6_P_bolu_se_min": 3.0,
+   "oran_merkez_KALEM": {
+    "+log3/+log2": 0.31,
+    "+log6/+log2": 0.602,
+    "-log2/+log2": 0.24,
+    "-log3/+log3": 0.466
+   },
+   "oran_merkez_192_tam": {
+    "+log3/+log2": 0.3098484565127926,
+    "+log6/+log2": 0.6024822370732437,
+    "-log2/+log2": 0.2397037035351199,
+    "-log3/+log3": 0.46598028317143503
+   },
+   "oran_tolerans_goreli": 0.3,
+   "basarisizsa": "SINAV GEÇERSİZ (BK ölümü değil)"
+  },
+  "M3": "tarama ∩ HAVUZ' = ∅ (197b assert)",
+  "M4": {
+   "sigma_eff_maks": 0.1,
+   "tanim": "σ_eff = f_Z·σ_jk ≤ 0.10, M_BK VE M_Rg",
+   "degilse": "tüm kör hükümler 'belirsiz'"
+  },
+  "M5": {
+   "artik_rms_bolu_pencere_std_maks": 0.35,
+   "mlog2_profil_korelasyon_min": 0.85,
+   "mlog2_dilimleri": "|Δω + log2| ≤ 0.06",
+   "basarisizsa": "çizgi-biçimi modeli GEÇERSİZ ⇒ hüküm yalnız KAYIT"
+  },
+  "M6": {
+   "dogrular": [
+    "BK",
+    "R-g"
+   ],
+   "i_gurultusuz_goreli_hata_maks": 0.05,
+   "ii_kapsama_min": 0.88,
+   "ii_nicelikler": "KARARA GİREN: R̄_Z ve ρ |Â − A| ≤ 2σ_eff (f_Z, f_ρ; doğru-eşleşik model); kalibrasyon çapaları A(−log2), A(−log3), q_f^cal ve kör ana A_x (x = 5..8, 11/2, 13/2, 15/2) |Â − A| ≤ 2.36σ_jk",
+   "iii_dogru_kazanma_min": 0.8,
+   "iii_yanlis_kazanma_maks": 0.05,
+   "iii_replika": "K_GUC tohumları (f kalibrasyonundan AYRI), 200'er, σ_eff ile",
+   "sinyal": "192 ölçeği S = ters-varyans ağ. ort. {2P(−log2), 3P(−log3)} (HUKUM_192 A2_P); R-g doğrusu: genlik S·c·g(L+Δω)/ḡ_s, ḡ_s = (g(L−log2)+g(L−log3))/2",
+   "gurultu": "e_g ~ N(0, 8·se_j²); ölçüm-öncesi se_j M1 (görülmüş, 8 blok, HAVUZ' sütunları; kör pencerede medyan), hükümde ölçülen jk se",
+   "ol_oncesi_kalirsa": "sınav YAPILMAZ (tasarım yeniden) — 197a ön-kaydı yazmaz",
+   "hukum_aninda_kalirsa": "hüküm yalnız KAYIT"
+  },
+  "kapi_onceligi": "M1/M3 > M2 > M6 > M5 > M4 (kaptan kabulü)",
+  "H_197a": {
+   "sigma": "σ_eff = f_Z·σ_jk (her iki model)",
+   "BK_oz_tutarli": "|R̄_Z^BK − 1| ≤ 2σ_eff^BK (M_BK uyumu)",
+   "Rg_oz_tutarli": "|R̄_Z^Rg − R̄^g| ≤ 2σ_eff^Rg (M_Rg uyumu; R̄^g M_Rg ağırlıklarıyla)",
+   "BK_TUTAR": "BK öz-tutarlı, R-g DEĞİL (β^BK ve se'si KAYIT)",
+   "RG_KAZANIR": "R-g öz-tutarlı, BK DEĞİL",
+   "IKISI_DE_OLUR": "|R̄_Z^BK − 1| > 3σ_eff^BK VE |R̄_Z^Rg − R̄^g| > 3σ_eff^Rg",
+   "diger": "belirsiz (KAYIT)",
+   "H197b_c": "M_BK uyumundan; M_Rg ile aynı hükümler KAYIT"
+  },
+  "H_197b": {
+   "rho": "R̄_H/R̄_Z",
+   "TUTAR": "|ρ − 1| ≤ max(0.25, 2σ_ρ), σ_ρ = f_ρ·σ_jk",
+   "OLUM": "ρ < 0.50 ya da üç hedeften ikisinde A < 0 (ÖLÜM önce; en az iki)",
+   "tolerans_min": 0.25,
+   "olum_rho": 0.5,
+   "olum_negatif_A": 2
+  },
+  "H_197c": {
+   "psi": "A_8/Â_8, Â_8 = x=5,6,7'ye uydurulan A ∝ x^{−β} zarfı x=8'de",
+   "TUTAR": [
+    0.6,
+    1.6
+   ],
+   "OLUM_alt": 0.3
+  }
+ },
+ "makine_muhurleri": {
+  "M1_sonuc.json": {
+   "mod": "tam (görülmüş bölge: tüm j ≥ −51)",
+   "n_karsilastirma": 70650,
+   "maks_bagil_eleman": 0.0,
+   "M1a_K_ham": {
+    "maks_bagil_eleman": 0.0,
+    "maks_mutlak_bolu_maks_ref": 0.0,
+    "bit_bit": true,
+    "sifir_hucreler_esit": true
+   },
+   "M1b_K_duz": {
+    "maks_bagil_eleman": 0.0,
+    "maks_mutlak_bolu_maks_ref": 0.0,
+    "bit_bit": true,
+    "sifir_hucreler_esit": true
+   },
+   "M1c_kesik_katki_maks_bagil": [
+    1.1735086094843162e-15,
+    1.2664122283417248e-15,
+    1.174322310155099e-15,
+    1.2661537183471816e-15,
+    1.0833836947075904e-15,
+    1.260523079132061e-15,
+    1.0839408754515324e-15,
+    1.082095710939854e-15,
+    1.4420014134033951e-15
+   ],
+   "ncz_esit": true,
+   "gecti": true,
+   "kod_sha256": "1f3678dbe6fc51677e666714d624419334048d1dbe39c27edc5f598f1e6598ab",
+   "zaman": "2026-09-25 12:31:23 +0300"
+  },
+  "M1_sonuc_alt.json": {
+   "mod": "alt (12 temsilî ω-dilimi)",
+   "n_karsilastirma": 4200,
+   "maks_bagil_eleman": 0.0,
+   "M1a_K_ham": {
+    "maks_bagil_eleman": 0.0,
+    "maks_mutlak_bolu_maks_ref": 0.0,
+    "bit_bit": true,
+    "sifir_hucreler_esit": true
+   },
+   "M1b_K_duz": {
+    "maks_bagil_eleman": 0.0,
+    "maks_mutlak_bolu_maks_ref": 0.0,
+    "bit_bit": true,
+    "sifir_hucreler_esit": true
+   },
+   "M1c_kesik_katki_maks_bagil": null,
+   "ncz_esit": true,
+   "gecti": true,
+   "kod_sha256": "1f3678dbe6fc51677e666714d624419334048d1dbe39c27edc5f598f1e6598ab",
+   "zaman": "2026-09-25 12:28:44 +0300"
+  },
+  "M6_on_deneme.json": {
+   "gecti": true,
+   "f": {
+    "Z": 1.5650650491670195,
+    "rho": 1.3736133274633446
+   },
+   "kod_sha256": "62859f233245279260b3b0fee531da1ae86ed97ee8877d832c94ab5c44e4bcb5",
+   "zaman": "2026-09-25 12:55:09 +0300"
+  }
+ },
+ "f": {
+  "f_Z": 1.5650650491670195,
+  "f_rho": 1.3736133274633446,
+  "tanim": "f = K_KAL replikalarında z = (tahmin − doğru)/σ_jk standart sapması (ddof=1), iki doğrunun büyüğü; BK-doğru M_BK, R-g-doğru M_Rg; SABİT (yeniden kalibre edilmez)",
+  "K_KAL": {
+   "BK": [
+    1970000,
+    1970199
+   ],
+   "Rg": [
+    1971000,
+    1971199
+   ]
+  },
+  "K_GUC": {
+   "BK": [
+    1972000,
+    1972199
+   ],
+   "Rg": [
+    1973000,
+    1973199
+   ]
+  },
+  "kalibrasyon_dogrular": {
+   "BK": {
+    "model": "M_BK",
+    "n": 200,
+    "z_Z_ort": 0.05759513568814647,
+    "z_Z_sd": 1.5650650491670195,
+    "z_rho_ort": 0.14020730618809193,
+    "z_rho_sd": 1.3736133274633446
+   },
+   "Rg": {
+    "model": "M_Rg",
+    "n": 200,
+    "z_Z_ort": -0.07757983183687055,
+    "z_Z_sd": 1.5057006886143984,
+    "z_rho_ort": -0.13242408265547895,
+    "z_rho_sd": 1.3352161388273698
+   }
+  }
+ },
+ "M6_ol_oncesi_ozet": {
+  "gecti": true,
+  "nrep": {
+   "BK": 200,
+   "Rg": 200
+  },
+  "S": 0.03342819298957067,
+  "gurultu_se_medyan": 0.0002474728254082794,
+  "dogrular": {
+   "BK": {
+    "i_maks_hata": 1.887379141862766e-15,
+    "ii_min_kapsama": 0.935,
+    "ii_kapsama": {
+     "R_Z (2σ_eff)": 0.975,
+     "rho (2σ_eff)": 0.955,
+     "kal:x=2": 0.945,
+     "kal:x=3": 0.935,
+     "kal:q_f": 0.97,
+     "kor:x=5": 0.96,
+     "kor:x=11/2": 0.975,
+     "kor:x=6": 0.96,
+     "kor:x=13/2": 0.945,
+     "kor:x=7": 0.945,
+     "kor:x=15/2": 0.955,
+     "kor:x=8": 0.95
+    },
+    "iii_dogru": 0.93,
+    "iii_yanlis": 0.0,
+    "sigma_eff_BK_medyan": 0.06122289683715425,
+    "sigma_eff_Rg_medyan": 0.059215590445644985,
+    "M4_gecme": 0.995
+   },
+   "Rg": {
+    "i_maks_hata": 0.025511548314418375,
+    "ii_min_kapsama": 0.925,
+    "ii_kapsama": {
+     "R_Z (2σ_eff)": 0.93,
+     "rho (2σ_eff)": 0.94,
+     "kal:x=2": 0.955,
+     "kal:x=3": 0.96,
+     "kal:q_f": 0.955,
+     "kor:x=5": 0.925,
+     "kor:x=11/2": 0.95,
+     "kor:x=6": 0.925,
+     "kor:x=13/2": 0.96,
+     "kor:x=7": 0.965,
+     "kor:x=15/2": 0.935,
+     "kor:x=8": 0.95
+    },
+    "iii_dogru": 0.86,
+    "iii_yanlis": 0.005,
+    "sigma_eff_BK_medyan": 0.056777082135919976,
+    "sigma_eff_Rg_medyan": 0.05535099194929704,
+    "M4_gecme": 0.99
+   }
+  }
+ },
+ "kurallar": "TEK DALGA; ölümler kurtarmasız; eşik gevşetme yok; ölçülemeyen 'erişilemedi'; git'e ajan dokunmaz; K0 push edilmeden ölçüm başlamaz; sonuç ORTAK TEFTİŞE.",
+ "zaman": "Fri Sep 25 12:56:11 +03 2026",
+ "sha256": "55665f764a820863c6d4a68d51f12158b3b4954b93206d6b5d5bc568125f9d1f"
+}
