@@ -73,6 +73,22 @@ bloklar + M7/M8 kapıları), iki makine raporu (W_alt kısmi kapsama; M8 karar n
 > üsler) her yükseklikte tam BK. Tablo, BK sanısının pozitif-üs katsayılarına asimptotik olarak,
 > ölçülebilir bir 1/L-mertebesi düzeltmeyle yaklaşıldığını söylüyor.
 
+## ŞERH (25 Eyl, kaptan; kullanıcı onayıyla — yorum düzeltmesi, ölçüm ve hüküm AYNEN)
+
+LITERATUR_KAPPA_SONLU_YUKSEKLIK_25EYL2026 (Sonnet, birincil kaynaktan; kaptan doğrulaması):
+Conrey–Snaith (math/0509480) Teorem 4.1 = BK formülü, hata O(T^{1/2+ε}); yazarların ifadesiyle
+"It includes all of the lower order terms that arise from arithmetical considerations". Formülün
+(t/2π)^{−ir} taşıyıcılı (tarak/uydu) terimi A(ir)ζ(1+ir)ζ(1−ir) — Bohr katsayıları L'den BAĞIMSIZ
+BK c(r); (ζ'/ζ)' ve B terimleri taşıyıcısız (ω ≈ 0 civarı). ⇒ R₂'NİN KENDİSİNDE 1/L mertebesinde
+pozitif-üs düzeltmesi YOK. Dolayısıyla 198'in ölçtüğü L-bağımlılığı BK sanısının bir düzeltmesi
+DEĞİL, gözlenebilirimizin (orta-nokta örgüsü × asal-dalga karışımı çekirdeği — karma sıfır-asal
+istatistiği) R₂'nin Bohr katsayılarını AKTARIM biçiminin özelliği: aktarım negatif üslerde her
+yükseklikte birebir, pozitif üslerde yükseklikle birebire yaklaşıyor (γ̂ = 1.36 ± 0.21). Bu,
+196 şerhinin (i) okumasının (çekirdek ≠ R₂ Bohr katsayıları) inceltilmiş hâli. Literatürden
+parametresiz κ_p(L) çıkmıyor; aktarım fonksiyonunun türetimi AÇIK (kendi çerçevemizde:
+çekirdek tanımı + gap-başı özdeşlik). Manşetin son cümlesi şöyle okunmalı: "çekirdeğimiz BK'nın
+pozitif-üs katsayılarına yükseklikle yaklaşıyor; ayna yanı her yükseklikte tam."
+
 ## Açık kalemler
 
 - Düzeltmenin biçimi: daha fazla pencere (L ∈ [8, 12.5], zeros6 içinde) ile 1/L mi, log p/L mi,
