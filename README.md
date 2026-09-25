@@ -7,8 +7,9 @@ nontrivial zeros of the Riemann zeta function and of Dirichlet L-functions:
 how prime (power) waves are transmitted into zero gaps and amplitudes, and how
 the zero lattice diffracts.
 
-**Author:** Uğur Sezen. **Status:** four research notes written and internally
-audited; not yet peer reviewed. Nothing here claims to bear on a proof of the
+**Author:** Uğur Sezen. **Status:** five research notes written and internally
+audited (Notes 1–4 and 7; Notes 5 and 6 are in preparation); Note 1 has been
+submitted to arXiv (math.NT); not yet peer reviewed. Nothing here claims to bear on a proof of the
 Riemann Hypothesis — the results are measured laws, stated with their error bars
 and their failed alternatives.
 
@@ -20,13 +21,14 @@ and their failed alternatives.
 | 2 | The prime-wave anatomy of the gap–amplitude law | [`qm_riemann/arxiv_prime_wave_anatomy.pdf`](qm_riemann/arxiv_prime_wave_anatomy.pdf) |
 | 3 | A response theory for the Riemann zero gas | [`qm_riemann/arxiv_response_theory.pdf`](qm_riemann/arxiv_response_theory.pdf) |
 | 4 | The Riemann zero lattice as a warm crystal | [`qm_riemann/arxiv_warm_crystal.pdf`](qm_riemann/arxiv_warm_crystal.pdf) |
+| 7 | Arithmetic satellites of the Bragg comb of the Riemann zero lattice: residue classes, characters, and a blind test of the Bogomolny–Keating mirror law | [`qm_riemann/arxiv_comb_satellites.pdf`](qm_riemann/arxiv_comb_satellites.pdf) |
 
 LaTeX sources sit next to the PDFs.
 
 ## How the work is done
 
 - **Pre-registration.** Measurement tasks are numbered (scripts `qm_riemann/NNN_*.py`,
-  tasks 1–198). In the later part of the program the measurement tasks have a
+  tasks 1–199). In the later part of the program the measurement tasks have a
   pencil file (`qm_riemann/KALEM_*.md`, 34 of them) that freezes hypotheses,
   thresholds and death conditions *before* the data are looked at, together
   with a sha256 + timestamp file; the git history of this repository (original
