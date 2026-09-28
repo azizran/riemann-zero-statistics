@@ -1,0 +1,11 @@
+{
+ "description": "Independent check of E sum_n M_n^2/N^2 at N=10 (same estimator as m2total.py); command: python m2_n10_check.py 10 400000 2026. No zeta data.",
+ "N": 10,
+ "nmat": 400000,
+ "seed": 2026,
+ "mean_over_N2": 1.4394372883888078,
+ "naive_se": 0.0020058713301745546,
+ "batch_se_50": 0.0020526283199623586,
+ "exact_winn": 1.4380502241280002,
+ "script": "# Independent check (seed 2026): E sum_n M_n^2 / N^2 at N=10, 4e5 matrices; same estimator as m2total.py\nimport numpy as np, sys\nN=int(sys.argv[1]); nmat=int(sys.argv[2]); rng=np.random.default_rng(int(sys.argv[3]))\ndef haar(b,N):\n    Z=(rng.standard_normal((b,N,N))+1j*rng.standard_normal((b,N,N)))/np.sqrt(2)\n    Q,R=np.linalg.qr(Z); d=np.diagonal(R,axis1=1,axis2=2); return Q*(d/abs(d))[:,None,:]\nG=65; tot=[]\nfor _ in range(nmat//2000):\n    th=np.sort(np.angle(np.linalg.eigvals(haar(2000,N))),axis=1)\n    nxt=np.concatenate([th[:,1:],th[:,:1]+2*np.pi],axis=1); s=nxt-th\n    u=np.linspace(0,1,G)[1:-1]; grid=th[:,:,None]+s[:,:,None]*u[None,None,:]\n    ll=np.log(np.abs(2*np.sin((grid[:,:,:,None]-th[:,None,None,:])/2))).sum(-1)\n    k=np.clip(ll.argmax(-1),1,G-4)\n    y0=np.take_along_axis(ll,(k-1)[...,None],-1)[...,0]; y1=np.take_along_axis(ll,k[...,None],-1)[...,0]; y2=np.take_along_axis(ll,(k+1)[...,None],-1)[...,0]\n    den=y0-2*y1+y2; logM=y1-0.125*(y2-y0)**2/np.where(den==0,-1e-300,den)\n    tot.append(np.exp(2*logM).sum(1))\nt=np.concatenate(tot); b=t.reshape(50,-1).mean(1)\nprint(N,nmat,'mean/N^2',t.mean()/N**2,'naive se',t.std()/np.sqrt(len(t))/N**2,'batch se',b.std(ddof=1)/np.sqrt(len(b))/N**2)\n"
+}

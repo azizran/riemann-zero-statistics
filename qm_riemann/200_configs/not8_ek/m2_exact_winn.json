@@ -1,0 +1,77 @@
+{
+ "description": "Exact E sum_n M_n^2 = 2*pi*F_N(1/2,1) (identity of Prop. total second moment + Winn, CMP 315 (2012) Thm 2.2 with k=1,h=1/2); small-gap share coefficient c_N = (2pi/N)^7 M_{N-2}(3)/(224 pi) / E sum M^2. No zeta data.",
+ "limit_E_over_N2_(e^2-5)/2": 1.1945280494653248,
+ "limit_share_pi^6/(7560(e^2-5))": 0.053229341414367345,
+ "N2_direct_check": "N=2: E sum M^2 = 16 - 8 E sin^2(phi/2) = 16 - 6 = 10",
+ "values": {
+  "2": {
+   "E_sum_M2": 10.0,
+   "E_sum_M2_over_N2": 2.5,
+   "exact_fraction": "10"
+  },
+  "3": {
+   "E_sum_M2": 18.37037037037037,
+   "E_sum_M2_over_N2": 2.0411522633744856,
+   "exact_fraction": "496/27",
+   "small_gap_coef_unfolded": 5.023916355478757,
+   "small_gap_share_coef": 0.2734793177377549
+  },
+  "4": {
+   "E_sum_M2": 29.125,
+   "E_sum_M2_over_N2": 1.8203125,
+   "exact_fraction": "233/8",
+   "small_gap_coef_unfolded": 5.867853964693019,
+   "small_gap_share_coef": 0.20147138076199206
+  },
+  "6": {
+   "E_sum_M2": 57.79698216735254,
+   "E_sum_M2_over_N2": 1.6054717268709038,
+   "exact_fraction": "42134/729",
+   "small_gap_coef_unfolded": 8.07751551529319,
+   "small_gap_share_coef": 0.13975670030494933
+  },
+  "10": {
+   "E_sum_M2": 143.8050224128,
+   "E_sum_M2_over_N2": 1.4380502241280002,
+   "small_gap_coef_unfolded": 14.258500471228706,
+   "small_gap_share_coef": 0.09915161676550431
+  },
+  "16": {
+   "E_sum_M2": 344.4865278684425,
+   "E_sum_M2_over_N2": 1.3456504994861036,
+   "small_gap_coef_unfolded": 27.509593060155098,
+   "small_gap_share_coef": 0.07985680377800103
+  },
+  "24": {
+   "E_sum_M2": 745.848258650334,
+   "E_sum_M2_over_N2": 1.2948754490457186,
+   "small_gap_coef_unfolded": 52.378078062448914,
+   "small_gap_share_coef": 0.07022618536005006
+  },
+  "32": {
+   "E_sum_M2": 1300.1093856724708,
+   "E_sum_M2_over_N2": 1.2696380719457723,
+   "small_gap_coef_unfolded": 85.4135839652715,
+   "small_gap_share_coef": 0.06569722894592599
+  },
+  "64": {
+   "E_sum_M2": 5046.149460772742,
+   "E_sum_M2_over_N2": 1.2319700831964702,
+   "small_gap_coef_unfolded": 299.01354940112276,
+   "small_gap_share_coef": 0.0592557853717106
+  },
+  "128": {
+   "E_sum_M2": 19877.40975193511,
+   "E_sum_M2_over_N2": 1.2132208100546331,
+   "small_gap_coef_unfolded": 1116.9364113926972,
+   "small_gap_share_coef": 0.05619124550591714
+  },
+  "1000": {
+   "E_sum_M2": 1196917.5685827916,
+   "E_sum_M2_over_N2": 1.1969175685827915,
+   "small_gap_coef_unfolded": 64158.10703573087,
+   "small_gap_share_coef": 0.05360277826959895
+  }
+ },
+ "script": "# Exact E sum_n M_n^2 = 2*pi*F_N(1/2,1) via Winn (CMP 2012) Thm 2.2 with k=1, h=1/2 (no zeta data)\nfrom fractions import Fraction as Fr\nfrom math import factorial as f, e, pi\ndef CN(p,N):  # C_N(p,1) = 2^p N!/((N-p)! (p+1)! p!)\n    return Fr(2**p*f(N), f(N-p)*f(p+1)*f(p))\ndef S(N):     # pi*F_N(1/2,1)/(N+1) = N - sum_{p=2}^N (p-2)! C_N(p,1)/N^{p-1}\n    return CN(1,N) - sum(Fr(f(p-2),N**(p-1))*CN(p,N) for p in range(2,N+1))\nfor N in (2,3,4,6,10,16,24,32,64,128,1000):\n    tot=2*(N+1)*S(N)   # = 2*pi*F_N(1/2,1) = E sum_n M_n^2\n    print(N, float(tot/N**2), (str(tot) if N<=6 else ''))\nprint('(e^2-5)/2 =', (e**2-5)/2)\n"
+}

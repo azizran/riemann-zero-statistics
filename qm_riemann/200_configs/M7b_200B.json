@@ -1,0 +1,183 @@
+{
+ "threshold": 0.002,
+ "windows": {
+  "W1": {
+   "eps_0.1": {
+    "n_events": 147,
+    "Lbar_direct": 9.379747073076691,
+    "Lbar_sayimlar_200b": 9.379747073076691,
+    "kappa": {
+     "kappa2": {
+      "correction": -0.00025467208058438384,
+      "kappa_at_Lbar": 0.2776455787041441,
+      "mean_kappa_over_events": 0.2773909066235597,
+      "flag": false
+     },
+     "kappa3": {
+      "correction": 9.568392698186545e-05,
+      "kappa_at_Lbar": -0.06591703396083541,
+      "mean_kappa_over_events": -0.06582135003385355,
+      "flag": false
+     }
+    }
+   },
+   "eps_0.2": {
+    "n_events": 1143,
+    "Lbar_direct": 9.355244540780722,
+    "Lbar_sayimlar_200b": 9.355244540780722,
+    "kappa": {
+     "kappa2": {
+      "correction": -0.00027873069051753685,
+      "kappa_at_Lbar": 0.27679823648462376,
+      "mean_kappa_over_events": 0.2765195057941062,
+      "flag": false
+     },
+     "kappa3": {
+      "correction": 0.00010504410295006372,
+      "kappa_at_Lbar": -0.0657975576584822,
+      "mean_kappa_over_events": -0.06569251355553214,
+      "flag": false
+     }
+    }
+   },
+   "eps_0.3": {
+    "n_events": 3916,
+    "Lbar_direct": 9.354700840848135,
+    "Lbar_sayimlar_200b": 9.354700840848135,
+    "kappa": {
+     "kappa2": {
+      "correction": -0.0002662264590267416,
+      "kappa_at_Lbar": 0.2767794204345728,
+      "mean_kappa_over_events": 0.2765131939755461,
+      "flag": false
+     },
+     "kappa3": {
+      "correction": 0.00010024100974745376,
+      "kappa_at_Lbar": -0.06579490142502901,
+      "mean_kappa_over_events": -0.06569466041528156,
+      "flag": false
+     }
+    }
+   }
+  },
+  "W2": {
+   "eps_0.1": {
+    "n_events": 356,
+    "Lbar_direct": 10.596627775551713,
+    "Lbar_sayimlar_200b": 10.596627775551713,
+    "kappa": {
+     "kappa2": {
+      "correction": -6.725208415059303e-05,
+      "kappa_at_Lbar": 0.31823208716049733,
+      "mean_kappa_over_events": 0.31816483507634674,
+      "flag": false
+     },
+     "kappa3": {
+      "correction": 2.1134341296330517e-05,
+      "kappa_at_Lbar": -0.07133117662524642,
+      "mean_kappa_over_events": -0.07131004228395009,
+      "flag": false
+     }
+    }
+   },
+   "eps_0.2": {
+    "n_events": 2860,
+    "Lbar_direct": 10.593919977429724,
+    "Lbar_sayimlar_200b": 10.593919977429724,
+    "kappa": {
+     "kappa2": {
+      "correction": -7.322155863603852e-05,
+      "kappa_at_Lbar": 0.3181449215123111,
+      "mean_kappa_over_events": 0.31807169995367507,
+      "flag": false
+     },
+     "kappa3": {
+      "correction": 2.301114292720119e-05,
+      "kappa_at_Lbar": -0.07132016494274888,
+      "mean_kappa_over_events": -0.07129715379982168,
+      "flag": false
+     }
+    }
+   },
+   "eps_0.3": {
+    "n_events": 9445,
+    "Lbar_direct": 10.594120441073148,
+    "Lbar_sayimlar_200b": 10.594120441073148,
+    "kappa": {
+     "kappa2": {
+      "correction": -7.287980837816788e-05,
+      "kappa_at_Lbar": 0.31815137502224133,
+      "mean_kappa_over_events": 0.31807849521386317,
+      "flag": false
+     },
+     "kappa3": {
+      "correction": 2.2898740481572255e-05,
+      "kappa_at_Lbar": -0.0713209803046287,
+      "mean_kappa_over_events": -0.07129808156414713,
+      "flag": false
+     }
+    }
+   }
+  },
+  "W3": {
+   "eps_0.1": {
+    "n_events": 1308,
+    "Lbar_direct": 11.66112055454491,
+    "Lbar_sayimlar_200b": 11.66112055454491,
+    "kappa": {
+     "kappa2": {
+      "correction": -7.987171787671166e-05,
+      "kappa_at_Lbar": 0.3514805552035425,
+      "mean_kappa_over_events": 0.3514006834856658,
+      "flag": false
+     },
+     "kappa3": {
+      "correction": 2.232888822380208e-05,
+      "kappa_at_Lbar": -0.07535417911199481,
+      "mean_kappa_over_events": -0.07533185022377101,
+      "flag": false
+     }
+    }
+   },
+   "eps_0.2": {
+    "n_events": 10165,
+    "Lbar_direct": 11.661833642339896,
+    "Lbar_sayimlar_200b": 11.661833642339896,
+    "kappa": {
+     "kappa2": {
+      "correction": -7.856941884043511e-05,
+      "kappa_at_Lbar": 0.35150216851848093,
+      "mean_kappa_over_events": 0.3514235990996405,
+      "flag": false
+     },
+     "kappa3": {
+      "correction": 2.195500180479648e-05,
+      "kappa_at_Lbar": -0.07535668353812554,
+      "mean_kappa_over_events": -0.07533472853632074,
+      "flag": false
+     }
+    }
+   },
+   "eps_0.3": {
+    "n_events": 33713,
+    "Lbar_direct": 11.66070568159958,
+    "Lbar_sayimlar_200b": 11.66070568159958,
+    "kappa": {
+     "kappa2": {
+      "correction": -7.890818259526089e-05,
+      "kappa_at_Lbar": 0.3514679802302032,
+      "mean_kappa_over_events": 0.35138907204760794,
+      "flag": false
+     },
+     "kappa3": {
+      "correction": 2.2051341467821395e-05,
+      "kappa_at_Lbar": -0.07535272193292998,
+      "mean_kappa_over_events": -0.07533067059146216,
+      "flag": false
+     }
+    }
+   }
+  }
+ },
+ "flags": []
+}

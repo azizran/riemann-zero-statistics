@@ -1,0 +1,53 @@
+{
+ "kalem": "200-C",
+ "baslik": "Merdivenin yükseklik bağımlılığı (LMFDB/Platt, L 14.2–22.3)",
+ "zaman": "2026-09-27T16:22:44+03:00",
+ "olcum_komutu": "../.venv/bin/python 200_configs/200c_olcum.py && ../.venv/bin/python 200_configs/200c_analiz.py",
+ "pencereler": {
+  "C1": "zeros_8846000.dat",
+  "C2": "zeros_99146000.dat",
+  "C3": "zeros_997946000.dat",
+  "C4": "zeros_30599546000.dat",
+  "sifir_sayisi": 1500000
+ },
+ "esik_H200C1_sigma": 3.5,
+ "sigma_sys": 0.005,
+ "a_k_k3": 0.233653,
+ "karar_kurallari": {
+  "H-200C-1": "yeni 12 kayma, s=a_k+c_b L^-g GLS; g/sg>=3.5 SONLU, |g|<=2sg SABIT, arasi BELIRSIZ",
+  "H-200C-2": "chi2 (SE^2+sigma_h^2+0.005^2), Delta>=9 KESIN, best>36 HICBIRI — MANSET",
+  "H-200C-3": "oranlar s1/s0, s2/s1",
+  "H-200C-4": "7 pencere serbest A ve g; |A-a_k|<=2sA ve g>0 (3sigma) TUTAR; celiski notu"
+ },
+ "gorulmusluk": "Yeni pencerelerde gercek veride hicbir dagilim ozeti hesaplanmadi (M1c-M3c yalniz yontem FARKLARI).",
+ "sha256": {
+  "KALEM_MERDIVEN_YUKSEKLIK_27EYL2026.md": "1d87bebbd3ff18bca517a37b813e0b4782a37685287be31b802c087ee475d27f",
+  "200a_merdiven_alt_RAPOR.md": "cc7f232d915ef8e12293fe315c054d8f51f03ee19a3a588d69467be45cf4ce11",
+  "200b_yakin_cift_RAPOR.md": "87b502af02010a19bea4727a449c7f8e193156dbf0042a8d1c26d20d910ef6a7",
+  "200_configs/200c_analiz.py": "691d407dab9df1d00a1dc5df7702c484c0892d4c48abddff1f41f3cd8ed853c1",
+  "200_configs/200c_m0_veri_butunlugu.py": "7c16ad744574d0a0908ccf10e49580c3cb0df75d7754d3e581e303b9862e9146",
+  "200_configs/200c_m1_m2_kapilar.py": "1e351ceb774f53b5a21a15d00dd2507d31baea78ff9247b25c2533454b9b71e3",
+  "200_configs/200c_m3_tepe.py": "52f0ca62fa93e68ab57c48f0de60d7fd54dcb06feffa9c5ce0fee0580a55842b",
+  "200_configs/200c_m6_sentetik.py": "2298f4151d29e95e09a6a58cc0f0cefffb6acc58684b225face43f8e2d84d026",
+  "200_configs/200c_m7_karisim.py": "fe01fadf041bf0bc74416a83098e982d983345a1782c1d9bb9c32b2e86e3872e",
+  "200_configs/200c_motor.py": "b58c9072daea5ab92c07e8f09a261a738b40830ad420faea839559ad09f53250",
+  "200_configs/200c_olcum.py": "dc3c8dc1eb1e6e54200a3a32bac5b75021f6f344e3d2547909027a6b89d0c95d",
+  "200_configs/200c_ortak.py": "26062ee987a6d51bd7f3167bffb4606532b1f5d980074d47ac6b036e24b3c8a1",
+  "200_configs/200c_tahmin.py": "e2e6788baf2246ecd20873ad2f2526b150b1f95b5c4409adb138f88d24ab08ba",
+  "200_configs/200c_veri.py": "75186669b7f370d6449c161cc70f4010848ca43c3efe55b319f66b62f7118bdc",
+  "200_configs/M0c_200C.json": "043d5e2c09aa35c1f2a86aed99faa5b33f3e964ce47c639ca33e31eb28c4fb7d",
+  "200_configs/M1c_200C.json": "7c2d6e864f1f6825abc13049255487be54524cfa4c8574933d544d21dbc0a370",
+  "200_configs/M2c_200C.json": "7f1fcb0f20a77ff25323b3515c8daefeea4a30c165951a561b979fe21a796117",
+  "200_configs/M3c_200C.json": "9f41e7e0b3f1d5186ef864dedbd2c5d41ff2d22dc8880fedbe68bbc233fc69b0",
+  "200_configs/M6c_200C.json": "084e90a646d6eb0da0f29e4c5ed00532e240740c58a22890a78888e3ab7e3401",
+  "200_configs/M6c_200C_v1_10tekrar.json": "e56348828d860c04d596f090f51a5715fcdfd7000863f602482325c1eeddd212",
+  "200_configs/M6c_200C_v2.json": "084e90a646d6eb0da0f29e4c5ed00532e240740c58a22890a78888e3ab7e3401",
+  "200_configs/M7c_200C.json": "59eb6257674142384e5d78310603ed1b4bdf9b8804730f9c268033bce6770066",
+  "200_configs/200c_tahmin.json": "50bf6d272c4f9ff94b59803bc8bfc89d897221e1ebf7e54153eceeedc53d6b50",
+  "200_configs/200c_MAKINE_RAPORU.md": "e6e83868f3c597caf1c3b98587019e173e8d0a675b8dba8bf7d6e1d9b11f1062",
+  "veri_lmfdb/zeros_30599546000.dat": "2c5e764cedb2a0d05f064abd6a6ab5004881b6248b90ec213c688c170e784310",
+  "veri_lmfdb/zeros_8846000.dat": "a3f3dd838cc50b451852cf81862e604c85927378a2fd89a9fc3736c3dbd4cb98",
+  "veri_lmfdb/zeros_99146000.dat": "f181f573866fb1cd14c30c3f6bbbec5371a73484458fe86786a9ad7257927e21",
+  "veri_lmfdb/zeros_997946000.dat": "fb696127ea715c34861ec968b3ff3141620afc2f275f2b4bd3362fb7a7a61e1c"
+ }
+}

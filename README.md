@@ -7,8 +7,8 @@ nontrivial zeros of the Riemann zeta function and of Dirichlet L-functions:
 how prime (power) waves are transmitted into zero gaps and amplitudes, and how
 the zero lattice diffracts.
 
-**Author:** Uğur Sezen. **Status:** five research notes written and internally
-audited (Notes 1–4 and 7; Notes 5 and 6 are in preparation); Note 1 has been
+**Author:** Uğur Sezen. **Status:** six research notes written and internally
+audited (Notes 1–4, 7 and 8; Notes 5 and 6 are in preparation); Note 1 has been
 submitted to arXiv (math.NT); not yet peer reviewed. Nothing here claims to bear on a proof of the
 Riemann Hypothesis — the results are measured laws, stated with their error bars
 and their failed alternatives.
@@ -22,14 +22,15 @@ and their failed alternatives.
 | 3 | A response theory for the Riemann zero gas | [`qm_riemann/arxiv_response_theory.pdf`](qm_riemann/arxiv_response_theory.pdf) |
 | 4 | The Riemann zero lattice as a warm crystal | [`qm_riemann/arxiv_warm_crystal.pdf`](qm_riemann/arxiv_warm_crystal.pdf) |
 | 7 | Arithmetic satellites of the Bragg comb of the Riemann zero lattice: residue classes, characters, and a blind test of the Bogomolny–Keating mirror law | [`qm_riemann/arxiv_comb_satellites.pdf`](qm_riemann/arxiv_comb_satellites.pdf) — preprint [doi:10.5281/zenodo.22960606](https://doi.org/10.5281/zenodo.22960606) |
+| 8 | The hump between two close zeros: an exact small-gap law for random unitary matrices and a tilt ladder for the Riemann zeta function | [`qm_riemann/arxiv_small_gap_hump.pdf`](qm_riemann/arxiv_small_gap_hump.pdf) |
 
 LaTeX sources sit next to the PDFs.
 
 ## How the work is done
 
 - **Pre-registration.** Measurement tasks are numbered (scripts `qm_riemann/NNN_*.py`,
-  tasks 1–199). In the later part of the program the measurement tasks have a
-  pencil file (`qm_riemann/KALEM_*.md`, 34 of them) that freezes hypotheses,
+  tasks 1–201). In the later part of the program the measurement tasks have a
+  pencil file (`qm_riemann/KALEM_*.md`, 38 of them) that freezes hypotheses,
   thresholds and death conditions *before* the data are looked at, together
   with a sha256 + timestamp file; the git history of this repository (original
   commit dates preserved) is the public record of that order. Exploratory,
@@ -66,6 +67,12 @@ errors.
   builds the path bridges, and `araclar/yeniden_kur.sh` regenerates the cached
   intermediate data of tasks 184–187 (~40 min) with a gate against the sealed
   numbers.
+
+Tasks 200-C and 201 also use zeros from the LMFDB database of D. Platt (four files
+`zeros_8846000.dat`, `zeros_99146000.dat`, `zeros_997946000.dat`, `zeros_30599546000.dat`,
+the first 1.5·10⁶ zeros of each). They are not redistributed here; download them from the
+LMFDB data pages into `qm_riemann/veri_lmfdb/` — their sha256 stamps are in
+`qm_riemann/200_configs/ONKAYIT_200C.json`.
 
 ## License
 

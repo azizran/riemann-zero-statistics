@@ -1,0 +1,19 @@
+{
+ "kalem": "201",
+ "baslik": "Faz kilidi",
+ "zaman": "2026-09-28T09:34:50+03:00",
+ "olcum": "../.venv/bin/python 201_configs/201_olcum.py && ../.venv/bin/python 201_configs/201_analiz.py",
+ "gorulmusluk": "Sıfırlarda asal fazı istatistiği hiç hesaplanmadı (yalnız sentetik M6).",
+ "sha256": {
+  "KALEM_FAZ_KILIDI_28EYL2026.md": "b2c69694df656f4cff1f835576f0e69da1012a8ec526557d924c204bab700819",
+  "201_configs/201_olcum.py": "e24a012b92404d0c02ce64df2450503fb5307943d9a647b965d95438fbccadfa",
+  "201_configs/201_analiz.py": "00b07fdd15217d13188780ad3f06874eb3ac3e097b59f410877d50b1423795e9",
+  "201_configs/201_tahmin.py": "fc970ad2a6b68c814a3b463a26850607eab994e706166ff292911e656bafc2a7",
+  "201_configs/201_tahmin.json": "1622c20a13a1b6951e622e137d0ef85d0709b51a93b261de58e2c5cc737cbfa2",
+  "128_odl_zeros6_2e6_zeros.npz": "7dc59edfa52c6d3ca0b98484f50f55fd33b01c5ed8341ef43a540215b2ff94df",
+  "veri_lmfdb/zeros_30599546000.dat": "2c5e764cedb2a0d05f064abd6a6ab5004881b6248b90ec213c688c170e784310",
+  "veri_lmfdb/zeros_8846000.dat": "a3f3dd838cc50b451852cf81862e604c85927378a2fd89a9fc3736c3dbd4cb98",
+  "veri_lmfdb/zeros_99146000.dat": "f181f573866fb1cd14c30c3f6bbbec5371a73484458fe86786a9ad7257927e21",
+  "veri_lmfdb/zeros_997946000.dat": "fb696127ea715c34861ec968b3ff3141620afc2f275f2b4bd3362fb7a7a61e1c"
+ }
+}

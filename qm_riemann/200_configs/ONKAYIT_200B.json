@@ -1,0 +1,65 @@
+{
+ "kalem": "200-B",
+ "baslik": "Yakın çift basamağı (b=2) — asalların çarpıklık izi",
+ "zaman": "2026-09-26T20:19:55+03:00",
+ "olcum_komutu": "../.venv/bin/python 200_configs/200b_olcum.py --n-grid 129 && ../.venv/bin/python 200_configs/200b_analiz.py",
+ "birincil_eps": 0.2,
+ "izgara": 129,
+ "hipotezler_D3": {
+  "SABIT_a_k": 0.2337,
+  "GEOMETRIK": [
+   0.0794,
+   0.0028
+  ],
+  "LIN": [
+   0.017,
+   0.0095
+  ],
+  "RMT": 0.0
+ },
+ "hipotezler_D2": {
+  "a_k": -0.0881,
+  "GEOMETRIK": [
+   -0.0644,
+   0.002
+  ],
+  "LIN": [
+   -0.0633,
+   0.0024
+  ],
+  "RMT": 0.0
+ },
+ "karar_kurallari": {
+  "H-200B-1": "D3bar >= 5 SE ve >= 0.05 VAR; <= 2 SE YOK; arasi ZAYIF",
+  "H-200B-1b": "havuz (k3 - Dk3_eps) > 0 ve >= 3 sigma DONDU; < 0 ve >= 3 sigma DONMEDI; arasi BELIRSIZ",
+  "H-200B-2": "|D3bar - 0.2337| <= 0.1422 ve |D2bar + 0.0881| <= 0.0238: ikisi TUTAR, biri KISMI, hicbiri OLU",
+  "H-200B-3": "siniflar SABIT/GEOMETRIK/SONMUS(lin U RMT); chi2=(D3bar-pred)^2/(SE^2+sigma_h^2+0.01^2); Delta>=9 KESIN; best>9 HICBIRI",
+  "oncelik": "manset H-200B-3; H-200B-2 aynen raporlanir, celiski acikca yazilir",
+  "M8b": "pencerede |SE32-SE64|/SE64 > %20 ise max(SE32,SE64)",
+  "SE": "(f*SE_jk)^2 + Dk_eps^2 (aktarim belirsizligi %100)"
+ },
+ "gorulmusluk": "Yakin ciftlerde M, Z-cift-turev ya da log(M/dt^2) hicbir zaman hesaplanmadi (M1b/M2b yalniz yontem FARKLARI).",
+ "sha256": {
+  "KALEM_YAKIN_CIFT_BASAMAK_26EYL2026.md": "678494d3da5cde0f02742d311e882abe24eb57a0645ed20329591729d2309c7c",
+  "200a_merdiven_alt_RAPOR.md": "cc7f232d915ef8e12293fe315c054d8f51f03ee19a3a588d69467be45cf4ce11",
+  "200_configs/200b_analiz.py": "e0cc501c46f24b795f595e1dd499b2a01d615bf4e3a36816a83eb979389f28b5",
+  "200_configs/200b_m1_m2_kapilar.py": "9409bd54b9ad18427e840f7293525c1164c57212061d96bbfbb32a77fe552e00",
+  "200_configs/200b_m1_m2_kapilar_g129.py": "8a60a13a369d1a20fbccf5df56eb4b266889e9481d3bca2ac247e716a754f447",
+  "200_configs/200b_m6_sentetik.py": "70f530115eee831775a3355b9c813e727225cabbd1cd6350ec9ad9f5475bfd6d",
+  "200_configs/200b_m7_karisim.py": "c7a40646e70fce3419394ef1689405d1a6f9d103ba7059c4b35d570a1fe116ca",
+  "200_configs/200b_olcum.py": "e1228d48bbf5ea9d69a0d30ed5754f19b45469eed58c493af2c7b5ece60dfad1",
+  "200_configs/200b_ortak.py": "2b93cfae873b3e2c526c39d2da56915d4a4ccebd0f22d5a941c2eef605f989e6",
+  "200_configs/M1b_200B.json": "fc596286a4bf9dbab8ab5c1cd6eea62b1b1db98f5728fcadf283726b3fdf9b06",
+  "200_configs/M1b_200B_g129.json": "23a9e844323b0bcccd7a7b1914605dfb4a503b53ce44a627e77c32b7e1d77cdc",
+  "200_configs/M2b_200B.json": "04d794f34a5a1481d55191a8e1d76b98574eb5de676f3bae0a47bf491faa3812",
+  "200_configs/M2b_200B_g129.json": "38e377ed736ed44188eb97143b5d27c60dd5971afae00a7b1f13156bd28637fe",
+  "200_configs/M6b_200B.json": "823d0917086953173fcce96d75de85dd7743ce5bd53f20f54561b3609414f8cc",
+  "200_configs/M7b_200B.json": "2943a842a6891669a615a33327c5e13c6843b0bf1f970e25f32c6087e39b1726",
+  "200_configs/200b_sayimlar.json": "e4686ac8b4e3ce876667d1b942518621b4c07a66460f1ce5c2feb18625793a9e",
+  "200_configs/200b_A_kaymalari.json": "c20c6fc21ac0f7c2c500f5c1305ce23db93ae5df5142e002648f2ae7a99c226d",
+  "200_configs/HUKUM_200A.json": "5feea57ac4023b78d2099ddf11c3cf24d0d2eaf503e251099dfdbe7841d8d50c",
+  "200_configs/200a_motor.py": "4f97894ed780fc728b5c361e2247c9a3a039ef037d3eeaef5a8d682bed4edc7b",
+  "200_configs/200b_MAKINE_RAPORU.md": "8de084f7ba13fb2f8a64a7845751bd10276059e7bc079e3e8e3c1adfca3a2ec8",
+  "128_odl_zeros6_2e6_zeros.npz": "7dc59edfa52c6d3ca0b98484f50f55fd33b01c5ed8341ef43a540215b2ff94df"
+ }
+}

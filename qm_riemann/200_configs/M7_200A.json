@@ -1,0 +1,174 @@
+{
+ "threshold": 0.002,
+ "windows": {
+  "W1": {
+   "CUE": {
+    "kappa2": {
+     "rung0": {
+      "correction": -0.0008141889886534859,
+      "kappa_at_Lbar": 1.9047944646925254,
+      "flag": false
+     },
+     "rung1": {
+      "correction": -0.0004881350169350096,
+      "kappa_at_Lbar": 0.5404897650202543,
+      "flag": false
+     }
+    },
+    "kappa3": {
+     "rung0": {
+      "correction": 0.0002650690608620998,
+      "kappa_at_Lbar": -2.3870225675904386,
+      "flag": false
+     },
+     "rung1": {
+      "correction": 0.00016312671116097688,
+      "kappa_at_Lbar": -0.1903730960828435,
+      "flag": false
+     }
+    },
+    "_note": "M_ak duzeltmesi M_CUE ile ayni olmali (A_r sabiti L-bagimsiz)"
+   },
+   "a_k": {
+    "kappa2": {
+     "rung0": {
+      "correction": -0.0008141889886534859,
+      "kappa_at_Lbar": 1.8166704646925254,
+      "flag": false
+     },
+     "rung1": {
+      "correction": -0.0004881350169350096,
+      "kappa_at_Lbar": 0.4523657650202543,
+      "flag": false
+     }
+    },
+    "kappa3": {
+     "rung0": {
+      "correction": 0.0002650690608620998,
+      "kappa_at_Lbar": -2.1533695675904387,
+      "flag": false
+     },
+     "rung1": {
+      "correction": 0.00016312671116097688,
+      "kappa_at_Lbar": 0.0432799039171565,
+      "flag": false
+     }
+    },
+    "_note": "M_ak duzeltmesi M_CUE ile ayni olmali (A_r sabiti L-bagimsiz)"
+   }
+  },
+  "W2": {
+   "CUE": {
+    "kappa2": {
+     "rung0": {
+      "correction": -0.00017751768946827617,
+      "kappa_at_Lbar": 1.96855498594137,
+      "flag": false
+     },
+     "rung1": {
+      "correction": -0.00011762704240325661,
+      "kappa_at_Lbar": 0.5916221764107459,
+      "flag": false
+     }
+    },
+    "kappa3": {
+     "rung0": {
+      "correction": 5.029063649608645e-05,
+      "kappa_at_Lbar": -2.3966307931401247,
+      "flag": false
+     },
+     "rung1": {
+      "correction": 3.402217814940656e-05,
+      "kappa_at_Lbar": -0.19759677921144245,
+      "flag": false
+     }
+    },
+    "_note": "M_ak duzeltmesi M_CUE ile ayni olmali (A_r sabiti L-bagimsiz)"
+   },
+   "a_k": {
+    "kappa2": {
+     "rung0": {
+      "correction": -0.00017751768946827617,
+      "kappa_at_Lbar": 1.88043098594137,
+      "flag": false
+     },
+     "rung1": {
+      "correction": -0.00011762704240325661,
+      "kappa_at_Lbar": 0.5034981764107459,
+      "flag": false
+     }
+    },
+    "kappa3": {
+     "rung0": {
+      "correction": 5.029063649608645e-05,
+      "kappa_at_Lbar": -2.162977793140125,
+      "flag": false
+     },
+     "rung1": {
+      "correction": 3.402217814940656e-05,
+      "kappa_at_Lbar": 0.03605622078855755,
+      "flag": false
+     }
+    },
+    "_note": "M_ak duzeltmesi M_CUE ile ayni olmali (A_r sabiti L-bagimsiz)"
+   }
+  },
+  "W3": {
+   "CUE": {
+    "kappa2": {
+     "rung0": {
+      "correction": -0.000176276829983113,
+      "kappa_at_Lbar": 2.016577741406407,
+      "flag": false
+     },
+     "rung1": {
+      "correction": -0.00012131076576549216,
+      "kappa_at_Lbar": 0.6317285648285473,
+      "flag": false
+     }
+    },
+    "kappa3": {
+     "rung0": {
+      "correction": 4.540839680222675e-05,
+      "kappa_at_Lbar": -2.4031034748650137,
+      "flag": false
+     },
+     "rung1": {
+      "correction": 3.177733914205838e-05,
+      "kappa_at_Lbar": -0.20270259355903444,
+      "flag": false
+     }
+    },
+    "_note": "M_ak duzeltmesi M_CUE ile ayni olmali (A_r sabiti L-bagimsiz)"
+   },
+   "a_k": {
+    "kappa2": {
+     "rung0": {
+      "correction": -0.000176276829983113,
+      "kappa_at_Lbar": 1.9284537414064071,
+      "flag": false
+     },
+     "rung1": {
+      "correction": -0.00012131076576549216,
+      "kappa_at_Lbar": 0.5436045648285474,
+      "flag": false
+     }
+    },
+    "kappa3": {
+     "rung0": {
+      "correction": 4.540839680222675e-05,
+      "kappa_at_Lbar": -2.169450474865014,
+      "flag": false
+     },
+     "rung1": {
+      "correction": 3.177733914205838e-05,
+      "kappa_at_Lbar": 0.030950406440965555,
+      "flag": false
+     }
+    },
+    "_note": "M_ak duzeltmesi M_CUE ile ayni olmali (A_r sabiti L-bagimsiz)"
+   }
+  }
+ },
+ "flags": []
+}

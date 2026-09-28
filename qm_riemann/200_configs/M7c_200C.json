@@ -1,0 +1,367 @@
+{
+ "threshold": 0.002,
+ "windows": {
+  "C1": {
+   "n_t_grid": 200001,
+   "n_zeros": 1500000,
+   "Lbar_rung0": 14.194223935142446,
+   "Lbar_rung1": 14.194254671199825,
+   "baseline": {
+    "b0_kappa2": {
+     "correction": -5.402137075449787e-07,
+     "kappa_at_Lbar": 2.115231891183489,
+     "flag": false
+    },
+    "b0_kappa3": {
+     "correction": 1.1389644871684368e-07,
+     "kappa_at_Lbar": -2.4146062860628374,
+     "flag": false
+    },
+    "b1_kappa2": {
+     "correction": -4.029521740722686e-07,
+     "kappa_at_Lbar": 0.7158594591595917,
+     "flag": false
+    },
+    "b1_kappa3": {
+     "correction": 8.591519323752905e-08,
+     "kappa_at_Lbar": -0.21203321217913704,
+     "flag": false
+    }
+   },
+   "delta_eps": {
+    "0.1": {
+     "n_events": 1480,
+     "Lbar": 14.195611710635013,
+     "baseline_kappa2": {
+      "correction": -2.8840075033675916e-07,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": 0.0,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 6.398594275258684e-08,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": 0.0,
+      "flag": false
+     }
+    },
+    "0.2": {
+     "n_events": 11515,
+     "Lbar": 14.194330331307247,
+     "baseline_kappa2": {
+      "correction": -2.9133063639275036e-07,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": 8.673617379884035e-19,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 6.463947953283533e-08,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": -8.673617379884035e-19,
+      "flag": false
+     }
+    },
+    "0.3": {
+     "n_events": 37751,
+     "Lbar": 14.19417124534789,
+     "baseline_kappa2": {
+      "correction": -2.903611485138846e-07,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": 0.0,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 6.44247916820051e-08,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": 0.0,
+      "flag": false
+     }
+    }
+   }
+  },
+  "C2": {
+   "n_t_grid": 200001,
+   "n_zeros": 1500000,
+   "Lbar_rung0": 16.577088734153186,
+   "Lbar_rung1": 16.577088898971734,
+   "baseline": {
+    "b0_kappa2": {
+     "correction": -2.4742745630135232e-09,
+     "kappa_at_Lbar": 2.192770065529945,
+     "flag": false
+    },
+    "b0_kappa3": {
+     "correction": 4.4696557566226147e-10,
+     "kappa_at_Lbar": -2.4221853133243756,
+     "flag": false
+    },
+    "b1_kappa2": {
+     "correction": -1.928088244618209e-09,
+     "kappa_at_Lbar": 0.7839102470651031,
+     "flag": false
+    },
+    "b1_kappa3": {
+     "correction": 3.511241297715628e-10,
+     "kappa_at_Lbar": -0.2184122571830133,
+     "flag": false
+    }
+   },
+   "delta_eps": {
+    "0.1": {
+     "n_events": 1410,
+     "Lbar": 16.57709534504413,
+     "baseline_kappa2": {
+      "correction": -1.4359843869549138e-09,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": 0.0,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 2.6886268211789854e-10,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": 8.673617379884035e-19,
+      "flag": false
+     }
+    },
+    "0.2": {
+     "n_events": 11546,
+     "Lbar": 16.577104553547482,
+     "baseline_kappa2": {
+      "correction": -1.475237210168956e-09,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": 8.673617379884035e-19,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 2.7621177567382915e-10,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": 0.0,
+      "flag": false
+     }
+    },
+    "0.3": {
+     "n_events": 38247,
+     "Lbar": 16.5770939828632,
+     "baseline_kappa2": {
+      "correction": -1.476873567884951e-09,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": 0.0,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 2.7651829437314035e-10,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": -8.673617379884035e-19,
+      "flag": false
+     }
+    }
+   }
+  },
+  "C3": {
+   "n_t_grid": 200001,
+   "n_zeros": 1500000,
+   "Lbar_rung0": 18.883582679494996,
+   "Lbar_rung1": 18.883582680468923,
+   "baseline": {
+    "b0_kappa2": {
+     "correction": -1.4586110097525307e-11,
+     "kappa_at_Lbar": 2.257871033651838,
+     "flag": false
+    },
+    "b0_kappa3": {
+     "correction": 2.3137047833188262e-12,
+     "kappa_at_Lbar": -2.427702592968358,
+     "flag": false
+    },
+    "b1_kappa2": {
+     "correction": -1.1728507054442616e-11,
+     "kappa_at_Lbar": 0.8420485516730627,
+     "flag": false
+    },
+    "b1_kappa3": {
+     "correction": 1.8723356198790952e-12,
+     "kappa_at_Lbar": -0.2231631969742169,
+     "flag": false
+    }
+   },
+   "delta_eps": {
+    "0.1": {
+     "n_events": 1489,
+     "Lbar": 18.88358471959996,
+     "baseline_kappa2": {
+      "correction": -9.468092976305797e-12,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": -2.710505431213761e-18,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 1.542960204048427e-12,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": -8.673617379884035e-19,
+      "flag": false
+     }
+    },
+    "0.2": {
+     "n_events": 12051,
+     "Lbar": 18.88358412198926,
+     "baseline_kappa2": {
+      "correction": -9.331979633486753e-12,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": -4.336808689942018e-19,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 1.5206447212534613e-12,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": 0.0,
+      "flag": false
+     }
+    },
+    "0.3": {
+     "n_events": 39305,
+     "Lbar": 18.88358362961907,
+     "baseline_kappa2": {
+      "correction": -9.353073870954631e-12,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": 1.734723475976807e-18,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 1.5241974349322618e-12,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": 0.0,
+      "flag": false
+     }
+    }
+   }
+  },
+  "C4": {
+   "n_t_grid": 200001,
+   "n_zeros": 1500000,
+   "Lbar_rung0": 22.306380846691912,
+   "Lbar_rung1": 22.30638084669015,
+   "baseline": {
+    "b0_kappa2": {
+     "correction": -8.43769498715119e-15,
+     "kappa_at_Lbar": 2.341127908654934,
+     "flag": false
+    },
+    "b0_kappa3": {
+     "correction": 1.3322676295501878e-15,
+     "kappa_at_Lbar": -2.433789682590339,
+     "flag": false
+    },
+    "b1_kappa2": {
+     "correction": -6.772360450213455e-15,
+     "kappa_at_Lbar": 0.9175671659703011,
+     "flag": false
+    },
+    "b1_kappa3": {
+     "correction": 9.992007221626409e-16,
+     "kappa_at_Lbar": -0.22851219102597378,
+     "flag": false
+    }
+   },
+   "delta_eps": {
+    "0.1": {
+     "n_events": 1534,
+     "Lbar": 22.30638089594354,
+     "baseline_kappa2": {
+      "correction": -5.440092820663267e-15,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": 0.0,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 7.355227538141662e-16,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": 0.0,
+      "flag": false
+     }
+    },
+    "0.2": {
+     "n_events": 12143,
+     "Lbar": 22.30638086243069,
+     "baseline_kappa2": {
+      "correction": -5.10702591327572e-15,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": 0.0,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 7.077671781985373e-16,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": 8.673617379884035e-19,
+      "flag": false
+     }
+    },
+    "0.3": {
+     "n_events": 39612,
+     "Lbar": 22.306380816001546,
+     "baseline_kappa2": {
+      "correction": -5.218048215738236e-15,
+      "flag": false
+     },
+     "delta_kappa2": {
+      "correction": 0.0,
+      "flag": false
+     },
+     "baseline_kappa3": {
+      "correction": 7.494005416219807e-16,
+      "flag": false
+     },
+     "delta_kappa3": {
+      "correction": 0.0,
+      "flag": false
+     }
+    }
+   }
+  }
+ },
+ "flags": [],
+ "m6c_available": true
+}

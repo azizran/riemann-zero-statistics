@@ -1,0 +1,29 @@
+{
+ "gate_ratio": 0.0001,
+ "n_check_per_window": 200,
+ "windows": {
+  "C1": {
+   "pass_fraction": 1.0,
+   "worst_ratio": 9.790919477745846e-11,
+   "n": 200
+  },
+  "C2": {
+   "pass_fraction": 1.0,
+   "worst_ratio": 7.27810733773645e-11,
+   "n": 200
+  },
+  "C3": {
+   "pass_fraction": 1.0,
+   "worst_ratio": 6.437468103513056e-11,
+   "n": 200
+  },
+  "C4": {
+   "pass_fraction": 1.0,
+   "worst_ratio": 7.113909273702435e-11,
+   "n": 200
+  }
+ },
+ "overall_pass": true,
+ "overall_pass_worst_ratio": true,
+ "runtime_s": 135.91324591636658
+}

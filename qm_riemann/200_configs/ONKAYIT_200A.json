@@ -1,0 +1,77 @@
+{
+ "kalem": "200-A",
+ "baslik": "Eğim merdiveninin alt basamakları — sonlu-L aritmetik model seçimi",
+ "zaman": "2026-09-26T17:12:29+03:00",
+ "olcum_komutu": "../.venv/bin/python 200_configs/200a_olcum.py (n0=1e6, seed=200, 128 blok) && ../.venv/bin/python 200_configs/200a_analiz.py (64 blok birincil, M8 kuralı)",
+ "pencereler": {
+  "W1": [
+   20868,
+   198239
+  ],
+  "W2": [
+   198239,
+   598742
+  ],
+  "W3": [
+   598742,
+   2001052
+  ]
+ },
+ "model_ailesi": [
+  "CUE",
+  "a_k",
+  "hyb2",
+  "hyb3",
+  "hyb5",
+  "hyb7",
+  "hyb11",
+  "Gauss"
+ ],
+ "sigma_teori": {
+  "kappa2": 0.0188,
+  "kappa3": 0.0334
+ },
+ "f_kalibrasyon": [
+  1.0846987560435744,
+  1.053831870662922,
+  1.0033202537480175,
+  1.2192796205521934,
+  1.1005738269315422,
+  1.0273393140599432,
+  1.1316870396131833,
+  1.132813299615585,
+  1.0870588984688103,
+  0.8224062648079612,
+  1.042722615172637,
+  0.9869891952544354
+ ],
+ "karar_kurallari": {
+  "H-200A-1": "Delta1 = chi2_CUE - min_arit chi2: >=25 TUTAR, <4 OLU, arasi BELIRSIZ; Gauss icin chi2_Gauss - min_arit raporlanir",
+  "H-200A-2": "M* = argmin chi2; Delta(runner-up) >= 9 KESIN, yoksa S* = {chi2 - min < 9}",
+  "G": "chi2_min/12: <=3 IYI, <=10 KABA, >10 YETERSIZ",
+  "M8": "64->128 blokta herhangi SE degisimi > %20 ise 128 blok",
+  "200-B_tolerans": "kumulant basina max(sigma_teori_r, 2*RMS(M* artiklari, r))"
+ },
+ "gorulmusluk": "Gercek veride hicbir k2/k3/dagilim ozeti hesaplanmadi (M1 yalniz motor FARKLARI). Sifir basina Z prime saklanmaz (M9).",
+ "sha256": {
+  "KALEM_MERDIVEN_ALT_BASAMAK_26EYL2026.md": "d0d632c97fceb57a9d8e91da59a243110aa48211000b934c515a11705ff42304",
+  "TEOREM_KUCUK_ARALIK_ISKELET_26EYL2026.md": "cfdc0d04de92601311b7ebad7de9c352c02c9b39783abea22fca008702661b97",
+  "200_configs/200a_analiz.py": "fc91b78da4b25b3e11799d82a95cdec8f3833880050bad3c5271ba92b7f107d4",
+  "200_configs/200a_kapilar_m1_m2.py": "0f3fd5c5b1ff698128625219acd02c20e7b7a820316fc738a869530321717a0c",
+  "200_configs/200a_m6_sentetik.py": "cf00e196f2030e64657e926c172768f524b6ad3296e99a8d2d002cffa3969019",
+  "200_configs/200a_m7_karisim.py": "845a0b58aa2b412b49d5a408478fc89c932d1362c646d38d07088260df32ccde",
+  "200_configs/200a_motor.py": "4f97894ed780fc728b5c361e2247c9a3a039ef037d3eeaef5a8d682bed4edc7b",
+  "200_configs/200a_olcum.py": "6cfb45869563304746db02d04e1feeae721c03c220230bd4fab3947c636e4954",
+  "200_configs/200a_orneklem.py": "e7de80eac6cde8daffa7bf3060a985318c1a238356645b040691f4cae9c2f0ea",
+  "200_configs/200a_ortak.py": "4502b7a364f976a52ea5050e8c17c11acd9d6e1604db2539fdb55eb298866da9",
+  "200_configs/200a_pencereler_tahmin.py": "4e5a89aee7f64e760a26f5a0e0d913970a1db3d3bf73e56b45da6230fec22532",
+  "200_configs/200a_tahmin.json": "c83a1aeef5e99399aa4d68ce032ed2f7cb1e26c37535160367a9fda1e2014db6",
+  "200_configs/M1_200A.json": "38a234d2f1a1bb6ea736d608e145d367adf46b65e02543dd732bb48ea8fdb04e",
+  "200_configs/M2_200A.json": "6f55c650909931e264cbb76595c21eb27eacfc9644dd75999493f650a2a63f5a",
+  "200_configs/M6_200A.json": "2d882507fcda4019e3522fa9263499f2da13d23a9adf5cfef80290e7359e5094",
+  "200_configs/M7_200A.json": "4e9160f9868fe40753ff92fed770b110aadd1795dac16196e7cebb6a11583cf2",
+  "200_configs/200a_MAKINE_RAPORU.md": "4069b11f66c41d8f1b1babafad277668b2a1692f5a10e535d4efda3c8afa3402",
+  "200_configs/200t_merdiven.py": "89f4c5bba3bf4cc093fdb2ac0bff716f58d55b801db865bce9bdc7b786db533d",
+  "128_odl_zeros6_2e6_zeros.npz": "7dc59edfa52c6d3ca0b98484f50f55fd33b01c5ed8341ef43a540215b2ff94df"
+ }
+}

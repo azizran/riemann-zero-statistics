@@ -1,0 +1,4 @@
+10 Elog 1.2286 vs 1.2292 | Vlog 0.2976 vs 0.2987 | k3 -0.0675 vs -0.0688 | E[X] 3.924 vs 3.928
+24 Elog 2.8712 vs 2.8723 | Vlog 0.6348 vs 0.6340 | k3 -0.0963 vs -0.0990 | E[X] 23.897 vs 23.903
+sum_p[log(1-1/p)+Li2(1/p)] = -0.17624781  -> Var corr (1/2)*S = -0.0881239
+../.venv/bin/python 200_configs/200t_carpim.py  17.17s user 0.74s system 99% cpu 18.068 total

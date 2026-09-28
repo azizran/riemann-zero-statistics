@@ -1,0 +1,1621 @@
+\documentclass[12pt]{amsart}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\emergencystretch=2em
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{lemma}{Lemma}
+\renewcommand{\thelemma}{\Alph{lemma}}
+\newtheorem{observation}{Observation}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Et}{\widetilde{\mathbb{E}}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\T}{\mathbb{T}}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\sinc}{\operatorname{sinc}}
+\DeclareMathOperator{\Var}{Var}
+
+\title[The hump between two close zeros]{The hump between two close
+zeros:\\ an exact small-gap law for random unitary matrices\\ and a tilt
+ladder for the Riemann zeta function}
+
+\author{U\u{g}ur Sezen}
+\address{Independent researcher, Istanbul, Turkey}
+\email{usezen@aof.anadolu.edu.tr}
+
+\date{\today}
+
+\begin{document}
+
+\begin{abstract}
+Let $M$ be the maximum of $|\Lambda_N|$, the characteristic polynomial of
+a Haar unitary $N\times N$ matrix, on the arc between two consecutive
+eigenangles at distance $s$. For fixed $N$ we prove that, conditionally on
+$s<\eps$, the pair $(s/\eps, M/s^2)$ converges in law as $\eps\to0$ to
+independent variables $(U^{1/3}, X_{N-2}/4)$, with $U$ uniform and
+$X_{N-2}$ the value of $|\Lambda_{N-2}(1)|$ under the
+$|\Lambda_{N-2}(1)|^4$-tilted Haar measure; the mean number of such gaps is
+$N^2(N^2-1)\eps^3/(72\pi)$ to leading order, and all moments of order
+$2k>-5$ and all log-moments converge. Summed over all gaps,
+$\E\sum_nM_n^2\sim\frac{e^2-5}{2}N^2$, by an identity that reduces it to a
+joint moment evaluated by Winn. By the product formula of Bourgade,
+Hughes, Nikeghbali and Yor, $X_{N-2}$ is a product of independent factors,
+so moments and log-cumulants are explicit: in unfolded units the log-hump
+has mean $\to2\log\pi+2\gamma-10/3$, variance $\frac12\log N+O(1)$ and a
+negative third cumulant ($\to-0.1271$), and is asymptotically normal. For
+the Riemann zeros we cast the analogue as a tilt ladder (conditioning on
+$b=0,1,2$ zeros) and report pre-registered tests at
+$L=\log(t/2\pi)\approx9$--$22$: the arithmetic shift of the log-variance is
+close to the Keating--Snaith value $-0.088$ on every rung; the shift of the
+third cumulant falls from $+0.28$ to $+0.15$ and $+0.086$ at $b=2$
+(predicted blind within $1.6\sigma$) and flattens with height, as a
+finite-height correction would. In a further test, single zeros follow
+Landau's formula for the phases of the prime waves to four decimals, and
+the midpoints of close pairs lock to these phases $3.87\pm0.02$ times as
+strongly, close to the factor $4$ of a local-GUE heuristic.
+\end{abstract}
+
+\maketitle
+
+%======================================================================
+\section{Introduction}
+%======================================================================
+
+Let $\gamma_n<\gamma_{n+1}$ be consecutive ordinates of zeros of the
+Riemann zeta function on the critical line, $\delta_n=\gamma_{n+1}-\gamma_n$,
+and let $M_n=\max_{\gamma_n\le t\le\gamma_{n+1}}|Z(t)|$ be the height of
+Hardy's function between them. The mean of $M_n^2$ over all gaps is known
+\cite{CG85,HLPC24}; the \emph{joint} law of $(\delta_n,M_n)$ was studied
+numerically in \cite{companion1}, whose first open problem asked for the
+mean of $M_n^2$ conditioned on the gap. A reader asked the sharper
+question: in the regime of asymptotically small gaps, can the joint
+distribution of $(\delta_n,M_n^2)$ be determined?
+
+For random unitary matrices the answer is yes, and exact. When two zeros
+nearly coincide, the hump between them is crushed by the square of the
+gap, and what is left is the height produced at the collision point by all
+the \emph{other} zeros. For the characteristic polynomial of a Haar
+unitary matrix, conditioning two eigenvalues to merge at a point tilts the
+remaining $N-2$ eigenvalues by $|\Lambda_{N-2}|^4$ at that point; under
+this tilt the value $|\Lambda_{N-2}|$ is a product of independent factors,
+so every moment and every cumulant of the logarithm is explicit.
+
+\subsection*{Results for the unitary group}
+Let $s$ be a gap between consecutive eigenangles of $U\in U(N)$ and $M$ the
+maximum of $|\Lambda_N|$ on it (Section~\ref{sec:setup}).
+\begin{itemize}
+\item \emph{Theorem~\ref{thm:main}} (fixed $N$, $\eps\to0$). The expected
+number of gaps below $\eps$ is $N^2(N^2-1)\eps^3/(72\pi)\,(1+o(1))$;
+conditionally on $s<\eps$ (for a gap chosen uniformly),
+$(s/\eps, M/s^2) \Rightarrow (U^{1/3}, X_{N-2}/4)$ with $U$ uniform on
+$[0,1]$ and \emph{independent} of $X_{N-2}$, the value $|\Lambda_{N-2}(1)|$
+under the $|\Lambda_{N-2}(1)|^4$-tilted Haar measure. All moments
+$\E(M/s^2)^{2k}$ with $k>-5/2$ and all log-moments converge; the threshold
+is sharp.
+\item \emph{Theorem~\ref{thm:product}}. $X_n$ has the law of
+$\prod_{j=1}^n|1-\xi_j|$ with independent, explicitly distributed $\xi_j$;
+$\E X_n^{2k}$ is a ratio of Keating--Snaith moments and
+$\kappa_r(\log X_n)=\sum_{j=1}^n[\psi^{(r-1)}(j+4)-2^{1-r}\psi^{(r-1)}(j+2)]$.
+\item \emph{Corollary~\ref{cor:largeN}} (large $N$, unfolded units). The
+moments grow like $N^{k^2}$ with the constant
+$\pi^{4k}\,12\,G(k+3)^2/G(2k+5)$; the log-hump has mean
+$\to2\log\pi+2\gamma-10/3$, variance $\tfrac12\log N+c_2+o(1)$ with
+$c_2=65/18+\gamma/2-\pi^2/2$, third cumulant negative for every $N$ and
+tending to $-0.127077$, and is asymptotically Gaussian.
+\item \emph{Corollary~\ref{cor:second} and
+Proposition~\ref{prop:total}}. The sum of $M_n^2$ over the gaps below
+$\eps$ has mean $\mathcal M_{N-2}(3)\,\eps^7/(224\pi)$ to leading order,
+while the sum over all gaps has mean $2\pi\,\E|V_N(0)V_N'(0)|\sim
+\frac{e^2-5}2N^2$ ($V_N$ the real form of $\Lambda_N$, the constant from
+Winn \cite{Win12}): gaps below $\tilde\eps$ in unfolded units carry a share
+of order $\tilde\eps^{\,7}$ of the second moment.
+\end{itemize}
+
+\subsection*{What is known}
+To our knowledge, the joint (gap, hump) law has not been written down
+before, but its ingredients are known. That conditioning the eigenvalues
+on points at a given location tilts the remaining points by powers of the
+characteristic polynomial is the Palm-measure structure of these ensembles
+(for the unitary group it is immediate from Weyl's formula; see
+\cite{For10} for the log-gas setting). The Haar measure tilted by
+$|\det(1-U)|^{2\delta}$ is the circular Jacobi ensemble \cite{For10,BNR09},
+which for $\delta\in\mathbb N$ is the CUE conditioned to have $\delta$
+further eigenvalues at $1$ \cite[\S1.1]{BNR09}, and the product formula for
+$\det(1-U)$ under Haar and tilted measures is due to Bourgade, Hughes,
+Nikeghbali and Yor \cite{BHNY08} and Bourgade, Nikeghbali and Rouault
+\cite{BNR09}. Theorem~\ref{thm:product} is a direct consequence of their
+results and is presented as such. The small gaps of the CUE were
+determined by Ben Arous and Bourgade \cite{BAB13} (Poisson limit at scale
+$N^{-4/3}$), and small gaps of other ensembles in
+\cite{FTW19,FW21,Bou22}; these works concern the gaps, not the polynomial
+between the eigenvalues. Theorem~\ref{thm:main}(a) agrees with the
+Ben Arous--Bourgade intensity. The proof of Theorem~\ref{thm:main} is
+elementary (Weyl's formula and dominated convergence); we give it in full
+because the negative moments require a uniform domination, which turns out
+to follow from a one-line geometric inequality (Lemma~\ref{lem:dom}). For
+the total second moment we use the random-matrix counterpart of the
+reduction of Conrey and Ghosh (sum of squared maxima $=$ integral of
+$|VV'|$) and Winn's evaluation of the resulting joint moment \cite{Win12}.
+
+\subsection*{The zeta side}
+Conditioning on $b$ zeros at a point tilts the rest of the spectrum by
+$|\Lambda|^{2b}$: $b=0$ is the value distribution of $\log|\zeta|$
+(Keating--Snaith \cite{KS00}), $b=1$ is $\log|\zeta'(\rho)|$
+(Hughes--Keating--O'Connell \cite{HKO00}; see \cite{BGM15}), and $b=2$ is
+the log-hump of close pairs studied here. Adding the Keating--Snaith
+arithmetic factor $a_k$ to each rung gives a parameter-free prediction
+for the cumulants (Section~\ref{sec:zeta}). We tested it in three
+pre-registered steps on Riemann zeros (Section~\ref{sec:tests}): the
+arithmetic shift of the variance is rung-independent and close to $a_k$,
+while the arithmetic shift of the third cumulant decreases from rung to
+rung at $L\approx 9$--$12$ --- a decrease that was predicted blind for
+$b=2$ from the two lower rungs --- and the ladder flattens at larger
+heights. A fourth pre-registered test looks at the phases of the prime
+waves at the conditioned points: single zeros obey Landau's formula to
+four decimals, and midpoints of close pairs lock about four times as
+strongly, as a local-GUE heuristic predicts; this lock has the predicted
+size and does not by itself explain the decay along the ladder, which
+remains open. We report the failed parts of the predictions next to the
+successful ones. Nothing here bears on a proof of the Riemann Hypothesis.
+
+%======================================================================
+\section{Setup and notation}\label{sec:setup}
+%======================================================================
+
+\subsection*{Eigenangles}
+Let $U$ be Haar distributed on $U(N)$, $N\ge2$, with eigenvalues
+$e^{i\theta_1},\dots,e^{i\theta_N}$, the labelled eigenangles
+$\theta=(\theta_1,\dots,\theta_N)\in\T^N$, $\T=[0,2\pi)$, being
+exchangeable with density (Weyl's integration formula)
+\begin{equation}\label{eq:weyl}
+p_N(\theta)=\frac{1}{(2\pi)^N N!}\prod_{1\le j<k\le N}
+|e^{i\theta_j}-e^{i\theta_k}|^2 .
+\end{equation}
+The density is invariant under the rotation
+$\theta_j\mapsto\theta_j+\alpha$; almost surely the $\theta_j$ are
+distinct. For $n\ge0$ we write $\E_n$ for the expectation under
+$p_n$ ($\E_0$ is trivial) and
+\[
+|\Lambda_n(e^{i\vartheta})| = \prod_{j=1}^n|e^{i\vartheta}-e^{i\theta_j}|
+=\prod_{j=1}^n 2\Big|\sin\frac{\vartheta-\theta_j}{2}\Big|,
+\qquad \Lambda_0\equiv1,
+\]
+for the modulus of the characteristic polynomial $\det(e^{i\vartheta}-U)$;
+only the modulus is used.
+
+\subsection*{Keating--Snaith moments}
+For $n\ge1$ and real $k$,
+\begin{equation}\label{eq:KS}
+\mathcal M_n(k):=\E_n|\Lambda_n(1)|^{2k}
+=\prod_{j=1}^n\frac{\Gamma(j)\Gamma(j+2k)}{\Gamma(j+k)^2}
+\qquad (k>-\tfrac12),
+\end{equation}
+and $\mathcal M_n(k)=\infty$ for $k\le-\frac12$ \cite{KS00} (see also the
+proof of Theorem~\ref{thm:main}(c)); $\mathcal M_0\equiv1$. By rotation
+invariance $\E_n|\Lambda_n(e^{i\alpha})|^{2k}=\mathcal M_n(k)$ for every
+$\alpha$. Telescoping the products gives
+\begin{equation}\label{eq:M23}
+\begin{aligned}
+\mathcal M_n(2)&=\frac{(n+1)(n+2)^2(n+3)}{12},\\
+\mathcal M_n(3)&=\frac{(n+1)(n+2)^2(n+3)^3(n+4)^2(n+5)}{8640}.
+\end{aligned}
+\end{equation}
+
+\subsection*{Gaps and humps}
+Order the eigenangles, $\theta_{(1)}<\dots<\theta_{(N)}$, put
+$\theta_{(N+1)}=\theta_{(1)}+2\pi$, and let
+\[
+s_n=\theta_{(n+1)}-\theta_{(n)},\qquad
+M_n=\max_{\theta_{(n)}\le\vartheta\le\theta_{(n+1)}}|\Lambda_N(e^{i\vartheta})|,
+\qquad n=1,\dots,N .
+\]
+The unfolded gap is $\tilde s_n=Ns_n/2\pi$ (mean one). For a function
+$G_n$ of the $n$-th gap we write
+\begin{equation}\label{eq:palm}
+\langle G\rangle_\eps:=\frac{\E\sum_{n=1}^N\1\{s_n<\eps\}G_n}
+{\E\#\{n:s_n<\eps\}}=\E\big[G_J\,\big|\,s_J<\eps\big],
+\end{equation}
+where $J$ is uniform on $\{1,\dots,N\}$ and independent of $U$: this is the
+law of a typical gap conditioned to be small.
+
+\subsection*{The tilted law}
+For $n\ge1$ let $\widetilde{\mathbb P}_n$ be the Haar measure of $U(n)$
+tilted by $|\Lambda_n(1)|^4/\mathcal M_n(2)$, $\Et$ its
+expectation, and $X_n$ the random variable $|\Lambda_n(1)|$ under
+$\widetilde{\mathbb P}_n$. This is the circular Jacobi ensemble of
+\cite[Def.~1.1]{BNR09} with $\beta=2$ and $\delta=2$: their weight
+$(1-e^{-i\theta_j})^{\delta}(1-e^{i\theta_j})^{\bar\delta}$ equals
+$|1-e^{i\theta_j}|^{2\delta}$ for real $\delta$. Thus
+\[
+\Et\, h(X_n)=\frac{\E_n\big[|\Lambda_n(1)|^4\,h(|\Lambda_n(1)|)\big]}
+{\mathcal M_n(2)} .
+\]
+We set $X_0\equiv1$. In unfolded units the limit object is
+$Y_N:=(2\pi/N)^2X_{N-2}/4$.
+
+\subsection*{Special functions}
+$H_m^{(r)}=\sum_{i=1}^m i^{-r}$, $H_m=H_m^{(1)}$; $\psi=\Gamma'/\Gamma$
+and $\psi^{(r)}$ its derivatives; $\gamma$ is Euler's constant; $G$ is the
+Barnes function, $G(z+1)=\Gamma(z)G(z)$, $G(1)=1$;
+$\sinc x=\sin x/x$. Cumulants are $\kappa_r$.
+
+%======================================================================
+\section{The small-gap limit}\label{sec:thm1}
+%======================================================================
+
+\begin{theorem}\label{thm:main}
+Let $N\ge2$ and $B_N:=2^{N-2}/4$.
+\begin{enumerate}
+\item[(i)] For every configuration of distinct eigenangles and every $n$,
+$0<M_n/s_n^2\le B_N$.
+\item[(ii)] Let $F:(0,1]\times(0,B_N]\to\mathbb R$ be continuous, and
+suppose that $|F(u,y)|\le C(1+y^{2k_0})$ for some $C<\infty$ and some
+$k_0\in(-\frac52,0]$. Then
+\begin{equation}\label{eq:main}
+\lim_{\eps\downarrow0}\;\eps^{-3}\,
+\E\sum_{n=1}^N\1\{s_n<\eps\}\,F\Big(\frac{s_n}{\eps},\frac{M_n}{s_n^2}\Big)
+=\frac1{2\pi}\int_0^1u^2\,
+\E_{N-2}\Big[|\Lambda_{N-2}(1)|^4\,
+F\Big(u,\frac{|\Lambda_{N-2}(1)|}{4}\Big)\Big]\,du .
+\end{equation}
+\end{enumerate}
+In particular:
+\begin{enumerate}
+\item[(a)] $\E\#\{n:s_n<\eps\}=\dfrac{N^2(N^2-1)}{72\pi}\,\eps^3\,(1+o(1))$.
+\item[(b)] Under $\langle\cdot\rangle_\eps$,
+$(s_J/\eps,\,M_J/s_J^2)\Rightarrow(U^{1/3},\,X_{N-2}/4)$ as $\eps\to0$,
+where $U$ is uniform on $[0,1]$ and independent of $X_{N-2}$. In the
+small-gap limit, gap and normalised hump are independent.
+\item[(c)] For every $k>-\frac52$,
+$\langle(M/s^2)^{2k}\rangle_\eps\to4^{-2k}\,\Et X_{N-2}^{2k}
+=4^{-2k}\mathcal M_{N-2}(k+2)/\mathcal M_{N-2}(2)$, and for every $m>0$,
+$\langle|\log(M/s^2)|^m\rangle_\eps\to\Et|\log(X_{N-2}/4)|^m$; the same
+holds for integer powers of $\log(M/s^2)$, so all cumulants of
+$\log(M/s^2)$ converge. If $N\ge3$ and $k\le-\frac52$, then
+$\langle(M/s^2)^{2k}\rangle_\eps\to\infty$.
+\end{enumerate}
+\end{theorem}
+
+The factor $|\Lambda_{N-2}(1)|^4$ in \eqref{eq:main} is the product of the
+two factors $|\Lambda_{N-2}(e^{i\theta})|^2$ that the Vandermonde
+determinant attaches to each of the two merging eigenvalues; $u^2$ is their
+mutual repulsion. Ben Arous and Bourgade \cite[Thm.~1.1]{BAB13} showed
+that the points $(N^{4/3}(\theta_{(n+1)}-\theta_{(n)}),\theta_{(n)})$ (gaps
+in angle units) converge to a Poisson process with intensity
+$\frac1{24\pi}u^2\,du\,\frac{d\theta}{2\pi}$, so that the mean number of
+gaps below $xN^{-4/3}$ tends to $\int_0^xu^2\,du/(24\pi)=x^3/(72\pi)$.
+Setting $\eps=xN^{-4/3}$ in (a) gives the same leading term,
+$N^2(N^2-1)x^3N^{-4}/(72\pi)\to x^3/(72\pi)$. The two limits are taken in
+different orders ($\eps\to0$ at fixed $N$ here, $N\to\infty$ at fixed $x$
+there); the constants agree.
+
+\subsection{Two deterministic lemmas}
+Fix $s\in(0,2\pi)$ and a configuration
+$\vartheta=(\vartheta_1,\dots,\vartheta_{N-2})\in\T^{N-2}$ of the
+remaining angles, with $|\Lambda_{N-2}|$ built from $\vartheta$. Put
+\begin{align*}
+M(s;\vartheta)&:=\max_{0\le t\le s}\,|e^{it}-1|\,|e^{it}-e^{is}|\,
+|\Lambda_{N-2}(e^{it})|,\\
+W_s(\vartheta)&:=\prod_{j=1}^{N-2}|e^{i\vartheta_j}-1|^2\,
+|e^{i\vartheta_j}-e^{is}|^2,\\
+A_s&:=\{\vartheta:\ \vartheta_j\notin(0,s)\ \text{for all } j\}.
+\end{align*}
+$M(s;\vartheta)$ is the hump over the arc $[0,s]$ of the polynomial with
+zeros at $1$, $e^{is}$ and $e^{i\vartheta_j}$; $W_s$ is the Vandermonde
+coupling between the pair and the rest; $A_s$ says that the arc is a gap.
+For $N=2$ all products over $j$ are empty.
+
+\begin{lemma}[Hump bounds]\label{lem:hump}
+For every $s\in(0,2\pi)$ and every $\vartheta$,
+\begin{equation}\label{eq:hump}
+\frac{4\sin^2(s/4)}{s^2}\,|\Lambda_{N-2}(e^{is/2})|
+\;\le\;\frac{M(s;\vartheta)}{s^2}\;\le\;
+\frac14\max_{0\le t\le s}|\Lambda_{N-2}(e^{it})|\;\le\;B_N .
+\end{equation}
+Consequently $M(s;\vartheta)/s^2\to|\Lambda_{N-2}(1)|/4$ as $s\downarrow0$,
+for every $\vartheta$; and $M(s;\vartheta)/s^2\ge\frac15|\Lambda_{N-2}(e^{is/2})|$
+for $0<s\le1$.
+\end{lemma}
+
+\begin{proof}
+For $t\in[0,s]$ the numbers $t/2$ and $(s-t)/2$ lie in $[0,\pi)$, so
+$|e^{it}-1|=2\sin(t/2)$ and $|e^{it}-e^{is}|=2\sin((s-t)/2)$, and
+\[
+q_s(t):=4\sin\frac t2\,\sin\frac{s-t}2
+=2\Big[\cos\Big(t-\frac s2\Big)-\cos\frac s2\Big].
+\]
+Thus $q_s$ is maximal at $t=s/2$, where it equals
+$2(1-\cos\frac s2)=4\sin^2\frac s4$; evaluating the product at $t=s/2$ gives
+the lower bound. Since $0\le\sin x\le x$ for $x\in[0,\pi]$,
+$q_s(t)\le t(s-t)\le s^2/4$, which gives the middle bound, and
+$|e^{it}-e^{i\vartheta_j}|\le2$ gives the last one. As $s\downarrow0$,
+$4\sin^2(s/4)/s^2=\frac14\sinc^2(s/4)\to\frac14$ and both
+$|\Lambda_{N-2}(e^{is/2})|$ and $\max_{[0,s]}|\Lambda_{N-2}|$ tend to
+$|\Lambda_{N-2}(1)|$ by continuity. Finally, $\sinc$ is decreasing on
+$(0,\pi)$, so for $s\le1$, $4\sin^2(s/4)/s^2\ge4\sin^2(1/4)=0.2448\ldots>\frac15$.
+\end{proof}
+
+Part (i) of Theorem~\ref{thm:main} follows: after a rotation, the $n$-th
+gap is the arc $[0,s_n]$ with $\vartheta$ the other eigenangles, so
+$M_n=M(s_n;\vartheta)$; the upper bound is \eqref{eq:hump}, and $M_n>0$
+because $M_n\ge|\Lambda_N|$ at the midpoint of the gap, which is not an
+eigenangle.
+
+\begin{lemma}[Domination]\label{lem:dom}
+For every $s\in(0,2\pi)$ and every $\vartheta\in A_s$,
+\begin{equation}\label{eq:dom}
+W_s(\vartheta)\le|\Lambda_{N-2}(e^{is/2})|^4 .
+\end{equation}
+Consequently, for $k\in(-\frac52,0]$, $0<s\le1$ and $\vartheta\in A_s$,
+\begin{equation}\label{eq:dom2}
+W_s(\vartheta)\Big(\frac{M(s;\vartheta)}{s^2}\Big)^{2k}\le
+5^{-2k}\,|\Lambda_{N-2}(e^{is/2})|^{4+2k},
+\end{equation}
+and $\E_{N-2}|\Lambda_{N-2}(e^{is/2})|^{4+2k}=\mathcal M_{N-2}(k+2)<\infty$.
+\end{lemma}
+
+The inequality \eqref{eq:dom} is index by index: for a point outside an
+arc, the product of its distances to the two endpoints of the arc is at
+most the square of its distance to the midpoint.
+
+\begin{proof}
+Let $\vartheta_j\notin(0,s)$ and let $x_j\in(-\pi,\pi]$ be the
+representative of $\vartheta_j-s/2$ modulo $2\pi$. The points of $(0,s)$
+are exactly those at circular distance less than $s/2$ from $s/2$, so
+$s/2\le|x_j|\le\pi$. Since $|\sin(y/2)|$ is $2\pi$-periodic,
+\[
+|e^{i\vartheta_j}-1|\,|e^{i\vartheta_j}-e^{is}|
+=4\Big|\sin\frac{x_j+s/2}{2}\,\sin\frac{x_j-s/2}{2}\Big|
+=2\Big|\cos\frac s2-\cos x_j\Big| ,
+\]
+by $2\sin a\sin b=\cos(a-b)-\cos(a+b)$. Now
+$\cos\frac s2-\cos x_j=2\sin^2\frac{x_j}2-2\sin^2\frac s4$, and since
+$s/4\le|x_j|/2\le\pi/2$ and $\sin^2$ is increasing on $[0,\pi/2]$,
+$0\le\cos\frac s2-\cos x_j\le2\sin^2\frac{x_j}2$. Hence
+\[
+|e^{i\vartheta_j}-1|\,|e^{i\vartheta_j}-e^{is}|\le4\sin^2\frac{x_j}2
+=|e^{i\vartheta_j}-e^{is/2}|^2 ,
+\]
+and squaring and multiplying over $j$ gives \eqref{eq:dom}. For
+\eqref{eq:dom2}, combine \eqref{eq:dom} with the lower bound
+$M/s^2\ge\frac15|\Lambda_{N-2}(e^{is/2})|$ of Lemma~\ref{lem:hump} (raised
+to the power $2k\le0$). The expectation equals
+$\mathcal M_{N-2}(k+2)$ by rotation invariance and is finite because
+$k+2>-\frac12$.
+\end{proof}
+
+\begin{remark}[Several angles near the midpoint]\label{rem:multi}
+The bound \eqref{eq:dom2} does not require the singular factors to be
+treated one cluster at a time: configurations in which several
+$\vartheta_j$ approach the midpoint simultaneously are included in the
+exact moment $\mathcal M_{N-2}(k+2)$. For a self-contained check of its
+finiteness, bound the Vandermonde factor of $p_{N-2}$ by
+$4^{(N-2)(N-3)/2}$; then by Tonelli
+$\E_{N-2}|\Lambda_{N-2}(1)|^{2a}\le c_N\prod_{j=1}^{N-2}
+\int_{\T}|2\sin(\vartheta_j/2)|^{2a}\,d\vartheta_j$, a product of
+one-dimensional integrals, each finite iff $2a>-1$. With $2a=4+2k$ this is
+$k>-\frac52$.
+\end{remark}
+
+\begin{remark}[Uniform integrability]\label{rem:UI}
+Lemma~\ref{lem:dom} and Lemma~\ref{lem:reduce} below give, for
+$k\in(-\frac52,0]$ and $0<\eps\le1$,
+\[
+\eps^{-3}\,\E\sum_n\1\{s_n<\eps\}\Big(\frac{M_n}{s_n^2}\Big)^{2k}
+\le\frac{5^{-2k}\,\mathcal M_{N-2}(k+2)}{6\pi},
+\]
+uniformly in $\eps$. Together with (a) this bounds
+$\sup_{\eps\le\eps_0}\langle(M/s^2)^{2k}\rangle_\eps$, so by the de la
+Vall\'ee-Poussin criterion $(M_J/s_J^2)^{2k}$ is uniformly integrable
+under $\langle\cdot\rangle_\eps$ for every $k>-\frac52$ (use an exponent
+$k'\in(-\frac52,k)$). The proof below uses the domination directly.
+\end{remark}
+
+\subsection{Reduction to a two-point integral}
+
+\begin{lemma}\label{lem:reduce}
+Let $N\ge2$, $0<\eps<2\pi$, and let $g:(0,2\pi)\times(0,\infty)\to[0,\infty]$
+be measurable. Then
+\begin{equation}\label{eq:reduce}
+\eps^{-3}\,\E\sum_{n=1}^N\1\{s_n<\eps\}\,g(s_n,M_n)
+=\frac1{2\pi}\int_0^1u^2\sinc^2\Big(\frac{\eps u}2\Big)\,
+\E_{N-2}\Big[W_{\eps u}\,\1_{A_{\eps u}}\,g\big(\eps u,M(\eps u;\cdot)\big)\Big]\,du ,
+\end{equation}
+where $\E_{N-2}$ integrates over $\vartheta$ with density $p_{N-2}$. The
+same identity holds for real $g$ whenever the right-hand side is finite
+with $|g|$ in place of $g$.
+\end{lemma}
+
+\begin{proof}
+For distinct angles and an ordered pair $(a,b)$, $a\ne b$, let
+$\sigma_{ab}\in(0,2\pi)$ be $\theta_b-\theta_a$ modulo $2\pi$. Call $b$ the
+successor of $a$ if no $\theta_j$ lies on the open counterclockwise arc
+from $\theta_a$ to $\theta_b$. The gaps are in bijection with the ordered
+pairs $(a,b)$ such that $b$ is the successor of $a$, the gap being
+$\sigma_{ab}$ and the hump the maximum of $|\Lambda_N|$ over the closed arc.
+By exchangeability each of the $N(N-1)$ ordered pairs contributes equally,
+so the left side of \eqref{eq:reduce} equals
+\[
+\eps^{-3}N(N-1)\int_{\T^N}p_N(\theta)\,\1\{\sigma_{12}<\eps\}\,
+\1\{2\text{ is the successor of }1\}\,g(\sigma_{12},M_{12})\,d\theta .
+\]
+Change variables $\theta_1=\varphi$, $\theta_2=\varphi+\eps u$ (mod $2\pi$),
+$u\in(0,1)$, which maps $\T\times(0,1)$ bijectively onto
+$\{(\theta_1,\theta_2):\sigma_{12}<\eps\}$ with
+$d\theta_1\,d\theta_2=\eps\,d\varphi\,du$, and put
+$\vartheta_j=\theta_{j+2}-\varphi$ (mod $2\pi$), a measure-preserving
+bijection of $\T^{N-2}$. The Vandermonde product splits into the pair
+factor $|1-e^{i\eps u}|^2=4\sin^2(\eps u/2)=\eps^2u^2\sinc^2(\eps u/2)$, the
+coupling $W_{\eps u}(\vartheta)$, and the Vandermonde product of
+$\vartheta$; the successor condition becomes $\vartheta\in A_{\eps u}$; and
+$M_{12}=M(\eps u;\vartheta)$ because
+$|\Lambda_N(e^{i(\varphi+t)})|=|e^{it}-1||e^{it}-e^{i\eps u}||\Lambda_{N-2}(e^{it})|$.
+Nothing depends on $\varphi$, whose integral gives $2\pi$. Finally
+\[
+\frac{N(N-1)}{(2\pi)^NN!}\prod_{j<k}|e^{i\vartheta_j}-e^{i\vartheta_k}|^2
+=\frac{1}{(2\pi)^2}\,p_{N-2}(\vartheta),
+\]
+and collecting $\eps^{-3}\cdot\eps\cdot\eps^2\cdot2\pi/(2\pi)^2=1/(2\pi)$
+gives \eqref{eq:reduce}. The statement for real $g$ follows by splitting
+$g=g^+-g^-$.
+\end{proof}
+
+\subsection{Proof of Theorem~\ref{thm:main}}
+We use the following form of dominated convergence.
+
+\begin{lemma}\label{lem:gdct}
+On a measure space, let $|f_\eps|\le g_\eps$, $f_\eps\to f$ and
+$g_\eps\to g$ almost everywhere, and $\int g_\eps\to\int g<\infty$ as
+$\eps\to0$. Then $\int f_\eps\to\int f$.
+\end{lemma}
+
+\begin{proof}
+A limit as $\eps\to0$ exists and equals $\int f$ if and only if it does so
+along every sequence $\eps_n\to0$, so it suffices to fix such a sequence;
+along it the hypotheses hold almost everywhere (the exceptional null set
+does not depend on the sequence) and Fatou's lemma applies. Applied to
+$g_{\eps_n}+f_{\eps_n}\ge0$ and $g_{\eps_n}-f_{\eps_n}\ge0$ it gives
+$\int g\pm\int f\le\int g+\liminf_n(\pm\int f_{\eps_n})$, i.e.\
+$\limsup_n\int f_{\eps_n}\le\int f\le\liminf_n\int f_{\eps_n}$.
+\end{proof}
+
+\begin{proof}[Proof of (ii)]
+Apply Lemma~\ref{lem:reduce} with $g(s,M)=F(s/\eps,M/s^2)$ (admissible by
+part (i) and the bound below). For $0<\eps\le1$, $u\in(0,1]$ and
+$\vartheta\in\T^{N-2}$ put $s=\eps u$ and
+\[
+f_\eps(u,\vartheta)=u^2\sinc^2\Big(\frac{s}2\Big)\,W_s(\vartheta)\,
+\1_{A_s}(\vartheta)\,F\Big(u,\frac{M(s;\vartheta)}{s^2}\Big),
+\]
+so that the left side of \eqref{eq:main}, before the limit, is
+$(2\pi)^{-1}\int_0^1\E_{N-2}f_\eps(u,\cdot)\,du$.
+
+\emph{Domination.} On $A_s$, by the growth condition on $F$, $\sinc\le1$,
+and \eqref{eq:dom}, \eqref{eq:dom2} (with $k=k_0$),
+\[
+|f_\eps|\le C u^2\,W_s\Big(1+\Big(\frac{M}{s^2}\Big)^{2k_0}\Big)
+\le C u^2\Big(|\Lambda_{N-2}(e^{is/2})|^4+5^{-2k_0}
+|\Lambda_{N-2}(e^{is/2})|^{4+2k_0}\Big)=:g_\eps(u,\vartheta),
+\]
+and $f_\eps=0$ off $A_s$. By rotation invariance
+$\int_0^1\E_{N-2}\,g_\eps\,du=\frac C3\big(\mathcal M_{N-2}(2)+5^{-2k_0}
+\mathcal M_{N-2}(k_0+2)\big)<\infty$ for every $\eps$.
+
+\emph{Pointwise limits.} Let $\vartheta$ be such that no $\vartheta_j$ is
+$0$; this excludes a null set, and on its complement
+$\Lambda_{N-2}(1)\ne0$. Fix $u\in(0,1]$ and let $\eps\to0$. Then
+$\vartheta\in A_{\eps u}$ as soon as $\eps u<\min_j\vartheta_j$;
+$W_{\eps u}(\vartheta)\to|\Lambda_{N-2}(1)|^4$ and
+$|\Lambda_{N-2}(e^{i\eps u/2})|\to|\Lambda_{N-2}(1)|>0$ by continuity;
+$M(\eps u;\vartheta)/(\eps u)^2\to|\Lambda_{N-2}(1)|/4\in(0,B_N]$ by
+Lemma~\ref{lem:hump}; and $F$ is continuous at
+$(u,|\Lambda_{N-2}(1)|/4)$. Hence
+\begin{align*}
+f_\eps&\to f_0:=u^2|\Lambda_{N-2}(1)|^4F\big(u,|\Lambda_{N-2}(1)|/4\big),\\
+g_\eps&\to g_0:=Cu^2\big(|\Lambda_{N-2}(1)|^4+5^{-2k_0}|\Lambda_{N-2}(1)|^{4+2k_0}\big),
+\end{align*}
+and $\int_0^1\E_{N-2}g_\eps\,du=\int_0^1\E_{N-2}g_0\,du$ for all $\eps$.
+Lemma~\ref{lem:gdct} on $(0,1]\times\T^{N-2}$ with the measure
+$du\otimes p_{N-2}\,d\vartheta$ gives \eqref{eq:main}.
+\end{proof}
+
+\begin{proof}[Proof of (a)--(c)]
+(a) Take $F\equiv1$: the limit is $\frac1{2\pi}\cdot\frac13\cdot
+\mathcal M_{N-2}(2)=N^2(N^2-1)/(72\pi)$ by \eqref{eq:M23}.
+
+(b) For bounded continuous $F$ on $[0,1]\times[0,\infty)$, divide
+\eqref{eq:main} by (a):
+\[
+\langle F(s/\eps,M/s^2)\rangle_\eps\to\int_0^13u^2\,
+\Et\big[F(u,X_{N-2}/4)\big]\,du ,
+\]
+which is the expectation of $F(U^{1/3},X_{N-2}/4)$ with $U$ independent of
+$X_{N-2}$, since $3u^2\,du$ on $[0,1]$ is the law of $U^{1/3}$.
+
+(c) For $k\in(-\frac52,0]$ take $F(u,y)=y^{2k}$ and $k_0=k$; for $k>0$,
+$y^{2k}$ is bounded on $(0,B_N]$ and $k_0=0$. For log-moments,
+$|\log y|^m\le C_m(1+y^{-1})$ on $(0,B_N]$, so $k_0=-\frac12$ applies;
+likewise for $(\log y)^m$ with integer $m$. Dividing by (a) gives the
+limits; cumulants are polynomials in moments. For the last statement let
+$N\ge3$ and $k\le-\frac52$, so $a:=k+2\le-\frac12$. The density $p_{N-2}$ is
+continuous and positive near a configuration with $\vartheta_1=0$ and the
+other angles distinct and away from $0$, and there
+$|\Lambda_{N-2}(1)|^{2a}\ge c\,|2\sin(\vartheta_1/2)|^{2a}$, which is not
+integrable near $\vartheta_1=0$; hence $\mathcal M_{N-2}(a)=\infty$. With
+$F=y^{2k}\ge0$, Fatou's lemma applied to the (nonnegative) integrands
+$f_\eps\to f_0$ gives
+$\liminf_\eps\eps^{-3}\E\sum_n\1\{s_n<\eps\}(M_n/s_n^2)^{2k}
+\ge\frac1{6\pi}4^{-2k}\mathcal M_{N-2}(a)=\infty$, while the denominator of
+$\langle\cdot\rangle_\eps$ stays finite by (a).
+\end{proof}
+
+\begin{remark}[Position of the maximum]
+The maximum of $|\Lambda_N|$ over a small gap sits asymptotically at its
+midpoint: if $t_n^*$ is the (smallest) maximiser on the $n$-th gap, then
+$\langle\1\{|(t^*-\theta_{(\cdot)})/s-\frac12|>\eta\}\rangle_\eps\to0$ for every
+$\eta>0$. Indeed, in the notation of the proof, with $t=sx$, $x\in[0,1]$,
+the normalised profile is
+$x(1-x)\sinc(\frac{sx}2)\sinc(\frac{s(1-x)}2)|\Lambda_{N-2}(e^{isx})|$,
+which converges uniformly in $x$ to $|\Lambda_{N-2}(1)|x(1-x)$; when
+$\Lambda_{N-2}(1)\ne0$ the limit has the unique maximiser $\frac12$, so the
+maximisers converge to $\frac12$. Lemma~\ref{lem:reduce} with the bounded
+integrand $\1\{|x^*-\frac12|>\eta\}$, the bound $W_s\le4^{2(N-2)}$ and
+dominated convergence give the claim.
+\end{remark}
+
+\begin{remark}[Finite $\eps$]\label{rem:finiteeps}
+All $\eps$-dependence in \eqref{eq:reduce} enters through functions of the
+unordered pair of endpoints $\{e^{\pm is/2}\}$ (after centring the arc at
+$1$), hence through even functions of $s$. This suggests that the
+corrections to the limits in Theorem~\ref{thm:main} are $O(\eps^2)$; we
+have not proved it, but the Monte Carlo data of Section~\ref{sec:mc} are
+consistent with it.
+\end{remark}
+
+%======================================================================
+\section{The exact law of the limiting hump}\label{sec:thm2}
+%======================================================================
+
+\begin{theorem}\label{thm:product}
+Let $n\ge1$ and let $\xi_1,\dots,\xi_n$ be independent, with $\xi_1$ on the
+unit circle with law $\frac16|1-e^{i\alpha}|^4\,\frac{d\alpha}{2\pi}$ and,
+for $2\le j\le n$, $\xi_j$ in the open unit disc $\mathbb D$ with density
+\[
+c_j\,(1-|z|^2)^{j-2}\,|1-z|^4\ \ (\text{w.r.t. } d^2z),\qquad
+c_j=\frac{j-1}{\pi}\cdot\frac{j(j+1)}{(j+2)(j+3)} .
+\]
+Then $X_n\overset{d}{=}\prod_{j=1}^n|1-\xi_j|$. Moreover:
+\begin{enumerate}
+\item[(a)] $\Et X_n^{2k}=\dfrac{\mathcal M_n(k+2)}{\mathcal M_n(2)}=
+\displaystyle\prod_{j=1}^n\frac{\Gamma(j+2)^2\,\Gamma(j+4+2k)}
+{\Gamma(j+4)\,\Gamma(j+2+k)^2}$ for $k>-\frac52$, and $\Et X_n^{2k}=\infty$
+for $k\le-\frac52$.
+\item[(b)] $t\mapsto\log\Et e^{t\log X_n}=\log\mathcal M_n(2+t/2)-\log\mathcal M_n(2)$
+is analytic for $\operatorname{Re}t>-5$, and for $r\ge1$
+\begin{equation}\label{eq:cumulants}
+\kappa_r(\log X_n)=\sum_{j=1}^n\Big[\psi^{(r-1)}(j+4)-2^{1-r}\,
+\psi^{(r-1)}(j+2)\Big];
+\end{equation}
+in particular $\kappa_1(\log X_n)=H_{n+2}+H_{n+3}-\frac{10}3$.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+By \cite[Prop.~2.2]{BHNY08}, under the Haar measure of $U(n)$,
+$\det(1-U)\overset{d}{=}\prod_{j=1}^n(1-\gamma_j)$ with independent
+$\gamma_j$: $\gamma_1$ is uniform on the unit circle and, for $j\ge2$,
+$\gamma_j=e^{i\omega_j}\sqrt{\beta_j}$ with $\omega_j$ uniform and
+$\beta_j\sim\mathrm{Beta}(1,j-1)$ independent. (There the factors are
+written $1+e^{i\omega_j}\sqrt{\beta_j}$, which has the same law since
+$\omega_j$ is uniform.) Passing to $z=\sqrt\beta e^{i\omega}$
+($d^2z=\frac12d\beta\,d\omega$), $\gamma_j$ has density
+$\frac{j-1}{\pi}(1-|z|^2)^{j-2}$ on $\mathbb D$.
+
+\emph{Tilting.} Let $\mu_j$ be the law of $\gamma_j$ and
+$m_j=\int|1-z|^4\mu_j(dz)$. For bounded measurable $h$, by independence,
+\[
+\Et h(X_n)=\frac{\E\big[\prod_j|1-\gamma_j|^4\,h(\prod_j|1-\gamma_j|)\big]}
+{\prod_jm_j}
+=\int h\Big(\prod_j|1-z_j|\Big)\prod_{j=1}^n\nu_j(dz_j),
+\]
+with $\nu_j(dz)=m_j^{-1}|1-z|^4\,\mu_j(dz)$,
+because the Radon--Nikodym density $\prod_j|1-z_j|^4/\prod_jm_j$ is a
+product of functions of the separate coordinates; so the $\xi_j\sim\nu_j$
+are independent. The constants: $m_1=\int_0^{2\pi}16\sin^4(\alpha/2)
+\frac{d\alpha}{2\pi}=6$; for $j\ge2$, with $\beta=|z|^2$ and rotation
+invariance, $m_j=\E(1+\beta)^2+2\E\beta=1+\frac4j+\frac2{j(j+1)}
+=\frac{(j+2)(j+3)}{j(j+1)}$, since $\E\beta=\frac1j$ and
+$\E\beta^2=\frac2{j(j+1)}$. Hence $c_j=\frac{j-1}{\pi m_j}$ as stated.
+(Equivalently, $m_j=\mathcal M_j(2)/\mathcal M_{j-1}(2)$.) The same
+decomposition is the case $\beta=2$, $\delta=2$ of the product formula for
+the circular Jacobi ensemble in terms of deformed Verblunsky coefficients
+\cite[Thm.~3.2 and Prop.~4.3]{BNR09}: their $\gamma_{n-j}$ has the law of
+our $\xi_j$, $1\le j\le n$.
+
+(a) By definition $\Et X_n^{2k}=\E_n|\Lambda_n(1)|^{4+2k}/\mathcal M_n(2)$,
+and \eqref{eq:KS} with $k+2$ in place of $k$ gives the product; it is
+finite iff $k+2>-\frac12$ (see the proof of Theorem~\ref{thm:main}(c)).
+
+(b) $\Et e^{t\log X_n}=\Et X_n^{t}=\mathcal M_n(2+t/2)/\mathcal M_n(2)$,
+and $\log\mathcal M_n(2+t/2)=\sum_j[\log\Gamma(j)+\log\Gamma(j+4+t)
+-2\log\Gamma(j+2+t/2)]$ is analytic for $\operatorname{Re}t>-5$. Its
+$r$-th derivative at $t=0$ is
+$\sum_j[\psi^{(r-1)}(j+4)-2\cdot2^{-r}\psi^{(r-1)}(j+2)]$, which is
+\eqref{eq:cumulants}. For $r=1$, $\psi(j+4)-\psi(j+2)=\frac1{j+2}+\frac1{j+3}$,
+and summing gives $(H_{n+2}-H_2)+(H_{n+3}-H_3)=H_{n+2}+H_{n+3}-\frac{10}3$.
+\end{proof}
+
+\begin{remark}[The tilt ladder in the unitary group]\label{rem:ladder}
+The same argument with the tilt $|\Lambda_n(1)|^{2b}$ gives
+\begin{equation}\label{eq:ladder}
+\kappa_r^{(b)}(n)=\sum_{j=1}^n\Big[\psi^{(r-1)}(j+2b)-2^{1-r}\psi^{(r-1)}(j+b)\Big].
+\end{equation}
+For $b=0$ and $n=N$ this is $\log|\Lambda_N(1)|$ under Haar measure
+\cite{KS00}. For $b=1$ and $n=N-1$ it is exact at finite $N$ for the
+derivative at an eigenvalue: $|\Lambda_N'(e^{i\theta_1})|=
+\prod_{j\ge2}|e^{i\theta_1}-e^{i\theta_j}|$, and by \eqref{eq:weyl} the
+other $N-1$ angles, given $\theta_1$, are $|\Lambda_{N-1}(e^{i\theta_1})|^2$-tilted
+\cite{HKO00}. For $b=2$ and $n=N-2$ it is the small-gap limit of
+Theorem~\ref{thm:main}.
+\end{remark}
+
+%======================================================================
+\section{Large $N$}\label{sec:largeN}
+%======================================================================
+
+\begin{corollary}\label{cor:largeN}
+Let $Y_N=(2\pi/N)^2X_{N-2}/4$, the small-gap limit of $M_J/\tilde s_J^2$
+(Theorem~\ref{thm:main}(b) with $\tilde s=Ns/2\pi$). As $N\to\infty$:
+\begin{enumerate}
+\item[(a)] for every fixed $k>-\frac52$,
+\[
+\E Y_N^{2k}=\Big(\frac\pi N\Big)^{4k}\frac{\mathcal M_{N-2}(k+2)}{\mathcal M_{N-2}(2)}
+\sim\pi^{4k}\,\frac{12\,G(k+3)^2}{G(2k+5)}\,N^{k^2};
+\qquad\text{e.g. } \E Y_N^2\sim\frac{\pi^4N}{720};
+\]
+\item[(b)] $\E\log Y_N=H_N+H_{N+1}-\frac{10}3-\log4+2\log\frac{2\pi}N
+=2\log\pi+2\gamma-\frac{10}3+O(N^{-1})$, and
+$2\log\pi+2\gamma-\frac{10}3=0.110558\ldots$;
+\item[(c)] $\Var\log Y_N=\frac12\log N+c_2+O(N^{-1})$, with
+$c_2=\frac{65}{18}+\frac\gamma2-\frac{\pi^2}2=-1.035083\ldots$;
+\item[(d)] $\kappa_3(\log Y_N)<0$ for every $N\ge3$, it decreases strictly
+with $N$, and
+\begin{align*}
+\kappa_3(\log Y_N)\to{}&-2\big[\zeta(2)-H_4^{(2)}-4(\zeta(3)-H_4^{(3)})\big]\\
+&+\tfrac12\big[\zeta(2)-H_2^{(2)}-2(\zeta(3)-H_2^{(3)})\big]=-0.127077\ldots;
+\end{align*}
+more generally, for $r\ge3$, $\kappa_r(\log Y_N)\to(-1)^r(r-1)!\,
+\big[A_4^{(r)}-2^{1-r}A_2^{(r)}\big]$ with
+$A_a^{(r)}=\zeta(r-1)-H_a^{(r-1)}-a\big(\zeta(r)-H_a^{(r)}\big)$;
+\item[(e)] $(\log Y_N-\E\log Y_N)/\sqrt{\frac12\log N}\Rightarrow\mathcal N(0,1)$.
+\end{enumerate}
+\end{corollary}
+
+The typical close-pair hump in unfolded units, $M/\tilde s^2$, stays of
+order one, but its logarithm spreads like $\frac12\log N$; the linear growth
+of $\E Y_N^2$ is carried by that log-normal tail. Note that the
+$O(N^{-1})$ terms in (c) are large at moderate $N$: the exact variance is
+$0.2987$ at $N=10$ and $0.6340$ at $N=24$, against $0.1162$ and $0.5539$
+from $\frac12\log N+c_2$. Finite-$N$ comparisons should use
+\eqref{eq:cumulants}.
+
+We need two lemmas.
+
+\begin{lemma}[Barnes asymptotics]\label{lem:barnes}
+For fixed real $a>-\frac12$, as $n\to\infty$,
+\[
+\mathcal M_n(a)=\frac{G(1+a)^2}{G(1+2a)}\cdot
+\frac{G(n+1)\,G(n+1+2a)}{G(n+1+a)^2}\sim\frac{G(1+a)^2}{G(1+2a)}\,n^{a^2}.
+\]
+\end{lemma}
+
+\begin{proof}
+The identity follows from $\prod_{j=1}^n\Gamma(j+c)=G(n+1+c)/G(1+c)$,
+a consequence of $G(z+1)=\Gamma(z)G(z)$. The classical expansion
+$\log G(z+1)=\frac{z^2}2\log z-\frac34z^2+\frac z2\log2\pi
+-\frac1{12}\log z+\zeta'(-1)+O(z^{-1})$ \cite{Bar00} gives, for fixed $c$,
+$\log G(n+1+c)-\log G(n+1)=(cn+\frac{c^2}2)\log n-cn+\frac c2\log2\pi+o(1)$.
+The combination with $c=0,2a,a,a$ and weights $1,1,-1,-1$ leaves
+$(2a^2-a^2)\log n=a^2\log n$. This is the asymptotic of \cite{KS00}.
+\end{proof}
+
+\begin{lemma}[Digamma sums]\label{lem:digamma}
+For integers $a\ge0$, $n\ge1$,
+\begin{align}
+\sum_{j=1}^n\psi'(j+a)&=H_{n+a}-H_a-a\big[\psi'(a+1)-\psi'(n+a+1)\big]
++n\,\psi'(n+a+1),\label{eq:dig1}\\
+\sum_{j=1}^\infty\psi^{(r-1)}(j+a)&=(-1)^r(r-1)!\,A_a^{(r)}\qquad(r\ge3).
+\label{eq:dig2}
+\end{align}
+\end{lemma}
+
+\begin{proof}
+Write $\psi^{(r-1)}(x)=(-1)^r(r-1)!\sum_{m\ge0}(x+m)^{-r}$ and put
+$l=j+a+m$. For fixed $l\ge a+1$ the number of $j\in[1,n]$ with $j\le l-a$
+is $\min(n,l-a)$. For $r=2$ this gives
+$\sum_{l=a+1}^{a+n}(l-a)l^{-2}+n\sum_{l>a+n}l^{-2}$, which is
+\eqref{eq:dig1} since $\sum_{l>c}l^{-2}=\psi'(c+1)$. For $r\ge3$ and
+$n=\infty$ it gives $\sum_{l>a}(l-a)l^{-r}=A_a^{(r)}$. All rearrangements
+are of series of one sign.
+\end{proof}
+
+\begin{proof}[Proof of Corollary~\ref{cor:largeN}]
+(a) By Theorem~\ref{thm:main}(c) and scaling,
+$\E Y_N^{2k}=(2\pi/N)^{4k}4^{-2k}\Et X_{N-2}^{2k}$. By Lemma~\ref{lem:barnes}
+with $a=k+2$ and $a=2$, and $G(3)=1$, $G(5)=12$,
+$\mathcal M_{N-2}(k+2)/\mathcal M_{N-2}(2)\sim12\,G(k+3)^2G(2k+5)^{-1}
+N^{(k+2)^2-4}$; multiply by $(\pi/N)^{4k}$. For $k=1$,
+$12\,G(4)^2/G(7)=12\cdot4/34560=1/720$.
+
+(b) $\kappa_1(\log X_{N-2})=H_N+H_{N+1}-\frac{10}3$ by
+Theorem~\ref{thm:product}; add $\log\frac14+2\log\frac{2\pi}N$ and use
+$H_m=\log m+\gamma+O(m^{-1})$.
+
+(c) By \eqref{eq:cumulants} and \eqref{eq:dig1} with $n=N-2$,
+$\kappa_2=S_4-\frac12S_2$ where $S_a=\sum_{j\le n}\psi'(j+a)
+=\log n+\gamma-H_a-a(\zeta(2)-H_a^{(2)})+1+O(n^{-1})$, using
+$\psi'(a+1)=\zeta(2)-H_a^{(2)}$, $n\psi'(n+a+1)=1+O(n^{-1})$. With
+$H_4=\frac{25}{12}$, $H_4^{(2)}=\frac{205}{144}$, $H_2=\frac32$,
+$H_2^{(2)}=\frac54$:
+$\kappa_2=\frac12\log n+\frac\gamma2+\frac12-\frac{25}{12}+\frac34
+-\frac54+\frac{205}{36}-3\zeta(2)+O(n^{-1})
+=\frac12\log N+\frac{65}{18}+\frac\gamma2-\frac{\pi^2}2+O(N^{-1})$.
+Scaling does not change the variance.
+
+(d) The summands $\tau_j=\psi''(j+4)-\frac14\psi''(j+2)$ of
+$\kappa_3(\log X_n)$ are all negative. For $j=1$,
+$\tau_1=-2(\zeta(3)-H_4^{(3)})+\frac12(\zeta(3)-H_2^{(3)})=-0.010261\ldots$.
+For $j\ge2$ use $x^{-2}\le|\psi''(x)|\le x^{-2}+2x^{-3}$ (compare
+$2\sum_{m\ge0}(x+m)^{-3}$ with $2\int_0^\infty(x+t)^{-3}dt$): it suffices
+that $(j+4)^{-2}>\frac14(j+4)(j+2)^{-3}$, i.e.\
+$4^{1/3}(j+2)>j+4$, true for $j\ge2$. Hence $\kappa_3(\log X_n)$ is
+negative and strictly decreasing in $n$, and its limit is
+$\sum_{j\ge1}\tau_j$, evaluated by \eqref{eq:dig2}. The general $r$ is the
+same computation; the series converge because
+$|\psi^{(r-1)}(x)|\le(r-1)!x^{-r}+(r-2)!x^{1-r}$.
+
+(e) By (c) and (d), $\kappa_2\to\infty$ while $\kappa_r$ stays bounded for
+each $r\ge3$, so the cumulants of the standardised variable converge to
+those of $\mathcal N(0,1)$; the moments converge, and since the normal law
+is determined by its moments, the standardised variable converges in law.
+Replace $\sqrt{\kappa_2}$ by $\sqrt{\frac12\log N}$ (Slutsky).
+\end{proof}
+
+%======================================================================
+\section{How much do small gaps contribute to the second moment?}\label{sec:second}
+%======================================================================
+
+\begin{corollary}\label{cor:second}
+For $N\ge2$,
+\[
+\lim_{\eps\to0}\eps^{-7}\,\E\sum_{n=1}^N\1\{s_n<\eps\}M_n^2
+=\frac{\mathcal M_{N-2}(3)}{224\pi}
+=\frac{(N-1)N^2(N+1)^3(N+2)^2(N+3)}{1\,935\,360\,\pi}.
+\]
+\end{corollary}
+
+\begin{proof}
+$M_n^2=\eps^4(s_n/\eps)^4(M_n/s_n^2)^2$. Apply \eqref{eq:main} with the
+bounded continuous $F(u,y)=u^4y^2$: the limit is
+$\frac1{2\pi}\int_0^1u^6du\cdot\frac1{16}\E_{N-2}|\Lambda_{N-2}(1)|^6
+=\mathcal M_{N-2}(3)/(224\pi)$; then use \eqref{eq:M23}.
+\end{proof}
+
+In unfolded units, $\eps=2\pi\tilde\eps/N$, the contribution of the gaps
+with $\tilde s_n<\tilde\eps$ is
+\[
+\E\sum_{\tilde s_n<\tilde\eps}M_n^2=\Big(\frac{2\pi}N\Big)^7
+\frac{\mathcal M_{N-2}(3)}{224\pi}\,\tilde\eps^{\,7}\,(1+o(1)),
+\qquad
+\Big(\frac{2\pi}N\Big)^7\frac{\mathcal M_{N-2}(3)}{224\pi}\sim
+\frac{\pi^6}{15120}\,N^2=0.0636\,N^2 .
+\]
+
+\subsection*{The total second moment}
+To compare this with the sum over all gaps, let
+\[
+V_N(\vartheta):=\prod_{j=1}^N2\sin\frac{\vartheta-\theta_j}2 ,
+\]
+a real, real-analytic function with $|V_N(\vartheta)|=|\Lambda_N(e^{i\vartheta})|$
+and $V_N(\vartheta+2\pi)=(-1)^NV_N(\vartheta)$. Winn \cite[(1.1)--(1.2)]{Win12}
+uses $Z_U(\vartheta)=\prod_j(1-e^{i(\theta_j-\vartheta)})$ and
+$V_U(\vartheta)=\exp\big(iN\frac{\vartheta+\pi}2-\frac i2\sum_j\theta_j\big)
+Z_U(\vartheta)$. Since
+$1-e^{i(\theta_j-\vartheta)}=2i\,e^{i(\theta_j-\vartheta)/2}
+\sin\frac{\vartheta-\theta_j}2$, we have
+$Z_U(\vartheta)=i^Ne^{\frac i2(\sum_j\theta_j-N\vartheta)}V_N(\vartheta)$,
+hence $V_U=e^{iN\pi/2}\,i^N\,V_N=(-1)^NV_N$. Following Winn, put
+$\widetilde F_N(h,k):=\E|V_N(0)|^{2k-2h}|V_N'(0)|^{2h}$.
+
+\begin{proposition}[Total second moment]\label{prop:total}
+Let $N\ge2$. Almost surely
+\[
+\sum_{n=1}^NM_n^2=\int_0^{2\pi}|V_N(\vartheta)V_N'(\vartheta)|\,d\vartheta ,
+\]
+hence $\E\sum_nM_n^2=2\pi\widetilde F_N(\frac12,1)$, and as $N\to\infty$
+\[
+\E\sum_{n=1}^NM_n^2\sim\frac{e^2-5}{2}\,N^2=1.194528\ldots N^2 .
+\]
+\end{proposition}
+
+\begin{proof}
+Almost surely the $\theta_j$ are distinct. On the $n$-th gap $V_N$ has no
+zero, and $(\log|V_N|)'=\frac12\sum_j\cot\frac{\vartheta-\theta_j}2$ is
+strictly decreasing (its derivative is
+$-\frac14\sum_j\sin^{-2}\frac{\vartheta-\theta_j}2$), with limits $+\infty$
+and $-\infty$ at the left and right endpoints. Hence $V_N^2$ increases up to
+a unique point $t_n^*$ and decreases after it, vanishing at both endpoints,
+so that $\int_{\mathrm{gap}}|V_NV_N'|=\frac12\int_{\mathrm{gap}}|(V_N^2)'|
+=V_N(t_n^*)^2=M_n^2$. The $N$ gaps tile a period of the $2\pi$-periodic
+function $|V_NV_N'|$, which gives the identity. Rotating the eigenangles by
+$\alpha$ replaces $V_N(\vartheta)$ by $V_N(\vartheta-\alpha)$, so
+$\E|V_N(\vartheta)V_N'(\vartheta)|$ does not depend on $\vartheta$ and
+$\E\sum_nM_n^2=2\pi\widetilde F_N(\frac12,1)$. Finally, Winn proved
+$N^{-2}\widetilde F_N(\frac12,1)\to(e^2-5)/(4\pi)$ \cite[(1.11), proved
+in \S7]{Win12}, a conjecture of Hughes.
+\end{proof}
+
+The identity is the random-matrix counterpart of the reduction used by
+Conrey and Ghosh for Hardy's function (see \cite[\S1]{Win12}), and the
+constants match: under the Riemann Hypothesis
+$\sum_{0<\gamma\le T}\max_{\gamma\le t\le\gamma^+}|\zeta(\frac12+it)|^2\sim
+\frac{e^2-5}{4\pi}T(\log T)^2$ \cite{CG85}, i.e.\ a mean of
+$\frac{e^2-5}2\log T$ per gap, against $\frac{e^2-5}2N$ per gap here.
+Winn's Theorem~2.2 \cite{Win12} also evaluates $\widetilde F_N(\frac12,1)$
+at finite $N$; for $k=1$, $h=\frac12$ it reduces to (Appendix~\ref{app:winn})
+\begin{equation}\label{eq:winnN}
+\E\sum_{n=1}^NM_n^2=2(N+1)\Big[N-\sum_{p=2}^N\frac{(p-2)!\,2^p\,N!}
+{(N-p)!\,(p+1)!\,p!\,N^{p-1}}\Big]
+\end{equation}
+(for $N=2$ this is $10$, as a direct computation confirms), so that
+$\E\sum_nM_n^2/N^2=1.6055$, $1.4381$, $1.3457$, $1.2949$, $1.2696$ for
+$N=6,10,16,24,32$. A Monte Carlo run ($4\times10^4$ matrices for $N\le16$,
+$2\times10^4$ for $N=24,32$; maxima on the $63$ interior points of a
+$65$-point grid per gap with parabolic refinement) gives $1.604(5)$,
+$1.455(7)$, $1.339(8)$, $1.284(14)$, $1.258(14)$; the $N=10$ value is
+$2.6\sigma$ high, and an independent run with $4\times10^5$ matrices gives
+$1.4394(20)$ there.
+
+Gaps below $\tilde\eps$ therefore carry a fraction
+$c_N\tilde\eps^{\,7}(1+o(1))$ of the second moment, with $c_N=0.140$
+($N=6$) decreasing to $0.066$ ($N=32$) and
+$c_N\to\pi^6/(7560(e^2-5))=0.0532$; this is about $10^{-6}$ for
+$\tilde\eps=0.2$. Small gaps are invisible in the mean of $M_n^2$, which is
+the quantity controlled in \cite{CG85,HLPC24}.
+
+%======================================================================
+\section{Monte Carlo verification}\label{sec:mc}
+%======================================================================
+
+\subsection*{Method}
+Haar unitaries were generated by the QR decomposition of complex Ginibre
+matrices with the phases of the diagonal of $R$ removed \cite{Mez07}. For
+every gap with unfolded length $\tilde s<0.4$, $\log|\Lambda_N|$ was
+evaluated on the $39$ interior points of a uniform $41$-point grid across
+the gap and the maximum refined by a parabola through the largest grid
+value and its neighbours. Statistics are reported in the bands
+$\tilde s<\tilde\eps$ for $\tilde\eps\in\{0.4,0.3,0.2,0.1,0.05\}$, in
+angle units ($M/s^2$); the predictions are Theorem~\ref{thm:main} with
+Theorem~\ref{thm:product}. The ``rate'' is
+$\#\{\text{gaps}<\eps\}/(\text{matrices}\cdot\eps^3)$, to be compared with
+$N^2(N^2-1)/(72\pi)$. No zeta data enter this section.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{rrrcccccc}
+\toprule
+& & & \multicolumn{3}{c}{$\E[M/s^2]$} & \multicolumn{3}{c}{rate}\\
+\cmidrule(lr){4-6}\cmidrule(lr){7-9}
+$N$ & matrices & events & Thm & $\tilde s<0.2$ & $\tilde s<0.1$
+& Thm & $\tilde s<0.2$ & $\tilde s<0.1$\\
+\midrule
+6 & $6\cdot10^5$ & 3\,724 & 1.4784 & 1.4828(30) & 1.4751(83) & 5.570 & 5.392 & 5.405\\
+10 & $4\cdot10^5$ & 4\,302 & 3.9279 & 3.935(11) & 3.919(31) & 43.77 & 42.96 & 43.36\\
+16 & $3\cdot10^5$ & 5\,253 & 10.194 & 10.178(35) & 10.059(98) & 288.6 & 280.4 & 289.1\\
+24 & $2\cdot10^5$ & 5\,229 & 23.903 & 24.13(10) & 24.10(29) & 1464 & 1419 & 1457\\
+\bottomrule
+\end{tabular}
+
+\medskip
+\begin{tabular}{rccccccc}
+\toprule
+& \multicolumn{3}{c}{$\E\log(M/s^2)$} & \multicolumn{3}{c}{$\Var\log(M/s^2)$} & $\kappa_3$\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-8}
+$N$ & Thm & $\tilde s<0.2$ & $\tilde s<0.1$ & Thm & $\tilde s<0.2$ & $\tilde s<0.1$ & Thm\\
+\midrule
+6 & 0.3232 & 0.3276(22) & 0.3229(62) & 0.1486 & 0.1447 & 0.1448 & $-0.0439$\\
+10 & 1.2292 & 1.2323(29) & 1.2330(81) & 0.2987 & 0.2963 & 0.2834 & $-0.0688$\\
+16 & 2.1007 & 2.0998(34) & 2.0822(95) & 0.4691 & 0.4664 & 0.4781 & $-0.0872$\\
+24 & 2.8723 & 2.8827(39) & 2.8804(110) & 0.6340 & 0.6306 & 0.6326 & $-0.0990$\\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:mc}CUE Monte Carlo against Theorems~\ref{thm:main}
+and~\ref{thm:product} (angle units; statistical errors in the last digits;
+``events'' is the number of gaps with $\tilde s<0.1$). Files
+\texttt{200t\_mc\_N\{6,10,16,24\}.json}.}
+\end{table}
+
+\subsection*{Results}
+Table~\ref{tab:mc} shows agreement with the theorems at the level of the
+statistical errors: at $\tilde s<0.1$ every deviation of the mean hump and
+of the log-mean is below $2\sigma$ and the counts agree within $2\sigma$
+(Poisson errors). At $\tilde s<0.2$ the small finite-$\eps$ bias
+discussed below is visible (largest in the log-mean at $N=24$, $+0.010$).
+Further checks:
+\begin{itemize}
+\item \emph{Independence.} The correlation of $\tilde s$ with
+$\log(M/s^2)$ falls with the band: $0.021$, $0.013$, $0.007$, $0.000$ at
+$\tilde\eps=0.4,0.3,0.2,0.1$ ($N=10$, file \texttt{200t\_mc\_N10.json}).
+\item \emph{Lemma~\ref{lem:hump}.} The largest difference between
+$\log(M/s^2)$ and $\log(|\Lambda_{N-2}(\mathrm{mid})|/4)$ over all events
+with $\tilde s<0.1$ is at most $0.042$ (all $N$; files of
+Table~\ref{tab:mc}).
+\item \emph{Third cumulant.} Independent runs with $8\times10^5$ ($N=10$)
+and $4\times10^5$ ($N=16$) matrices give $\kappa_3=-0.0639$ ($8\,526$
+events) and $-0.0863$ ($7\,021$ events) at $\tilde s<0.1$, against
+$-0.0688$ and $-0.0872$ (files \texttt{200t\_mc3\_N\{10,16\}.json}); the same
+runs give $\E\log(M/s^2)=1.2357(59)$ and $2.1021(81)$.
+\item \emph{Theorem~\ref{thm:product} directly.} Sampling the $\xi_j$ by
+rejection ($4\times10^5$ products) gives, for $N=10$, $\E\log(X/4)=1.2286$
+($1.2292$), $\Var=0.2976$ ($0.2987$), $\kappa_3=-0.0675$ ($-0.0688$),
+$\E X/4=3.924$ ($3.928$); at $N=24$ the mean, variance and $\E X/4$ agree
+within $0.2\%$, and $\kappa_3=-0.0963$ ($-0.0990$) (script
+\texttt{200t\_carpim.py}, output \nolinkurl{not8_ek/200t_carpim_seed7.out}).
+\item \emph{Finite $\eps$.} In a run with $3\times10^6$ matrices at $N=10$
+(file \nolinkurl{not8_ek/200t_mc_N10_3e6_seed7.json})
+the excess of $\E[M/s^2]$ over its limit is $0.0771(15)$, $0.0440(23)$,
+$0.0198(41)$ at $\tilde\eps=0.4$, $0.3$, $0.2$: the successive ratios $1.75$
+and $2.22$ match $(4/3)^2=1.78$ and $(3/2)^2=2.25$, as expected from
+Remark~\ref{rem:finiteeps}. At $\tilde\eps=0.2$ the excesses of
+$\E\log$, $\Var\log$ and $\kappa_3$ are $+0.0070(11)$, $-0.005$ and
+$+0.004$.
+\end{itemize}
+
+%======================================================================
+% Zeta side: numbers copied from the sealed reports
+% 200a_merdiven_alt_RAPOR.md, 200b_yakin_cift_RAPOR.md,
+% 200c_yukseklik_RAPOR.md, 201_faz_kilidi_RAPOR.md (and HUKUM_*.json).
+%======================================================================
+\section{The zeta side: a tilt ladder and a conjecture}\label{sec:zeta}
+
+\subsection*{Observables}
+Let $L=\log(t/2\pi)$, and for consecutive zeros let
+$m_n=(\gamma_n+\gamma_{n+1})/2$, $L_n=\log(m_n/2\pi)$,
+$\tilde\delta_n=\delta_nL_n/2\pi$ and
+\[
+Y_n:=M_n/\tilde\delta_n^2 .
+\]
+For a close pair, $Z(t)\approx\frac12Z''(m_n)(t-\gamma_n)(t-\gamma_{n+1})$
+on the gap, so $M_n=\frac18|Z''(m_n)|\,\delta_n^2\,(1+O((\delta_nL)^2))$ and
+$Y_n$ is the zeta analogue of $M/\tilde s^2$. The three rungs of the
+\emph{tilt ladder} are
+\begin{itemize}
+\item $b=0$: $x=\log|Z(t)|$ at random $t$ (Keating--Snaith \cite{KS00});
+\item $b=1$: $x=\log\big(|Z'(\gamma_n)|\,2\pi/L\big)$ at the zeros
+(Hughes--Keating--O'Connell \cite{HKO00});
+\item $b=2$: $x=\log Y_n$ on close pairs, $\tilde\delta_n<\eps$ (this note).
+\end{itemize}
+The random-matrix baseline of rung $b$ is $\kappa_r^{\mathrm{CUE},b}(N):=
+\kappa_r^{(b)}(N-b)$ of \eqref{eq:ladder}, evaluated at $N=L$ by analytic
+continuation in $N$: the sums in \eqref{eq:ladder} are replaced by
+\begin{multline*}
+\sum_{j=1}^n\psi^{(r-1)}(j+a)=(n+a)\,\psi^{(r-1)}(n+a+1)-a\,\psi^{(r-1)}(a+1)\\
++(r-1)\big[\psi^{(r-2)}(n+a+1)-\psi^{(r-2)}(a+1)\big]
+\end{multline*}
+for $r\ge2$ (for $r=1$ the bracket is replaced by $-n$), an identity for
+integer $n\ge1$ (induction on $n$, using $\psi(x+1)=\psi(x)+1/x$ and its
+derivatives) whose
+right side is analytic in $n>-a-1$ (scripts \texttt{200t\_merdiven.py},
+\texttt{200t\_sabitler.py}).
+
+\subsection*{Arithmetic cumulants}
+The Keating--Snaith conjecture \cite{KS00} multiplies the moments of
+$|\zeta|$ by
+\[
+a_k=\prod_p\Big(1-\frac1p\Big)^{k^2}\sum_{m\ge0}
+\Big(\frac{\Gamma(m+k)}{m!\,\Gamma(k)}\Big)^2p^{-m},
+\]
+and the Hughes--Keating--O'Connell conjecture for $\zeta'(\rho)$
+\cite{HKO00} carries the same factor. Writing
+$\log a_{t/2}=\sum_r\kappa_r^{\mathrm{arit}}t^r/r!$ and expanding
+${}_2F_1(k,k;1;x)=1+k^2\mathrm{Li}_2(x)+2k^3S_{1,2}(x)+O(k^4)$, with
+$S_{1,2}(x)=\sum_{m\ge2}H_{m-1}x^m/m^2$, gives
+\begin{gather*}
+\kappa_1^{\mathrm{arit}}=0,\qquad
+\kappa_2^{\mathrm{arit}}=\tfrac12\sum_p\big[\log(1-\tfrac1p)+\mathrm{Li}_2(\tfrac1p)\big]
+=-0.088124,\\
+\kappa_3^{\mathrm{arit}}=\tfrac32\sum_pS_{1,2}(\tfrac1p)=+0.233653
+\end{gather*}
+(primes up to $3\times10^6$; the tails are below $10^{-8}$).
+
+\begin{conjecture}[Close pairs; as formulated before the tests]\label{conj:zeta}
+Let $T\to\infty$ and then $\eps\to0$, for zeros in $[T,2T]$ with
+$\tilde\delta_n<\eps$.
+\begin{enumerate}
+\item[(i)] $(\tilde\delta_n/\eps,\,Y_n)$ are asymptotically independent,
+and $\tilde\delta_n/\eps\overset d\to U^{1/3}$.
+\item[(ii)] $\E[Y_n^{2k}\mid\tilde\delta_n<\eps]\sim a_k\,\E Y_L^{2k}\sim
+a_k\,\pi^{4k}\,12\,G(k+3)^2G(2k+5)^{-1}L^{k^2}$, where $Y_L$ is $Y_N$ of
+Corollary~\ref{cor:largeN} at $N=L$; in particular
+$\E[Y_n^2\mid\tilde\delta_n<\eps]\sim\pi^4L/720$ ($a_1=1$).
+\item[(iii)] $\kappa_r(\log Y_n\mid\tilde\delta_n<\eps)
+=\kappa_r^{\mathrm{CUE},2}(L)+\kappa_r^{\mathrm{arit}}+o(1)$.
+\end{enumerate}
+\end{conjecture}
+
+The heuristic is the hybrid Euler--Hadamard product of Gonek, Hughes and
+Keating \cite{GHK07}, $\zeta\approx P_XZ_X$: conditioning on a close pair
+acts on $Z_X$ as in Theorem~\ref{thm:main}, while $P_X$ is not tilted at
+leading order, as in the treatment of $\zeta'(\rho)$ by Bui, Gonek and
+Milinovich \cite{BGM15}; the moments factor, and $X$ cancels between
+$\E|P_X|^{2k}\sim a_k(e^\gamma\log X)^{k^2}$ and the tilted CUE of dimension
+$L/(e^\gamma\log X)$. Its weak points, recorded before the tests, are:
+(W1) the independence of $P_X$ from the conditioning, whereas the prime
+waves modulate the local density of zeros at relative order $1/L$
+(Landau's formula \cite{Landau12,Gonek93}) and imprint on the gaps, as
+measured in the companion notes \cite{companion2,companion3} --- and at
+$b=2$ the arithmetic term is not a small correction ($\kappa_3$: CUE
+baseline $-0.069$, arithmetic shift $+0.234$ at $L\approx10$); (W2) finite
+$L$, where \cite{companion1} found effective dimensions $N=L+c$;
+(W3) the order of limits and the transfer of finite-$\eps$ corrections;
+(W4) the passage from (ii) to (iii), which interchanges $L\to\infty$ with
+differentiation in $k$ at $k=0$.
+
+\subsection*{Finite $L$}
+At $L\approx11$ the form $a_k\times$(tilted CUE) is not the moment sequence
+of a probability law: $\log|a_{i\omega/2}|$ grows faster than $\omega^2$
+(each prime $p\lesssim\omega^2$ contributes), while the characteristic
+function of the tilted CUE decays only like
+$e^{-\omega^2\log N/4}$. Its low cumulants are nevertheless defined.
+Genuine probability models are the hybrids $\mathrm{hyb}(X)$: an
+independent random Euler product over $p\le X$ times a tilted CUE of
+dimension $N_X=L/(e^\gamma\log X)$. Table~\ref{tab:models} lists the
+predictions at $L=10$. At $b=2$ every arithmetic model predicts a positive
+$\kappa_3$, whereas the pure tilted CUE gives $-0.069$ and a stationary
+Gaussian surface with the same power spectrum gives
+$\kappa_3=\psi''(3/2)/8=-0.1036$ and $\kappa_2=\psi'(3/2)/4=0.2337$,
+independent of $L$ (the two-point Kac--Rice density makes
+$|X''|/\sigma$ a $\chi_3$ variable). The pre-test headline was therefore a
+sign: \emph{close-pair log-humps of zeta are skewed to the right}, with
+skewness $\kappa_3/\kappa_2^{3/2}\approx+1.7$ at $L=10$ under $a_k$.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{ccccccc}
+\toprule
+$b$ & CUE & $a_k$ & hyb $X{=}2$ & $X{=}3$ & $X{=}5$ & $X{=}7$\\
+\midrule
+0 & $1.940/{-2.393}$ & $1.852/{-2.159}$ & $2.126/{-2.233}$ & $2.080/{-2.126}$ & $1.996/{-2.042}$ & $1.977/{-1.991}$\\
+1 & $0.568/{-0.194}$ & $0.480/{+0.039}$ & $0.775/{-0.039}$ & $0.790/{+0.050}$ & $0.778/{+0.103}$ & $0.803/{+0.131}$\\
+2 & $0.299/{-0.069}$ & $0.211/{+0.165}$ & $0.523/{+0.083}$ & $0.585/{+0.160}$ & $0.622/{+0.197}$ & $0.674/{+0.213}$\\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:models}Pre-test predictions $\kappa_2/\kappa_3$ of the
+log-observable on rung $b$ at $L=10$. Gaussian surface: $b=0$:
+$\pi^2/8=1.234$, $-7\zeta(3)/4=-2.104$; $b=1$: $\pi^2/24=0.411$,
+$-\zeta(3)/4=-0.300$; $b=2$: $0.234$, $-0.104$.}
+\end{table}
+
+%======================================================================
+\section{Pre-registered tests on the Riemann zeros}\label{sec:tests}
+%======================================================================
+
+\subsection*{Protocol}
+Each test was frozen --- predictions, thresholds, analysis code --- in a
+pre-registration file whose sha256 stamp was published before the
+measurement: 200-A on 26 September 2026, 17:12 (UTC$+3$), 200-B on 26
+September 2026, 20:19, 200-C on 27 September 2026, 16:22. Before each
+measurement no distribution summary (moment, cumulant, quantile,
+histogram) of the tested observable had been computed on the data used;
+engine checks reported only differences between two engines. (The only
+earlier look at a rung-$0$ distribution in the project was a
+Kolmogorov--Smirnov test of $\log|Z(t)|$ against Selberg's normal law at
+low height; $Z'$ at the zeros and the humps of close pairs had never been
+computed.) Test 200-B was designed after 200-A was sealed, and 200-C after
+200-B. Test 201 (phase lock) was frozen in the same way on 28 September
+2026, 09:34, and committed and pushed to the (private) repository before its measurement; no
+phase statistic of the zeros had been computed before (only synthetic
+data).
+
+\subsection*{Data and engine}
+Tests 200-A/B use A.~M.~Odlyzko's first $2\times10^6$ zeros
+\cite{OdlyzkoTables,Odl87} in three windows: W1, zeros
+$20\,868$--$198\,239$ ($L\in[8,10)$, $\bar L\approx9.3$); W2,
+$198\,239$--$598\,742$ ($[10,11)$, $10.6$); W3,
+$598\,742$--$2\,001\,052$ ($[11,12.1]$, $11.65$). Test 200-C uses four
+LMFDB files of zeros computed by Platt \cite{LMFDB,Pla15}, $1.5\times10^6$
+consecutive zeros each, at $\bar L=14.19$, $16.58$, $18.88$, $22.31$
+(windows C1--C4). $Z$ and $Z'$ are computed by a vectorised
+Riemann--Siegel formula with the $C_0$ and $C_1$ remainder terms (anchored
+phases in C1--C4), checked against \texttt{mpmath} ($|\Delta Z|\le
+2.4\times10^{-7}$ in W1--W3, $\sim10^{-9}$ in C1--C4). On rung $b=0$ we use
+$10^6$ uniform random $t$ per window; on $b=1$ all zeros (in C4, $10^6$
+random zeros); on $b=2$ all pairs with $\tilde\delta_n<\eps$, primary
+$\eps=0.2$ ($1\,143$, $2\,860$, $10\,165$ pairs in W1--W3; $11\,515$ to
+$12\,143$ in each of C1--C4), with $M_n$ from a $129$-point grid and
+parabolic refinement. Statistics are unbiased $k$-statistics $k_2,k_3$;
+errors are jackknife errors over $64$ contiguous $t$-blocks (128 where a
+pre-registered block-sensitivity rule required it), rescaled by factors
+$f$ calibrated on synthetic data processed by the same pipeline
+($f=0.82$--$1.22$ in 200-A, $0.94$--$1.13$ in 200-B, $0.94$--$1.25$ in
+200-C).
+
+\subsection*{Shifts}
+The \emph{arithmetic shift} of rung $b$ is
+$s_b:=k_3-\kappa_3^{\mathrm{CUE},b}(\bar L)$ (similarly for $k_2$). On
+$b=2$ we also subtract the finite-$\eps$ correction
+$\Delta\kappa_r^{\mathrm{CUE}}(\eps)$ from a CUE Monte Carlo at the same
+$\eps$ and $N\approx\bar L$, and add $100\%$ of it to the error, since its
+transfer to zeta is assumed, not tested; this defines
+$D_r:=k_r-\kappa_r^{\mathrm{CUE},2}(\bar L)-\Delta\kappa_r^{\mathrm{CUE}}(\eps)$,
+pooled over windows by inverse variance ($\bar D_r$).
+
+\subsection*{Test 200-A: the lower rungs}
+A family of parameter-free models --- CUE, $a_k$, $\mathrm{hyb}(X)$ for
+$X\in\{2,3,5,7,11\}$, Gaussian --- was compared on the twelve numbers
+($k_2,k_3$ on two rungs in three windows) with the full jackknife
+covariance plus a pre-declared theory margin ($0.0188$ for $\kappa_2$,
+$0.0334$ for $\kappa_3$).
+
+\begin{observation}[Lower rungs; pre-registered]\label{obs:A}
+The arithmetic signature is present ($\chi^2_{\mathrm{CUE}}-\chi^2_{a_k}=287.1$,
+threshold $25$), and the selected model is $a_k$, decisively (runner-up
+CUE at $\Delta\chi^2=287.1$, threshold $9$), with goodness of fit
+$\chi^2_{\min}/12=28.2/12=2.35$ (``good''). The two rungs separately select
+$a_k$ ($\chi^2=6.1$ and $22.1$). The hybrids and the Gaussian surface are
+rejected ($\chi^2$: CUE $315.2$, $a_k$ $28.2$, hybrids $872$--$1243$,
+Gaussian $3689.7$; a continuous-$X$ hybrid is best at $X=2.99$ with
+$\chi^2=129.3$).
+\end{observation}
+
+Post hoc, the shifts tell a more detailed story (Table~\ref{tab:ladder}).
+The variance shift is nearly rung-independent and close to
+$\kappa_2^{\mathrm{arit}}$: $-0.0820\pm0.0024$ at $b=0$ and
+$-0.0726\pm0.0008$ at $b=1$, against $-0.0881$. The skewness shift is
+not: $+0.283\pm0.009$ at $b=0$ and $+0.150\pm0.001$ at $b=1$, against
+$+0.2337$, stable across the three windows. A ladder with the same
+arithmetic contribution on every rung therefore fails at the level of
+$\kappa_3$ at these heights. Before 200-B we registered, besides $a_k$,
+two extrapolations of the two lower rungs (not theories): geometric
+decay, $s_2=s_1^2/s_0$, predicting $\bar D_3=+0.0794\pm0.0028$; and linear
+decay, $s_2=2s_1-s_0$, predicting $+0.017\pm0.0095$ (grouped with pure
+RMT, $\bar D_3=0$, as ``extinguished'').
+
+\subsection*{Test 200-B: close pairs}
+
+\begin{observation}[Close pairs; pre-registered, blind]\label{obs:B}
+With $14\,168$ close pairs ($\tilde\delta<0.2$, $L\approx9$--$12$):
+\begin{enumerate}
+\item[(1)] The arithmetic signature is present on $b=2$:
+$\bar D_3=+0.0859\pm0.0030$ ($29\sigma$).
+\item[(2)] The sign of the skewness flips: the pooled corrected
+$\kappa_3=+0.0143\pm0.0030$ ($4.8\sigma$). The skewness
+$\kappa_3/\kappa_2^{3/2}$ is about $+0.15$, not the $+1.7$ of the $a_k$
+form: the headline prediction held in sign, not in size.
+\item[(3)] The $a_k$ model carried over from 200-A holds for the variance
+($\bar D_2=-0.0988$ against $-0.0881$, tolerance $0.024$) and fails for
+the third cumulant (difference $-0.148$, tolerance $0.142$): partial.
+\item[(4)] The shape of the ladder is geometric, decisively:
+$\chi^2=0.36$ (geometric), $24.0$ (extinguished), $200.7$ (constant $a_k$).
+The blind geometric prediction $+0.0794\pm0.0028$ differs from the
+measurement by $0.0065$ ($1.6\sigma$).
+\end{enumerate}
+\end{observation}
+
+Secondary results (recorded, not decisive): $\bar D_3=+0.0867\pm0.0066$ at
+$\eps=0.1$ and $+0.0828\pm0.0044$ at $\eps=0.3$; per window $+0.076(6)$,
+$+0.084(5)$, $+0.093(5)$, a mild rise with height ($\approx2.5\sigma$). The
+variance shift on $b=2$ is $-0.0988\pm0.0036$, far from the geometric and
+linear extrapolations ($-0.064$, $\approx9\sigma$). Theorem~\ref{thm:main}(b)
+has zeta counterparts: the Pearson correlation of $\tilde\delta_n$ and
+$\log Y_n$ is $+0.021$, $-0.004$, $-0.005$ in W1--W3 (CUE Monte Carlo:
+$+0.005$ to $+0.008$), and the fraction of events with
+$\tilde\delta_n<\eps/2$ is $0.124$--$0.129$ (the $U^{1/3}$ law gives
+$0.125$, the CUE at finite $\eps$ $0.128$).
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llccc}
+\toprule
+rung & observable & $\kappa_3$ shift & ratio to previous rung & $\kappa_2$ shift\\
+\midrule
+$b=0$ & $\log|Z(t)|$, random $t$ & $+0.2828\pm0.0093$ & --- & $-0.0820\pm0.0024$\\
+$b=1$ & $\log|Z'(\gamma_n)|$ & $+0.1499\pm0.0009$ & $0.530\pm0.018$ & $-0.0726\pm0.0008$\\
+$b=2$ & $\log(M_n/\tilde\delta_n^2)$, $\tilde\delta_n<0.2$ & $+0.0859\pm0.0030$ & $0.573\pm0.020$ & $-0.0988\pm0.0036$\\
+\midrule
+$a_k$ & (every rung) & $+0.2337$ & $1$ & $-0.0881$\\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:ladder}Arithmetic shifts (observed minus tilted CUE at
+$N=\bar L$), pooled over W1--W3 ($L\approx9$--$12$).}
+\end{table}
+
+\subsection*{Test 200-C: height}
+Is the decay a property of the ladder or of the height? Before 200-C, a
+post hoc fit of the A/B window values to $s_b(L)=a_k+c_bL^{-\nu}$ gave
+$\nu=0.48\pm0.12$; three hypotheses were registered for the new windows:
+$H_C$ (shifts constant at their A/B values), $H_{S\nu}$ (the fitted
+relaxation towards $a_k$) and $H_{S1}$ ($\nu=1$). The exponent is called
+$\gamma$ in the pre-registration files.
+
+\begin{observation}[Height; pre-registered, blind]\label{obs:C}
+On C1--C4 ($L=14.2$--$22.3$), the class is $H_{S\nu}$, decisively
+($\chi^2=10.3$ for $12$ points; $H_{S1}$ $30.1$, $H_C$ $166.2$). Fitted on
+the new windows alone with asymptote $a_k$, the exponent is
+$\hat\nu=0.749\pm0.170$ ($4.4\sigma$ from zero: finite height). Over all
+seven windows with a free common asymptote, $\hat A=0.277\pm0.041$
+(within $1.0\sigma$ of $\kappa_3^{\mathrm{arit}}=0.2337$) and
+$\hat\nu=0.447\pm0.144$.
+\end{observation}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcccccc}
+\toprule
+window & $L$ & $b=0$ & $b=1$ & $b=2$ & $s_1/s_0$ & $s_2/s_1$\\
+\midrule
+W1--W3 & $9.3$--$11.7$ & $+0.283$ & $+0.150$ & $+0.086$ & $0.53$ & $0.57$\\
+C1 & $14.19$ & $+0.281(16)$ & $+0.1633(13)$ & $+0.1053(77)$ & $0.58$ & $0.64$\\
+C2 & $16.58$ & $+0.289(20)$ & $+0.1744(12)$ & $+0.1183(60)$ & $0.60$ & $0.68$\\
+C3 & $18.88$ & $+0.275(17)$ & $+0.1787(15)$ & $+0.1242(69)$ & $0.65$ & $0.70$\\
+C4 & $22.31$ & $+0.283(19)$ & $+0.1839(19)$ & $+0.1466(91)$ & $0.65$ & $0.80$\\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:height}Arithmetic shift of $\kappa_3$ by rung and
+height. Blind $H_{S\nu}$ predictions for C1--C4: $b=1$: $+0.159$, $+0.164$,
+$+0.169$, $+0.174$; $b=2$: $+0.105$, $+0.114$, $+0.121$, $+0.130$.}
+\end{table}
+
+The observed $b=1$ shifts lie $0.005$--$0.01$ above the blind predictions
+(faster relaxation). The variance shifts do not depend on height: $-0.082$
+to $-0.094$ ($b=0$), $-0.075$ to $-0.079$ ($b=1$), $-0.095$ to $-0.115$
+($b=2$), around $\kappa_2^{\mathrm{arit}}=-0.088$. The gap--hump
+correlation agrees with the CUE Monte Carlo ($|\rho|\le0.01$).
+
+\subsection*{Test 201: phase lock at the conditioned points}
+The ladder concerns the size of $|Z|$ at conditioned points; a simpler
+question is where the conditioned points sit relative to the phase of a
+prime wave $\cos(t\log p)$. For single zeros the answer is Landau's formula
+\cite{Landau12} (uniform version in \cite{Gonek93}): for fixed $x>1$,
+$\sum_{0<\gamma\le T}x^{\rho}=-\frac T{2\pi}\Lambda(x)+O(\log T)$, which for
+zeros on the critical line and a window at height $t$ means
+\[
+\E\big[\cos(m\gamma_n\log p)\big]\approx-\frac{\log p}{p^{m/2}L},\qquad
+\E\big[\sin(m\gamma_n\log p)\big]\approx0 .
+\]
+Heuristically, the explicit formula modulates the local density of zeros,
+$n(t)\approx\frac L{2\pi}\big[1-\frac2L\sum_{p,m}\frac{\log p}{p^{m/2}}
+\cos(mt\log p)\big]$, and the zeros avoid the crests of the prime waves;
+averaging $\cos(mt\log p)$ against $n(t)$ gives the same values. For the
+midpoints of
+close pairs we registered three classes for the ratio $R_2$ of their lock
+to the single-zero value: $1$ (a pair behaves like one zero), $2$ (the two
+densities multiply) and $4$. The last is a heuristic, not a theorem: if the
+zeros are locally GUE at density $n(t)$, the density of pairs with gap
+$\delta$ at midpoint $t$ is
+$n(t)^2[1-\sinc^2(\pi\delta n(t))]\approx\frac{\pi^2}3\delta^2n(t)^4$, and
+since the pairs are selected by $\tilde\delta_n=\delta_nL/2\pi<\eps$, i.e.\
+with the mean rather than the local density, their midpoints are weighted
+by $n(t)^4$ and lock four times as strongly as single zeros; for larger
+$\eps$ the weight tends to $n(t)^2$, and $R_2$ towards $2$.
+
+On the seven windows W1--W3, C1--C4 and the primes $p\le13$ (ratios
+pooled over primes with the jackknife covariance, then over windows):
+\begin{observation}[Phase lock; pre-registered]\label{obs:phase}
+\begin{enumerate}
+\item[(1)] Single zeros follow Landau's formula to about four decimals:
+the ratio of the measured lock to $-\log p/(\sqrt p\,L)$ is
+$R_1=1.0000\pm0.00004$ (per window from $1.003\pm0.007$ in W1 to
+$1.00003\pm0.00009$ in C4), also at the second harmonic
+($1.0000\pm0.0001$), with no drift in $\log L$; at C4, for $p=2$, the mean
+of $\cos(\gamma_n\log2)$ is $-0.021975$ against $-0.021973$. At random $t$
+the same statistic is $-0.010$ to $+0.005$ (control).
+\item[(2)] Midpoints of close pairs ($\tilde\delta_n<0.2$) lock
+$R_2=3.874\pm0.023$ times as strongly: class $4$, with the classes $1$ and
+$2$ excluded. The ratio decreases with $\eps$, $R_2=4.07\pm0.06$,
+$3.87\pm0.02$, $3.74\pm0.01$ at $\eps=0.1,0.2,0.3$, as the heuristic
+expects; at the second harmonic it is $3.06\pm0.05$, consistent with the
+second-order terms of the $n(t)^4$ weight (a synthetic process with that
+weight gives $2.90$).
+\end{enumerate}
+\end{observation}
+
+For single zeros this verifies a theorem rather than discovers anything; a
+by-product is that the block-to-block fluctuations of these averages are
+$7$--$19$ times smaller than for independent points, a sign of the
+rigidity of the zeros. The lock of close pairs has the size the local-GUE
+heuristic predicts, so there is no excess lock. It therefore does not by
+itself explain the decay of the $\kappa_3$ shift along the ladder: a
+translation of the measured lock into cumulant shifts through independent
+Euler factors was inconclusive (its sign depends on the harmonic
+cut-off), and the mechanism of the decay remains open.
+
+\subsection*{Reading}
+The ``halving at each conditioned zero'' seen at $L\approx11$ is a
+finite-height effect: as the height grows the ladder flattens, the ratios
+rising from $0.53/0.57$ to $0.65/0.80$, and the differences between rungs
+close like $L^{-\nu}$ with $\nu\approx0.45$--$0.75$. This is compatible with
+the asymptotic picture of Keating--Snaith and Hughes--Keating--O'Connell:
+the three rungs approach a common value, and the free asymptote
+$0.277\pm0.041$ is within $1\sigma$ of $a_k$. One point is open: the
+$b=0$ shift stays flat at $\approx0.28$ over $L=9$--$22$, $0.05$ above
+$a_k$, and these data cannot decide whether the common asymptote is $a_k$
+($0.234$) or $\approx0.28$. The geometric decay of 200-B and the relaxation
+law of 200-C are extrapolations, not theories; each passed a blind test on
+unseen data, but neither is derived. A phase bias of the primes at the
+conditioned points, which weakens like $1/L$, would produce a relaxation of
+this kind; Test 201 shows that such a bias is present with the predicted
+size (Landau's formula for single zeros, close to four times as much for
+close pairs), but we have not been able to connect it quantitatively with
+the $\kappa_3$ shifts. As in \cite{companion7}, where a
+post hoc pattern $\eta_p\approx p^{-1/3}$ of transfer factors turned out to
+be a finite-height effect, a pattern seen at one height ($\approx0.55$ per
+rung) was a coincidence of height.
+
+%======================================================================
+\section{Open problems}\label{sec:open}
+%======================================================================
+
+\begin{enumerate}
+\item \emph{Finite-$\eps$ corrections.} Prove that the corrections in
+Theorem~\ref{thm:main} are $O(\eps^2)$ and compute the leading
+coefficient.
+\item \emph{Close pairs of zeta.} Prove Conjecture~\ref{conj:zeta}(ii) for
+small $k$ under a hypothesis, in the manner of \cite{BGM15} for
+$\zeta'(\rho)$, or from the ratios conjecture.
+\item \emph{The skewness ladder.} Derive the rung dependence of the
+$\kappa_3$ shift at finite height and its relaxation rate $L^{-\nu}$;
+decide whether the $b=0$ plateau at $\approx0.28$ bends down to $a_k$, and
+whether the phase lock of Test 201, which has the predicted size, plays a
+role in it.
+\item \emph{Phase lock of close pairs.} Derive the factor $4$ of
+Observation~\ref{obs:phase} and its $\eps$-dependence beyond the local-GUE
+heuristic.
+\item \emph{All gaps.} Theorem~\ref{thm:main} is the small-gap end of the
+open problem of \cite{companion1}: the mean of $M_n^2$ conditioned on a
+gap of any size.
+\end{enumerate}
+
+\appendix
+\section{Winn's formula for $h=\frac12$, $k=1$}\label{app:winn}
+
+We specialise \cite[Thm.~2.2, eq.~(2.9)]{Win12} to $h=\frac12$, $k=1$, in
+Winn's notation. For a partition $\lambda$ and $b\in\mathbb R$,
+$[b]_\lambda=\prod_{i=1}^{\ell(\lambda)}(b-i+1)_{\lambda_i}$ with the rising
+factorial $(x)_m=x(x+1)\cdots(x+m-1)$, $h_\lambda$ is the product of the
+hook lengths of $\lambda$, and
+\[
+C_N(p,k)=(-2)^p\sum_{\lambda\vdash_kp}\frac{[k]_\lambda\,[-N]_\lambda}
+{[2k]_\lambda\,h_\lambda^2},
+\]
+the sum running over partitions of $p$ into at most $k$ parts
+\cite[(2.1)--(2.5)]{Win12}. For half-integer $h$ and $k\in\mathbb N$,
+\cite[(2.9)]{Win12} reads
+\begin{multline*}
+\widetilde F_N(h,k)=\frac{2(-1)^{h+1/2}}{2^{2h}\pi}\,\widetilde F_N(0,k)
+\Bigg\{\sum_{p=1}^{2h}\sum_{\ell=1}^p\binom{2h}{p-\ell}\frac{(-1)^\ell}{\ell}
+(-N)^{2h-p}\,p!\,C_N(p,k)\\
++\sum_{p=2h+1}^{kN}\frac{(2h)!\,(p-2h-1)!}{N^{p-2h}}\,C_N(p,k)\Bigg\}.
+\end{multline*}
+
+\emph{Step 1: the ingredients.} For $h=\frac12$, $k=1$: the prefactor is
+$2(-1)^1/(2\pi)=-1/\pi$; $\widetilde F_N(0,1)=\mathcal M_N(1)=\prod_{j=1}^N
+\frac{\Gamma(j)\Gamma(j+2)}{\Gamma(j+1)^2}=\prod_{j=1}^N\frac{j+1}j=N+1$ by
+\eqref{eq:KS}; the first double sum has the single term $p=\ell=1$, equal
+to $\binom10\frac{(-1)^1}1(-N)^0\,1!\,C_N(1,1)=-C_N(1,1)$; and the second
+sum runs over $2\le p\le N$ with weight $(p-2)!/N^{p-1}$.
+
+\emph{Step 2: the partition sum.} For $k=1$ only the one-part partition
+$\lambda=(p)$ contributes. Its hook lengths are $p,p-1,\dots,1$, so
+$h_{(p)}=p!$, and $[b]_{(p)}=(b)_p$, so that $[1]_{(p)}=p!$,
+$[2]_{(p)}=(p+1)!$ and $[-N]_{(p)}=(-N)(-N+1)\cdots(-N+p-1)=(-1)^pN!/(N-p)!$
+for $p\le N$. Hence
+\[
+C_N(p,1)=(-2)^p\,\frac{p!\,(-1)^pN!/(N-p)!}{(p+1)!\,(p!)^2}
+=\frac{2^p\,N!}{(N-p)!\,(p+1)!\,p!},\qquad C_N(1,1)=N .
+\]
+
+\emph{Step 3: assembly.} Collecting,
+\[
+\widetilde F_N\big(\tfrac12,1\big)=\frac{N+1}\pi\Big[N-\sum_{p=2}^N
+\frac{(p-2)!\,2^p\,N!}{(N-p)!\,(p+1)!\,p!\,N^{p-1}}\Big],
+\]
+and $\E\sum_nM_n^2=2\pi\widetilde F_N(\frac12,1)$ (Proposition~\ref{prop:total})
+gives \eqref{eq:winnN}. Each term is rational, so $\E\sum_nM_n^2\in\mathbb Q$;
+for $N=2,3,4,6$ it equals $10$, $\frac{496}{27}$, $\frac{233}8$,
+$\frac{42134}{729}$.
+
+\emph{Checks.} (i) For $N=2$ the bracket is $2-\frac13$, so the formula
+gives $10$. Directly: let $\phi\in(0,2\pi)$ be $\theta_2-\theta_1$ modulo
+$2\pi$; the two gaps are $\phi$ and $2\pi-\phi$, and by
+the proof of Lemma~\ref{lem:hump} (with $N-2=0$ other angles) a gap of length $s$ has
+hump $4\sin^2\frac s4$, attained at its midpoint. The humps are thus
+$4\sin^2\frac\phi4$ and $4\cos^2\frac\phi4$, so
+$\sum_nM_n^2=16(\sin^4\frac\phi4+\cos^4\frac\phi4)=16-8\sin^2\frac\phi2$,
+and $\phi$ has density $\sin^2(\phi/2)/\pi$ on $(0,2\pi)$ by
+\eqref{eq:weyl}, so $\E\sin^2\frac\phi2=\frac34$ and $\E\sum_nM_n^2=10$.
+(ii) As $N\to\infty$, $N!/((N-p)!N^p)\to1$ for each $p$ and the terms are
+dominated by $2^p(p-2)!/((p+1)!p!)$, so
+$N^{-2}\widetilde F_N(\frac12,1)\to\frac1\pi\big[1-\sum_{p\ge2}
+\frac{2^p(p-2)!}{p!(p+1)!}\big]=\frac{e^2-5}{4\pi}$, which is
+\cite[(7.8)]{Win12}.
+
+\section*{Reproducibility}
+
+All code, data products, pre-registration files (with sha256 stamps and
+dates) and the research log, including the failed predictions, are
+available in the repository
+\url{https://github.com/azizran/riemann-zero-statistics} (directory
+\texttt{qm\_riemann/}), archived at Zenodo,
+\href{https://doi.org/10.5281/zenodo.22942475}{doi:10.5281/zenodo.22942475}.
+Paths below are relative to \nolinkurl{qm_riemann/200_configs/}, whose
+subdirectory \texttt{not8\_ek/} holds the runs added for this note.
+\begin{itemize}
+\item Table~\ref{tab:mc}, independence and Lemma~\ref{lem:hump} checks:
+\nolinkurl{200t_mc_N*.json} ($N=6,10,16,24$; script \nolinkurl{200t_mc.py},
+predictions \nolinkurl{200t_tahmin.py}); third cumulant:
+\nolinkurl{200t_mc3_N*.json} ($N=10,16$); finite $\eps$:
+\nolinkurl{not8_ek/200t_mc_N10_3e6_seed7.json}
+(arguments \texttt{10 3000000 7}); Theorem~\ref{thm:product} by
+sampling and $\kappa_2^{\mathrm{arit}}$:
+\nolinkurl{200t_carpim.py}, output
+\nolinkurl{not8_ek/200t_carpim_seed7.out}.
+\item Proposition~\ref{prop:total}: Monte Carlo
+\nolinkurl{not8_ek/m2total.py}, output
+\nolinkurl{not8_ek/m2total_seed11.out}; independent run
+\nolinkurl{not8_ek/m2total_N10_4e5_seed2026.json}; exact values
+from Winn's formula \nolinkurl{not8_ek/m2_exact_winn.json} (these
+two JSON files contain their generating scripts).
+\item Constants, ladder baselines and Table~\ref{tab:models}:
+\nolinkurl{200t_sabitler.py}, \nolinkurl{200t_merdiven.py},
+\nolinkurl{200t_hibrit.py}, \nolinkurl{200t_aritmetik_kesin.py}.
+\item Tests 200-A/B/C: pre-registrations
+\nolinkurl{ONKAYIT_200A/B/C.json} (sha256 prefixes
+\texttt{f0f0ce57}, \texttt{b37dc244}, \texttt{391257a4}; commits
+\texttt{aa861b5}, \texttt{85f0489}, \texttt{567af03}), verdicts
+\nolinkurl{HUKUM_200A/B/C.json} (which also hold the CUE Monte Carlo
+comparisons of Section~\ref{sec:tests}), synthetic calibrations and
+finite-$\eps$ CUE corrections \nolinkurl{M6_200A.json},
+\nolinkurl{M6b_200B.json}, \nolinkurl{M6c_200C.json}. Test 201: directory
+\nolinkurl{qm_riemann/201_configs/}, pre-registration
+\nolinkurl{ONKAYIT_201.json} (sha256 prefix \texttt{ecc7cf75}, commit
+\texttt{16e7c3b}), verdict \nolinkurl{HUKUM_201.json}.
+\end{itemize}
+The LMFDB zero files are not redistributed; their sha256 stamps are in
+\texttt{ONKAYIT\_200C.json}.
+
+\section*{Acknowledgements}
+
+The question that started this note was asked by a reader; we thank them
+for it. Computations, derivation audits, literature search and drafting
+were done with the help of an AI assistant (Claude, Anthropic); derivations
+and pre-registrations were audited by an independent model instance before
+predictions were frozen. Errors are the author's.
+
+\begin{thebibliography}{99}
+
+\bibitem{companion1} U.~Sezen, \emph{The joint law of zero gaps and local
+maxima of Hardy's $Z$-function}, preprint (2026); archived at Zenodo,
+\href{https://doi.org/10.5281/zenodo.22942475}{doi:10.5281/zenodo.22942475}.
+
+\bibitem{companion2} U.~Sezen, \emph{The prime-wave anatomy of the
+gap--amplitude law for Riemann zeros}, preprint (2026); archived at Zenodo,
+\href{https://doi.org/10.5281/zenodo.22942475}{doi:10.5281/zenodo.22942475}.
+
+\bibitem{companion3} U.~Sezen, \emph{A response theory for the Riemann
+zero gas}, preprint (2026); archived at Zenodo,
+\href{https://doi.org/10.5281/zenodo.22942475}{doi:10.5281/zenodo.22942475}.
+
+\bibitem{companion7} U.~Sezen, \emph{Arithmetic satellites of the Bragg
+comb of the Riemann zero lattice: residue classes, characters, and a blind
+test of the Bogomolny--Keating mirror law}, preprint (2026); archived at
+Zenodo, \href{https://doi.org/10.5281/zenodo.22942475}{doi:10.5281/zenodo.22942475}.
+
+\bibitem{Bar00} E.~W.~Barnes, \emph{The theory of the $G$-function},
+Quart.\ J.\ Pure Appl.\ Math.\ \textbf{31} (1900), 264--314.
+
+\bibitem{BAB13} G.~Ben Arous, P.~Bourgade, \emph{Extreme gaps between
+eigenvalues of random matrices}, Ann.\ Probab.\ \textbf{41} (2013), no.~4,
+2648--2681, doi:\nolinkurl{10.1214/11-AOP710}.
+
+\bibitem{Bou22} P.~Bourgade, \emph{Extreme gaps between eigenvalues of
+Wigner matrices}, J.\ Eur.\ Math.\ Soc.\ \textbf{24} (2022), no.~8,
+2823--2873, doi:\nolinkurl{10.4171/JEMS/1141}.
+
+\bibitem{BHNY08} P.~Bourgade, C.~P.~Hughes, A.~Nikeghbali, M.~Yor,
+\emph{The characteristic polynomial of a random unitary matrix: a
+probabilistic approach}, Duke Math.\ J.\ \textbf{145} (2008), no.~1,
+45--69, doi:\nolinkurl{10.1215/00127094-2008-046}; arXiv:0706.0333 (statement numbers
+cited here are those of the arXiv version).
+
+\bibitem{BNR09} P.~Bourgade, A.~Nikeghbali, A.~Rouault, \emph{Circular
+Jacobi ensembles and deformed Verblunsky coefficients}, Int.\ Math.\ Res.\
+Not.\ IMRN \textbf{2009}, no.~23, 4357--4394, doi:\nolinkurl{10.1093/imrn/rnp092};
+arXiv:0804.4512 (statement numbers cited here are those of the arXiv
+version).
+
+\bibitem{BGM15} H.~M.~Bui, S.~M.~Gonek, M.~B.~Milinovich, \emph{A hybrid
+Euler--Hadamard product and moments of $\zeta'(\rho)$}, Forum Math.\
+\textbf{27} (2015), 1799--1828, arXiv:1302.5032.
+
+\bibitem{CG85} J.~B.~Conrey, A.~Ghosh, \emph{A mean value theorem for the
+Riemann zeta-function at its relative extrema on the critical line},
+J.\ London Math.\ Soc.\ (2) \textbf{32} (1985), 193--202.
+
+\bibitem{FTW19} R.~Feng, G.~Tian, D.~Wei, \emph{Small gaps of GOE},
+Geom.\ Funct.\ Anal.\ \textbf{29} (2019), no.~6, 1794--1827,
+doi:\nolinkurl{10.1007/s00039-019-00520-5}.
+
+\bibitem{FW21} R.~Feng, D.~Wei, \emph{Small gaps of circular
+$\beta$-ensemble}, Ann.\ Probab.\ \textbf{49} (2021), no.~2, 997--1032,
+doi:\nolinkurl{10.1214/20-AOP1468}.
+
+\bibitem{For10} P.~J.~Forrester, \emph{Log-Gases and Random Matrices},
+London Math.\ Soc.\ Monographs Ser.\ \textbf{34}, Princeton University
+Press, Princeton, NJ, 2010.
+
+\bibitem{GHK07} S.~M.~Gonek, C.~P.~Hughes, J.~P.~Keating, \emph{A hybrid
+Euler--Hadamard product for the Riemann zeta function}, Duke Math.\ J.\
+\textbf{136} (2007), 507--549.
+
+\bibitem{Gonek93} S.~M.~Gonek, \emph{An explicit formula of Landau and its
+applications to the theory of the zeta-function}, in: M.~Knopp et al.\
+(eds.), A Tribute to Emil Grosswald: Number Theory and Related Analysis,
+Contemp.\ Math.\ \textbf{143}, Amer.\ Math.\ Soc., Providence, RI, 1993,
+395--413.
+
+\bibitem{HKO00} C.~P.~Hughes, J.~P.~Keating, N.~O'Connell, \emph{Random
+matrix theory and the derivative of the Riemann zeta function},
+Proc.\ R.\ Soc.\ Lond.\ A \textbf{456} (2000), 2611--2627.
+
+\bibitem{HLPC24} C.~Hughes, S.~Lugmayer, A.~Pearce-Crump, \emph{The second
+moment of the Riemann zeta function at its local extrema}, J.\ London
+Math.\ Soc.\ (2) \textbf{112} (2025), e70250, arXiv:2411.05573.
+
+\bibitem{KS00} J.~P.~Keating, N.~C.~Snaith, \emph{Random matrix theory and
+$\zeta(1/2+it)$}, Comm.\ Math.\ Phys.\ \textbf{214} (2000), 57--89.
+
+\bibitem{Landau12} E.~Landau, \emph{\"Uber die Nullstellen der
+Zetafunktion}, Math.\ Ann.\ \textbf{71} (1912), 548--564,
+doi:\nolinkurl{10.1007/BF01456808}.
+
+\bibitem{LMFDB} The LMFDB Collaboration, \emph{The $L$-functions and modular
+forms database}, \url{https://www.lmfdb.org}, 2026, [Online; accessed
+27 September 2026].
+
+\bibitem{Mez07} F.~Mezzadri, \emph{How to generate random matrices from the
+classical compact groups}, Notices Amer.\ Math.\ Soc.\ \textbf{54} (2007),
+592--604, arXiv:math-ph/0609050.
+
+\bibitem{Odl87} A.~M.~Odlyzko, \emph{On the distribution of spacings
+between zeros of the zeta function}, Math.\ Comp.\ \textbf{48} (1987),
+273--308.
+
+\bibitem{OdlyzkoTables} A.~M.~Odlyzko, \emph{Tables of zeros of the Riemann
+zeta function}, \url{https://www-users.cse.umn.edu/~odlyzko/zeta_tables/}.
+
+\bibitem{Pla15} D.~J.~Platt, \emph{Computing $\pi(x)$ analytically},
+Math.\ Comp.\ \textbf{84} (2015), no.~293, 1521--1535,
+doi:\nolinkurl{10.1090/S0025-5718-2014-02884-6}.
+
+\bibitem{Win12} B.~Winn, \emph{Derivative moments for characteristic
+polynomials from the CUE}, Comm.\ Math.\ Phys.\ \textbf{315} (2012),
+no.~2, 531--562, doi:\nolinkurl{10.1007/s00220-012-1512-1}; arXiv:1109.0227.
+
+\end{thebibliography}
+
+\end{document}

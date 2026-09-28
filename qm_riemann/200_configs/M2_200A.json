@@ -1,0 +1,23 @@
+{
+ "gate_ratio": 0.0001,
+ "n_check_per_window": 2000,
+ "windows": {
+  "W1": {
+   "pass_fraction": 1.0,
+   "worst_ratio": 1.9386639243898845e-07,
+   "n": 2000
+  },
+  "W2": {
+   "pass_fraction": 1.0,
+   "worst_ratio": 2.8564765063815723e-08,
+   "n": 2000
+  },
+  "W3": {
+   "pass_fraction": 1.0,
+   "worst_ratio": 5.541879312830299e-09,
+   "n": 2000
+  }
+ },
+ "overall_pass": true,
+ "overall_pass_worst_ratio": true
+}
