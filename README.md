@@ -8,8 +8,8 @@ how prime (power) waves are transmitted into zero gaps and amplitudes, and how
 the zero lattice diffracts.
 
 **Author:** Uğur Sezen. **Status:** six research notes written and internally
-audited (Notes 1–4, 7 and 8; Notes 5 and 6 are in preparation); Note 1 has been
-submitted to arXiv (math.NT); not yet peer reviewed. Nothing here claims to bear on a proof of the
+audited (Notes 1–4, 7 and 8; Notes 5 and 6 are in preparation); none of the notes
+has been peer reviewed yet. Nothing here claims to bear on a proof of the
 Riemann Hypothesis — the results are measured laws, stated with their error bars
 and their failed alternatives.
 
