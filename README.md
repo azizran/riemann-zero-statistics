@@ -22,7 +22,7 @@ and their failed alternatives.
 | 3 | A response theory for the Riemann zero gas | [`qm_riemann/arxiv_response_theory.pdf`](qm_riemann/arxiv_response_theory.pdf) |
 | 4 | The Riemann zero lattice as a warm crystal | [`qm_riemann/arxiv_warm_crystal.pdf`](qm_riemann/arxiv_warm_crystal.pdf) |
 | 7 | Arithmetic satellites of the Bragg comb of the Riemann zero lattice: residue classes, characters, and a blind test of the Bogomolny–Keating mirror law | [`qm_riemann/arxiv_comb_satellites.pdf`](qm_riemann/arxiv_comb_satellites.pdf) — preprint [doi:10.5281/zenodo.22960606](https://doi.org/10.5281/zenodo.22960606) |
-| 8 | The hump between two close zeros: an exact small-gap law for random unitary matrices and a tilt ladder for the Riemann zeta function | [`qm_riemann/arxiv_small_gap_hump.pdf`](qm_riemann/arxiv_small_gap_hump.pdf) — preprint [doi:10.5281/zenodo.23010708](https://doi.org/10.5281/zenodo.23010708) |
+| 8 | The hump between two close zeros: random unitary matrices and the Riemann zeta function | [`qm_riemann/arxiv_small_gap_hump.pdf`](qm_riemann/arxiv_small_gap_hump.pdf), supplementary material [`qm_riemann/arxiv_small_gap_hump_supp.pdf`](qm_riemann/arxiv_small_gap_hump_supp.pdf) — preprint [doi:10.5281/zenodo.23010708](https://doi.org/10.5281/zenodo.23010708) |
 
 LaTeX sources sit next to the PDFs.
 
