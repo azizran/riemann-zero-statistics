@@ -29,7 +29,7 @@ LaTeX sources sit next to the PDFs.
 ## How the work is done
 
 - **Pre-registration.** Measurement tasks are numbered (scripts `qm_riemann/NNN_*.py`,
-  tasks 1–201). In the later part of the program the measurement tasks have a
+  tasks 1–201 and 203). In the later part of the program the measurement tasks have a
   pencil file (`qm_riemann/KALEM_*.md`, 38 of them) that freezes hypotheses,
   thresholds and death conditions *before* the data are looked at, together
   with a sha256 + timestamp file; the git history of this repository (original
@@ -73,6 +73,14 @@ Tasks 200-C and 201 also use zeros from the LMFDB database of D. Platt (four fil
 the first 1.5·10⁶ zeros of each). They are not redistributed here; download them from the
 LMFDB data pages into `qm_riemann/veri_lmfdb/` — their sha256 stamps are in
 `qm_riemann/200_configs/ONKAYIT_200C.json`.
+
+Task 203 (`qm_riemann/203_configs/`, report `qm_riemann/203_ORAN_KAPPA_RAPOR.md`) evaluates the
+ratios conjecture of Conrey, Farmer and Zirnbauer for the variance and third cumulant of
+log|ζ(1/2+it)| and log|ζ'(ρ)| at finite height (Note 8, Section 9 and Appendix A; figure script
+`qm_riemann/figures/ladder_ratios.py`). The predictions were committed in the author's private
+working repository before they were compared with the sealed data of tasks 200-A/C; the commit
+hashes quoted in Note 8 refer to that repository. The check against zeros
+(`203_configs/sifir_sinamasi_b1k3/`) also needs the LMFDB file `zeros_8846000.dat`.
 
 ## License
 
