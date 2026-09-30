@@ -103,8 +103,8 @@ Each release also has its own DOI, listed on the Zenodo page (v1.0:
 
 Note 8 has its own preprint record:
 
-> Uğur Sezen, *The hump between two close zeros: an exact small-gap law for random unitary
-> matrices and a tilt ladder for the Riemann zeta function*, Zenodo (2026),
+> Uğur Sezen, *The hump between two close zeros: random unitary matrices and the Riemann
+> zeta function*, Zenodo (2026),
 > [doi:10.5281/zenodo.23010707](https://doi.org/10.5281/zenodo.23010707).
 
 See also
